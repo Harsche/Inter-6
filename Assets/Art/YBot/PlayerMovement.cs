@@ -34,20 +34,28 @@ public class PlayerMovement : MonoBehaviour
 
         head.transform.Rotate(Input.GetAxis("Mouse Y"), 0, 0);
 
-        Abaixar();
+        Crawl();
+        CameraMovement();
 
     }
 
-    void Abaixar()
+    void Crawl()
     {
         if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl))
         {
-            head.transform.position -= new Vector3(0, 0.5f, 0);
+            animator.SetBool("isCrawling", true);
         }
 
         if (Input.GetKeyUp(KeyCode.LeftControl) || Input.GetKeyUp(KeyCode.RightControl))
         {
-            head.transform.position -= new Vector3(0, -0.5f, 0);
+            animator.SetBool("isCrawling", false);
         }
+    }
+
+    void CameraMovement()
+    {
+        transform.Rotate(0, Input.GetAxis("Mouse X"), 0); // Movimento de camera horizontal
+
+        head.transform.Rotate(Input.GetAxis("Mouse Y"), 0, 0); // Movimento de camera Vertical
     }
 }
