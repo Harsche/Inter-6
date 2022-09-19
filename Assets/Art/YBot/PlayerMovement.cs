@@ -6,8 +6,15 @@ public class PlayerMovement : MonoBehaviour
 {
     private CharacterController controller;
     private Animator animator;
+
     [SerializeField] GameObject head;
+    [SerializeField] float sensitivityCam;
+    [SerializeField] float gravity;
+    [SerializeField] float jumpForce;
+
     private Vector3 movement;
+    private float camY;
+    private float moveY;
 
     void Start()
     {
@@ -17,26 +24,42 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButton("Horizontal") || Input.GetButton("Vertical"))
+        if (Input.GetButton("Horizontal") || Input.GetButton("Vertical")) //Definindo variações na velocidade de movimento
         {
-            animator.SetFloat("Velocity", 8f);
+           
+            if (animator.GetBool("isCrawling"))
+            {
+                animator.SetFloat("Velocity", 3f);
+            } else
+            if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
+                animator.SetFloat("Velocity", 1f);
+            } else 
+            if(Input.GetKey(KeyCode.LeftAlt))
+            {
+                animator.SetFloat("Velocity", 6f);
+            } else animator.SetFloat("Velocity", 3f);
+
         } else animator.SetFloat("Velocity", 0f);
 
-        movement = Input.GetAxis("Vertical") * transform.forward;
+        movement = Input.GetAxis("Vertical") * transform.forward; //Associando valores de movimentação
 
         movement += Input.GetAxis("Horizontal") * transform.right;
 
-        movement *= animator.GetFloat("Velocity") * Time.deltaTime;
+        movement *= animator.GetFloat("Velocity");
+
+        Gravity();
+
+        Jump();
+
+        movement.y = moveY;
+
+        movement *= Time.deltaTime;
 
         controller.Move(movement);
 
-        transform.Rotate(0, Input.GetAxis("Mouse X"), 0);
-
-        head.transform.Rotate(Input.GetAxis("Mouse Y"), 0, 0);
-
         Crawl();
         CameraMovement();
-
     }
 
     void Crawl()
@@ -52,10 +75,35 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    float Jump()
+    {
+        if(controller.isGrounded)
+        {
+            moveY = 0f;
+
+            if (Input.GetButton("Jump"))
+            {
+                moveY += jumpForce;
+                animator.SetBool("isJumping", true);
+            } else animator.SetBool("isJumping", false);
+        }
+
+        return moveY;
+    }
+
     void CameraMovement()
     {
-        transform.Rotate(0, Input.GetAxis("Mouse X"), 0); // Movimento de camera horizontal
+        transform.Rotate(0, Input.GetAxis("Mouse X") * sensitivityCam * Time.deltaTime, 0); //Movimento de camera horizontal
 
-        head.transform.Rotate(Input.GetAxis("Mouse Y"), 0, 0); // Movimento de camera Vertical
+        camY += Input.GetAxis("Mouse Y") * sensitivityCam * Time.deltaTime; //Movimento da camera vertical
+        camY = Mathf.Clamp(camY, -40, 60);
+        head.transform.localEulerAngles = new Vector3(camY, 0, 0);
+    }
+
+    float Gravity()
+    {
+        moveY += gravity;
+
+        return moveY;
     }
 }
