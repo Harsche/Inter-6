@@ -67,11 +67,15 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl))
         {
             animator.SetBool("isCrawling", true);
+            controller.height = 0.8f;
+            controller.center = new Vector3(0, 0.37f, 0);
         }
 
         if (Input.GetKeyUp(KeyCode.LeftControl) || Input.GetKeyUp(KeyCode.RightControl))
         {
             animator.SetBool("isCrawling", false);
+            controller.height = 1.8f;
+            controller.center = new Vector3(0, 0.91f, 0);
         }
     }
 
@@ -95,8 +99,8 @@ public class PlayerMovement : MonoBehaviour
     {
         transform.Rotate(0, Input.GetAxis("Mouse X") * sensitivityCam * Time.deltaTime, 0); //Movimento de camera horizontal
 
-        camY += Input.GetAxis("Mouse Y") * sensitivityCam * Time.deltaTime; //Movimento da camera vertical
-        camY = Mathf.Clamp(camY, -40, 60);
+        camY += -Input.GetAxis("Mouse Y") * sensitivityCam * Time.deltaTime; //Movimento da camera vertical
+        camY = Mathf.Clamp(camY, -75, 75);
         head.transform.localEulerAngles = new Vector3(camY, 0, 0);
     }
 
