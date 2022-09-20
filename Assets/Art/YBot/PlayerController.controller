@@ -416,7 +416,7 @@ BlendTree:
       type: 3}
     m_Threshold: 0.1
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 0.1
+    m_TimeScale: 0.5
     m_CycleOffset: 0
     m_DirectBlendParameter: Velocity
     m_Mirror: 0
@@ -425,7 +425,7 @@ BlendTree:
       type: 3}
     m_Threshold: 3.05
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 4
+    m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Velocity
     m_Mirror: 0
@@ -434,7 +434,7 @@ BlendTree:
       type: 3}
     m_Threshold: 6
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 6
+    m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Velocity
     m_Mirror: 0
@@ -442,7 +442,7 @@ BlendTree:
   m_BlendParameterY: Velocity
   m_MinThreshold: 0.1
   m_MaxThreshold: 6
-  m_UseAutomaticThresholds: 1
+  m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
 --- !u!1101 &4514198228317646964

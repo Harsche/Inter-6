@@ -33,12 +33,12 @@ public class PlayerMovement : MonoBehaviour
             } else
             if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
             {
-                animator.SetFloat("Velocity", 1f);
+                animator.SetFloat("Velocity", 2f);
             } else 
             if(Input.GetKey(KeyCode.LeftAlt))
             {
-                animator.SetFloat("Velocity", 6f);
-            } else animator.SetFloat("Velocity", 3f);
+                animator.SetFloat("Velocity", 6.5f);
+            } else animator.SetFloat("Velocity", 4f);
 
         } else animator.SetFloat("Velocity", 0f);
 
@@ -69,6 +69,8 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isCrawling", true);
             controller.height = 0.8f;
             controller.center = new Vector3(0, 0.37f, 0);
+
+            head.transform.position -= new Vector3(0, 0.80f, 0.5f);
         }
 
         if (Input.GetKeyUp(KeyCode.LeftControl) || Input.GetKeyUp(KeyCode.RightControl))
@@ -76,6 +78,8 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isCrawling", false);
             controller.height = 1.8f;
             controller.center = new Vector3(0, 0.91f, 0);
+
+            head.transform.position += new Vector3(0, 0.80f, 0.5f);
         }
     }
 
@@ -90,6 +94,7 @@ public class PlayerMovement : MonoBehaviour
                 moveY += jumpForce;
                 animator.SetBool("isJumping", true);
             } else animator.SetBool("isJumping", false);
+            
         }
 
         return moveY;
@@ -107,7 +112,6 @@ public class PlayerMovement : MonoBehaviour
     float Gravity()
     {
         moveY += gravity;
-
         return moveY;
     }
 }
