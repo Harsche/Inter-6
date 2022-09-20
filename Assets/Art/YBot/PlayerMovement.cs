@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
             controller.height = 0.8f;
             controller.center = new Vector3(0, 0.37f, 0);
 
-            head.transform.position -= new Vector3(0, 0.80f, 0.5f);
+            //head.transform.position -= new Vector3(0, 0.80f, 0.5f);
         }
 
         if (Input.GetKeyUp(KeyCode.LeftControl) || Input.GetKeyUp(KeyCode.RightControl))
@@ -79,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
             controller.height = 1.8f;
             controller.center = new Vector3(0, 0.91f, 0);
 
-            head.transform.position += new Vector3(0, 0.80f, 0.5f);
+            //head.transform.position += new Vector3(0, 0.80f, 0.5f);
         }
     }
 
