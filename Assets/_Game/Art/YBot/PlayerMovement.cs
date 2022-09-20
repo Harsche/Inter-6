@@ -20,11 +20,13 @@ public class PlayerMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
     {
-        if (Input.GetButton("Horizontal") || Input.GetButton("Vertical")) //Definindo variações na velocidade de movimento
+        if (Input.GetButton("Horizontal") || Input.GetButton("Vertical")) //Definindo variaï¿½ï¿½es na velocidade de movimento
         {
            
             if (animator.GetBool("isCrawling"))
@@ -42,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
 
         } else animator.SetFloat("Velocity", 0f);
 
-        movement = Input.GetAxis("Vertical") * transform.forward; //Associando valores de movimentação
+        movement = Input.GetAxis("Vertical") * transform.forward; //Associando valores de movimentaï¿½ï¿½o
 
         movement += Input.GetAxis("Horizontal") * transform.right;
 
