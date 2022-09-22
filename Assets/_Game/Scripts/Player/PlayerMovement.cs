@@ -35,11 +35,11 @@ public class PlayerMovement : MonoBehaviour
             } else
             if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
             {
-                animator.SetFloat("Velocity", 2f);
-            } else 
-            if(Input.GetKeyDown(KeyCode.LeftAlt) || Input.GetKeyDown(KeyCode.RightAlt))
-            {
                 animator.SetFloat("Velocity", 6.5f);
+            } else 
+            if(Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
+            {
+                animator.SetFloat("Velocity", 1.8f);
             } else animator.SetFloat("Velocity", 4f);
 
         } else animator.SetFloat("Velocity", 0f);
@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Crawl()
     {
-        if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             animator.SetBool("isCrawling", true);
             controller.height = 0.8f;
@@ -74,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (Input.GetKeyUp(KeyCode.LeftControl) || Input.GetKeyUp(KeyCode.RightControl))
+        if (Input.GetKeyUp(KeyCode.C))
         {
             animator.SetBool("isCrawling", false);
             controller.height = 1.8f;

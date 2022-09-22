@@ -16,13 +16,13 @@ public class HUDManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftAlt) || Input.GetKeyDown(KeyCode.RightAlt)) //Verificando icone da Stamina
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) //Verificando icone da Stamina
         {
             staminaIcon.SetActive(false);
             staminaIconActived.SetActive(true);
             //StartCoroutine(Stamina());
         }
-        if (Input.GetKeyUp(KeyCode.LeftAlt) || Input.GetKeyUp(KeyCode.RightAlt))
+        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
         {
             staminaIcon.SetActive(true);
             staminaIconActived.SetActive(false);
