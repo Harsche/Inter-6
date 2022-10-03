@@ -3,13 +3,7 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour, IInteractable{
     [SerializeField] private Item item;
-    private bool highlight;
-
-    private void LateUpdate(){
-        if(!highlight) return;
-        Debug.Log(name);
-        highlight = false;
-    }
+    [SerializeField] private GameObject outline;
 
     public bool Interact(){
         gameObject.SetActive(false);
@@ -18,6 +12,6 @@ public class Collectable : MonoBehaviour, IInteractable{
     }
 
     public void ToggleHighlight(bool active){
-        highlight = true;
+        outline.SetActive(active);
     }
 }
