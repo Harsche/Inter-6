@@ -1,0 +1,14 @@
+{
+    "dialog": [
+        {
+            "dialogName": "",
+            "text": "<color=#D72626>AZIDEIA MERMAO!!</color>",
+            "time": 2.0
+        },
+        {
+            "dialogName": "",
+            "text": "<color=#FFFFFF>Preciso do <color=#2EDB2D>cartao</color> pra abrir a porta garai hm</color>",
+            "time": 3.0
+        }
+    ]
+}

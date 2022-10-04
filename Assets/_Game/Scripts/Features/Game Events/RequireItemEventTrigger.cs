@@ -32,6 +32,9 @@ public class RequireItemEventTrigger : MonoBehaviour, IInteractable{
     }
 
     public void ToggleHighlight(bool active){
+        outline.layer = active
+            ? LayerMask.NameToLayer("Outline")
+            : LayerMask.NameToLayer("Default");
         outline.SetActive(active);
     }
 }

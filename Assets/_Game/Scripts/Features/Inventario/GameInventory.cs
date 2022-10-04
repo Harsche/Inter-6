@@ -1,15 +1,16 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace Inventory{
-    public class GameInventory : MonoBehaviour{
+    [CreateAssetMenu(menuName = "Inventory/Inventory", fileName = "Inventory", order = 0)]
+    public class GameInventory : ScriptableObject{
         [SerializeField] private List<Item> items;
 
         public static GameInventory Instance{ get; private set; }
 
-        private void Awake(){
+        private void OnEnable(){
             if (Instance != null){
-                Destroy(gameObject);
                 return;
             }
 

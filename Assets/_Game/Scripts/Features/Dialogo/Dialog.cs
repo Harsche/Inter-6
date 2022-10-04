@@ -26,12 +26,12 @@ namespace GameDialogs{
         public void StopDialog(){
             if (dialogCoroutine != null) StopCoroutine(dialogCoroutine);
             dialogText.text = "";
-            if(dialogBox) dialogBox.SetActive(false);
+            if (dialogBox) dialogBox.SetActive(false);
         }
 
         public void TriggerDialog(TextAsset dialogJson){
             if (dialogCoroutine != null) StopCoroutine(dialogCoroutine);
-            if(dialogBox) dialogBox.SetActive(true);
+            if (dialogBox) dialogBox.SetActive(true);
             List<DialogText> dialogs = JsonUtility.FromJson<SerializeDialog>(dialogJson.ToString()).dialog;
             dialogCoroutine = StartCoroutine(DisplayDialog(dialogs));
         }
@@ -51,9 +51,9 @@ namespace GameDialogs{
     [Serializable]
     public class DialogText{
         [HideInInspector] public string dialogName;
-        public string text;
+        [TextArea] public string text;
         public float time;
-        public Color dialogColor;
+        [NonSerialized] public Color dialogColor;
 
         public DialogText(string text, float time){
             this.text = text;
