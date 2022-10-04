@@ -27,7 +27,6 @@ public class HUDManager : MonoBehaviour
             staminaIcon.SetActive(true);
             staminaIconActived.SetActive(false);
         }
-        print(staminaValue);
     }
     
     IEnumerator Stamina()
