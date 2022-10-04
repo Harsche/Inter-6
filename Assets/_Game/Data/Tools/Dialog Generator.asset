@@ -14,8 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogs:
   - dialogName: Dialog Line 01
-    text: AZIDEIA MERMAO!!
-    time: 2
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quam risus,
+      facilisis non faucibus a, molestie at dui. Cras tempus pulvinar purus, vitae
+      porttitor est lacinia sed.
+    time: 5
+    dialogColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
   - dialogName: Dialog Line 02
-    text: Preciso do cartao pra abrir a porta garai hm
+    text: Etiam vestibulum augue arcu, sed lobortis lectus mollis eget. Aenean consectetur
+      dolor vitae tortor pretium, ac eleifend ex tincidunt.
+    time: 4
+    dialogColor: {r: 0.222955, g: 0.222955, b: 0.731, a: 0}
+  - dialogName: Dialog Line 03
+    text: Curabitur congue, turpis dignissim egestas hendrerit, justo turpis viverra
+      elit, id varius elit velit eget lacus. Aenean et orci felis.
     time: 3
+    dialogColor: {r: 0.53887606, g: 0.50907797, b: 0.754717, a: 0}

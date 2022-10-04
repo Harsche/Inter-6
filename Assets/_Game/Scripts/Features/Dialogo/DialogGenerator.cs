@@ -17,7 +17,7 @@ namespace GameDialogs{
         public void GenerateJsonFile(){
             var serializeDialog = new SerializeDialog();
             foreach (DialogText dialog in dialogs){
-                serializeDialog.dialog.Add(new DialogText(dialog.text, dialog.time));
+                serializeDialog.dialog.Add(new SerializedDialog(dialog.text, dialog.time));
             }
             for (int i = 0; i < dialogs.Length; i++){
                 string colorHex = ColorUtility.ToHtmlStringRGB(dialogs[i].dialogColor);
@@ -37,6 +37,17 @@ namespace GameDialogs{
 
     [Serializable]
     public class SerializeDialog{
-        public List<DialogText> dialog = new();
+        public List<SerializedDialog> dialog = new();
+    }
+    
+    [Serializable]
+    public class SerializedDialog{
+        public string text;
+        public float time;
+
+        public SerializedDialog(string text, float time){
+            this.text = text;
+            this.time = time;
+        }
     }
 }
