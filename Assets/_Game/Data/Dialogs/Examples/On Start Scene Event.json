@@ -1,0 +1,24 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#E9E9E9>Este é um exemplo de um On Scene Start Event. Ele acontece assim que a cena é carregada.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#E9E9E9>Ele também pode ser colocado em um objeto desativado.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#E9E9E9>Nesse caso, o evento será ativado assim que o objeto em que ele está também for!</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#E9E9E9>Vamos fazer um teste?</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#E9E9E9>Na aba \"Hierarchy\", ative o primeiro objeto da lista, que está desativado.</color>",
+            "time": 4.0
+        }
+    ]
+}

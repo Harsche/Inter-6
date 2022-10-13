@@ -1,0 +1,24 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#E9E9E9>Perfeito! Acho que já deu pra entender como funciona, certo?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#E9E9E9>Vamos para o próximo exemplo.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#E9E9E9>O próximo é o On Key Pressed Event! Este é ativado quando você pressiona uma tecla.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#E9E9E9>Parece simples, não? Por que não fazemos uma teste com uma tecla?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#E9E9E9>Tente apertar a tecla \"Y\".</color>",
+            "time": 2.0
+        }
+    ]
+}

@@ -14,18 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogs:
   - dialogName: Dialog Line 01
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quam risus,
-      facilisis non faucibus a, molestie at dui. Cras tempus pulvinar purus, vitae
-      porttitor est lacinia sed.
-    time: 5
+    text: "Perfeito! Acho que j\xE1 deu pra entender como funciona, certo?"
+    time: 3
     dialogColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
   - dialogName: Dialog Line 02
-    text: Etiam vestibulum augue arcu, sed lobortis lectus mollis eget. Aenean consectetur
-      dolor vitae tortor pretium, ac eleifend ex tincidunt.
-    time: 4
-    dialogColor: {r: 0.222955, g: 0.222955, b: 0.731, a: 0}
-  - dialogName: Dialog Line 03
-    text: Curabitur congue, turpis dignissim egestas hendrerit, justo turpis viverra
-      elit, id varius elit velit eget lacus. Aenean et orci felis.
+    text: "Vamos para o pr\xF3ximo exemplo."
     time: 3
-    dialogColor: {r: 0.53887606, g: 0.50907797, b: 0.754717, a: 0}
+    dialogColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
+  - dialogName: Dialog Line 03
+    text: "O pr\xF3ximo \xE9 o On Key Pressed Event! Este \xE9 ativado quando voc\xEA
+      pressiona uma tecla."
+    time: 5
+    dialogColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
+  - dialogName: Dialog Line 04
+    text: "Parece simples, n\xE3o? Por que n\xE3o fazemos uma teste com uma tecla?"
+    time: 4
+    dialogColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
+  - dialogName: Dialog Line 05
+    text: Tente apertar a tecla "Y".
+    time: 2
+    dialogColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}

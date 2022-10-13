@@ -2,7 +2,7 @@
 using UnityEngine.Events;
 using Inventory;
 
-public class RequireItemEventTrigger : MonoBehaviour, IInteractable{
+public class OnRequireItemEventTrigger : MonoBehaviour, IInteractable{
     [SerializeField] private bool disableObject;
     [SerializeField] private bool consumeItem = true;
     [SerializeField] private Item requiredItem;

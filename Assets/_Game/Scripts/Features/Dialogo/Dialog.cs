@@ -36,8 +36,8 @@ namespace GameDialogs{
             dialogCoroutine = StartCoroutine(DisplayDialog(dialogs));
         }
 
-        private IEnumerator DisplayDialog(IEnumerable<DialogText> dialogs){
-            foreach (DialogText t in dialogs){
+        private IEnumerator DisplayDialog(IEnumerable<SerializedDialog> dialogs){
+            foreach (SerializedDialog t in dialogs){
                 dialogText.text = t.text;
                 yield return new WaitForSeconds(t.time);
             }
