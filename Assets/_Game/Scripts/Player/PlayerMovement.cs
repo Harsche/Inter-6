@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour{
@@ -15,6 +13,7 @@ public class PlayerMovement : MonoBehaviour{
     private float camY;
     private float moveY;
     public bool useStamina;
+    public bool stopInput;
 
     void Start(){
         controller = GetComponent<CharacterController>();

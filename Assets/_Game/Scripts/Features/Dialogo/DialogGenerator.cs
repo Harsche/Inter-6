@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using UnityEditor;
 using UnityEngine;
 
 namespace GameDialogs{
     [CreateAssetMenu(menuName = "Dialog Generator")]
     public class DialogGenerator : ScriptableObject{
+        [SerializeField] private string dialogName = "New_Dialog";
         [SerializeField] private DialogText[] dialogs;
         private string path;
 
         private void OnValidate(){
-            path = Application.dataPath + "/_Game/Data/Dialogs/New_Dialog.json";
+            string fileName = string.IsNullOrEmpty(dialogName) ? "New_Dialog" : dialogName;
+            path = Application.dataPath + $"/_Game/Data/Dialogs/{fileName}.json";
             UpdateDialogsNames();
         }
 
@@ -25,6 +28,7 @@ namespace GameDialogs{
                 serializeDialog.dialog[i].text += "</color>";
             }
             File.WriteAllText(path, JsonUtility.ToJson(serializeDialog, true));
+            AssetDatabase.Refresh();
         }
 
         private void UpdateDialogsNames(){

@@ -1,0 +1,52 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Bom dia, Hill!</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Bom dia, Tessa! Como está se sentindo\r hoje?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Estou bem!</color>",
+            "time": 1.0
+        },
+        {
+            "text": "<color=#61C0FF>Você teve alterações bruscas em sua\r\nrespiração durante o sono REM. Já é a\r\nterceira vez neste mês.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>Isso pode ser um indicativo de que você teve algum sonho que te desestabilizou ou algum problema respiratório. Está certa de que não sente nada anormal?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Bom... eu sonhei com a minha mãe. De novo. É apenas saudade, nada fora do comum ou diferente do esperado.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>Quer que eu reproduza a gravação que ela te enviou no Natal novamente?</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Ouvir a voz dela pode ajudar a amenizar este sentimento, mesmo que temporariamente.</color>",
+            "time": 2.5
+        },
+        {
+            "text": "<color=#FFFFFF>Não é necessário, Hill! Obrigada pela preocupação.</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Não há de quê. Já é hora de se preparar para seu treino matinal, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Pedi para os YBots prepararem a sala de treinamento enquanto você toma seu café da manhã. Eles já deixaram tudo pronto na copa.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Certo.</color>",
+            "time": 1.0
+        }
+    ]
+}
