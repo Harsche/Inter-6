@@ -28,6 +28,8 @@ public class PauseMenu : MonoBehaviour{
         canvas.enabled = GamePaused;
         Cursor.lockState = GamePaused ? CursorLockMode.None : CursorLockMode.Locked;
         UpdateOptionItems();
+        if (!GamePaused) return;
+        Map.Instance.UpdateMap();
     }
 
     private void UpdateOptionItems(){
