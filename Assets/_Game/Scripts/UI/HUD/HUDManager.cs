@@ -6,6 +6,7 @@ public class HUDManager : MonoBehaviour
 {
     [SerializeField] GameObject staminaIconActived;
     [SerializeField] GameObject staminaIcon;
+    [SerializeField] PlayerMovement playerRef;
 
     private float staminaValue;
 
@@ -16,29 +17,38 @@ public class HUDManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) //Verificando icone da Stamina
-        {
-            staminaIcon.SetActive(false);
-            staminaIconActived.SetActive(true);
-            //StartCoroutine(Stamina());
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
-        {
-            staminaIcon.SetActive(true);
-            staminaIconActived.SetActive(false);
-        }
+        StartCoroutine(Stamina());
+
+        //print(staminaValue);
+        //print(playerRef.useStamina);
     }
     
     IEnumerator Stamina()
     {
-        /*for (float i = staminaValue; i > 0; i--)
+        if (staminaValue <= 0)
         {
-            staminaValue = i;
-        }*/
-        
-        if(staminaValue > 0) staminaValue--;
-        print(staminaValue);
+            yield break;
+        }
 
-        yield return new WaitForSeconds(1);
+        if (playerRef.useStamina) //Começa a consumir Stamina
+        {
+            staminaIcon.SetActive(false);
+            staminaIconActived.SetActive(true);
+
+            if (staminaValue > 0)
+            {
+                for(int i = 15; i > 0; i--)
+                {
+                    staminaValue--;
+                    yield return new WaitForSeconds(10f);
+                }
+            }
+            else yield break;
+        } 
+        /*else
+        {
+            staminaIcon.SetActive(true);
+            staminaIconActived.SetActive(false);
+        }*/
     }
 }

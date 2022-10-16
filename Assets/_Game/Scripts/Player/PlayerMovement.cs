@@ -14,32 +14,44 @@ public class PlayerMovement : MonoBehaviour{
     private Vector3 movement;
     private float camY;
     private float moveY;
+    public bool useStamina;
 
     void Start(){
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+
+        useStamina = false;
+
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update(){
         if (Input.GetButton("Horizontal") ||
-            Input.GetButton("Vertical")) //Definindo varia��es na velocidade de movimento
+            Input.GetButton("Vertical")) //Definindo variacoes na velocidade de movimento
         {
-            if (animator.GetBool("isCrawling")){
+            if (animator.GetBool("isCrawling"))
+            {
                 animator.SetFloat("Velocity", 3f);
             }
-            else if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)){
+            else if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
                 animator.SetFloat("Velocity", 6.5f);
+                useStamina = true;
             }
-            else if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl)){
+            else if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
+            {
                 animator.SetFloat("Velocity", 1.8f);
+                useStamina = false;
             }
-            else animator.SetFloat("Velocity", 4f);
-        }
-        else animator.SetFloat("Velocity", 0f);
+            else
+            {
+                animator.SetFloat("Velocity", 4f);
+                useStamina = false;
+            }
+        } else animator.SetFloat("Velocity", 0f);
 
-        movement = Input.GetAxis("Vertical") * transform.forward; //Associando valores de movimenta��o
+        movement = Input.GetAxis("Vertical") * transform.forward; //Associando valores de movimentacao
 
         movement += Input.GetAxis("Horizontal") * transform.right;
 
@@ -56,6 +68,7 @@ public class PlayerMovement : MonoBehaviour{
         controller.Move(movement);
 
         Crawl();
+        Kick();
         CameraMovement();
     }
 
@@ -70,6 +83,19 @@ public class PlayerMovement : MonoBehaviour{
             animator.SetBool("isCrawling", false);
             controller.height = 1.8f;
             controller.center = new Vector3(0, 0.91f, 0);
+        }
+    }
+
+    void Kick()
+    {
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            animator.SetBool("isKicking", true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.F))
+        {
+            animator.SetBool("isKicking", false);
         }
     }
 
@@ -100,5 +126,13 @@ public class PlayerMovement : MonoBehaviour{
     float Gravity(){
         moveY += gravity;
         return moveY;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == ("Enemy"))
+        {
+            print("chutou");
+        }
     }
 }
