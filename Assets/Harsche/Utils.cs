@@ -10,8 +10,8 @@ namespace Harsche.Utils{
         }
 
         public static float RemapClamped(Vector2 inMinMax, Vector2 outMinMax, float value){
-            if (value <+ inMinMax.x) return outMinMax.x;
-            if (value >= inMinMax.x) return outMinMax.y;
+            if (value <= inMinMax.x) return outMinMax.x;
+            if (value >= inMinMax.y) return outMinMax.y;
                 float percentage = (value - inMinMax.x) / (inMinMax.y - inMinMax.x);
             return outMinMax.x + (outMinMax.y - outMinMax.x) * percentage;
         }

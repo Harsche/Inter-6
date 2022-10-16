@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+﻿using Inventory;
+using UnityEngine;
 
 public class Player : MonoBehaviour{
     // [SerializeField] private GameInventory inventory;
 
     public static Player Instance{ get; private set; }
+    [SerializeField] private GameInventory inventory;
 
     private void Awake(){
         if (Instance != null){
@@ -12,5 +14,6 @@ public class Player : MonoBehaviour{
         }
 
         Instance = this;
+        inventory.Setup();
     }
 }

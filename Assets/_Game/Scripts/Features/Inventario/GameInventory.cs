@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +8,7 @@ namespace Inventory{
 
         public static GameInventory Instance{ get; private set; }
 
-        private void OnEnable(){
+        public void Setup(){
             if (Instance != null){
                 return;
             }
