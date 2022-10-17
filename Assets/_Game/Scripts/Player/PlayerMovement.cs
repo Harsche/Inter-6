@@ -3,21 +3,21 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private CharacterController controller;
-    private Animator animator;
+    public Animator animator;
 
     [SerializeField] CameraMovement cameraRef;
+    [SerializeField] KickCheck kickRef;
+    [SerializeField] HUDManager hudRef;
     [SerializeField] float gravity;
     [SerializeField] float jumpForce;
 
     private Vector3 movement;
     private float moveY;
 
-    public bool useStamina;
-
     private bool isMoving;
     private bool isCrawl;
-    private bool isKick;
-    private bool isRun;
+    public bool isKick;
+    public bool isRun;
     private bool isSlowly;
     private bool isJump;
 
@@ -31,8 +31,6 @@ public class PlayerMovement : MonoBehaviour
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
 
-        useStamina = false;
-
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -45,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         else animator.SetFloat("Velocity", 0f);
 
         Crawl();
-        Kick();
+        kickRef.Kick();
 
         PlayerMove();
 
@@ -100,7 +98,6 @@ public class PlayerMovement : MonoBehaviour
         else if (isRun)
         {
             animator.SetFloat("Velocity", 6.5f);
-            useStamina = true;
         }
         else if (isSlowly)
         {
@@ -131,19 +128,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void Kick()
-    {
-        if(isKick)
-        {
-            animator.SetBool("isKicking", true);
-        }
-
-        if (!isKick)
-        {
-            animator.SetBool("isKicking", false);
-        }
-    }
-
     float Jump()
     {
         if (controller.isGrounded){
@@ -165,11 +149,19 @@ public class PlayerMovement : MonoBehaviour
         return moveY;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerStay(Collider other)
     {
-        if(collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            print("chutou");
+            animator.SetBool("isDamaged", true);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.CompareTag("Enemy"))
+        {
+            animator.SetBool("isDamaged", false);
         }
     }
 }
