@@ -17,7 +17,7 @@ public class HUDManager : MonoBehaviour
 
     void Update()
     {
-        StartCoroutine(Stamina());
+        // StartCoroutine(Stamina());
 
         //print(staminaValue);
         //print(playerRef.useStamina);
@@ -30,7 +30,7 @@ public class HUDManager : MonoBehaviour
             yield break;
         }
 
-        if (playerRef.useStamina) //Começa a consumir Stamina
+        if (playerRef.useStamina) //Comeï¿½a a consumir Stamina
         {
             staminaIcon.SetActive(false);
             staminaIconActived.SetActive(true);

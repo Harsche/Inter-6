@@ -1,5 +1,5 @@
-﻿using System;
-using Inventory;
+﻿using Inventory;
+using SaveGame;
 using UnityEngine;
 
 public class Player : MonoBehaviour{
@@ -7,6 +7,7 @@ public class Player : MonoBehaviour{
 
     public static Player Instance{ get; private set; }
     [SerializeField] private GameInventory inventory;
+    [SerializeField] private SaveManager saveManager;
 
     private void Awake(){
         if (Instance != null){
@@ -16,5 +17,6 @@ public class Player : MonoBehaviour{
 
         Instance = this;
         inventory.Setup();
+        saveManager.Setup();
     }
 }
