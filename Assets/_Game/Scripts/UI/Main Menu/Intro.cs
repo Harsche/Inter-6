@@ -10,6 +10,7 @@ public class Intro : MonoBehaviour{
     [SerializeField] private Ease fadeEase = Ease.Linear;
 
     private void Awake(){
+        canvasGroup.alpha = 1;
         StartCoroutine(WaitForIntro());
     }
 

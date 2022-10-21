@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81b0137cd1394b9ba70eeb2a44072bc4, type: 3}
+  m_Name: Leet Text Generator
+  m_EditorClassIdentifier: 
+  toUpper: 1
+  text: "Azideia merm\xE3o o bagulha \xE9 hardecore garai hm"
+  outputText: "421D314 M3RM\xC30 0 846ULH4 \xC9 H4RD3C0R3 64R41 HM"
+  letters:
+  - character: a
+    number: 4
+  - character: b
+    number: 8
+  - character: e
+    number: 3
+  - character: g
+    number: 6
+  - character: i
+    number: 1
+  - character: o
+    number: 0
+  - character: s
+    number: 5
+  - character: t
+    number: 7
+  - character: z
+    number: 2
