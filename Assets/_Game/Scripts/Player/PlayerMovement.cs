@@ -8,8 +8,17 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] CameraMovement cameraRef;
     [SerializeField] KickCheck kickRef;
     [SerializeField] HUDManager hudRef;
+
     [SerializeField] float gravity;
     [SerializeField] float jumpForce;
+
+    [SerializeField] float normalHCollision = 1.8f;
+    [SerializeField] float crawlingHCollision = 0.8f;
+    [SerializeField] float deadHCollision = 0f;
+
+    [SerializeField] Vector3 normalCollision = new Vector3(0, 0.91f, 0);
+    [SerializeField] Vector3 crawlingCollision = new Vector3(0, 0.37f, 0);
+    [SerializeField] Vector3 deadCollision = new Vector3(0, 0.45f, 0);
 
     private Vector3 movement;
     private float moveY;
@@ -20,6 +29,9 @@ public class PlayerMovement : MonoBehaviour
     public bool isRun;
     private bool isSlowly;
     private bool isJump;
+    public bool isDead = false;
+
+    public bool levouDano;
 
     private float isMovingH;
     private float isMovingV;
@@ -38,6 +50,14 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         GetInput();
+
+        if (hudRef.playerLife <= 0)
+        {
+            isDead = true;
+            Dead();
+
+            return;
+        }
 
         if (isMoving) PlayerVelocity();
         else animator.SetFloat("Velocity", 0f);
@@ -70,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
 
     void PlayerMove() //Associando valores de movimentacao
     {
-        movement = isMovingV * transform.forward; 
+        movement = isMovingV * transform.forward;
 
         movement += isMovingH * transform.right;
 
@@ -115,25 +135,27 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("isCrawling", true);
 
-            controller.height = 0.8f;
-            controller.center = new Vector3(0, 0.37f, 0);
+            controller.height = crawlingHCollision;
+            controller.center = crawlingCollision;
         }
 
         if (!isCrawl)
         {
             animator.SetBool("isCrawling", false);
 
-            controller.height = 1.8f;
-            controller.center = new Vector3(0, 0.91f, 0);
+            controller.height = normalHCollision;
+            controller.center = normalCollision;
         }
     }
 
     float Jump()
     {
-        if (controller.isGrounded){
+        if (controller.isGrounded)
+        {
             moveY = 0f;
 
-            if (isJump && !isCrawl){
+            if (isJump && !isCrawl)
+            {
                 moveY += jumpForce;
                 animator.SetBool("isJumping", true);
             }
@@ -141,6 +163,19 @@ public class PlayerMovement : MonoBehaviour
         }
 
         return moveY;
+    }
+
+    void Dead()
+    {
+        if (isDead)
+        {
+            stopInput = true;
+
+            animator.SetBool("isDead", true);
+            controller.height = deadHCollision;
+            controller.center = deadCollision;
+        }
+        else return;
     }
 
     float Gravity()
@@ -153,14 +188,16 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
+            levouDano = true;
             animator.SetBool("isDamaged", true);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
+            levouDano = false;
             animator.SetBool("isDamaged", false);
         }
     }

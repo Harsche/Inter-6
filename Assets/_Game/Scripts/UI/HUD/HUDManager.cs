@@ -24,6 +24,7 @@ public class HUDManager : MonoBehaviour
     [SerializeField] private Slider sliderLife;
     [SerializeField] private Image lowLifeScreen;
     [SerializeField] private Image damageScreen;
+    [SerializeField] private Image gameOverScreen;
 
     void Update()
     {
@@ -33,14 +34,19 @@ public class HUDManager : MonoBehaviour
 
     void Life()
     {
-        if (danoCoroutine == null)
+        if (playerRef.levouDano)
         {
-            danoCoroutine = StartCoroutine(ReduzLife());
-        }
-        else
+            if (danoCoroutine == null)
+            {
+                danoCoroutine = StartCoroutine(ReduzLife());
+            }
+        } else
         {
-                StopCoroutine(ReduzLife());
-                //danoCoroutine = null;
+            if (danoCoroutine != null)
+            {
+                StopCoroutine(danoCoroutine);
+                danoCoroutine = null;
+            }
         }
 
         if (playerLife <= 30f)
@@ -48,10 +54,10 @@ public class HUDManager : MonoBehaviour
             lowLifeScreen.gameObject.SetActive(true);
         }
 
-        if (playerLife <= 0f)
+        if (playerRef.isDead)
         {
-            playerRef.animator.SetBool("isDead", true);
-            print("Game Over");
+            lowLifeScreen.gameObject.SetActive(false);
+            gameOverScreen.gameObject.SetActive(true);
         }
     }
 
@@ -146,22 +152,24 @@ public class HUDManager : MonoBehaviour
 
             while (playerLife > 0)
             {
-                if (playerRef.animator.GetBool("isDamaged"))
-                {
-                    damageScreen.gameObject.SetActive(true);
-                    playerLife -= 0.1f * lifeReducao;
-                    sliderLife.value = playerLife;
+                StartCoroutine(FeedbackDano());
+                
+                playerLife -= 0.1f * lifeReducao;
+                sliderLife.value = playerLife;
 
-                    yield return new WaitForSeconds(0.8f);
-
-                    damageScreen.gameObject.SetActive(false);
-
-                    yield return new WaitForSeconds(1f);
-                }
-                else yield break;
-
-                yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(1f);
             }
         }
+    }
+
+    IEnumerator FeedbackDano()
+    {
+        damageScreen.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(0.8f);
+
+        damageScreen.gameObject.SetActive(false);
+
+        yield return new WaitForSeconds(1f);
     }
 }
