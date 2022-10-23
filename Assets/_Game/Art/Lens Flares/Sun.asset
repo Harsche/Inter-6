@@ -178,7 +178,7 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0}
     angularOffset: 0
     translationScale: {x: 1.75, y: 1}
-    m_LocalIntensity: 2
+    m_LocalIntensity: 1.04
     lensFlareTexture: {fileID: 0}
     uniformScale: 0.73
     sizeXY: {x: 1, y: 1}
@@ -193,7 +193,7 @@ MonoBehaviour:
     modulateByLightColor: 0
     isFoldOpened: 1
     distribution: 1
-    lengthSpread: 4.66
+    lengthSpread: 9.03
     positionCurve:
       serializedVersion: 2
       m_Curve:
