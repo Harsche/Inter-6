@@ -5,7 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Chutavel
+  - Kickable
+  - Interactable
   layers:
   - Default
   - TransparentFX

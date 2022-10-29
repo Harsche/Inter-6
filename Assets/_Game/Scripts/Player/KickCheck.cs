@@ -5,7 +5,11 @@ using UnityEngine;
 public class KickCheck : MonoBehaviour
 {
     [SerializeField] PlayerMovement playerRef;
-    
+    [SerializeField] HUDManager hudRef;
+    [SerializeField] GameObject kickDirection;
+
+    [SerializeField] private float kickForce = 20f;
+
     private bool kicked;
 
     void Start()
@@ -15,7 +19,7 @@ public class KickCheck : MonoBehaviour
 
     public void Kick()
     {
-        if (playerRef.isKick)
+        if (playerRef.isKick && kicked == false && hudRef.staminaValue > 0)
         {
             playerRef.animator.SetBool("isKicking", true);
         }
@@ -23,6 +27,7 @@ public class KickCheck : MonoBehaviour
         if (!playerRef.isKick)
         {
             playerRef.animator.SetBool("isKicking", false);
+            kicked = false;
         }
     }
 
@@ -34,6 +39,18 @@ public class KickCheck : MonoBehaviour
 
             Destroy(collision.gameObject);
         }
+
+        if (collision.gameObject.CompareTag("Kickable"))
+        {
+            kicked = true;
+
+            collision.rigidbody.AddForceAtPosition(kickDirection.transform.forward * kickForce, kickDirection.transform.position);
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        kicked = false;
     }
 
 

@@ -7,24 +7,25 @@ public class HUDManager : MonoBehaviour
 {
     [SerializeField] PlayerMovement playerRef;
 
-    [SerializeField] private float staminaValue = 15f;
-    [SerializeField] private float staminaReducao = 0.1f;
+    [SerializeField] private float staminaRunReducao = 0.1f;
+    [SerializeField] private float staminaKickReducao = 0.1f;
     [SerializeField] private float lifeReducao = 0.1f;
     [SerializeField] private float staminaRecarga = 0.1f;
 
+    [SerializeField] public float staminaValue = 15f;
     [SerializeField] public float playerLife = 100f;
-
-    private Coroutine staminaCoroutine;
-    private Coroutine recargaCoroutine;
-    private Coroutine danoCoroutine;
-
-    private bool staminaAcabou;
 
     [SerializeField] private Slider sliderStamina;
     [SerializeField] private Slider sliderLife;
     [SerializeField] private Image lowLifeScreen;
     [SerializeField] private Image damageScreen;
     [SerializeField] private Image gameOverScreen;
+
+    private Coroutine staminaCoroutine;
+    private Coroutine recargaCoroutine;
+    private Coroutine danoCoroutine;
+
+    private bool staminaAcabou;
 
     void Update()
     {
@@ -63,7 +64,7 @@ public class HUDManager : MonoBehaviour
 
     void Stamina()
     {
-        if (playerRef.isRun && staminaCoroutine == null)
+        if (playerRef.isRun || playerRef.isKick && staminaCoroutine == null)
         {
             staminaCoroutine = StartCoroutine(ReduzStamina());
 
@@ -105,7 +106,15 @@ public class HUDManager : MonoBehaviour
             {
                 staminaAcabou = false;
 
-                staminaValue -= 0.1f * staminaReducao;
+                if(playerRef.isRun)
+                {
+                    staminaValue -= 0.1f * staminaRunReducao;
+                }
+                if (playerRef.isKick)
+                {
+                    staminaValue -= 0.1f * staminaKickReducao;
+                }
+
                 sliderStamina.value = staminaValue;
 
                 yield return new WaitForSeconds(0.1f);

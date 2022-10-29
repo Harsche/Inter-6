@@ -56,6 +56,9 @@ public class PlayerMovement : MonoBehaviour
             isDead = true;
             Dead();
 
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+
             return;
         }
 
@@ -115,7 +118,7 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetFloat("Velocity", 3f);
         }
-        else if (isRun)
+        else if (isRun && hudRef.staminaValue > 0)
         {
             animator.SetFloat("Velocity", 6.5f);
         }
