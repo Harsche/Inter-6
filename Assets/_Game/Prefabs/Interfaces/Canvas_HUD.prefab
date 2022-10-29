@@ -1244,10 +1244,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRef: {fileID: 0}
-  staminaValue: 15
-  staminaReducao: 1
+  staminaRunReducao: 0.05
+  staminaKickReducao: 5
   lifeReducao: 30
   staminaRecarga: 1
+  staminaValue: 15
   playerLife: 50
   sliderStamina: {fileID: 1975421604}
   sliderLife: {fileID: 7128551930592266133}
