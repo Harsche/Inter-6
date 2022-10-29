@@ -1,0 +1,44 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Hill...</color>",
+            "time": 0.5
+        },
+        {
+            "text": "<color=#61C0FF>Sim?</color>",
+            "time": 0.5
+        },
+        {
+            "text": "<color=#FFFFFF>Quando eu acordei, eu ouvi um... barulho. Algo como uma pulsação, você captou algo?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Não, Tessa. Acredito que este som tenha sido parte de seu sonho.</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Irei te comunicar caso meus sistemas captem algo semelhante a uma pulsação.</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sim, também pensei nisso, mas sinto que continuei ouvindo ele mesmo após eu ter acord-</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Como eu disse, não identifiquei nada do tipo. Meu drive capta ondas em um raio de até 80km ao redor de nossa nave.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#61C0FF>Acredito que nenhum som passaria despercebido por mim. Mesmo que passasse, se eu não captasse você também não captaria.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Certo, Hill. Obrigada.</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Disponha.</color>",
+            "time": 0.5
+        }
+    ]
+}

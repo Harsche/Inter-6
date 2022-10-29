@@ -1,0 +1,16 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>Tessa, não acha melhor tomar o seu café da manhã primeiro?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Ah! Estava quase esquecendo... obrigada por lembrar!</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Por nada!</color>",
+            "time": 1.0
+        }
+    ]
+}

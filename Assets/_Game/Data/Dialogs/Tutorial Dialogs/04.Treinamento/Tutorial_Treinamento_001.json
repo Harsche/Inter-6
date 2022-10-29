@@ -1,0 +1,24 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>Como você já realizou o treinamento de combate em campo com arma ontem, hoje faremos o treino físico.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>Podemos começar?</color>",
+            "time": 1.5
+        },
+        {
+            "text": "<color=#FFFFFF>Sim!</color>",
+            "time": 1.0
+        },
+        {
+            "text": "<color=#61C0FF>Vá até a esteira.</color>",
+            "time": 1.5
+        },
+        {
+            "text": "<color=#61C0FF>Vamos começar na velocidade baixa, afim de treinar uma movimentação discreta.</color>",
+            "time": 3.0
+        }
+    ]
+}

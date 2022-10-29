@@ -12,49 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b484b8e4b6ebe245a56f84d6e61b86d, type: 3}
   m_Name: Dialog Generator
   m_EditorClassIdentifier: 
-  dialogName: Tutorial_Room2_003
+  dialogName: Tutorial_Treinamento_001
   dialogs:
   - dialogName: Dialog Line 01
-    text: Hill...
-    time: 0.5
-    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+    text: "Como voc\xEA j\xE1 realizou o treinamento de combate em campo com arma
+      ontem, hoje faremos o treino f\xEDsico."
+    time: 4
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
   - dialogName: Dialog Line 02
-    text: Sim?
-    time: 0.5
-    dialogColor: {r: 0.3820755, g: 0.7525912, b: 1, a: 0}
+    text: "Podemos come\xE7ar?"
+    time: 1.5
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
   - dialogName: Dialog Line 03
-    text: "Quando eu acordei, eu ouvi um... barulho. Algo como uma pulsa\xE7\xE3o,
-      voc\xEA captou algo?"
-    time: 3
+    text: Sim!
+    time: 1
     dialogColor: {r: 1, g: 1, b: 1, a: 0}
   - dialogName: Dialog Line 04
-    text: "N\xE3o, Tessa. Acredito que este som tenha sido parte de seu sonho."
-    time: 2
-    dialogColor: {r: 0.3820755, g: 0.7525912, b: 1, a: 0}
+    text: "V\xE1 at\xE9 a esteira."
+    time: 1.5
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
   - dialogName: Dialog Line 05
-    text: "Irei te comunicar caso meus sistemas captem algo semelhante a uma pulsa\xE7\xE3o."
-    time: 2
-    dialogColor: {r: 0.3820755, g: 0.7525912, b: 1, a: 0}
-  - dialogName: Dialog Line 06
-    text: "Sim, tamb\xE9m pensei nisso, mas sinto que continuei ouvindo ele mesmo
-      ap\xF3s eu ter acord-"
+    text: "Vamos come\xE7ar na velocidade baixa, afim de treinar uma movimenta\xE7\xE3o
+      discreta."
     time: 3
-    dialogColor: {r: 1, g: 1, b: 1, a: 0}
-  - dialogName: Dialog Line 07
-    text: "Como eu disse, n\xE3o identifiquei nada do tipo. Meu drive capta ondas
-      em um raio de at\xE9 80km ao redor de nossa nave."
-    time: 5
-    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
-  - dialogName: Dialog Line 08
-    text: "Acredito que nenhum som passaria despercebido por mim. Mesmo que passasse,
-      se eu n\xE3o captasse voc\xEA tamb\xE9m n\xE3o captaria."
-    time: 5
-    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
-  - dialogName: Dialog Line 09
-    text: Certo, Hill. Obrigada.
-    time: 2
-    dialogColor: {r: 1, g: 1, b: 1, a: 0}
-  - dialogName: Dialog Line 10
-    text: Disponha.
-    time: 0.5
     dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}

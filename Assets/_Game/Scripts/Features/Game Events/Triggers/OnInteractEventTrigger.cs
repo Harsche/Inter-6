@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class OnInteractEventTrigger : MonoBehaviour, IInteractable{
@@ -8,8 +9,12 @@ public class OnInteractEventTrigger : MonoBehaviour, IInteractable{
 
     private bool selected;
 
-    private void Awake(){
+    private void OnValidate(){
         gameObject.layer = LayerMask.NameToLayer("Interactable");
+    }
+
+    private void Awake(){
+        OnValidate();
     }
 
     public bool Interact(){

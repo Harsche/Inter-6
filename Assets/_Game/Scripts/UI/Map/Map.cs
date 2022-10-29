@@ -9,11 +9,14 @@ public class Map : MonoBehaviour{
     [SerializeField] private Image mapImage;
     [SerializeField] private Sprite floor1;
     [SerializeField] private Sprite floor2;
+    [SerializeField] private Toggle toggleFloor1;
+    [SerializeField] private Toggle toggleFloor2;
     [SerializeField] private float changeFloorHeight;
 
     private Bounds gameSpaceBounds;
     private Vector2 mapSpaceSize;
     private Vector2 halfMapSpaceSize;
+    private int playerCurrentFloor;
 
     public static Map Instance{ get; private set; }
 
@@ -29,6 +32,11 @@ public class Map : MonoBehaviour{
         gameSpaceBounds = gameSpaceBoxCollider.bounds;
         mapSpaceSize = mapSpaceTransform.sizeDelta;
         halfMapSpaceSize = mapSpaceSize / 2;
+    }
+    
+    private void ChangeFloorDisplay(int floor){
+        mapImage.sprite = floor == 2 ? floor2 : floor1;
+        playerIcon.gameObject.SetActive(floor == playerCurrentFloor);
     }
 
     public void UpdateMap(){
@@ -48,9 +56,20 @@ public class Map : MonoBehaviour{
             UtilityMethods.RemapClamped(inMinMaxZ, outMinMaxY, playerPosition.z)
         );
 
-        mapImage.sprite = playerPosition.y >= changeFloorHeight ? floor2 : floor1;
+        playerCurrentFloor = playerPosition.y >= changeFloorHeight ? 2 : 1;
+        toggleFloor1.isOn = playerCurrentFloor == 1;
+        toggleFloor2.isOn = playerCurrentFloor == 2;
+        // ChangeFloorDisplay(playerCurrentFloor);
 
         playerIcon.localPosition = playerMapPosition;
         playerIcon.localEulerAngles = Vector3.back * Player.Instance.transform.localEulerAngles.y;
+    }
+
+    public void DisplayFloor1(bool value){
+        if(value) ChangeFloorDisplay(1);
+    }
+    
+    public void DisplayFloor2(bool value){
+        if(value) ChangeFloorDisplay(2);
     }
 }
