@@ -6,8 +6,9 @@ public class KickCheck : MonoBehaviour
 {
     [SerializeField] PlayerMovement playerRef;
     [SerializeField] HUDManager hudRef;
+    [SerializeField] GameObject kickDirection;
 
-    [SerializeField] private float kickForce = 5f;
+    [SerializeField] private float kickForce = 20f;
 
     private bool kicked;
 
@@ -43,7 +44,7 @@ public class KickCheck : MonoBehaviour
         {
             kicked = true;
 
-            collision.rigidbody.AddForce(transform.forward * kickForce);
+            collision.rigidbody.AddForceAtPosition(kickDirection.transform.forward * kickForce, kickDirection.transform.position);
         }
     }
 
