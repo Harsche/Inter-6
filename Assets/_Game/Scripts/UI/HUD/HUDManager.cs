@@ -31,6 +31,12 @@ public class HUDManager : MonoBehaviour
     {
         Stamina();
         Life();
+
+        if (playerRef.isKick)
+        {
+            staminaValue -= 0.1f * staminaKickReducao;
+            sliderStamina.value = staminaValue;
+        }
     }
 
     void Life()
@@ -102,17 +108,13 @@ public class HUDManager : MonoBehaviour
                 yield break;
             }
 
-            while (staminaValue > 0)
+            if (staminaValue > 0)
             {
                 staminaAcabou = false;
 
-                if(playerRef.isRun)
+                if (playerRef.isRun)
                 {
                     staminaValue -= 0.1f * staminaRunReducao;
-                }
-                if (playerRef.isKick)
-                {
-                    staminaValue -= 0.1f * staminaKickReducao;
                 }
 
                 sliderStamina.value = staminaValue;
@@ -138,7 +140,7 @@ public class HUDManager : MonoBehaviour
                 staminaValue += 0.1f * staminaRecarga;
                 sliderStamina.value = staminaValue;
 
-                if (staminaValue == 15f)
+                if (staminaValue == 30f)
                 {
                     staminaAcabou = false;
 
