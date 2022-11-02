@@ -1,0 +1,32 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>O que pretende fazer, Tessa?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Vou restabelecer a nossa conexão e reportar tudo o que aconteceu hoje.</color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#61C0FF>Você vem apresentando instabilidades, Tessa. Me preocupa que seu psicológico esteja abalado. </color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#61C0FF>Acessar o computador central requer muita responsabilidade.\r</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>Talvez seja melhor você descansar e deixar que eu cuide disso.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#61C0FF>Vocês humanos são muito... frágeis.</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Medidas que podem ter um impacto tão sério precisam ser tomadas com cautela</color>",
+            "time": 6.0
+        }
+    ]
+}

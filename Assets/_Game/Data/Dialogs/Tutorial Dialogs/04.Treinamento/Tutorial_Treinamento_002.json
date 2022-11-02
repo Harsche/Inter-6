@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>Okay! Aumente a velocidade. Caminhe em velocidade normal.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Selecione a última velocidade, Tessa. Vamos treinar sua corrida.</color>",
+            "time": 3.0
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Hoje é quarta-feira, preciso ir reportar a situação atual da missão para o QG.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Hill, prepare a sala de comando para a comunicação semanal com o nosso QG, por favor.</color>",
+            "time": 6.0
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>...Hill?</color>",
+            "time": 1.0
+        },
+        {
+            "text": "<color=#61C0FF>Certo, Tessa.</color>",
+            "time": 2.0
+        }
+    ]
+}

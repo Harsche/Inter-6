@@ -1,0 +1,20 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>Agradeço a preocupação, mas não detectei nenhuma onda nos últimos dias. </color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>Como você sabe, as ondas eletromagnéticas que detectamos não eram contínuas, mas sim emitidas com intervalos aleatórios de tempo.</color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#61C0FF>A última detecção foi há um mês e meio, segundo nossos dados.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Bom, assim que restabelecermos a comunicação com o QG, falaremos sobre isso com eles. Okay?</color>",
+            "time": 6.0
+        }
+    ]
+}

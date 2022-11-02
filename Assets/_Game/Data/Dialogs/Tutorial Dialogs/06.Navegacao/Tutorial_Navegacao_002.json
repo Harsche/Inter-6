@@ -1,0 +1,16 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>Não é possível realizar conexão por motivos desconhecidos.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Faça um autodiagnostico, Hill. Precisamos entender o que está acontecendo</color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#FFFFFF>Nossos supervisores não vão gostar nada desse atraso na comunicação.</color>",
+            "time": 5.0
+        }
+    ]
+}

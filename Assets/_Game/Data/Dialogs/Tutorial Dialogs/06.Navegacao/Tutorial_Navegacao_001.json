@@ -1,0 +1,40 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Hill, eu pedi para você preparar a sala para comunicação. O que está havendo?</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você já deveria ter realizado a conexão, mas os computadores nem estão ativos.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#61C0FF>Tessa, você está equivocada.</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Você não me pediu para estabelecer conexão alguma.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>O que? É claro que pedi, ao final do treinamento. Você até me respondeu.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#61C0FF>Não, Tessa. Porém, não se preocupe. Irei preparar a sala agora.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Hill, tem certeza que não ouviu a ordem?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Eu não recebi ordem alguma.</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Eu não recebi ordem alguma.</color>",
+            "time": 2.0
+        }
+    ]
+}

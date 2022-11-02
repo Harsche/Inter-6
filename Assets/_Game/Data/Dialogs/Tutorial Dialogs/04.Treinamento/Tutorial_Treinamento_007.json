@@ -1,0 +1,16 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>Muito bem, Tessa!</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Por fim, vamos treinar escalada. É preciso ter boa mobilidade em campo.\r</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Saber lidar com obstáculos pode ser crucial para a realização de suas missões.</color>",
+            "time": 4.0
+        }
+    ]
+}

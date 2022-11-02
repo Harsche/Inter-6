@@ -1,0 +1,36 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Talvez aquela pulsação de hoje cedo tenha...</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#61C0FF>Tessa, o autodiagnostico não retornou nenhuma falha nos meus sistemas ou nos sistemas da nave.</color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#61C0FF>Tudo corre aparentemente bem.</color>",
+            "time": 2.5
+        },
+        {
+            "text": "<color=#FFFFFF>Hill, não é comum você perder uma ordem</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#FFFFFF>Além disso, nosso sistema de conexão é extremamente avançado, poucas coisas deixariam ele fora do ar. </color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Me preocupa que algo tenha nos atingido...</color>",
+            "time": 2.0
+        },
+        {
+            "text": "<color=#FFFFFF>Estamos próximos a Saturno. Talvez as ondas eletromagnéticas tenham tido um efeito inesperado nos... nossos sistemas.</color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#FFFFFF>E em você.</color>",
+            "time": 1.0
+        }
+    ]
+}

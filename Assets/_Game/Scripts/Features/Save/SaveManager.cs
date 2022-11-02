@@ -33,6 +33,5 @@ namespace SaveGame{
             value = (T) saveData[key];
             return true;
         }
-        
     }
 }

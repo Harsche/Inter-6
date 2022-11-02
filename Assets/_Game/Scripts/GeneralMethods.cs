@@ -10,4 +10,8 @@ public class GeneralMethods : ScriptableObject{
     public void CloseGame(){
         Application.Quit();
     }
+
+    public void DestroyScriptObject(MonoBehaviour obj){
+        Destroy(obj);
+    }
 }

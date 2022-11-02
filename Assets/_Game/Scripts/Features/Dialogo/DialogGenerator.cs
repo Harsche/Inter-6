@@ -20,6 +20,7 @@ namespace GameDialogs{
         public void GenerateJsonFile(){
             var serializeDialog = new SerializeDialog();
             foreach (DialogText dialog in dialogs){
+                dialog.text = dialog.text.Replace("\r\n", " ");
                 serializeDialog.dialog.Add(new SerializedDialog(dialog.text, dialog.time));
             }
             for (int i = 0; i < dialogs.Length; i++){

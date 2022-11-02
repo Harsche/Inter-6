@@ -1,0 +1,32 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>Seus sinais vitais indicam que você está estressada. </color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Você se esqueceu de tomar seu café da manhã hoje, antes do treino.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#61C0FF>Quando vocês humanos ficam sem comer, há baixa nos níveis de glicose no organismo e os níveis de adrenalina e cortisol tendem a aumentar. </color>",
+            "time": 8.0
+        },
+        {
+            "text": "<color=#61C0FF>Vá comer, Tessa. Talvez isso te ajude a pensar melhor.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você sabe muito bem que eu já comi, Hill.</color>",
+            "time": 2.5
+        },
+        {
+            "text": "<color=#61C0FF>Eu estou vendo pelas câmeras que o seu café da manhã está intacto sobre a bancada da copa.</color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#61C0FF>Pode ir conferir, se não confia em mim.</color>",
+            "time": 2.5
+        }
+    ]
+}

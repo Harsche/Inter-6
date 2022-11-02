@@ -1,0 +1,16 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>Muito bem!</color>",
+            "time": 1.0
+        },
+        {
+            "text": "<color=#61C0FF>Agora, vamos treinar combate físico. É importante estar preparada para situações aonde armas não estão disponíveis.</color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sem dúvidas.</color>",
+            "time": 1.0
+        }
+    ]
+}

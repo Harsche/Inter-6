@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Ah, merda. Deixei meu cartão de acesso pessoal no quarto. </color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Bom, não é como se eu esperasse PRECISAR HACKEAR MINHA PRÓPRIA NAVE PELA MANHÃ.</color>",
+            "time": 6.0
+        }
+    ]
+}

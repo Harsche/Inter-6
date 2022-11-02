@@ -1,0 +1,16 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Só posso acessar essas configurações no computador central.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF> É lá que ficam as configurações de alta prioridade como comunicação, criogenia, a Hill...</color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#FFFFFF>Tinha me esquecido disso!</color>",
+            "time": 2.0
+        }
+    ]
+}

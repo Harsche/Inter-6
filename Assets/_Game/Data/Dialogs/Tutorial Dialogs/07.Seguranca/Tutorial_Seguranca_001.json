@@ -1,0 +1,28 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>A porta aparentemente está... trancada? Libere o acesso, por favor.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Tessa, meus sistemas indicam que a porta está aberta.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Hill, como pode ver no monitor, a porta está retornando acesso negado.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>Sinto muito, Tessa. O sistema segue retornando que a porta está com acesso liberado. Não posso te ajudar.</color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#FFFFFF>Que esquisito... As falhas devem estar na nave.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Bom, vou abrir a porta em modo de administrador.</color>",
+            "time": 3.0
+        }
+    ]
+}

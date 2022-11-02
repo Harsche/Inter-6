@@ -11,12 +11,20 @@ public class Door : MonoBehaviour{
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip doorOpening;
     [SerializeField] private AudioClip doorClosing;
+    [SerializeField] private MeshRenderer ledMeshRenderer;
+    [SerializeField] private Material closedLed;
+    [SerializeField] private Material openedLed;
     [field: SerializeField] public bool Locked{ get; private set; }
 
     private bool opened;
 
     private void Awake(){
+        UpdateLedColor();
         if(!Locked) UnlockDoor();
+    }
+
+    private void UpdateLedColor(){
+        ledMeshRenderer.material = Locked ? closedLed : openedLed;
     }
 
     public void SwitchDoor(){
@@ -33,6 +41,13 @@ public class Door : MonoBehaviour{
 
     public void UnlockDoor(){
         Locked = false;
+        UpdateLedColor();
         trigger.SetActive(true);
+    }
+    
+    public void LockDoor(){
+        Locked = true;
+        UpdateLedColor();
+        trigger.SetActive(false);
     }
 }

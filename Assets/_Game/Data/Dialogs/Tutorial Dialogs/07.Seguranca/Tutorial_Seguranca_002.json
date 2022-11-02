@@ -1,0 +1,60 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Hill, aqui diz que... você está bloqueando o meu acesso aos sistemas da nave.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>Sinto muito, mas mexer diretamente no nosso sistema operacional pode gerar alguma falha e colocar toda a tripulação em risco. </color>",
+            "time": 6.0
+        },
+        {
+            "text": "<color=#61C0FF>Meu trabalho é garantir que todos os astronautas retornem bem a Terra após a missão.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>O que? Você não pode fazer isso, Hill. Meu trabalho é administrar o funcionamento da nave.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>A comunicação com o QG é crucial para que eles saibam que estamos bem e possam seguir enviando as instruções necessárias.</color>",
+            "time": 7.0
+        },
+        {
+            "text": "<color=#61C0FF>Lamento, Tessa, mas não irei liberar o acesso. A comunicação pode esperar.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#61C0FF>Não podemos permitir falha humana nesta missão, como ocorreu em outros casos.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você tá falando de... da missão 2001?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Hill, David Bowman teve uma crise e surtou. Não dá pra classificar isso exatamente como \"falha humana\".</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Além do mais, eu estou perfeitamente sã.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Lamento, mas meu dever é garantir que nada dê errado nesta missão</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#61C0FF>Volte para a sala de convivência e se acalme. Eu irei tentar restabelecer nossa conexão.</color>",
+            "time": 7.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você não pode se opor aos meus pedidos, Hill. Isso é muito sério. </color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não se esqueça que a comandante desta nave sou eu.</color>",
+            "time": 5.0
+        }
+    ]
+}

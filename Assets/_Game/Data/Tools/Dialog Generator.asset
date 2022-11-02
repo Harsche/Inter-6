@@ -12,27 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b484b8e4b6ebe245a56f84d6e61b86d, type: 3}
   m_Name: Dialog Generator
   m_EditorClassIdentifier: 
-  dialogName: Tutorial_Treinamento_001
+  dialogName: Tutorial_Corredores_002
   dialogs:
   - dialogName: Dialog Line 01
-    text: "Como voc\xEA j\xE1 realizou o treinamento de combate em campo com arma
-      ontem, hoje faremos o treino f\xEDsico."
-    time: 4
-    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
-  - dialogName: Dialog Line 02
-    text: "Podemos come\xE7ar?"
-    time: 1.5
-    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
-  - dialogName: Dialog Line 03
-    text: Sim!
-    time: 1
-    dialogColor: {r: 1, g: 1, b: 1, a: 0}
-  - dialogName: Dialog Line 04
-    text: "V\xE1 at\xE9 a esteira."
-    time: 1.5
-    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
-  - dialogName: Dialog Line 05
-    text: "Vamos come\xE7ar na velocidade baixa, afim de treinar uma movimenta\xE7\xE3o
-      discreta."
+    text: "Seus sinais vitais indicam que voc\xEA est\xE1 estressada. "
     time: 3
     dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}

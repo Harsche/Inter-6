@@ -1,0 +1,16 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#61C0FF>Muito bom! Seus sinais vitais indicam que você mantém um ótimo desempenho físico.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>É o suficiente de caminhada por hoje, Tessa. Vamos para a cama elástica.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Certo.</color>",
+            "time": 1.0
+        }
+    ]
+}
