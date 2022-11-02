@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b484b8e4b6ebe245a56f84d6e61b86d, type: 3}
   m_Name: Dialog Generator
   m_EditorClassIdentifier: 
-  dialogName: Tutorial_Corredores_002
+  dialogName: OIHSFoishfas
   dialogs:
   - dialogName: Dialog Line 01
     text: "Seus sinais vitais indicam que voc\xEA est\xE1 estressada. "
+    time: 3
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
+  - dialogName: Dialog Line 02
+    text: 'adpfjdopfj
+
+      pdof'
     time: 3
     dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
