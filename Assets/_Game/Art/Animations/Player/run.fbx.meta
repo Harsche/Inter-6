@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 76264bcb2b5ac704f888f27086921962
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 6200578666267062213
+    second: TessaRun
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'run' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'personagemfesor:meiope_E' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'personagemfesor:cintura'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'personagemfesor:calcanhar_D'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TessaRun
+      takeName: run
+      internalID: 0
+      firstFrame: 70
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 69.840004
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: personagemfesor:bacia
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:femur_E
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:femur_D
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:joelho_E
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:joelho_D
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:calcanhar_E
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meiope_D
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:vertebracoluna_1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:vertebracoluna_2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:vertebra_pescoco_2
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:cabeca
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:clavicula_E
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:clavicula_D
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:ombro_E
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:ombro_D
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:cotovelo_E
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:cutuvelo_D
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:pulso_E
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:pulso_D
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:pontadope_E
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:pontadope_D
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:ponta_cabeca
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_dedao_E
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meio_dedao_E
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:ponta_dedao_E
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_indicador_E
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meio_indicador_E
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:antiponta_indicador_E
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_dedomeio_E
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meio_dedomeio_E
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:antiponta_dedomeio_E
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_anelar_E
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meio_anelar_E
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:antiponta_anelar_E
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_dedinho_E
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meio_dedidnho_E
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:antiponta_dedinho_E
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_dedinho_D
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meio_dedidnho_D
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:antiponta_dedinho_D
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_indicador_D
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meio_indicador_D
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:antiponta_indicador_D
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_anelar_D
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meio_anelar_D
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:antiponta_anelar_D
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_dedomeio_D
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:meio_dedomeio_D
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:antiponta_dedomeio_D
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: personagemfesor:base_pescoco
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: run(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:bacia
+      parentName: run(Clone)
+      position: {x: 0.00012016968, y: 0.045569003, z: 0.0027345954}
+      rotation: {x: 0.72757924, y: 0.22573607, z: 0.26790422, w: 0.5898297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:femur_E
+      parentName: personagemfesor:bacia
+      position: {x: -0.005140866, y: 0, z: -2.4980017e-18}
+      rotation: {x: -0.068454, y: 0.40435848, z: -0.118848145, w: 0.90425855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:joelho_E
+      parentName: personagemfesor:femur_E
+      position: {x: -0.018051459, y: 9.714452e-19, z: -3.512815e-19}
+      rotation: {x: 0.0024555416, y: 0.027589425, z: 0.18112922, w: 0.9830692}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:calcanhar_E
+      parentName: personagemfesor:joelho_E
+      position: {x: -0.024535531, y: -2.220446e-18, z: 1.3877787e-19}
+      rotation: {x: 0.018374652, y: -0.012623236, z: -0.80745447, w: 0.5895086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meiope_E
+      parentName: personagemfesor:calcanhar_E
+      position: {x: -0.0051014284, y: -1.279136e-18, z: 5.551115e-19}
+      rotation: {x: 0.9812719, y: -0.19262792, z: 1.17950546e-17, w: -6.008558e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:pontadope_E
+      parentName: personagemfesor:meiope_E
+      position: {x: -0.003324609, y: 1.110223e-18, z: -5.551115e-19}
+      rotation: {x: 0.96966386, y: -0.24444218, z: 1.4967767e-17, w: -5.9374786e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:cintura
+      parentName: personagemfesor:bacia
+      position: {x: 0.0025660794, y: -1.2605157e-10, z: -0.0033120024}
+      rotation: {x: 0.022840446, y: 0.91303104, z: -0.04771868, w: -0.4044449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:vertebracoluna_1
+      parentName: personagemfesor:cintura
+      position: {x: -0.004382463, y: -2.3952448e-10, z: -2.1109298e-11}
+      rotation: {x: 0.0342328, y: -0.0017736906, z: 0.0517128, w: 0.9980735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:vertebracoluna_2
+      parentName: personagemfesor:vertebracoluna_1
+      position: {x: -0.0043335883, y: 3.4915998e-12, z: -3.0615212e-11}
+      rotation: {x: 0.09715897, y: 0.010825529, z: 0.00030730412, w: 0.99521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_pescoco
+      parentName: personagemfesor:vertebracoluna_2
+      position: {x: -0.004524991, y: 1.6653345e-18, z: 1.8735012e-18}
+      rotation: {x: 8.648022e-17, y: 0.7426566, z: -8.648022e-17, w: 0.66967255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:clavicula_E
+      parentName: personagemfesor:base_pescoco
+      position: {x: -0.0031486521, y: 1.2126673e-10, z: 3.4335377e-12}
+      rotation: {x: 0.12485969, y: -0.062322427, z: -0.056005474, w: 0.98863006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ombro_E
+      parentName: personagemfesor:clavicula_E
+      position: {x: -0.0032509645, y: 0.000014395753, z: 0.0009621502}
+      rotation: {x: 0.14930965, y: 0.015305659, z: 0.0017743957, w: 0.98867047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:cotovelo_E
+      parentName: personagemfesor:ombro_E
+      position: {x: -0.009165723, y: 3.2431776e-11, z: -5.6216984e-12}
+      rotation: {x: 0.03453578, y: -0.010187277, z: -0.032073434, w: 0.9988367}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:pulso_E
+      parentName: personagemfesor:cotovelo_E
+      position: {x: -0.008928231, y: 8.330758e-13, z: -1.0684342e-13}
+      rotation: {x: -0.01380646, y: 0.02759824, z: -0.41455784, w: 0.9094996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_dedao_E
+      parentName: personagemfesor:pulso_E
+      position: {x: -0.002011586, y: 2.6363015e-10, z: -1.0651048e-10}
+      rotation: {x: 0.022326224, y: -0.1361613, z: 0.04570293, w: 0.9893801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_dedao_E
+      parentName: personagemfesor:base_dedao_E
+      position: {x: -0.0016880448, y: -0.00014819957, z: 0.00009130673}
+      rotation: {x: -0.016190283, y: 0.046801902, z: 0.041964106, w: 0.997891}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_dedao_E
+      parentName: personagemfesor:meio_dedao_E
+      position: {x: -0.0008851444, y: 1.11022296e-17, z: -1.7763568e-17}
+      rotation: {x: -0.16222551, y: -0.015338838, z: 0.0025220679, w: 0.9866313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_indicador_E
+      parentName: personagemfesor:pulso_E
+      position: {x: -0.003039732, y: -0.00218331, z: -0.00022121113}
+      rotation: {x: -0.0024112514, y: 0.03288725, z: 0.3866781, w: 0.92162496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_indicador_E
+      parentName: personagemfesor:base_indicador_E
+      position: {x: -0.0012447526, y: 0.00001955538, z: 0.00009571237}
+      rotation: {x: -0.0020797055, y: -0.013975667, z: -0.019866345, w: 0.9997029}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:antiponta_indicador_E
+      parentName: personagemfesor:meio_indicador_E
+      position: {x: -0.001165234, y: -0.000023306779, z: 0.0002096374}
+      rotation: {x: -0.0068696067, y: 0.12508106, z: 0.017204458, w: 0.9919735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_indicador_E
+      parentName: personagemfesor:antiponta_indicador_E
+      position: {x: -0.0006452898, y: -1.4872926e-18, z: 1.03622545e-17}
+      rotation: {x: -0.6441679, y: -0.046344098, z: 0.039153293, w: 0.76247424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_dedomeio_E
+      parentName: personagemfesor:pulso_E
+      position: {x: -0.002491723, y: -0.0027685934, z: -0.000034001427}
+      rotation: {x: -0.017420406, y: 0.037034474, z: 0.40330178, w: 0.91415143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_dedomeio_E
+      parentName: personagemfesor:base_dedomeio_E
+      position: {x: -0.0014515517, y: 0.000010651141, z: 0.00008964641}
+      rotation: {x: 0.001084845, y: -0.006954337, z: -0.006887065, w: 0.99995154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:antiponta_dedomeio_E
+      parentName: personagemfesor:meio_dedomeio_E
+      position: {x: -0.0012307363, y: 0.000015171738, z: 0.00018253978}
+      rotation: {x: 0.0008170941, y: 0.057313703, z: 0.0023502493, w: 0.9983531}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_dedomeio_E
+      parentName: personagemfesor:antiponta_dedomeio_E
+      position: {x: -0.0006979646, y: -8.025888e-19, z: 1.2038891e-17}
+      rotation: {x: -0.7365882, y: -0.021227406, z: 0.014184807, w: 0.6758595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_anelar_E
+      parentName: personagemfesor:pulso_E
+      position: {x: -0.001992442, y: -0.0031641508, z: 0.00034508653}
+      rotation: {x: -0.021182401, y: 0.031719383, z: 0.43032542, w: 0.9018676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_anelar_E
+      parentName: personagemfesor:base_anelar_E
+      position: {x: -0.0012074128, y: 0.000022889008, z: 0.00006926929}
+      rotation: {x: 0.0020968476, y: -0.0062939776, z: -0.0012133707, w: 0.99997723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:antiponta_anelar_E
+      parentName: personagemfesor:meio_anelar_E
+      position: {x: -0.000990483, y: 0.000037286536, z: 0.00014129726}
+      rotation: {x: -0.004460778, y: 0.062815875, z: 0.00289007, w: 0.998011}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_anelar_E
+      parentName: personagemfesor:antiponta_anelar_E
+      position: {x: -0.0006452898, y: 2.2804087e-19, z: -8.08931e-18}
+      rotation: {x: -0.80954736, y: 0.011525459, z: -0.015902491, w: 0.58672595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_dedinho_E
+      parentName: personagemfesor:pulso_E
+      position: {x: -0.0013962088, y: -0.0032154014, z: 0.0007906919}
+      rotation: {x: -0.0052277627, y: 0.030053498, z: 0.44099495, w: 0.896991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_dedidnho_E
+      parentName: personagemfesor:base_dedinho_E
+      position: {x: -0.0008504769, y: 0.000013837352, z: 0.000048802078}
+      rotation: {x: -0.023162812, y: -0.011775766, z: 0.008503911, w: 0.9996263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:antiponta_dedinho_E
+      parentName: personagemfesor:meio_dedidnho_E
+      position: {x: -0.0006914762, y: 0.000048949907, z: 0.00010446474}
+      rotation: {x: -0.017308952, y: 0.044436965, z: -0.0075149653, w: 0.99883395}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_dedinho_E
+      parentName: personagemfesor:antiponta_dedinho_E
+      position: {x: -0.0005688473, y: -2.5905661e-18, z: -1.6170416e-18}
+      rotation: {x: -0.8033986, y: 0.011690302, z: -0.015781708, w: 0.5951176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:vertebra_pescoco_1
+      parentName: personagemfesor:base_pescoco
+      position: {x: 0.00025860613, y: 0.00044542117, z: -0.00244891}
+      rotation: {x: 0.06221981, y: -0.7400456, z: -0.056105226, w: 0.66731817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:vertebra_pescoco_2
+      parentName: personagemfesor:vertebra_pescoco_1
+      position: {x: -0.0015193693, y: 1.110223e-18, z: 3.191891e-18}
+      rotation: {x: 3.0531136e-16, y: 4.996004e-16, z: -0.0042067794, w: 0.9999912}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:cabeca
+      parentName: personagemfesor:vertebra_pescoco_2
+      position: {x: -0.0017571761, y: -8.456122e-11, z: 2.776633e-11}
+      rotation: {x: -0.02049725, y: 0.00842155, z: 0.043640275, w: 0.9988015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_cabeca
+      parentName: personagemfesor:cabeca
+      position: {x: -0.006925683, y: 2.220446e-18, z: -1.02999205e-20}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:clavicula_D
+      parentName: personagemfesor:base_pescoco
+      position: {x: 0.0030817478, y: -1.374598e-10, z: 0.0006456059}
+      rotation: {x: -0.077162266, y: 0.9966754, z: 0.023399115, w: -0.011692164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ombro_D
+      parentName: personagemfesor:clavicula_D
+      position: {x: -0.0032857629, y: 0.0000019017037, z: -0.0010199494}
+      rotation: {x: 0.430807, y: -0.005251981, z: 0.13013491, w: 0.89299643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:cutuvelo_D
+      parentName: personagemfesor:ombro_D
+      position: {x: -0.009165721, y: -2.0602993e-10, z: 3.7876053e-11}
+      rotation: {x: -0.12012796, y: 0.013330155, z: -0.0015922516, w: 0.9926677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:pulso_D
+      parentName: personagemfesor:cutuvelo_D
+      position: {x: -0.008928266, y: -1.8302138e-13, z: -9.563683e-12}
+      rotation: {x: 0.009527851, y: -0.023213523, z: -0.44565803, w: 0.8948516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_dedao_D
+      parentName: personagemfesor:pulso_D
+      position: {x: -0.0020115597, y: -3.6056147e-10, z: -1.651995e-10}
+      rotation: {x: 0.047749225, y: -0.14650886, z: 0.2263347, w: 0.96178365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_dedao_D
+      parentName: personagemfesor:base_dedao_D
+      position: {x: -0.0016438978, y: -0.00018109886, z: -0.00007378451}
+      rotation: {x: 0.022734722, y: -0.036354724, z: 0.045116264, w: 0.9980611}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_dedao_D
+      parentName: personagemfesor:meio_dedao_D
+      position: {x: -0.0008851165, y: -5.476345e-18, z: -5.244019e-18}
+      rotation: {x: 0.015346551, y: -0.16221938, z: 0.9866321, w: -0.0025363893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_indicador_D
+      parentName: personagemfesor:pulso_D
+      position: {x: -0.0030397037, y: -0.0021833605, z: 0.00022121082}
+      rotation: {x: 0.009726566, y: -0.060738314, z: 0.4184239, w: 0.90616655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_indicador_D
+      parentName: personagemfesor:base_indicador_D
+      position: {x: -0.0012738869, y: 0.0000045689267, z: -0.000049231956}
+      rotation: {x: -0.00002881696, y: -0.00787272, z: -0.011999709, w: 0.999897}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:antiponta_indicador_D
+      parentName: personagemfesor:meio_indicador_D
+      position: {x: -0.0011983034, y: -0.00002046677, z: -0.00011862156}
+      rotation: {x: 0.0006846426, y: -0.08020826, z: 0.026270555, w: 0.99643165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_indicador_D
+      parentName: personagemfesor:antiponta_indicador_D
+      position: {x: -0.0006452449, y: -5.454045e-19, z: -7.007236e-18}
+      rotation: {x: 0.0464133, y: -0.6441539, z: 0.762484, w: -0.039111886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_dedomeio_D
+      parentName: personagemfesor:pulso_D
+      position: {x: -0.0024916742, y: -0.0027686157, z: 0.000034042834}
+      rotation: {x: 0.03478869, y: -0.09208565, z: 0.43674004, w: 0.8941858}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_dedomeio_D
+      parentName: personagemfesor:base_dedomeio_D
+      position: {x: -0.0014690591, y: 0.000004589787, z: -0.000025547533}
+      rotation: {x: 0.0014874794, y: -0.008555838, z: -0.00947121, w: 0.99991745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:antiponta_dedomeio_D
+      parentName: personagemfesor:meio_dedomeio_D
+      position: {x: -0.0012172423, y: 0.0000103113825, z: -0.00008630609}
+      rotation: {x: 0.0011491855, y: -0.05963131, z: -0.005107781, w: 0.99820673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_dedomeio_D
+      parentName: personagemfesor:antiponta_dedomeio_D
+      position: {x: -0.0006979998, y: -6.1380927e-19, z: -4.6180865e-18}
+      rotation: {x: -0.021232061, y: 0.7365879, z: -0.67586, w: 0.014172934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_anelar_D
+      parentName: personagemfesor:pulso_D
+      position: {x: -0.0019923719, y: -0.0031641508, z: -0.00034514285}
+      rotation: {x: 0.036463693, y: -0.09617469, z: 0.4816029, w: 0.87033296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_anelar_D
+      parentName: personagemfesor:base_anelar_D
+      position: {x: -0.0012097908, y: 0.000013751997, z: -0.000049211627}
+      rotation: {x: 0.00033037722, y: -0.0036915746, z: -0.0025457377, w: 0.9999899}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:antiponta_anelar_D
+      parentName: personagemfesor:meio_anelar_D
+      position: {x: -0.000988771, y: 0.000028479955, z: -0.00010498046}
+      rotation: {x: 0.0033190977, y: -0.05947709, z: 0.0011608485, w: 0.9982235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_anelar_D
+      parentName: personagemfesor:antiponta_anelar_D
+      position: {x: -0.00064533553, y: 5.1011763e-19, z: -4.75965e-18}
+      rotation: {x: 0.011511724, y: 0.809549, z: -0.58672386, w: -0.015909074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:base_dedinho_D
+      parentName: personagemfesor:pulso_D
+      position: {x: -0.0013961337, y: -0.0032153875, z: -0.00079070416}
+      rotation: {x: 0.19128083, y: -0.23630726, z: 0.28484806, w: 0.9090832}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meio_dedidnho_D
+      parentName: personagemfesor:base_dedinho_D
+      position: {x: -0.00085201394, y: 0.0000128544025, z: -0.000031587795}
+      rotation: {x: 0.024273604, y: 0.0050431015, z: -0.0009375991, w: 0.9996922}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:antiponta_dedinho_D
+      parentName: personagemfesor:meio_dedidnho_D
+      position: {x: -0.0006943899, y: 0.000042368192, z: -0.00007704783}
+      rotation: {x: 0.014883442, y: -0.040164407, z: -0.010148323, w: 0.9990307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:ponta_dedinho_D
+      parentName: personagemfesor:antiponta_dedinho_D
+      position: {x: -0.00056886097, y: 2.5955588e-18, z: 3.283341e-18}
+      rotation: {x: 0.011719636, y: 0.8033798, z: -0.5951438, w: -0.015730835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:femur_D
+      parentName: personagemfesor:bacia
+      position: {x: 0.0012840631, y: -1.9945647e-10, z: 0.0049779257}
+      rotation: {x: -0.16909131, y: 0.42500836, z: -0.086330496, w: 0.8850554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:joelho_D
+      parentName: personagemfesor:femur_D
+      position: {x: -0.018051414, y: 6.9388935e-19, z: -1.4224732e-18}
+      rotation: {x: 0.09348761, y: -0.009776294, z: 0.41783062, w: 0.90364933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:calcanhar_D
+      parentName: personagemfesor:joelho_D
+      position: {x: -0.02453557, y: -7.771561e-18, z: -3.4694467e-19}
+      rotation: {x: -0.0019808016, y: 0.0052134017, z: -0.65601206, w: 0.7547298}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:meiope_D
+      parentName: personagemfesor:calcanhar_D
+      position: {x: -0.0051014265, y: 1.879341e-18, z: 2.7755574e-18}
+      rotation: {x: 0.9885928, y: 0.14289106, z: 0.023907082, w: -0.04116798}
+      scale: {x: 1, y: 1, z: 1}
+    - name: personagemfesor:pontadope_D
+      parentName: personagemfesor:meiope_D
+      position: {x: -0.0033246118, y: 4.078893e-34, z: -3.330669e-18}
+      rotation: {x: 0.24444143, y: 0.96966404, z: -4.440708e-17, w: -7.434252e-17}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

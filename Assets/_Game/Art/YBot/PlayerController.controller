@@ -192,7 +192,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.1
+  m_TransitionDuration: 0.2
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 1
@@ -451,7 +451,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Kick
-  m_Speed: 1
+  m_Speed: 1.8
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 4961650498006259656}
@@ -466,7 +466,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 9d451a76925500745bf71206e0643f60,
+  m_Motion: {fileID: -7907574363611858685, guid: 81512e35e6ee45441b4456c49df1ca4d,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -662,29 +662,29 @@ BlendTree:
   m_Name: WalkingBlendTree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: bf67e282499de2941a382a1aa835d016,
+    m_Motion: {fileID: -3419257869308726280, guid: 0384f9f73395fa8428c8e81ea4ae4dbb,
       type: 3}
     m_Threshold: 0.1
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 0.5
+    m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Velocity
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: bf67e282499de2941a382a1aa835d016,
+    m_Motion: {fileID: -3419257869308726280, guid: 0384f9f73395fa8428c8e81ea4ae4dbb,
       type: 3}
     m_Threshold: 3.05
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 1.8
     m_CycleOffset: 0
     m_DirectBlendParameter: Velocity
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: a3a0f134902914142a2775bcbea608c6,
+    m_Motion: {fileID: 6200578666267062213, guid: 76264bcb2b5ac704f888f27086921962,
       type: 3}
     m_Threshold: 6
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 2.2
     m_CycleOffset: 0
     m_DirectBlendParameter: Velocity
     m_Mirror: 0
@@ -902,7 +902,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.1
+  m_TransitionDuration: 0.2
   m_TransitionOffset: 0
   m_ExitTime: 0.9696356
   m_HasExitTime: 0
