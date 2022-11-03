@@ -118,6 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: {fileID: 11400000, guid: 461f2f48dbbdc1e4b8dafc5f1b0e62b3, type: 2}
   saveManager: {fileID: 11400000, guid: 9dfc029e305e57444b5f0cf4c8ae7a50, type: 2}
+  <PlayerMovement>k__BackingField: {fileID: 8103106970665199693}
 --- !u!1 &8103106970526016924
 GameObject:
   m_ObjectHideFlags: 0

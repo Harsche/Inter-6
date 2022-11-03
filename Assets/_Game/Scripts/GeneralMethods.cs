@@ -14,4 +14,13 @@ public class GeneralMethods : ScriptableObject{
     public void DestroyScriptObject(MonoBehaviour obj){
         Destroy(obj);
     }
+
+    public void SetMouseLocked(bool value){
+        Cursor.visible = !value;
+        Cursor.lockState = value ? CursorLockMode.Locked : CursorLockMode.None;
+    }
+    
+    public void TogglePlayerInput(bool value){
+        Player.Instance.PlayerMovement.stopInput = value;
+    }
 }
