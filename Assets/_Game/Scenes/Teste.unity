@@ -644,6 +644,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3154990853863867473, guid: 520d0cd6d28950347aeb250ecf6f9320,
+        type: 3}
+      propertyPath: m_Height
+      value: 5.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 3154990853863867473, guid: 520d0cd6d28950347aeb250ecf6f9320,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640215897003401085, guid: 520d0cd6d28950347aeb250ecf6f9320,
+        type: 3}
+      propertyPath: m_TagString
+      value: Kickable
+      objectReference: {fileID: 0}
     - target: {fileID: 3640215897003401085, guid: 520d0cd6d28950347aeb250ecf6f9320,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -653,6 +668,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Convex
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701909372605693913, guid: 520d0cd6d28950347aeb250ecf6f9320,
+        type: 3}
+      propertyPath: m_Mass
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4969303020628629934, guid: 520d0cd6d28950347aeb250ecf6f9320,
         type: 3}
@@ -666,6 +686,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5299559313570822204, guid: 520d0cd6d28950347aeb250ecf6f9320,
         type: 3}
+      propertyPath: m_TagString
+      value: Kickable
+      objectReference: {fileID: 0}
+    - target: {fileID: 5299559313570822204, guid: 520d0cd6d28950347aeb250ecf6f9320,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -673,6 +698,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576968775490367878, guid: 520d0cd6d28950347aeb250ecf6f9320,
+        type: 3}
+      propertyPath: m_TagString
+      value: Kickable
       objectReference: {fileID: 0}
     - target: {fileID: 5719938788866535612, guid: 520d0cd6d28950347aeb250ecf6f9320,
         type: 3}
@@ -707,7 +737,7 @@ PrefabInstance:
     - target: {fileID: 6190056366498587441, guid: 520d0cd6d28950347aeb250ecf6f9320,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.961
+      value: 2.46
       objectReference: {fileID: 0}
     - target: {fileID: 6190056366498587441, guid: 520d0cd6d28950347aeb250ecf6f9320,
         type: 3}
@@ -787,9 +817,9 @@ SpringJoint:
   m_GameObject: {fileID: 469085937}
   m_ConnectedBody: {fileID: 2031712978}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -0.4, z: 0}
+  m_Anchor: {x: 0, y: -0.31, z: 0}
   m_AutoConfigureConnectedAnchor: 0
-  m_ConnectedAnchor: {x: -0.010529936, y: 6.6337914, z: 0.019301474}
+  m_ConnectedAnchor: {x: -0.010529936, y: 3.97, z: 0.019301474}
   serializedVersion: 2
   m_Spring: 1000
   m_Damper: 500
@@ -1204,6 +1234,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1228907146130996926, guid: 0e39b4b215d65684888f4a390eb533c0,
+        type: 3}
+      propertyPath: hudRef
+      value: 
+      objectReference: {fileID: 968719274}
     - target: {fileID: 3661430356864344654, guid: 0e39b4b215d65684888f4a390eb533c0,
         type: 3}
       propertyPath: m_Name
@@ -1544,6 +1579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 144229928612900607, guid: d1b9d75de1e920f48ad634285327d444,
+        type: 3}
+      propertyPath: cheat
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 144229928612900607, guid: d1b9d75de1e920f48ad634285327d444,
         type: 3}
@@ -2484,7 +2524,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2556,7 +2596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  m_UsePipelineSettings: 1
+  m_UsePipelineSettings: 0
   m_AdditionalLightsShadowResolutionTier: 2
   m_LightLayerMask: 1
   m_CustomShadowLayers: 0
