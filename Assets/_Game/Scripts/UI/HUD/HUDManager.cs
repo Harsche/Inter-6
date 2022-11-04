@@ -19,7 +19,8 @@ public class HUDManager : MonoBehaviour
     [SerializeField] private Slider sliderLife;
     [SerializeField] private Image lowLifeScreen;
     [SerializeField] private Image damageScreen;
-    [SerializeField] private Image gameOverScreen;
+    [SerializeField] private GameObject gameOverScreen;
+    [SerializeField] private GameObject hudScreen;
 
     private Coroutine staminaCoroutine;
     private Coroutine recargaCoroutine;
@@ -64,6 +65,7 @@ public class HUDManager : MonoBehaviour
         if (playerRef.isDead)
         {
             lowLifeScreen.gameObject.SetActive(false);
+            hudScreen.gameObject.SetActive(false);
             gameOverScreen.gameObject.SetActive(true);
         }
     }
@@ -93,8 +95,6 @@ public class HUDManager : MonoBehaviour
                 recargaCoroutine = StartCoroutine(RecarregaStamina());
             }
         }
-
-        print("stamina" + staminaValue);
     }
 
     IEnumerator ReduzStamina()

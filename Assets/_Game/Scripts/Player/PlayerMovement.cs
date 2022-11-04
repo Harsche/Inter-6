@@ -128,7 +128,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else //velocidade normal de caminhada
         {
-            animator.SetFloat("Velocity", 4f);
+            animator.SetFloat("Velocity", 3.5f);
         }
     }
 

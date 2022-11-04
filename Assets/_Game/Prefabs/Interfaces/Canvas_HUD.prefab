@@ -515,7 +515,7 @@ MonoBehaviour:
   playerRef: {fileID: 0}
   staminaRunReducao: 0.05
   staminaKickReducao: 8
-  lifeReducao: 30
+  lifeReducao: 45
   staminaRecarga: 1
   staminaValue: 30
   playerLife: 100
@@ -524,6 +524,7 @@ MonoBehaviour:
   lowLifeScreen: {fileID: 7988663411439202762}
   damageScreen: {fileID: 8196417654556804590}
   gameOverScreen: {fileID: 0}
+  hudScreen: {fileID: 144229928612900594}
 --- !u!1 &144229929039164215
 GameObject:
   m_ObjectHideFlags: 0

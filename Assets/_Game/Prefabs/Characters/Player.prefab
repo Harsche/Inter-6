@@ -91,12 +91,12 @@ MonoBehaviour:
   cameraRef: {fileID: 1199884251}
   kickRef: {fileID: 1228907146130996926}
   hudRef: {fileID: 0}
-  gravity: -0.2
-  jumpForce: 5.5
-  normalHCollision: 1.8
+  gravity: -0.5
+  jumpForce: 4
+  normalHCollision: 1.6
   crawlingHCollision: 0.8
   deadHCollision: 0
-  normalCollision: {x: 0, y: 0.91, z: 0}
+  normalCollision: {x: 0, y: 0.8, z: 0}
   crawlingCollision: {x: 0, y: 0.37, z: 0}
   deadCollision: {x: 0, y: 0.45, z: 0}
   isKick: 0
