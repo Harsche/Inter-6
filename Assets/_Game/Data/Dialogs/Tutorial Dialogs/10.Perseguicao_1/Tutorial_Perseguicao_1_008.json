@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>É, isso provavelmente vai atrair o Ybot pra cá.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Essa é minha chance de ir para o quarto.</color>",
+            "time": 3.0
+        }
+    ]
+}

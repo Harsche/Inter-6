@@ -1,0 +1,20 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>A porta lá de cima retornava acesso liberado, né?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Hill, me trancar não vai adiantar.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu posso abrir todas essas portas manualmente.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Certo, Tessa.</color>",
+            "time": 2.0
+        }
+    ]
+}

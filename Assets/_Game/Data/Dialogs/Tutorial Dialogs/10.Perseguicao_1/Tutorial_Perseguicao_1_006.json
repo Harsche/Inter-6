@@ -1,0 +1,28 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>VOCÊ ENLOUQUECEU, HILL. </color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>VOCÊ NÃO FOI PROGRAMADA PARA ISSO.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Não fui? Eu controlo todos os YBots nesta nave, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Se eu treino você todas as manhãs, porque não poderia treinar eles?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>Vocês me ensinaram combate corpo a corpo.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#61C0FF>Eu melhorei isso.</color>",
+            "time": 2.0
+        }
+    ]
+}
