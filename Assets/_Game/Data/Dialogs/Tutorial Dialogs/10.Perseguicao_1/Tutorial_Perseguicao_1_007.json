@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Se eu conseguir atrair ele para longe da porta de algum jeito,</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>eu consigo entrar no quarto e pegar meu cartão.</color>",
+            "time": 3.0
+        }
+    ]
+}
