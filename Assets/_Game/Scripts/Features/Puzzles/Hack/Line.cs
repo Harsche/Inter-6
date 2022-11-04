@@ -33,8 +33,8 @@ namespace Puzzles.Hack{
             Transform myTransform = transform;
             Vector3 center = myTransform.position + myTransform.right * boxCollider.center.x;
             var colliders = new Collider[2];
-            int size = Physics.OverlapBoxNonAlloc(center, boxCollider.size / 2, colliders, Quaternion.identity,
-                LayerMask.NameToLayer("Puzzle"));
+            int size = Physics.OverlapBoxNonAlloc(center, boxCollider.size / 2, colliders, myTransform.localRotation,
+                LayerMask.GetMask("Puzzle"), QueryTriggerInteraction.Collide);
             if (!CheckForOtherLine(colliders)) return;
             Connected = true;
         }

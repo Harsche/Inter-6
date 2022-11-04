@@ -608,6 +608,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1355422903870449860, guid: 60675776e7adc2d488c90a5f7c3a0551,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355422905289515063, guid: 60675776e7adc2d488c90a5f7c3a0551,
+        type: 3}
+      propertyPath: onSolveEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355422905289515063, guid: 60675776e7adc2d488c90a5f7c3a0551,
+        type: 3}
+      propertyPath: onSolveEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 466946456}
+    - target: {fileID: 1355422905289515063, guid: 60675776e7adc2d488c90a5f7c3a0551,
+        type: 3}
+      propertyPath: onSolveEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355422905289515063, guid: 60675776e7adc2d488c90a5f7c3a0551,
+        type: 3}
+      propertyPath: onSolveEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355422905289515063, guid: 60675776e7adc2d488c90a5f7c3a0551,
+        type: 3}
+      propertyPath: onSolveEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1355422905313946912, guid: 60675776e7adc2d488c90a5f7c3a0551,
         type: 3}
       propertyPath: m_Name
