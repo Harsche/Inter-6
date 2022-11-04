@@ -12,15 +12,107 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b484b8e4b6ebe245a56f84d6e61b86d, type: 3}
   m_Name: Dialog Generator
   m_EditorClassIdentifier: 
-  dialogName: OIHSFoishfas
+  dialogName: Tutorial_003
   dialogs:
   - dialogName: Dialog Line 01
-    text: "Seus sinais vitais indicam que voc\xEA est\xE1 estressada. "
+    text: "Eu me lembro muito bem de ter vindo aqui antes do treino, cumprimentado
+      o \rAF1606 e tomado meu caf\xE9.\r"
     time: 3
-    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
   - dialogName: Dialog Line 02
-    text: 'adpfjdopfj
-
-      pdof'
+    text: "Tessa, h\xE1 dias eu venho notando que voc\xEA tem tido comportamentos
+      inconsistentes."
     time: 3
     dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
+  - dialogName: Dialog Line 03
+    text: "Voc\xEA acha que me deu \ruma ordem, mas n\xE3o disse nada, seus sinais
+      vitais indicam picos de \rcortisol sem justificativas aparentes,"
+    time: 3
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
+  - dialogName: Dialog Line 04
+    text: "o que indica instabilidade emocional. Tem se esquecido de suas tarefas,
+      escutado coisas que n\xE3o existem.\r"
+    time: 3
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
+  - dialogName: Dialog Line 05
+    text: "N\xE3o posso deixar de dizer que isso \xE9 \rextremamente preocupante.
+      Uma falha \rsua pode destruir a miss\xE3o..."
+    time: 3
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
+  - dialogName: Dialog Line 06
+    text: "Tessa, \rprecisa reconhecer o que est\xE1  acontecendo.\r"
+    time: 3
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
+  - dialogName: Dialog Line 07
+    text: "Em caso de... insanidade do  comandante, a recomenda\xE7\xE3o principal
+      \xE9 que eu te oriente para que voc\xEA perceba o que est\xE1 havendo"
+    time: 3
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
+  - dialogName: Dialog Line 08
+    text: "e te \rencaminhe para a hiberna\xE7\xE3o \rcriog\xEAnica. Voc\xEA entende
+      o que quero \rdizer?"
+    time: 3
+    dialogColor: {r: 0.38039216, g: 0.7529412, b: 1, a: 0}
+  - dialogName: Dialog Line 09
+    text: "T\xE1 tentando aplicar o Protocolo de \rInsanidade em mim?"
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 10
+    text: "Olha, Hill. Eu acredito que a pulsa\xE7\xE3o que ouvi hoje cedo tenha
+      te afetado e \rvoc\xEA esteja confusa."
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 11
+    text: "Perdendo ordens, \rmandando os YBots prepararem mais de \ruma vez meu
+      caf\xE9 da manh\xE3.\r"
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 1}
+  - dialogName: Dialog Line 12
+    text: "O AF1606 t\xE1 limpando o ch\xE3o em frente \rao meu quarto desde que
+      sai daqui hoje \rcedo..."
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 13
+    text: "Hill, eu sinto muito, mas se \ras coisas continuarem assim, eu vou \rter
+      que... assumir o controle das \rfun\xE7\xF5es cruciais da nave."
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 14
+    text: "Voc\xEA foi programada para cuidar do \rbem-estar da nave e da tripula\xE7\xE3o,
+      sei \rque est\xE1 tentando fazer seu trabalho,"
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 15
+    text: "mas eu sei que estou perfeitamente \rbem. Uma falha sua tamb\xE9m pode
+      \rdestruir a miss\xE3o."
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 16
+    text: "Entendo, Tessa. Por\xE9m, n\xE3o irei \rpermitir que voc\xEA acesse o
+      computador \rcentral."
+    time: 3
+    dialogColor: {r: 0.3803922, g: 0.75294125, b: 1, a: 1}
+  - dialogName: Dialog Line 17
+    text: "Suas altera\xE7\xF5es naquele \rterminal podem gerar falhas em toda a
+      \rnave, inclusive em mim."
+    time: 3
+    dialogColor: {r: 0.3803922, g: 0.75294125, b: 1, a: 1}
+  - dialogName: Dialog Line 18
+    text: "N\xE3o deixarei \rque nos coloque em risco. Eu sou mais \rcapacitada para
+      manter esta miss\xE3o no \rcurso certo.\r"
+    time: 3
+    dialogColor: {r: 0.3803922, g: 0.75294125, b: 1, a: 1}
+  - dialogName: Dialog Line 19
+    text: "Hill, voc\xEA sabe que n\xE3o preciso da sua \rpermiss\xE3o. N\xE3o se
+      esque\xE7a das leis da \rrob\xF3tica."
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 1}
+  - dialogName: Dialog Line 20
+    text: "Eu vou entrar na sala de \rseguran\xE7a, vou restabelecer conex\xE3o e
+      \rvou aproveitar para ver o que est\xE1 \racontecendo com voc\xEA.\r"
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 1}
+  - dialogName: Dialog Line 21
+    text: "Certo, Tessa.\r"
+    time: 3
+    dialogColor: {r: 0.3803922, g: 0.75294125, b: 1, a: 1}
