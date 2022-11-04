@@ -8,6 +8,7 @@ TagManager:
   - Kickable
   - Interactable
   - HackConnection
+  - Esteira
   layers:
   - Default
   - TransparentFX

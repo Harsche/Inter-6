@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -8,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] CameraMovement cameraRef;
     [SerializeField] KickCheck kickRef;
     [SerializeField] HUDManager hudRef;
+    [SerializeField] FootCheck footRef;
+
+    [SerializeField] GameObject esteiraRef;
 
     [SerializeField] float gravity;
     [SerializeField] float jumpForce;
@@ -22,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 movement;
     private float moveY;
+    public bool esteira = false;
 
     private bool isMoving;
     private bool isCrawl;
@@ -102,6 +108,12 @@ public class PlayerMovement : MonoBehaviour
         Gravity();
 
         Jump();
+
+        if (esteira && footRef)
+        {
+            StartCoroutine(Esteira());
+        }
+        else StopCoroutine(Esteira());
 
         movement.y = moveY;
 
@@ -185,6 +197,13 @@ public class PlayerMovement : MonoBehaviour
     {
         moveY += gravity;
         return moveY;
+    }
+
+    IEnumerator Esteira()
+    {
+        movement += esteiraRef.transform.forward * Time.deltaTime * 60f;
+
+        yield return new WaitForSeconds(0.001f);
     }
 
     private void OnTriggerStay(Collider other)
