@@ -1,5 +1,346 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &526996661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 526996662}
+  - component: {fileID: 526996666}
+  - component: {fileID: 526996665}
+  - component: {fileID: 526996664}
+  - component: {fileID: 526996663}
+  m_Layer: 3
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &526996662
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526996661}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.76, y: 0.97, z: 0.058054525}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1350061212}
+  m_Father: {fileID: 1355422905313946924}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0.02}
+  m_SizeDelta: {x: 0.1, y: 0.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!33 &526996666
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526996661}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &526996665
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526996661}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a14f7451849ab564fa9eb850312b80a1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &526996664
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526996661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &526996663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526996661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bc3f344ed848cd9ac65a5eb69dbc42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canInteract: 1
+  disableOnActivate: 1
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1355422905289515061}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1355422905289515063}
+        m_TargetAssemblyTypeName: Puzzles.Hack.Hack, Assembly-CSharp
+        m_MethodName: RandomizePuzzle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: ddd21ba6f9ad8f54eaf2e804f89c357a, type: 2}
+        m_TargetAssemblyTypeName: GeneralMethods, Assembly-CSharp
+        m_MethodName: SetMouseLocked
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: ddd21ba6f9ad8f54eaf2e804f89c357a, type: 2}
+        m_TargetAssemblyTypeName: GeneralMethods, Assembly-CSharp
+        m_MethodName: TogglePlayerInput
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  outline: {fileID: 1501473741}
+--- !u!1 &1350061211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350061212}
+  - component: {fileID: 1350061214}
+  - component: {fileID: 1350061213}
+  m_Layer: 6
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1350061212
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350061211}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 526996662}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.1, y: 0.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!33 &1350061214
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350061211}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1350061213
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350061211}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1501473741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1501473742}
+  - component: {fileID: 1501473744}
+  - component: {fileID: 1501473743}
+  m_Layer: 6
+  m_Name: Outline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1501473742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501473741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.004, y: -0.01, z: 0.007}
+  m_LocalScale: {x: 0.74641216, y: 0.9968391, z: 0.046473254}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1355422905313946924}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1501473744
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501473741}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1501473743
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501473741}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1355422903384367920
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,7 +442,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903391741621
 GameObject:
@@ -204,7 +545,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903394084690
 GameObject:
@@ -268,7 +609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -313,7 +654,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 1355422905373637326}
   hackPuzzle: {fileID: 1355422905289515063}
-  selectImage: {fileID: 0}
+  selectImage: {fileID: 1355422904487871236}
 --- !u!1 &1355422903542538978
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1355422903542538989
 RectTransform:
   m_ObjectHideFlags: 0
@@ -498,7 +839,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903586553189
 GameObject:
@@ -562,7 +903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -607,7 +948,7 @@ MonoBehaviour:
   - {fileID: 1355422905187782932}
   - {fileID: 0}
   hackPuzzle: {fileID: 1355422905289515063}
-  selectImage: {fileID: 0}
+  selectImage: {fileID: 1355422904508549269}
 --- !u!1 &1355422903717322942
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,7 +1050,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903745294072
 GameObject:
@@ -812,7 +1153,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903808584592
 GameObject:
@@ -915,7 +1256,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903870449854
 GameObject:
@@ -1018,7 +1359,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903876460405
 GameObject:
@@ -1121,7 +1462,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903876812320
 GameObject:
@@ -1224,7 +1565,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903915312779
 GameObject:
@@ -1327,7 +1668,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903930903269
 GameObject:
@@ -1430,7 +1771,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903947748381
 GameObject:
@@ -1533,7 +1874,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903948790115
 GameObject:
@@ -1636,7 +1977,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422903963856736
 GameObject:
@@ -1739,7 +2080,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904010811165
 GameObject:
@@ -1842,7 +2183,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904056955722
 GameObject:
@@ -1945,7 +2286,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904072427239
 GameObject:
@@ -2158,7 +2499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2203,7 +2544,7 @@ MonoBehaviour:
   - {fileID: 1355422903394084702}
   - {fileID: 1355422904670643215}
   hackPuzzle: {fileID: 1355422905289515063}
-  selectImage: {fileID: 0}
+  selectImage: {fileID: 1355422904786754824}
 --- !u!1 &1355422904123300292
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,7 +2795,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904311974193
 GameObject:
@@ -2789,7 +3130,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904334048060
 GameObject:
@@ -2892,7 +3233,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904378467782
 GameObject:
@@ -2995,7 +3336,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904407513796
 GameObject:
@@ -3098,7 +3439,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904437222766
 GameObject:
@@ -3201,7 +3542,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904463692062
 GameObject:
@@ -3304,7 +3645,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904487871480
 GameObject:
@@ -3556,7 +3897,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904508549256
 GameObject:
@@ -3808,7 +4149,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904564008274
 GameObject:
@@ -3994,7 +4335,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904642477897
 GameObject:
@@ -4097,7 +4438,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904646592283
 GameObject:
@@ -4283,7 +4624,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904670643203
 GameObject:
@@ -4347,7 +4688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4392,7 +4733,7 @@ MonoBehaviour:
   - {fileID: 1355422905373637326}
   - {fileID: 1355422905187782932}
   hackPuzzle: {fileID: 1355422905289515063}
-  selectImage: {fileID: 0}
+  selectImage: {fileID: 1355422905001361629}
 --- !u!1 &1355422904687815750
 GameObject:
   m_ObjectHideFlags: 0
@@ -4494,7 +4835,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904688992778
 GameObject:
@@ -4558,7 +4899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4603,7 +4944,7 @@ MonoBehaviour:
   - {fileID: 1355422904670643215}
   - {fileID: 1355422903586553185}
   hackPuzzle: {fileID: 1355422905289515063}
-  selectImage: {fileID: 0}
+  selectImage: {fileID: 1355422904123300289}
 --- !u!1 &1355422904786754831
 GameObject:
   m_ObjectHideFlags: 0
@@ -4854,7 +5195,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904882464872
 GameObject:
@@ -5040,7 +5381,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904947008092
 GameObject:
@@ -5143,7 +5484,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422904964088923
 GameObject:
@@ -5246,7 +5587,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422905001361616
 GameObject:
@@ -5498,7 +5839,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422905078772207
 GameObject:
@@ -5601,7 +5942,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422905165136606
 GameObject:
@@ -5704,7 +6045,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422905181124239
 GameObject:
@@ -5807,7 +6148,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422905187782920
 GameObject:
@@ -5871,7 +6212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5916,7 +6257,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   hackPuzzle: {fileID: 1355422905289515063}
-  selectImage: {fileID: 0}
+  selectImage: {fileID: 1355422904316914193}
 --- !u!1 &1355422905191839008
 GameObject:
   m_ObjectHideFlags: 0
@@ -6101,7 +6442,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422905218934290
 GameObject:
@@ -6162,7 +6503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.64058554, g: 0.44388574, b: 0.7075472, a: 0.4117647}
+  m_Color: {r: 0.73080397, g: 0.5494838, b: 0.7924528, a: 0.4117647}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6280,7 +6621,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422905249016738
 GameObject:
@@ -6383,7 +6724,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422905289515061
 GameObject:
@@ -6401,7 +6742,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1355422905289515060
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6454,14 +6795,38 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: ddd21ba6f9ad8f54eaf2e804f89c357a, type: 2}
         m_TargetAssemblyTypeName: GeneralMethods, Assembly-CSharp
-        m_MethodName: DestroyScriptObject
-        m_Mode: 2
+        m_MethodName: SetMouseLocked
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Nave
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: ddd21ba6f9ad8f54eaf2e804f89c357a, type: 2}
+        m_TargetAssemblyTypeName: GeneralMethods, Assembly-CSharp
+        m_MethodName: TogglePlayerInput
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Door, Assembly-CSharp
+        m_MethodName: UnlockDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1355422905294865653
@@ -6580,6 +6945,8 @@ RectTransform:
   m_Children:
   - {fileID: 1355422905218934301}
   - {fileID: 1355422905289515060}
+  - {fileID: 526996662}
+  - {fileID: 1501473742}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6750,7 +7117,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}
 --- !u!1 &1355422905373637314
 GameObject:
@@ -6814,7 +7181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6859,7 +7226,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   hackPuzzle: {fileID: 1355422905289515063}
-  selectImage: {fileID: 0}
+  selectImage: {fileID: 1355422904072427232}
 --- !u!1 &1355422905411321928
 GameObject:
   m_ObjectHideFlags: 0
@@ -6961,5 +7328,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 0.001}
+  m_Size: {x: 0.01, y: 0.01, z: 0.05}
   m_Center: {x: 0.04, y: 0, z: 0}

@@ -14,6 +14,7 @@ public class CameraMovement : MonoBehaviour
 
     public void CameraMove()
     {
+        if(Player.Instance.PlayerMovement.stopInput) return;
         float finalSensitivity = sensitivityCam * (1 + PlayerPrefs.GetFloat("CameraSensitivity"));
 
         playerRef.Rotate(0, valueCamX * finalSensitivity * Time.deltaTime, 0); //Movimento de camera horizontal

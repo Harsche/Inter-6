@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float normalHCollision = 1.8f;
     [SerializeField] float crawlingHCollision = 0.8f;
     [SerializeField] float deadHCollision = 0f;
+    [SerializeField] float esteiraVel = 100f;
 
     [SerializeField] Vector3 normalCollision = new Vector3(0, 0.91f, 0);
     [SerializeField] Vector3 crawlingCollision = new Vector3(0, 0.37f, 0);
@@ -201,7 +202,7 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator Esteira()
     {
-        movement += esteiraRef.transform.forward * Time.deltaTime * 60f;
+        movement += esteiraRef.transform.forward * (Time.deltaTime * esteiraVel);
 
         yield return new WaitForSeconds(0.001f);
     }

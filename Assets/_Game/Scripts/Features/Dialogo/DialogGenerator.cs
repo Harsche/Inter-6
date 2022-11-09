@@ -23,19 +23,23 @@ namespace GameDialogs{
                 dialog.text = dialog.text.Replace("\r\n", " ");
                 serializeDialog.dialog.Add(new SerializedDialog(dialog.text, dialog.time));
             }
+
             for (int i = 0; i < dialogs.Length; i++){
                 string colorHex = ColorUtility.ToHtmlStringRGB(dialogs[i].dialogColor);
                 serializeDialog.dialog[i].text = $"<color=#{colorHex}>" + serializeDialog.dialog[i].text;
                 serializeDialog.dialog[i].text += "</color>";
             }
+
             File.WriteAllText(path, JsonUtility.ToJson(serializeDialog, true));
+#if UNITY_EDITOR
             AssetDatabase.Refresh();
+#endif
         }
 
         private void UpdateDialogsNames(){
             for (int index = 0; index < dialogs.Length; index++){
                 DialogText dialog = dialogs[index];
-                dialog.dialogName = $"Dialog Line {index+1:00}";
+                dialog.dialogName = $"Dialog Line {index + 1:00}";
             }
         }
     }
@@ -44,7 +48,7 @@ namespace GameDialogs{
     public class SerializeDialog{
         public List<SerializedDialog> dialog = new();
     }
-    
+
     [Serializable]
     public class SerializedDialog{
         public string text;
