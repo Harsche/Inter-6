@@ -1,0 +1,1541 @@
+fileFormatVersion: 2
+guid: c89e2297d95bba84c938e5366b22d7f2
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 11
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: robo(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bacia
+      parentName: robo(Clone)
+      position: {x: 0.09110168, y: 1.0620522, z: -1.1156738e-17}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cintura
+      parentName: bacia
+      position: {x: 2.4424906e-17, y: 0.037947714, z: 0}
+      rotation: {x: 0, y: 0, z: -0.72099257, w: 0.6929428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: coluna_1
+      parentName: cintura
+      position: {x: -0.12254997, y: 0, z: 6.7792734e-34}
+      rotation: {x: 0, y: -0, z: -0.053001437, w: 0.99859446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: coluna_2
+      parentName: coluna_1
+      position: {x: -0.09745003, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.055540994, w: 0.9984564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: coluna_3
+      parentName: coluna_2
+      position: {x: -0.11, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.068179436, w: 0.9976731}
+      scale: {x: 1, y: 1, z: 1}
+    - name: clavicula_D
+      parentName: coluna_3
+      position: {x: -0.061210584, y: 0.005738301, z: -0.06015031}
+      rotation: {x: 0.2776317, y: 0.66715807, z: -0.49697345, w: 0.48045623}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ombro_D
+      parentName: clavicula_D
+      position: {x: 0.13635942, y: 0.0000049777263, z: -0.00000006788199}
+      rotation: {x: 0.02200435, y: -0.0198391, z: 0.09927025, w: 0.99461937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cotuvelo_D
+      parentName: ombro_D
+      position: {x: 0.31263176, y: 0.09428807, z: 0.000000058197855}
+      rotation: {x: -0.011482943, y: 0.07853911, z: 0.14421217, w: 0.9863583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pulso_D
+      parentName: cotuvelo_D
+      position: {x: 0.33475363, y: 0.000001136304, z: 0.00000035970135}
+      rotation: {x: -0.37803745, y: -0.59756815, z: -0.37803745, w: 0.59756815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_anelar_D
+      parentName: pulso_D
+      position: {x: 0.017089166, y: 0.08557534, z: -0.040679168}
+      rotation: {x: 0.37994006, y: 0.5443254, z: 0.40771684, w: 0.6269948}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_anelar_D
+      parentName: base_anelar_D
+      position: {x: 0.023976572, y: 0.0000005210593, z: 0.00000005780253}
+      rotation: {x: -0.0000057000884, y: 0.0012522066, z: 0.0045519844, w: 0.99998885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: antiponta_anelar_D
+      parentName: meio_anelar_D
+      position: {x: 0.02405658, y: -0.00000039429503, z: -0.00000006026403}
+      rotation: {x: -3.3306693e-16, y: -2.7755578e-16, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_anelar_D
+      parentName: antiponta_anelar_D
+      position: {x: 0.0164591, y: -0.00000042848183, z: 0.000000013279642}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_dedao_D
+      parentName: pulso_D
+      position: {x: -0.028368482, y: 0.04901114, z: -0.02591034}
+      rotation: {x: 0.33285818, y: 0.6304273, z: 0.50051016, w: 0.49117866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_dedao_D
+      parentName: base_dedao_D
+      position: {x: 0.028580608, y: -0.0000006980939, z: 0.0000003294756}
+      rotation: {x: 6.4011296e-16, y: 2.0122792e-16, z: -0.0012581085, w: 0.9999992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_dedao_D
+      parentName: meio_dedao_D
+      position: {x: 0.021667331, y: -0.000000052023857, z: -0.00000008115269}
+      rotation: {x: -0.42652008, y: -0.56398636, z: -0.42652008, w: 0.56398636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_dedidnho_D
+      parentName: pulso_D
+      position: {x: 0.029877124, y: 0.082897276, z: -0.040107764}
+      rotation: {x: 0.38598028, y: 0.53491104, z: 0.40200335, w: 0.63504547}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_dedinho_D
+      parentName: base_dedidnho_D
+      position: {x: 0.021683035, y: 0.00000015436198, z: 0.000000019906507}
+      rotation: {x: -0.0000057000884, y: 0.0012522066, z: 0.0045519844, w: 0.99998885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: antiponta_dedinho_D
+      parentName: meio_dedinho_D
+      position: {x: 0.020049328, y: 0.00000041794695, z: 0.00000010025234}
+      rotation: {x: 1.1102232e-16, y: -1.1102232e-16, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_deidinho_D
+      parentName: antiponta_dedinho_D
+      position: {x: 0.013767985, y: -0.00000017897025, z: -0.00000009358232}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_dedomeio_D
+      parentName: pulso_D
+      position: {x: 0.0015508381, y: 0.08671311, z: -0.041841}
+      rotation: {x: 0.3793136, y: 0.54528743, z: 0.4082997, w: 0.62615824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_deodo_meio_D
+      parentName: base_dedomeio_D
+      position: {x: 0.027195511, y: 0.00000038490668, z: 0.0000000494126}
+      rotation: {x: 0.000049458562, y: -0.010865154, z: 0.004551719, w: 0.9999306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: antiponta_dedomeio_D
+      parentName: meio_deodo_meio_D
+      position: {x: 0.025900014, y: -0.00000036901787, z: -0.000000037368295}
+      rotation: {x: 9.631126e-35, y: 5.551116e-17, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_dedomeio_D
+      parentName: antiponta_dedomeio_D
+      position: {x: 0.016458718, y: 0.0000008968595, z: 0.0000000109118}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_indicador_D
+      parentName: pulso_D
+      position: {x: -0.012537522, y: 0.08831848, z: -0.04353364}
+      rotation: {x: 0.36580774, y: 0.56540126, z: 0.42044282, w: 0.6080576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_indicador_D
+      parentName: base_indicador_D
+      position: {x: 0.023487004, y: 0.000000154262, z: 0.000000089474796}
+      rotation: {x: 0.000049458562, y: -0.010865154, z: 0.004551719, w: 0.9999306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: antiponta_indicador_D
+      parentName: meio_indicador_D
+      position: {x: 0.022715034, y: -0.00000020718234, z: -0.000000035550325}
+      rotation: {x: 5.551116e-17, y: 3.8524504e-34, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_indicador_D
+      parentName: antiponta_indicador_D
+      position: {x: 0.016459662, y: -0.0000001958222, z: -0.000000008006407}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: clavicula_E
+      parentName: coluna_3
+      position: {x: -0.06120598, y: 0.0057401983, z: 0.060150344}
+      rotation: {x: 0.667158, y: -0.27763173, z: -0.4804562, w: -0.49697348}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ombro_E
+      parentName: clavicula_E
+      position: {x: -0.13636097, y: -0.0000000026176912, z: 0.0000000010168312}
+      rotation: {x: 0.018873477, y: -0.022837969, z: 0.24336, w: 0.96948344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cotuvelo_E
+      parentName: ombro_E
+      position: {x: -0.32654363, y: -5.471179e-15, z: 8.548717e-17}
+      rotation: {x: 0.00010182183, y: 0.07937405, z: -0.0012787618, w: 0.9968441}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pulso_E
+      parentName: cotuvelo_E
+      position: {x: -0.33475074, y: -3.126388e-15, z: -3.1752377e-16}
+      rotation: {x: -0.37803745, y: -0.59756815, z: -0.37803745, w: 0.59756815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_anelar_E
+      parentName: pulso_E
+      position: {x: -0.017089183, y: -0.085576065, z: 0.040679295}
+      rotation: {x: 0.37994006, y: 0.5443254, z: 0.40771684, w: 0.6269947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_anelar_E
+      parentName: base_anelar_E
+      position: {x: -0.023975994, y: 3.907985e-16, z: 6.1062266e-18}
+      rotation: {x: -0.0000057000884, y: 0.0012522066, z: 0.0045519844, w: 0.99998885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: antiponta_anelar_E
+      parentName: meio_anelar_E
+      position: {x: -0.024056612, y: -1.9539925e-16, z: -3.0531134e-17}
+      rotation: {x: -1.1102232e-16, y: 2.775558e-17, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_anelar_E
+      parentName: antiponta_anelar_E
+      position: {x: -0.01645939, y: 1.0151602e-16, z: -1.1359878e-16}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_dedao_E
+      parentName: pulso_E
+      position: {x: 0.028368419, y: -0.049011827, z: 0.025911022}
+      rotation: {x: 0.33285818, y: 0.6304273, z: 0.50051016, w: 0.49117866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_dedao_E
+      parentName: base_dedao_E
+      position: {x: -0.028579736, y: -3.907985e-16, z: 1.4654943e-16}
+      rotation: {x: -3.8302694e-15, y: -1.6653345e-16, z: -0.0012581085, w: 0.9999992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_dedao_E
+      parentName: meio_dedao_E
+      position: {x: -0.021667607, y: 9.321537e-17, z: 1.5291633e-17}
+      rotation: {x: -0.42652008, y: -0.56398636, z: -0.42652008, w: 0.56398636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_dedidnho_E
+      parentName: pulso_E
+      position: {x: -0.029877234, y: -0.082898065, z: 0.040107828}
+      rotation: {x: 0.38598028, y: 0.53491104, z: 0.40200335, w: 0.63504547}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_dedinho_E
+      parentName: base_dedidnho_E
+      position: {x: -0.021682695, y: 1.9539925e-16, z: 2.4424906e-17}
+      rotation: {x: -0.0000057000884, y: 0.0012522066, z: 0.0045519844, w: 0.99998885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: antiponta_dedinho_E
+      parentName: meio_dedinho_E
+      position: {x: -0.020049121, y: 5.8619773e-16, z: 3.6637358e-17}
+      rotation: {x: -8.3266733e-17, y: 1.1102232e-16, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_deidinho_E
+      parentName: antiponta_dedinho_E
+      position: {x: -0.013768706, y: 7.375177e-17, z: -1.2428765e-16}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_dedomeio_E
+      parentName: pulso_E
+      position: {x: -0.001550842, y: -0.08671377, z: 0.041840807}
+      rotation: {x: 0.3793136, y: 0.5452875, z: 0.4082997, w: 0.62615824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_deodo_meio_E
+      parentName: base_dedomeio_E
+      position: {x: -0.027195435, y: 5.8619773e-16, z: 2.4424906e-17}
+      rotation: {x: 0.000049458562, y: -0.010865154, z: 0.004551719, w: 0.9999306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: antiponta_dedomeio_E
+      parentName: meio_deodo_meio_E
+      position: {x: -0.025899842, y: -7.81597e-16, z: -6.106227e-17}
+      rotation: {x: 5.551116e-17, y: 1.3877789e-16, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_dedomeio_E
+      parentName: antiponta_dedomeio_E
+      position: {x: -0.01645939, y: 1.0151602e-16, z: -1.1359878e-16}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_indicador_E
+      parentName: pulso_E
+      position: {x: 0.0125374235, y: -0.08831913, z: 0.0435344}
+      rotation: {x: 0.36580774, y: 0.56540126, z: 0.42044282, w: 0.6080576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meio_indicador_E
+      parentName: base_indicador_E
+      position: {x: -0.023486624, y: 0, z: -6.1062266e-18}
+      rotation: {x: 0.000049458562, y: -0.010865154, z: 0.004551719, w: 0.9999306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: antiponta_indicador_E
+      parentName: meio_indicador_E
+      position: {x: -0.022715002, y: 0, z: 7.3274716e-17}
+      rotation: {x: 1.9428904e-16, y: 8.3266733e-17, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_indicador_E
+      parentName: antiponta_indicador_E
+      position: {x: -0.01645939, y: 1.0151602e-16, z: -1.1359878e-16}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pescoco
+      parentName: coluna_3
+      position: {x: -0.13983804, y: -3.907985e-16, z: 1.5253365e-33}
+      rotation: {x: 0, y: -0, z: -0.026947828, w: 0.9996369}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cabeca
+      parentName: pescoco
+      position: {x: -0.075310275, y: 4.8849814e-16, z: 2.7117093e-33}
+      rotation: {x: 0, y: 0, z: 0.1592366, w: 0.9872405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ponta_cabeca
+      parentName: cabeca
+      position: {x: -0.12836516, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: femuor_D
+      parentName: bacia
+      position: {x: 0.000899482, y: -0.026451785, z: -0.09303602}
+      rotation: {x: 0.654199, y: -0.6009882, z: -0.31406298, w: 0.33496463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joelho_D
+      parentName: femuor_D
+      position: {x: 0.4103406, y: -0.00000037484975, z: -0.00000004324151}
+      rotation: {x: -0.4880213, y: -0.51169837, z: -0.4880213, w: 0.51169837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: calcanhar_D
+      parentName: joelho_D
+      position: {x: 0.06270476, y: 0.55870616, z: 0.01119945}
+      rotation: {x: 0.0033249592, y: 0.018807998, z: -0.035143334, w: 0.99919975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meiope_D
+      parentName: calcanhar_D
+      position: {x: -0.09376229, y: 0.0076453253, z: -0.0713735}
+      rotation: {x: 0.0015932734, y: -0.30400735, z: 0.0042584, w: 0.95265883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pontape_D
+      parentName: meiope_D
+      position: {x: -0.052961152, y: 0.00445632, z: 0.00132033}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: femuor_E
+      parentName: bacia
+      position: {x: 0.00089950627, y: -0.026451621, z: 0.09303601}
+      rotation: {x: 0.60585403, y: 0.6585546, z: 0.32616946, w: 0.3047298}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joelho_E
+      parentName: femuor_E
+      position: {x: -0.41034088, y: 5.5313826e-17, z: 0}
+      rotation: {x: -0.4880213, y: -0.51169837, z: -0.4880213, w: 0.51169837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: calcanhar_E
+      parentName: joelho_E
+      position: {x: -0.0627047, y: -0.55870605, z: -0.011199128}
+      rotation: {x: 0.0033249592, y: 0.018807998, z: -0.035143334, w: 0.99919975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: meiope_E
+      parentName: calcanhar_E
+      position: {x: 0.09167263, y: -0.0076188934, z: 0.074040905}
+      rotation: {x: 0.0016649609, y: -0.317684, z: 0.004449963, w: 0.9481848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pontape_E
+      parentName: meiope_E
+      position: {x: 0.052961152, y: -0.0044563157, z: -0.0013203712}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controle_geral
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: controle_geral
+      parentName: GRP_controle_geral
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador__calcanhar_D
+      parentName: controle_geral
+      position: {x: -0.08545427, y: 0.08521029, z: -0.106895685}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 0.47726092, y: 0.47726092, z: 0.47726092}
+    - name: controlador__calcanhar_D
+      parentName: GRP_controlador__calcanhar_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_meiope_D
+      parentName: controlador__calcanhar_D
+      position: {x: 0.05570518, y: -9.7699626e-17, z: -0.24967852}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.84605044, y: 0.84605044, z: 0.8747201}
+    - name: controlador_meiope_D
+      parentName: GRP_controlador_meiope_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador__calcanhar_E
+      parentName: controle_geral
+      position: {x: -0.08545431, y: 0.085210286, z: 0.106895745}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 0.3617544, y: 0.3617544, z: 0.3617544}
+    - name: controlador__calcanhar_E
+      parentName: GRP_controlador__calcanhar_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_meiope_E
+      parentName: controlador__calcanhar_E
+      position: {x: 0.07349159, y: 0, z: -0.3293998}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.1413119, y: 1.1413119, z: 1.2909158}
+    - name: controlador_meiope_E
+      parentName: GRP_controlador_meiope_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_bacia
+      parentName: controle_geral
+      position: {x: -0.09110168, y: 1.0620522, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.8721259}
+    - name: controlador_bacia
+      parentName: GRP_controlador_bacia
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_cintura
+      parentName: controlador_bacia
+      position: {x: 1.2212453e-17, y: 0.03794772, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.5341521}
+    - name: controlador_cintura
+      parentName: GRP_controlador_cintura
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_cintura2
+      parentName: controlador_cintura
+      position: {x: 0.0048604007, y: 0.12245359, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: controlador_cintura2
+      parentName: GRP_controlador_cintura2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_base_pescoco
+      parentName: controlador_cintura2
+      position: {x: 0.09569064, y: 0.3319681, z: 0}
+      rotation: {x: 0, y: -0, z: -0.25969443, w: 0.96569085}
+      scale: {x: 0.79195535, y: 0.79195535, z: 0.79195535}
+    - name: controlador_base_pescoco
+      parentName: GRP_controlador_base_pescoco
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_cabeca
+      parentName: controlador_base_pescoco
+      position: {x: -0.007427077, y: 0.094803624, z: 0}
+      rotation: {x: 0, y: 0, z: 0.11380521, w: 0.9935031}
+      scale: {x: 1.2626975, y: 1.2626975, z: 1.2626975}
+    - name: controlador_cabeca
+      parentName: GRP_controlador_cabeca
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_clavicula_D
+      parentName: controlador_cintura2
+      position: {x: 0.07085569, y: 0.2571454, z: -0.06015031}
+      rotation: {x: -0.6095281, y: 0, z: -0, w: 0.7927644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: controlador_claviculaD
+      parentName: GRP_controlador_clavicula_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_ombro_D
+      parentName: controlador_claviculaD
+      position: {x: 0.0065883077, y: 0.13471876, z: 0.020033505}
+      rotation: {x: 0.88224417, y: -0, z: 0, w: 0.4707921}
+      scale: {x: 0.7189135, y: 0.7189135, z: 0.7189135}
+    - name: controlador_ombro_D
+      parentName: GRP_controlador_ombro_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0, z: -0, w: 0.8660254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_cotuvelo_D
+      parentName: controlador_ombro_D
+      position: {x: -0.0049344846, y: -0.41661382, z: 0.18088435}
+      rotation: {x: -0.1334212, y: -0.01166089, z: 0.13939424, w: 0.98113817}
+      scale: {x: 0.94721204, y: 0.94721204, z: 0.94721204}
+    - name: controlador_cotuvelo_D
+      parentName: GRP_controlador_cotuvelo_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_pulso_D
+      parentName: controlador_cotuvelo_D
+      position: {x: -0.056258917, y: -0.48338673, z: 0.06950627}
+      rotation: {x: 0, y: -0, z: -0.06753837, w: 0.9977167}
+      scale: {x: 0.4946113, y: 0.4946113, z: 0.4946113}
+    - name: controlador_pulso_D
+      parentName: GRP_controlador_pulso_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_alenarB_D
+      parentName: controlador_pulso_D
+      position: {x: -0.045334175, y: -0.27922115, z: 0.04117682}
+      rotation: {x: -0.11105085, y: 0.005687929, z: -0.05083487, w: 0.99249744}
+      scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
+    - name: controlador_anelarB_D
+      parentName: GRP_controlador_alenarB_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_alenarM_D
+      parentName: controlador_anelarB_D
+      position: {x: 0.017249461, y: -0.37311533, z: -0.004913775}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_anelarM_D
+      parentName: GRP_controlador_alenarM_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_alenarP_D
+      parentName: controlador_anelarM_D
+      position: {x: 0.018604193, y: -0.37434694, z: -0.00268678}
+      rotation: {x: 0, y: 0, z: 0.02340372, w: 0.9997261}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_anelarP_D
+      parentName: GRP_controlador_alenarP_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_dedaoB_D
+      parentName: controlador_pulso_D
+      position: {x: 0.087091, y: -0.16255535, z: 0.013320425}
+      rotation: {x: 0.0968416, y: -0.6555658, z: 0.21526697, w: 0.7172973}
+      scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
+    - name: controlador_dedaoB_D
+      parentName: GRP_controlador_dedaoB_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_dedaoM_D
+      parentName: controlador_dedaoB_D
+      position: {x: 0.044012334, y: -0.43934515, z: 0.0395997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_dedaoM_D
+      parentName: GRP_dedaoM_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_dedomeioB_D
+      parentName: controlador_pulso_D
+      position: {x: 0.00080314407, y: -0.2832722, z: 0.038618382}
+      rotation: {x: -0.11129857, y: 0.0068885605, z: -0.031947237, w: 0.9932495}
+      scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
+    - name: controlador_dedomeioB_D
+      parentName: GRP_controlador_dedomeioB_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_dedomeioM_D
+      parentName: controlador_dedomeioB_D
+      position: {x: 0.004821475, y: -0.42362267, z: -0.0058789025}
+      rotation: {x: 0.03726805, y: -0, z: -0, w: 0.9993053}
+      scale: {x: 1, y: 0.9968657, z: 0.6865}
+    - name: controlador_dedomeioM_D
+      parentName: GRP_controlador_dedomeioM_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_dedomeioP_D
+      parentName: controlador_dedomeioM_D
+      position: {x: -0.003728417, y: -0.40152666, z: 0.0275185}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_dedomeioP_D
+      parentName: GRP_controlador_dedomeioP_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_indicadorB_D
+      parentName: controlador_pulso_D
+      position: {x: 0.042649444, y: -0.2894133, z: 0.03565637}
+      rotation: {x: -0.09105671, y: 0.00993181, z: 0.008131306, w: 0.995763}
+      scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
+    - name: controlador_indicadorB_D
+      parentName: GRP_controlador_indicadorB_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_indicadorM_D
+      parentName: controlador_indicadorB_D
+      position: {x: -0.0016801652, y: -0.3659214, z: 0.0031722223}
+      rotation: {x: 0, y: -0, z: -0.013139271, w: 0.9999137}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_indicadorM_D
+      parentName: GRP_controlador_indicadorM_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_indicadorP_D
+      parentName: controlador_indicadorM_D
+      position: {x: 0.003573836, y: -0.3489149, z: -0.015420276}
+      rotation: {x: 0, y: 0.00938368, z: -0, w: 0.999956}
+      scale: {x: 0.99980015, y: 1, z: 0.68448514}
+    - name: controlador_indicadorp_D
+      parentName: GRP_controlador_indicadorP_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_mindinhoB_D
+      parentName: controlador_pulso_D
+      position: {x: -0.08348605, y: -0.27220765, z: 0.039478138}
+      rotation: {x: -0.10937509, y: 0.03730202, z: -0.054346703, w: 0.9918125}
+      scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
+    - name: controlador_mindinhoB_D
+      parentName: GRP_controlador_mindinhoB_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_mindinhoM_D
+      parentName: controlador_mindinhoB_D
+      position: {x: 0.0059161405, y: -0.33775723, z: -0.0034611681}
+      rotation: {x: 0, y: -0.021818243, z: -0, w: 0.99976194}
+      scale: {x: 0.99892145, y: 1, z: 0.68508726}
+    - name: controlador_mindinhoM_D
+      parentName: GRP_controlador_mindinhoM_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_mindinhoP_D
+      parentName: controlador_mindinhoM_D
+      position: {x: 0.0062426026, y: -0.31232104, z: -0.0015520355}
+      rotation: {x: 0, y: 0, z: 0.02234651, w: 0.9997503}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_mindinhoP_D
+      parentName: GRP_controlador_mindinhoP_D
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_claviculaE
+      parentName: controlador_cintura2
+      position: {x: 0.070855685, y: 0.2571405, z: 0.060150344}
+      rotation: {x: -0.7762702, y: 0, z: -0, w: 0.63040036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: controlador_claviculaE
+      parentName: GRP_controlador_claviculaE
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_ombro_E
+      parentName: controlador_claviculaE
+      position: {x: 0.0065883156, y: -0.13346322, z: 0.027174912}
+      rotation: {x: 0.8967136, y: 0, z: 0, w: -0.4426112}
+      scale: {x: 0.6809635, y: 0.6809635, z: 0.6809635}
+    - name: controlador_ombro_E
+      parentName: GRP_controlador_ombro_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0, z: -0, w: 0.8660254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_cotuvelo_E
+      parentName: controlador_ombro_E
+      position: {x: -0.0052095028, y: 0.43787354, z: 0.19542333}
+      rotation: {x: 0.15130824, y: 0.007817738, z: -0.15342869, w: 0.9764755}
+      scale: {x: 1, y: 1, z: 1}
+    - name: controlador_cotuvelo_E
+      parentName: GRP_controlador_cotuvelo_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_pulso_E
+      parentName: controlador_cotuvelo_E
+      position: {x: -0.07498772, y: 0.48247212, z: 0.057028815}
+      rotation: {x: 0.100083046, y: 0.014381304, z: 0.1415039, w: 0.9847605}
+      scale: {x: 0.5112668, y: 0.5112668, z: 0.5112668}
+    - name: controlador_pulso_E
+      parentName: GRP_controlador_pulso_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_anelarB_E
+      parentName: controlador_pulso_E
+      position: {x: -0.013282947, y: 0.275135, z: -0.024558928}
+      rotation: {x: 0.9995258, y: -0.021840932, z: -0.007805278, w: -0.020255659}
+      scale: {x: 0.18434384, y: 0.18434384, z: 0.18434384}
+    - name: controlador_anelarB_E
+      parentName: GRP_controlador_anelarB_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_anelarM_E
+      parentName: controlador_anelarB_E
+      position: {x: 0.004226652, y: -0.37271422, z: 0.017092459}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_anelarM_E
+      parentName: GRP_controlador_anelarM_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_anelarP_E
+      parentName: controlador_anelarM_E
+      position: {x: 0.005374822, y: -0.37416244, z: 0.014859085}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_anelarP_E
+      parentName: GRP_controlador_anelarP_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_dedaoB_E
+      parentName: controlador_pulso_E
+      position: {x: 0.10156415, y: 0.14611088, z: -0.018237349}
+      rotation: {x: 0.95001394, y: -0.3114519, z: -0.013356378, w: -0.01711202}
+      scale: {x: 0.18434384, y: 0.18434384, z: 0.18434384}
+    - name: controlador_dedaoB_E
+      parentName: GRP_controlador_dedaoB_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_dedaoM_E
+      parentName: controlador_dedaoB_E
+      position: {x: -0.09143198, y: -0.4356379, z: -0.008559582}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_dedaoM_E
+      parentName: GRP_controlador_dedaoM_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_dedomeioB_E
+      parentName: controlador_pulso_E
+      position: {x: 0.030180937, y: 0.27324903, z: -0.025276331}
+      rotation: {x: 0.99877656, y: -0.04443172, z: -0.008261205, w: -0.020074027}
+      scale: {x: 0.18434384, y: 0.18434384, z: 0.18434384}
+    - name: controlador_dedomeioB_E
+      parentName: GRP_controlador_dedomeioB_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_dedomeioM_E
+      parentName: controlador_dedomeioB_E
+      position: {x: -0.0057430575, y: -0.42512697, z: 0.019782301}
+      rotation: {x: 0, y: -0, z: -0.022607092, w: 0.9997444}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_dedomeioM_E
+      parentName: GRP_controlador_dedomeioM_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_dedomeioP_E
+      parentName: controlador_dedomeioM_E
+      position: {x: -0.0027399044, y: -0.40289092, z: 0.01566332}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_dedomeioP_E
+      parentName: GRP_controlador_dedomeioP_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_indicadorB_E
+      parentName: controlador_pulso_E
+      position: {x: 0.07252397, y: 0.2743766, z: -0.027259978}
+      rotation: {x: 0.99877656, y: -0.04443172, z: -0.008261205, w: -0.020074027}
+      scale: {x: 0.18434384, y: 0.18434384, z: 0.18434384}
+    - name: controlador_indicadorB_E
+      parentName: GRP_controlador_indicadorB_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_indicadorM_E
+      parentName: controlador_indicadorB_E
+      position: {x: 0.012567008, y: -0.3648199, z: 0.017676169}
+      rotation: {x: 0, y: 0, z: 0.018680876, w: 0.9998255}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_indicadorM_E
+      parentName: GRP_controlador_indicadorM_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: GRP_controlador_indicadorP_E
+      parentName: controlador_indicadorM_E
+      position: {x: -0.008546453, y: -0.35317743, z: 0.014619342}
+      rotation: {x: 0, y: -0, z: -0.018680876, w: 0.9998255}
+      scale: {x: 1, y: 1, z: 0.68434834}
+    - name: controlador_indicadorP_E
+      parentName: GRP_controlador_indicadorP_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.4612441}
+    - name: pCylinder44
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder78
+      parentName: robo(Clone)
+      position: {x: -0.03305234, y: 0.44468004, z: 0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.1202921, z: 1.2574365}
+    - name: polySurface97
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface98
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface99
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface100
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface101
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface102
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface103
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface104
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface105
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface106
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface107
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.3880752, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface275
+      parentName: polySurface107
+      position: {x: -0, y: -0.11845981, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface276
+      parentName: polySurface107
+      position: {x: -0, y: -0.11845981, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface109
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface110
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface111
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface112
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface113
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface114
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.506535, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface115
+      parentName: pCylinder78
+      position: {x: 0.03305234, y: -0.3880752, z: -0.004275494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface273
+      parentName: polySurface115
+      position: {x: -0, y: -0.11845981, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface274
+      parentName: polySurface115
+      position: {x: -0, y: -0.11845981, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder82
+      parentName: robo(Clone)
+      position: {x: 0.038675122, y: 0.94477224, z: 0.46362022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface283
+      parentName: pCylinder82
+      position: {x: -0.038675122, y: -0.94477224, z: -0.46362022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface284
+      parentName: pCylinder82
+      position: {x: -0.038675122, y: -0.94477224, z: -0.46362022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface12
+      parentName: robo(Clone)
+      position: {x: -0.035247844, y: 0.3223806, z: -0.065244906}
+      rotation: {x: 0, y: -0, z: -0.05077736, w: 0.99871004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface24
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface25
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface30
+      parentName: polySurface12
+      position: {x: -0.07150081, y: 0.72469395, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface257
+      parentName: polySurface30
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface258
+      parentName: polySurface30
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface31
+      parentName: polySurface12
+      position: {x: -0.07150081, y: 0.72469395, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface271
+      parentName: polySurface31
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface272
+      parentName: polySurface31
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface32
+      parentName: polySurface12
+      position: {x: -0.07150081, y: 0.72469395, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface259
+      parentName: polySurface32
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface260
+      parentName: polySurface32
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface33
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface34
+      parentName: polySurface12
+      position: {x: -0.07150081, y: 0.72469395, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface261
+      parentName: polySurface34
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface262
+      parentName: polySurface34
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface35
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface36
+      parentName: polySurface12
+      position: {x: -0.07150081, y: 0.72469395, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface265
+      parentName: polySurface36
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface266
+      parentName: polySurface36
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface37
+      parentName: polySurface12
+      position: {x: -0.07150081, y: 0.72469395, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface267
+      parentName: polySurface37
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface268
+      parentName: polySurface37
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface38
+      parentName: polySurface12
+      position: {x: -0.07150081, y: 0.72469395, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface269
+      parentName: polySurface38
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface270
+      parentName: polySurface38
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface39
+      parentName: polySurface12
+      position: {x: -0.07150081, y: 0.72469395, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface263
+      parentName: polySurface39
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface264
+      parentName: polySurface39
+      position: {x: 0.106748655, y: -1.0470746, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface40
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface46
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface47
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface52
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface60
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface61
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface62
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface63
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface64
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface65
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface66
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface69
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface72
+      parentName: polySurface12
+      position: {x: -0.09728629, y: 1.2081845, z: -0.11291766}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface230
+      parentName: polySurface72
+      position: {x: 0.13253413, y: -1.5305651, z: 0.17816257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface298
+      parentName: polySurface230
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface299
+      parentName: polySurface230
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface76
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface77
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface78
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface79
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface80
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface81
+      parentName: polySurface12
+      position: {x: 0.035247844, y: -0.3223806, z: 0.065244906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface83
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface117
+      parentName: robo(Clone)
+      position: {x: 0.05438809, y: 0.8597955, z: 0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface159
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface160
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface161
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface164
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface166
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface168
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface169
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface192
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface193
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface194
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface201
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface202
+      parentName: polySurface117
+      position: {x: -0.05438809, y: -0.8597955, z: -0.49775904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface146
+      parentName: robo(Clone)
+      position: {x: 0.0060081454, y: 1.2323093, z: -0.3239841}
+      rotation: {x: 0.22038385, y: -0, z: -0, w: 0.97541326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface147
+      parentName: polySurface146
+      position: {x: -0.0060081454, y: -1.1804129, z: 0.17933157}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface228
+      parentName: polySurface147
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface285
+      parentName: polySurface228
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface286
+      parentName: polySurface228
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface149
+      parentName: polySurface146
+      position: {x: -0.0060081454, y: -1.1804129, z: 0.17933157}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface225
+      parentName: polySurface149
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface226
+      parentName: polySurface149
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface148
+      parentName: robo(Clone)
+      position: {x: -0.012114489, y: 1.4595262, z: 0.012804437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface248
+      parentName: polySurface148
+      position: {x: 0.012114489, y: -1.4595262, z: -0.012804437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface296
+      parentName: polySurface248
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface297
+      parentName: polySurface248
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface162
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface163
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface170
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface171
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface172
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface176
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface177
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface178
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface182
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface183
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface184
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface188
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface189
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface195
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface196
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface197
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface203
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface204
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface207
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface209
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface210
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface211
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface215
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface216
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface217
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface223
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface224
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface241
+      parentName: robo(Clone)
+      position: {x: -0.013110704, y: 1.4737566, z: 0.21324164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface295
+      parentName: polySurface241
+      position: {x: 0.013110704, y: -1.4737566, z: -0.21324164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface277
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface280
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface290
+      parentName: robo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 11
+    rootMotionBoneName: bacia
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
