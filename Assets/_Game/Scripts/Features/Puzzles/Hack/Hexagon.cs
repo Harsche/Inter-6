@@ -20,6 +20,7 @@ namespace Puzzles.Hack{
 
         public void ToggleHexagon(bool value){
             Activated = value;
+            gameObject.SetActive(Activated);
             middleCircle.SetActive(Activated);
         }
 
