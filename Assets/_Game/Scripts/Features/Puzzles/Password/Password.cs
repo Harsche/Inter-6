@@ -1,4 +1,3 @@
-using System;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -34,7 +33,7 @@ public class Password : MonoBehaviour{
     }
 
     public void AddNumberToPassword(int number){
-        if(typedPassword.ToString().Length >= 4) return;
+        if (typedPassword.ToString().Length >= 4) return;
         char[] passwordCharArray = passwordText.text.ToCharArray();
         int charAsciiCode = 48 + number;
         for (int index = 0; index < passwordCharArray.Length; index++){
