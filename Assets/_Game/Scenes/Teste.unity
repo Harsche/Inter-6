@@ -3764,6 +3764,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_PasswordAccess
       objectReference: {fileID: 0}
+    - target: {fileID: 3383078390708130253, guid: fcc57b089b6a04148aae10425358de2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcc57b089b6a04148aae10425358de2a, type: 3}
 --- !u!4 &1627712340598886182
