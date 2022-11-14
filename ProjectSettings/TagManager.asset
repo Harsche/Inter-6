@@ -9,6 +9,9 @@ TagManager:
   - Interactable
   - HackConnection
   - Esteira
+  - TrackingObject
+  - PatrulhaInicial
+  - PatrulhaFinal
   layers:
   - Default
   - TransparentFX

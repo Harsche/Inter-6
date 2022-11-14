@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BTAtacarPLayer : BTNode
+public class BTAtacarPlayer : BTNode
 {
     private GameObject alvo = GameObject.FindGameObjectWithTag("Player");
     private Animator npcAnimator;
