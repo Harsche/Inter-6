@@ -10,6 +10,7 @@ public class Password : MonoBehaviour{
     [SerializeField] private Image panel;
     [SerializeField] private TextMeshProUGUI passwordText;
     [SerializeField] private UnityEvent onEnterCorrectPassword;
+    [SerializeField] private UnityEvent onEnterIncorrectPassword;
     private Color panelDefaultColor;
 
     private int typedPassword;
@@ -30,6 +31,7 @@ public class Password : MonoBehaviour{
         bool isPasswordCorrect = typedPassword == password;
         DoPaintPanel(isPasswordCorrect);
         if (isPasswordCorrect) onEnterCorrectPassword?.Invoke();
+        else onEnterIncorrectPassword?.Invoke();
     }
 
     public void AddNumberToPassword(int number){
