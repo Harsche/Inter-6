@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -25,6 +26,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Vector3 normalCollision = new Vector3(0, 0.91f, 0);
     [SerializeField] Vector3 crawlingCollision = new Vector3(0, 0.37f, 0);
     [SerializeField] Vector3 deadCollision = new Vector3(0, 0.45f, 0);
+
+    [SerializeField] private StudioEventEmitter stepsEventEmitter;
+    [SerializeField] private EventReference walkSound;
+    [SerializeField] private EventReference runSound;
 
     private Vector3 movement;
     private float moveY;
@@ -223,5 +228,15 @@ public class PlayerMovement : MonoBehaviour
             levouDano = false;
             animator.SetBool("isDamaged", false);
         }
+    }
+
+    public void PlayWalkSound(){
+        if(stepsEventEmitter.EventReference.Guid != walkSound.Guid) stepsEventEmitter.ChangeEvent(walkSound);
+        stepsEventEmitter.Play();
+    }
+    
+    public void PlayRunSound(){
+        if(stepsEventEmitter.EventReference.Guid != runSound.Guid) stepsEventEmitter.ChangeEvent(runSound);
+        stepsEventEmitter.Play();
     }
 }

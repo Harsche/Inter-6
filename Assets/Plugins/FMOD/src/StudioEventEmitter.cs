@@ -212,7 +212,7 @@ namespace FMODUnity
                 PlayInstance();
             }
         }
-        
+
         private void PlayInstance()
         {
             if (!instance.isValid())
@@ -290,6 +290,12 @@ namespace FMODUnity
             IsActive = false;
             cachedParams.Clear();
             StopInstance();
+        }
+
+        public void ChangeEvent(EventReference eventReference){
+            Stop();
+            EventReference = eventReference;
+            Lookup();
         }
 
         private void StopInstance()

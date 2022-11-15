@@ -1,4 +1,5 @@
 using DG.Tweening;
+using FMODUnity;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -11,6 +12,9 @@ public class Password : MonoBehaviour{
     [SerializeField] private TextMeshProUGUI passwordText;
     [SerializeField] private UnityEvent onEnterCorrectPassword;
     [SerializeField] private UnityEvent onEnterIncorrectPassword;
+    [SerializeField] private StudioEventEmitter eventEmitter;
+    [SerializeField] private EventReference correctSound;
+    [SerializeField] private EventReference incorrectSound;
     private Color panelDefaultColor;
 
     private int typedPassword;
@@ -30,6 +34,9 @@ public class Password : MonoBehaviour{
     public void CheckPassword(){
         bool isPasswordCorrect = typedPassword == password;
         DoPaintPanel(isPasswordCorrect);
+        eventEmitter.ChangeEvent(isPasswordCorrect ? correctSound : incorrectSound);
+        eventEmitter.Stop();
+        eventEmitter.Play();
         if (isPasswordCorrect) onEnterCorrectPassword?.Invoke();
         else onEnterIncorrectPassword?.Invoke();
     }
