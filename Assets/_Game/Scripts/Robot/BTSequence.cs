@@ -9,7 +9,6 @@ public class BTSequence : BTNode
     public override IEnumerator Run(BehaviourTree2 bt)
     {
         status = Status.RUNNING;
-
         Print();
 
         foreach(BTNode child in children)

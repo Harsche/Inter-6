@@ -8,7 +8,9 @@ public class RobotIA : MonoBehaviour
     {
         BTSequence patrulha = new BTSequence();
 
-        patrulha.children.Add(new BTPatrulha());
+        patrulha.children.Add(new BTStunnado());
+        patrulha.children.Add(new BTPatrulhaInicial());
+        patrulha.children.Add(new BTPatrulhaFinal());
 
         BTSequence ataque = new BTSequence();
 

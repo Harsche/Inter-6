@@ -3,17 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class BTPatrulha : BTNode
+public class BTPatrulhaInicial : BTNode
 {
     private GameObject alvo1 = GameObject.FindGameObjectWithTag("PatrulhaInicial");
-    private GameObject alvo2 = GameObject.FindGameObjectWithTag("PatrulhaFinal");
     private GameObject player = GameObject.FindGameObjectWithTag("Player");
     private Animator npcAnimator;
     private NavMeshAgent naveM;
 
     private bool patrulhar;
-    private bool VerificaAlvo1 = false;
-    private bool VerificaAlvo2 = false;
+    public static bool VerificaAlvo1 = false;
 
     public override IEnumerator Run(BehaviourTree2 bt)
     {
@@ -30,39 +28,38 @@ public class BTPatrulha : BTNode
 
         if (patrulhar)
         {
-            if (VerificaAlvo1 == false && bt.transform.position != alvo1.transform.position)
+            if (VerificaAlvo1 == false)
             {
                 bt.transform.LookAt(alvo1.transform.position);
 
                 naveM.SetDestination(alvo1.transform.position);
 
                 npcAnimator.SetBool("isWalking", true);
-
-                VerificaAlvo1 = true;
-                VerificaAlvo2 = false;
             }
-            else if (VerificaAlvo1 == true && VerificaAlvo2 == false && bt.transform.position != alvo2.transform.position)
-            {
-                bt.transform.LookAt(alvo2.transform.position);
+        }
 
-                naveM.SetDestination(alvo2.transform.position);
+        if (bt.transform.position.x == alvo1.transform.position.x)
+        {
+            VerificaAlvo1 = true;
+            BTPatrulhaFinal.VerificaAlvo2 = false;
 
-                VerificaAlvo1 = false;
-                VerificaAlvo2 = true;
-                status = Status.SUCCESS;
-                Print();
-                yield return null;
-            }
+            npcAnimator.SetBool("isWalking", false);
 
-            if (Vector3.Distance(player.transform.position, bt.transform.position) < 4f)
-            {
-                patrulhar = false;
-                npcAnimator.SetBool("isWalking", false);
-                //break;
-            }
+            status = Status.SUCCESS;
+            Print();
+
+            patrulhar = false;
+        }
+
+        if (Vector3.Distance(player.transform.position, bt.transform.position) < 4f)
+        {
+            patrulhar = false;
+            npcAnimator.SetBool("isWalking", false);
         }
 
         if (status == Status.RUNNING) status = Status.FAILURE;
         Print();
+
+        yield return null;
     }
 }

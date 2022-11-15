@@ -12,6 +12,7 @@ TagManager:
   - TrackingObject
   - PatrulhaInicial
   - PatrulhaFinal
+  - KickCheck
   layers:
   - Default
   - TransparentFX
