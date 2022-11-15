@@ -10,7 +10,8 @@ public class KickCheck : MonoBehaviour
 
     [SerializeField] private float kickForce = 20f;
 
-    private bool kicked;
+    public bool kicked;
+    public static bool kickedEnemy;
 
     void Start()
     {
@@ -36,8 +37,7 @@ public class KickCheck : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             kicked = true;
-
-            Destroy(collision.gameObject);
+            kickedEnemy = true;
         }
 
         if (collision.gameObject.CompareTag("Kickable"))
@@ -50,7 +50,7 @@ public class KickCheck : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        kicked = false;
+            kicked = false;
     }
 
 
