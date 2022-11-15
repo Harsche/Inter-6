@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class RobotIA : MonoBehaviour
 {
+    public List<Transform> npcPoints = new List<Transform>();
+    public int pointIndex = 0;
+
     void Start()
     {
         BTSequence patrulha = new BTSequence();
 
-        patrulha.children.Add(new BTStunnado());
-        patrulha.children.Add(new BTPatrulhaInicial());
-        patrulha.children.Add(new BTPatrulhaFinal());
+        patrulha.children.Add(new BTSelecionarAlvo());
+        //patrulha.children.Add(new BTOlharAlvo());
+        patrulha.children.Add(new BTAndarAteAlvo());
 
         BTSequence ataque = new BTSequence();
 
@@ -20,6 +23,7 @@ public class RobotIA : MonoBehaviour
 
         BTSelector robot = new BTSelector();
 
+        robot.children.Add(new BTStunnado());
         robot.children.Add(ataque);
         robot.children.Add(patrulha);
 

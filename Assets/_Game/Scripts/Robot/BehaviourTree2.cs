@@ -5,6 +5,7 @@ using UnityEngine;
 public class BehaviourTree2 : MonoBehaviour
 {
     public BTNode root;
+    public RobotIA npcRef;
     public IEnumerator Execute()
     {
         while(true)

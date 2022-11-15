@@ -18,26 +18,26 @@ public class BTAtacarPlayer : BTNode
         npcAnimator = bt.GetComponent<Animator>();
         PlayerMovement playerRef = alvo.GetComponent<PlayerMovement>();
 
-        while (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 1f && playerRef.isDead == false)
+        if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 1f && playerRef.isDead == false)
         {
             npcAnimator.SetBool("isAttacking", true);
             status = Status.SUCCESS;
-
-            if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 1f && Vector3.Distance(alvo.transform.position, bt.transform.position) < 2f)
-            {
-                npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("MovingAttack"), layerWeightTrue);
-            }
-            else if(Vector3.Distance(alvo.transform.position, bt.transform.position) > 2f)
-            {
-                npcAnimator.SetBool("isAtttacking", false);
-                npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("MovingAttack"), layerWeightFalse);
-                break;
-            }
-
-            yield return null;
+        }
+        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 1f && Vector3.Distance(alvo.transform.position, bt.transform.position) < 2f)
+        {
+            npcAnimator.SetBool("isAttacking", true);
+            npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("MovingAttack"), layerWeightTrue);
+            status = Status.SUCCESS;
+        }
+        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 2f)
+        {
+            npcAnimator.SetBool("isAtttacking", false);
+            npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("MovingAttack"), layerWeightFalse);
         }
 
         if (status == Status.RUNNING) status = Status.FAILURE;
         Print();
+
+        yield return null;
     }
 }
