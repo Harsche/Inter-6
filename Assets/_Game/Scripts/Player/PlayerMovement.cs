@@ -29,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private StudioEventEmitter stepsEventEmitter;
     [SerializeField] private EventReference walkSound;
-    [SerializeField] private EventReference runSound;
 
     private Vector3 movement;
     private float moveY;
@@ -231,12 +230,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void PlayWalkSound(){
-        if(stepsEventEmitter.EventReference.Guid != walkSound.Guid) stepsEventEmitter.ChangeEvent(walkSound);
-        stepsEventEmitter.Play();
-    }
-    
-    public void PlayRunSound(){
-        if(stepsEventEmitter.EventReference.Guid != runSound.Guid) stepsEventEmitter.ChangeEvent(runSound);
         stepsEventEmitter.Play();
     }
 }
