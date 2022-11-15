@@ -357,8 +357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5728885506973061675}
   - component: {fileID: 5728885506973061672}
-  - component: {fileID: 2935471986355951175}
-  - component: {fileID: 7840430047654666076}
+  - component: {fileID: 506671663410315169}
   m_Layer: 0
   m_Name: Porta
   m_TagString: Untagged
@@ -396,112 +395,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7617766, y: 2.8892243, z: 0.050628915}
   m_Center: {x: -0.0029067693, y: 0.31925252, z: -0.02818967}
---- !u!82 &2935471986355951175
-AudioSource:
+--- !u!114 &506671663410315169
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5728885506973061679}
   m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!165 &7840430047654666076
-AudioHighPassFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5728885506973061679}
-  m_Enabled: 1
-  m_CutoffFrequency: 5000
-  m_HighpassResonanceQ: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1 &5728885507839915734
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,9 +481,21 @@ MonoBehaviour:
   closedPosition: {fileID: 5728885507925507283}
   animationDuration: 0.5
   animationEase: 1
-  audioSource: {fileID: 2935471986355951175}
-  doorOpening: {fileID: 8300000, guid: b4897e7bb4d7873429cf641785da3ea5, type: 3}
-  doorClosing: {fileID: 8300000, guid: 7c55cf6cea17b52468ee7601e724e796, type: 3}
+  eventEmitter: {fileID: 506671663410315169}
+  doorOpening:
+    Guid:
+      Data1: 192760227
+      Data2: 1247728386
+      Data3: 1025400996
+      Data4: 1125392952
+    Path: event:/Porta Fechando
+  doorClosing:
+    Guid:
+      Data1: 1714570925
+      Data2: 1089095180
+      Data3: 194632329
+      Data4: 1667930344
+    Path: event:/Porta Abrindo
   ledMeshRenderer: {fileID: 8247303154241723791}
   closedLed: {fileID: 2100000, guid: 0132e69aba429384296a7e374dd9e8ba, type: 2}
   openedLed: {fileID: 2100000, guid: 4944785eb03af9e418f8866e4d95bab7, type: 2}

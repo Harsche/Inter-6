@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -22,6 +23,8 @@ public class HUDManager : MonoBehaviour
     [SerializeField] private Image damageScreen;
     [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private GameObject hudScreen;
+    
+    [SerializeField] private StudioEventEmitter takeBreathEventEmitter;
 
     private Coroutine staminaCoroutine;
     private Coroutine recargaCoroutine;
@@ -106,7 +109,11 @@ public class HUDManager : MonoBehaviour
             if (staminaValue <= 0)
             {
                 staminaAcabou = true;
-
+                
+                if (takeBreathEventEmitter.IsPlaying()) yield break;
+                takeBreathEventEmitter.Stop();
+                takeBreathEventEmitter.Play();
+                
                 yield break;
             }
 

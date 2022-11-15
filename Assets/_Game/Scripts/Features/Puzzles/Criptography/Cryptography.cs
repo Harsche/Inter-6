@@ -1,4 +1,5 @@
 ﻿using DG.Tweening;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -7,7 +8,12 @@ public class Cryptography : MonoBehaviour{
     [SerializeField] private string password;
     [SerializeField] private float paintDuration = 0.5f;
     [SerializeField] private Image panel;
+    [SerializeField] private StudioEventEmitter eventEmitter;
+    [SerializeField] private EventReference correctSound;
+    [SerializeField] private EventReference incorrectSound;
     [SerializeField] private UnityEvent onEnterCorrectPassword;
+    [SerializeField] private UnityEvent onEnterIncorrectPassword;
+    
     private Color panelDefaultColor;
 
     private string typedPassword;
@@ -27,7 +33,11 @@ public class Cryptography : MonoBehaviour{
     public void CheckPassword(){
         bool isPasswordCorrect = typedPassword == password;
         DoPaintPanel(isPasswordCorrect);
+        eventEmitter.ChangeEvent(isPasswordCorrect ? correctSound : incorrectSound);
+        eventEmitter.Stop();
+        eventEmitter.Play();
         if (isPasswordCorrect) onEnterCorrectPassword?.Invoke();
+        else onEnterIncorrectPassword?.Invoke();
     }
 
     public void SetTypedPassword(string value){
