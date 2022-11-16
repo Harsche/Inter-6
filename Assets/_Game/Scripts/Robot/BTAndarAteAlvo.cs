@@ -19,12 +19,12 @@ public class BTAndarAteAlvo : BTNode
         npcAnimator = bt.GetComponent<Animator>();
         naveM = bt.GetComponent<NavMeshAgent>();
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) > 4f)
+        if (Vector3.Distance(player.transform.position, bt.transform.position) > 5f)
         {
             patrulhar = true;
         }
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) < 4f)
+        if (Vector3.Distance(player.transform.position, bt.transform.position) < 5f)
         {
             patrulhar = false;
             npcAnimator.SetBool("isWalking", false);

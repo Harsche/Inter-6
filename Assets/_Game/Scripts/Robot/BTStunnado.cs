@@ -15,27 +15,29 @@ public class BTStunnado : BTNode
 
         npcAnimator = bt.GetComponent<Animator>();
 
-        if (KickCheck.kickedEnemy)
+        if (bt.npcRef.kickRef.kickedEnemy == true)
         {
             npcAnimator.SetBool("isStunning", true);
-
-            status = Status.SUCCESS;
-            Print();
 
             tempo -= Time.deltaTime;
 
             if (tempo <= 0)
             {
                 npcAnimator.SetBool("isStunning", false);
-                KickCheck.kickedEnemy = false;
+                bt.npcRef.kickRef.kickedEnemy = false;
+
+                tempo = 8f;
             }
+
+            yield return null;
+
+            status = Status.SUCCESS;
+            Print();
         }
         else npcAnimator.SetBool("isStunning", false);
 
         if (status == Status.RUNNING) status = Status.FAILURE;
         Print();
-
-        yield break;
     }
 
 

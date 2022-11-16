@@ -7,12 +7,18 @@ public class BTPlayerProximo : BTNode
     private GameObject player;
     private Animator npcAnimator;
 
-    [SerializeField] private float areaDeteccao = 4f;
+    [SerializeField] private float areaDeteccao = 5f;
 
     public override IEnumerator Run(BehaviourTree2 bt)
     {
         player = GameObject.FindGameObjectWithTag("Player");
         npcAnimator = bt.GetComponent<Animator>();
+        PlayerMovement playerRef = player.GetComponent<PlayerMovement>();
+
+        if (playerRef.isDead)
+        {
+            yield break;
+        }
 
         status = Status.RUNNING;
         Print();

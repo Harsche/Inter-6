@@ -20,12 +20,12 @@ public class BTOlharAlvo : BTNode
 
         Vector3 lookRef = bt.npcRef.npcPoints[bt.npcRef.pointIndex].position;
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) > 4f)
+        if (Vector3.Distance(player.transform.position, bt.transform.position) > 5f)
         {
             patrulhar = true;
         }
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) < 4f)
+        if (Vector3.Distance(player.transform.position, bt.transform.position) < 5f)
         {
             patrulhar = false;
             npcAnimator.SetBool("isWalking", false);

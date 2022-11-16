@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RobotIA : MonoBehaviour
 {
+    public KickCheck kickRef;
     public List<Transform> npcPoints = new List<Transform>();
     public int pointIndex = 0;
 

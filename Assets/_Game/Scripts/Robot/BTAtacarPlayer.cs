@@ -18,12 +18,17 @@ public class BTAtacarPlayer : BTNode
         npcAnimator = bt.GetComponent<Animator>();
         PlayerMovement playerRef = alvo.GetComponent<PlayerMovement>();
 
-        if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 1f && playerRef.isDead == false)
+        if(playerRef.isDead)
+        {
+            yield break;
+        }
+
+        if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 1.2f)
         {
             npcAnimator.SetBool("isAttacking", true);
             status = Status.SUCCESS;
         }
-        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 1f && Vector3.Distance(alvo.transform.position, bt.transform.position) < 2f)
+        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 1.5f && Vector3.Distance(alvo.transform.position, bt.transform.position) < 2.5f)
         {
             npcAnimator.SetBool("isAttacking", true);
             npcAnimator.SetLayerWeight(npcAnimator.GetLayerIndex("MovingAttack"), layerWeightTrue);

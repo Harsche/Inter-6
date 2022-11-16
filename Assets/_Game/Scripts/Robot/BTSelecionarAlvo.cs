@@ -7,6 +7,7 @@ public class BTSelecionarAlvo : BTNode
 {
     private GameObject player = GameObject.FindGameObjectWithTag("Player");
     private Animator npcAnimator;
+    private NavMeshAgent naveM;
 
     private bool patrulhar;
 
@@ -16,13 +17,14 @@ public class BTSelecionarAlvo : BTNode
         Print();
 
         npcAnimator = bt.GetComponent<Animator>();
+        naveM = bt.GetComponent<NavMeshAgent>();
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) > 4f)
+        if (Vector3.Distance(player.transform.position, bt.transform.position) > 5f)
         {
             patrulhar = true;
         }
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) < 4f)
+        if (Vector3.Distance(player.transform.position, bt.transform.position) < 5f)
         {
             patrulhar = false;
             npcAnimator.SetBool("isWalking", false);
@@ -30,12 +32,12 @@ public class BTSelecionarAlvo : BTNode
 
         while (patrulhar)
         {
-            if (bt.npcRef.pointIndex == bt.npcRef.npcPoints.Count)
+            if (bt.npcRef.pointIndex >= bt.npcRef.npcPoints.Count)
             {
                 bt.npcRef.pointIndex = 0;
                 npcAnimator.SetBool("isWalking", false);
             }
-            else if (bt.npcRef.pointIndex < bt.npcRef.npcPoints.Count && bt.transform.position.x == bt.npcRef.npcPoints[bt.npcRef.pointIndex].position.x) bt.npcRef.pointIndex++;
+            else if (bt.npcRef.pointIndex <= bt.npcRef.npcPoints.Count && naveM.remainingDistance <= naveM.stoppingDistance) bt.npcRef.pointIndex++;
 
             status = Status.SUCCESS;
             Print();

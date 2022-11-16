@@ -9,7 +9,6 @@ public class BTAndarAtePlayer : BTNode
     private Animator npcAnimator;
     private NavMeshAgent naveM;
 
-    [SerializeField] private Vector3 ataqueDist = new Vector3 (0.7f, 0, 0.7f);
     [SerializeField] private float tempo = 10f;
 
     public override IEnumerator Run(BehaviourTree2 bt)
@@ -20,20 +19,27 @@ public class BTAndarAtePlayer : BTNode
         npcAnimator = bt.GetComponent<Animator>();
         naveM = bt.GetComponent<NavMeshAgent>();
 
+        PlayerMovement playerRef = alvo.GetComponent<PlayerMovement>();
+
+        if (playerRef.isDead)
+        {
+            yield break;
+        }
+
         while (Vector3.Distance(alvo.transform.position, bt.transform.position) < 5f)
         {
-            bt.transform.LookAt(alvo.transform.position);
-
-            naveM.SetDestination(alvo.transform.position - ataqueDist);
+            //bt.transform.LookAt(alvo.transform.position);
 
             npcAnimator.SetBool("isRunning", true);
+
+            naveM.SetDestination(alvo.transform.position);
 
             if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 2f)
             {
                 npcAnimator.SetBool("isAttacking", false);
             }
 
-            if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 1f)
+            if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 1.2f)
             {
                 npcAnimator.SetBool("isRunning", false);
                 npcAnimator.SetBool("isWalking", false);
