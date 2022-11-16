@@ -1,4 +1,5 @@
 ﻿using DG.Tweening;
+using FMODUnity;
 using UnityEngine;
 
 public class Door : MonoBehaviour{
@@ -8,9 +9,9 @@ public class Door : MonoBehaviour{
     [SerializeField] private Transform closedPosition;
     [SerializeField] private float animationDuration;
     [SerializeField] private Ease animationEase;
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip doorOpening;
-    [SerializeField] private AudioClip doorClosing;
+    [SerializeField] private StudioEventEmitter eventEmitter;
+    [SerializeField] private EventReference doorOpening;
+    [SerializeField] private EventReference doorClosing;
     [SerializeField] private MeshRenderer ledMeshRenderer;
     [SerializeField] private Material closedLed;
     [SerializeField] private Material openedLed;
@@ -20,7 +21,7 @@ public class Door : MonoBehaviour{
 
     private void Awake(){
         UpdateLedColor();
-        if(!Locked) UnlockDoor();
+        if (!Locked) UnlockDoor();
     }
 
     private void UpdateLedColor(){
@@ -29,12 +30,15 @@ public class Door : MonoBehaviour{
 
     public void SwitchDoor(){
         opened = !opened;
-        audioSource.PlayOneShot(opened ? doorOpening : doorClosing);
+        eventEmitter.Stop();
+        eventEmitter.ChangeEvent(opened ? doorOpening : doorClosing);
+        eventEmitter.Play();
         if (opened){
             door.transform.DOLocalMove(closedPosition.localPosition, animationDuration)
                 .SetEase(animationEase);
             return;
         }
+
         door.transform.DOLocalMove(openedPosition.localPosition, animationDuration)
             .SetEase(animationEase);
     }
@@ -44,7 +48,7 @@ public class Door : MonoBehaviour{
         UpdateLedColor();
         trigger.SetActive(true);
     }
-    
+
     public void LockDoor(){
         Locked = true;
         UpdateLedColor();
