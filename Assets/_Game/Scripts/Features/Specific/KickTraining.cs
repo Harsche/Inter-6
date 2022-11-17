@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,7 +8,6 @@ public class KickTraining : MonoBehaviour{
     [SerializeField] private float cooldownTime = 0.2f;
     [SerializeField] private UnityEvent onExecuteAllKicks;
     private bool canAddKick;
-
     private Coroutine cooldownCoroutine;
 
     private void Awake(){
@@ -20,7 +18,7 @@ public class KickTraining : MonoBehaviour{
         if (other.gameObject.name != "KickCollider") return;
         HandleKick();
     }
-    
+
     private void HandleKick(){
         if (!canAddKick || kickCount >= kicksRequired) return;
         kickCount++;
@@ -29,7 +27,7 @@ public class KickTraining : MonoBehaviour{
         cooldownCoroutine = StartCoroutine(CooldownCoroutine());
         if (kickCount == kicksRequired) onExecuteAllKicks?.Invoke();
     }
-    
+
     private IEnumerator CooldownCoroutine(){
         yield return new WaitForSeconds(cooldownTime);
         canAddKick = true;

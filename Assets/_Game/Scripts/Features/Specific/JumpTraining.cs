@@ -9,7 +9,6 @@ public class JumpTraining : MonoBehaviour{
     [SerializeField] private float cooldownTime = 0.2f;
     [SerializeField] private UnityEvent onExecuteAllJumps;
     private bool canAddJump;
-
     private Coroutine cooldownCoroutine;
 
     private void Awake(){
