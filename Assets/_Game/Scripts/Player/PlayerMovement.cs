@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isMoving;
     private bool isCrawl;
+    private bool isClimb;
     public bool isKick;
     public bool isRun;
     private bool isSlowly;
@@ -43,6 +44,9 @@ public class PlayerMovement : MonoBehaviour
     public bool isDead = false;
 
     public bool levouDano;
+    public bool possibleClimb = false;
+    public bool climbingArea = false;
+    public bool crawlingTrans = false;
 
     private float isMovingH;
     private float isMovingV;
@@ -77,6 +81,7 @@ public class PlayerMovement : MonoBehaviour
         else animator.SetFloat("Velocity", 0f);
 
         Crawl();
+        Climb();
         kickRef.Kick();
 
         PlayerMove();
@@ -96,6 +101,7 @@ public class PlayerMovement : MonoBehaviour
 
         isMoving = Input.GetButton("Horizontal") || Input.GetButton("Vertical");
         isCrawl = Input.GetKey(KeyCode.C);
+        isClimb = Input.GetKey(KeyCode.E);
         isKick = Input.GetKeyDown(KeyCode.F);
         isRun = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         isSlowly = Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl);
@@ -110,7 +116,10 @@ public class PlayerMovement : MonoBehaviour
 
         movement *= animator.GetFloat("Velocity");
 
-        Gravity();
+        if (animator.GetBool("crawlingTransArea") == false)
+        { 
+            Gravity(); 
+        }
 
         Jump();
 
@@ -168,6 +177,31 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    void Climb()
+    {
+        if (possibleClimb)
+        {
+            if (animator.GetBool("isJumping") == true)
+            {
+                if (isClimb) animator.SetBool("isClimbing", true);
+                else animator.SetBool("isClimbing", false);
+            }
+        }
+
+        if (isClimb && animator.GetBool("crawlingTransArea"))
+        {
+            transform.forward += new Vector3(0, 0, -10f);
+        }
+
+        if (animator.GetBool("climbingArea"))
+        {
+            animator.SetBool("isCrawling", true);
+
+            controller.height = crawlingHCollision;
+            controller.center = crawlingCollision;
+        }
+    }
+
     float Jump()
     {
         if (controller.isGrounded)
@@ -218,6 +252,21 @@ public class PlayerMovement : MonoBehaviour
             levouDano = true;
             animator.SetBool("isDamaged", true);
         }
+
+        if (other.gameObject.CompareTag("ClimbingArea"))
+        {
+            possibleClimb = true;
+        }
+
+        if (other.gameObject.CompareTag("CrawlingArea"))
+        {
+            animator.SetBool("climbingArea", true);
+        }
+
+        if (other.gameObject.CompareTag("CrawlingTransition"))
+        {
+            animator.SetBool("crawlingTransArea", true);
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -227,9 +276,26 @@ public class PlayerMovement : MonoBehaviour
             levouDano = false;
             animator.SetBool("isDamaged", false);
         }
+
+        if (other.gameObject.CompareTag("ClimbingArea"))
+        {
+            possibleClimb = false;
+        }
+
+        if (other.gameObject.CompareTag("CrawlingArea"))
+        {
+            climbingArea = false;
+            animator.SetBool("climbingArea", false);
+        }
+
+        if (other.gameObject.CompareTag("CrawlingTransition"))
+        {
+            animator.SetBool("crawlingTransArea", false);
+        }
     }
 
-    public void PlayWalkSound(){
+    public void PlayWalkSound()
+    {
         stepsEventEmitter.Play();
     }
 }

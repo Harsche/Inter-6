@@ -13,6 +13,9 @@ TagManager:
   - PatrulhaInicial
   - PatrulhaFinal
   - KickCheck
+  - ClimbingArea
+  - CrawlingArea
+  - CrawlingTransition
   layers:
   - Default
   - TransparentFX
