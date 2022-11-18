@@ -6803,6 +6803,24 @@ MonoBehaviour:
   - {fileID: 1355422904103276631}
   - {fileID: 1355422905373637326}
   - {fileID: 1355422903394084702}
+  timerCircle: {fileID: 0}
+  panel: {fileID: 0}
+  paintDuration: 0.5
+  eventEmitter: {fileID: 0}
+  correctSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  incorrectSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   onSolveEvent:
     m_PersistentCalls:
       m_Calls:

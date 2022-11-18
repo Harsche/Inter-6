@@ -32,13 +32,8 @@ public class Cryptography : MonoBehaviour{
         panel.DOColor(finalColor, paintDuration / 2)
             .OnComplete(() => panel.DOColor(panelDefaultColor, paintDuration / 2));
     }
-
-    public void ResetPassword(){
-        typedPassword = "";
-        inputField.SetTextWithoutNotify("");
-    }
-
-    public bool CheckIfCorrectPassword(){
+    
+    private bool CheckIfCorrectPassword(){
         bool isPasswordCorrect = typedPassword == password;
         DoPaintPanel(isPasswordCorrect);
         eventEmitter.ChangeEvent(isPasswordCorrect ? correctSound : incorrectSound);
@@ -52,6 +47,11 @@ public class Cryptography : MonoBehaviour{
         onEnterIncorrectPassword?.Invoke();
         ResetPassword();
         return false;
+    }
+
+    public void ResetPassword(){
+        typedPassword = "";
+        inputField.SetTextWithoutNotify("");
     }
 
     public void CheckPassword(){
