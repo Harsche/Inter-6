@@ -117,11 +117,9 @@ public class PlayerMovement : MonoBehaviour
         movement *= animator.GetFloat("Velocity");
 
         if (animator.GetBool("crawlingTransArea") == false)
-        { 
-            Gravity(); 
-        }
+            Gravity();
 
-        Jump();
+        //Jump();
 
         if (esteira && footRef)
         {
@@ -181,28 +179,33 @@ public class PlayerMovement : MonoBehaviour
     {
         if (possibleClimb)
         {
-            if (animator.GetBool("isJumping") == true)
+            if (isClimb)
             {
-                if (isClimb) animator.SetBool("isClimbing", true);
-                else animator.SetBool("isClimbing", false);
+                animator.SetBool("isClimbing", true);
             }
+            else animator.SetBool("isClimbing", false);
         }
 
-        if (isClimb && animator.GetBool("crawlingTransArea"))
+        if (animator.GetBool("crawlingTransArea"))
         {
-            transform.forward += new Vector3(0, 0, -10f);
+            if (isClimb)
+            {
+                controller.height = crawlingHCollision;
+                controller.center = crawlingCollision;
+
+                moveY = 1f;
+            }
+
         }
+        else moveY = 0f;
 
         if (animator.GetBool("climbingArea"))
         {
             animator.SetBool("isCrawling", true);
-
-            controller.height = crawlingHCollision;
-            controller.center = crawlingCollision;
         }
     }
 
-    float Jump()
+    /*float Jump()
     {
         if (controller.isGrounded)
         {
@@ -217,7 +220,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         return moveY;
-    }
+    }*/
 
     void Dead()
     {
@@ -267,6 +270,7 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("crawlingTransArea", true);
         }
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -284,7 +288,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.CompareTag("CrawlingArea"))
         {
-            climbingArea = false;
             animator.SetBool("climbingArea", false);
         }
 
