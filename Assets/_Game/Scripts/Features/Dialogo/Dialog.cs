@@ -8,6 +8,12 @@ namespace GameDialogs{
     public class Dialog : MonoBehaviour{
         [SerializeField] private GameObject dialogBox;
         [SerializeField] private TextMeshProUGUI dialogText;
+        [SerializeField] private string tessaHexColor;
+        [SerializeField] private GameObject tessaDialogBox;
+        [SerializeField] private TextMeshProUGUI tessaDialogText;
+        [SerializeField] private string hillHexColor;
+        [SerializeField] private GameObject hillDialogBox;
+        [SerializeField] private TextMeshProUGUI hillDialogText;
         public event Action OnDialogEnd;
 
         private Coroutine dialogCoroutine;
@@ -38,6 +44,11 @@ namespace GameDialogs{
 
         private IEnumerator DisplayDialog(IEnumerable<SerializedDialog> dialogs){
             foreach (SerializedDialog t in dialogs){
+                bool isTessaDialog = t.text.Contains(tessaHexColor);
+                if (!isTessaDialog) t.text = t.text.Replace(hillHexColor, tessaHexColor);
+                tessaDialogBox.SetActive(isTessaDialog);
+                hillDialogBox.SetActive(!isTessaDialog);
+                dialogText = isTessaDialog ? tessaDialogText : hillDialogText;
                 dialogText.text = t.text;
                 yield return new WaitForSeconds(t.time);
             }
