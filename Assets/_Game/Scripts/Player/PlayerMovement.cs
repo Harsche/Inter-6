@@ -319,6 +319,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void PlayWalkSound()
     {
+        stepsEventEmitter.SetParameter("Parameter 2", 0);
+        stepsEventEmitter.Play();
+    }
+    
+    public void PlayRunSound()
+    {
+        stepsEventEmitter.SetParameter("Parameter 2", 1);
         stepsEventEmitter.Play();
     }
 }

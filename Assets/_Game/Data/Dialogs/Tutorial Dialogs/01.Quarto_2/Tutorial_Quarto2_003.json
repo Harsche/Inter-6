@@ -2,11 +2,11 @@
     "dialog": [
         {
             "text": "<color=#FFFFFF>Hill...</color>",
-            "time": 0.5
+            "time": 1.0
         },
         {
             "text": "<color=#61C0FF>Sim?</color>",
-            "time": 0.5
+            "time": 1.0
         },
         {
             "text": "<color=#FFFFFF>Quando eu acordei, eu ouvi um... barulho. Algo como uma pulsação, você captou algo?</color>",
@@ -38,7 +38,7 @@
         },
         {
             "text": "<color=#61C0FF>Disponha.</color>",
-            "time": 0.5
+            "time": 1.5
         }
     ]
 }

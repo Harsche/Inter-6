@@ -2,7 +2,7 @@
     "dialog": [
         {
             "text": "<color=#FFFFFF>Bom dia, Hill!</color>",
-            "time": 2.0
+            "time": 2.5
         },
         {
             "text": "<color=#61C0FF>Bom dia, Tessa! Como está se sentindo hoje?</color>",
@@ -10,7 +10,7 @@
         },
         {
             "text": "<color=#FFFFFF>Estou bem!</color>",
-            "time": 1.0
+            "time": 1.5
         },
         {
             "text": "<color=#61C0FF>Você teve alterações bruscas em sua respiração durante o sono REM. Já é a terceira vez neste mês.</color>",
@@ -46,7 +46,7 @@
         },
         {
             "text": "<color=#FFFFFF>Certo.</color>",
-            "time": 1.0
+            "time": 1.5
         }
     ]
 }
