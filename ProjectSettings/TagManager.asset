@@ -16,6 +16,7 @@ TagManager:
   - ClimbingArea
   - CrawlingArea
   - CrawlingTransition
+  - ClimbCollider
   layers:
   - Default
   - TransparentFX

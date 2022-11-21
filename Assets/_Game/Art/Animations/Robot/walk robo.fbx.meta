@@ -22,7 +22,13 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'walk robo' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'meiope_E' has translation animation that
+      will be discarded.\n\t'meiope_E' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'meiope_D' has translation animation that
+      will be discarded.\n\t'meiope_D' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -67,7 +73,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 12
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -111,7 +117,407 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
+    human:
+    - boneName: bacia
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: femuor_E
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: femuor_D
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joelho_E
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joelho_D
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calcanhar_E
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calcanhar_D
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: cintura
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: coluna_1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pescoco
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: cabeca
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicula_E
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicula_D
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ombro_E
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ombro_D
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: cotuvelo_E
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: cotuvelo_D
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pulso_E
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pulso_D
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pontape_E
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pontape_D
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ponta_cabeca
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: base_indicador_E
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: meio_indicador_E
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: antiponta_indicador_E
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: base_dedomeio_E
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: meio_deodo_meio_E
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: antiponta_dedomeio_E
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: base_anelar_E
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: meio_anelar_E
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: antiponta_anelar_E
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: base_dedidnho_E
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: meio_dedinho_E
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: antiponta_dedinho_E
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: base_dedao_D
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: meio_dedao_D
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ponta_dedao_D
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: base_indicador_D
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: meio_indicador_D
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: antiponta_indicador_D
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: base_dedomeio_D
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: meio_deodo_meio_D
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: antiponta_dedomeio_D
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: base_anelar_D
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: meio_anelar_D
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: antiponta_anelar_D
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: base_dedidnho_D
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: meio_dedinho_D
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: antiponta_dedinho_D
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: coluna_2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     skeleton:
     - name: walk robo(Clone)
       parentName: 
@@ -120,322 +526,322 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: bacia
       parentName: walk robo(Clone)
-      position: {x: 0.0000040300656, y: 0.09427473, z: 1.767887e-19}
+      position: {x: 0.000048360776, y: 1.1312966, z: 2.1214643e-18}
       rotation: {x: 2.1349618e-18, y: 0.7243251, z: -8.656929e-17, w: -0.68945855}
       scale: {x: 1, y: 1, z: 1}
     - name: cintura
       parentName: bacia
-      position: {x: 2.220446e-18, y: 0.0034497923, z: 0}
+      position: {x: 2.6645352e-17, y: 0.04139751, z: 0}
       rotation: {x: 0, y: 0, z: -0.72099257, w: 0.6929428}
       scale: {x: 1, y: 1, z: 1}
     - name: coluna_1
       parentName: cintura
-      position: {x: -0.011140906, y: 8.3266725e-19, z: 1.2325951e-34}
+      position: {x: -0.13369086, y: 9.992007e-18, z: 1.4791142e-33}
       rotation: {x: 0, y: -0, z: -0.053001437, w: 0.99859446}
       scale: {x: 1, y: 1, z: 1}
     - name: coluna_2
       parentName: coluna_1
-      position: {x: -0.008859093, y: 0, z: 0}
+      position: {x: -0.10630912, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0.055540994, w: 0.9984564}
       scale: {x: 1, y: 1, z: 1}
     - name: coluna_3
       parentName: coluna_2
-      position: {x: -0.01, y: 0, z: 0}
+      position: {x: -0.12, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0.068179436, w: 0.9976731}
       scale: {x: 1, y: 1, z: 1}
     - name: pescoco
       parentName: coluna_3
-      position: {x: -0.0127125485, y: -2.2682486e-11, z: -4.9303805e-34}
+      position: {x: -0.15255055, y: -2.7218985e-10, z: -5.9164567e-33}
       rotation: {x: 0, y: -0, z: -0.03095475, w: 0.9995208}
       scale: {x: 1, y: 1, z: 1}
     - name: cabeca
       parentName: pescoco
-      position: {x: -0.0068463883, y: 3.5527136e-17, z: -2.4651903e-34}
+      position: {x: -0.08215666, y: 4.2632563e-16, z: -2.9582283e-33}
       rotation: {x: 0, y: 0, z: 0.1592366, w: 0.9872405}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_cabeca
       parentName: cabeca
-      position: {x: -0.011669559, y: 0, z: 0}
+      position: {x: -0.14003472, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: clavicula_E
       parentName: coluna_3
-      position: {x: -0.0055641807, y: 0.0005218361, z: 0.005468211}
+      position: {x: -0.06677016, y: 0.0062620323, z: 0.06561854}
       rotation: {x: 0.6614327, y: -0.3857694, z: -0.53487945, w: -0.3572015}
       scale: {x: 1, y: 1, z: 1}
     - name: ombro_E
       parentName: clavicula_E
-      position: {x: -0.012396455, y: -3.445244e-11, z: 4.7282418e-11}
+      position: {x: -0.14875744, y: -4.1342924e-10, z: 5.67389e-10}
       rotation: {x: 0.07432832, y: -0.059400007, z: 0.042022217, w: 0.99457586}
       scale: {x: 1, y: 1, z: 1}
     - name: cotuvelo_E
       parentName: ombro_E
-      position: {x: -0.029685786, y: 1.2434498e-16, z: -1.9984014e-17}
+      position: {x: -0.35622942, y: 1.4921397e-15, z: -2.3980813e-16}
       rotation: {x: -0.0001291632, y: 0.038948104, z: -0.0035331647, w: 0.99923503}
       scale: {x: 1, y: 1, z: 1}
     - name: pulso_E
       parentName: cotuvelo_E
-      position: {x: -0.030431885, y: 3.2862602e-16, z: -2.6645352e-17}
+      position: {x: -0.36518258, y: 3.9435122e-15, z: -3.1974422e-16}
       rotation: {x: -0.37803745, y: -0.59756815, z: -0.37803745, w: 0.59756815}
       scale: {x: 1, y: 1, z: 1}
     - name: base_indicador_E
       parentName: pulso_E
-      position: {x: 0.0011397657, y: -0.008029012, z: 0.003957673}
+      position: {x: 0.013677189, y: -0.09634816, z: 0.047492072}
       rotation: {x: 0.36580774, y: 0.56540126, z: 0.42044282, w: 0.6080576}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_indicador_E
       parentName: base_indicador_E
-      position: {x: -0.0021351476, y: 2.6645352e-17, z: 0}
+      position: {x: -0.025621772, y: 3.1974422e-16, z: 0}
       rotation: {x: 0.000049458562, y: -0.010865155, z: 0.004551719, w: 0.9999306}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_indicador_E
       parentName: meio_indicador_E
-      position: {x: -0.0020650001, y: 0, z: -4.440892e-18}
+      position: {x: -0.024779994, y: 0, z: -5.3290704e-17}
       rotation: {x: 5.551116e-17, y: -8.3266733e-17, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_indicador_E
       parentName: antiponta_indicador_E
-      position: {x: -0.0014963083, y: 9.228728e-18, z: -1.0327161e-17}
+      position: {x: -0.017955696, y: 1.1074473e-16, z: -1.2392592e-16}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedomeio_E
       parentName: pulso_E
-      position: {x: -0.00014098563, y: -0.00788307, z: 0.0038037098}
+      position: {x: -0.0016918276, y: -0.09459683, z: 0.045644514}
       rotation: {x: 0.3793136, y: 0.5452875, z: 0.4082997, w: 0.62615824}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_deodo_meio_E
       parentName: base_dedomeio_E
-      position: {x: -0.0024723122, y: 2.2204459e-17, z: -8.881784e-18}
+      position: {x: -0.029667743, y: 2.6645348e-16, z: -1.0658141e-16}
       rotation: {x: 0.000049458562, y: -0.010865155, z: 0.004551719, w: 0.9999306}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_dedomeio_E
       parentName: meio_deodo_meio_E
-      position: {x: -0.002354531, y: -1.3322676e-17, z: 0}
+      position: {x: -0.028254371, y: -1.5987211e-16, z: 0}
       rotation: {x: 8.326674e-17, y: -8.3266733e-17, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_dedomeio_E
       parentName: antiponta_dedomeio_E
-      position: {x: -0.0014963083, y: 9.228728e-18, z: -1.0327161e-17}
+      position: {x: -0.017955696, y: 1.1074473e-16, z: -1.2392592e-16}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_anelar_E
       parentName: pulso_E
-      position: {x: -0.0015535621, y: -0.007779642, z: 0.0036981176}
+      position: {x: -0.018642746, y: -0.0933557, z: 0.04437742}
       rotation: {x: 0.3799401, y: 0.5443254, z: 0.4077168, w: 0.6269947}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_anelar_E
       parentName: base_anelar_E
-      position: {x: -0.002179636, y: 1.3322676e-17, z: -4.440892e-18}
+      position: {x: -0.02615563, y: 1.5987211e-16, z: -5.3290704e-17}
       rotation: {x: -0.000005700088, y: 0.0012522066, z: 0.004551984, w: 0.99998885}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_anelar_E
       parentName: meio_anelar_E
-      position: {x: -0.0021869647, y: -8.881784e-18, z: 0}
+      position: {x: -0.026243575, y: -1.0658141e-16, z: 0}
       rotation: {x: -2.7755576e-17, y: 4.1410535e-26, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_anelar_E
       parentName: antiponta_anelar_E
-      position: {x: -0.0014963083, y: 9.228728e-18, z: -1.0327161e-17}
+      position: {x: -0.017955696, y: 1.1074473e-16, z: -1.2392592e-16}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedidnho_E
       parentName: pulso_E
-      position: {x: -0.0027161122, y: -0.007536188, z: 0.0036461663}
+      position: {x: -0.032593343, y: -0.09043425, z: 0.043753996}
       rotation: {x: 0.38598028, y: 0.53491104, z: 0.40200335, w: 0.63504547}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_dedinho_E
       parentName: base_dedidnho_E
-      position: {x: -0.001971154, y: 2.6645352e-17, z: -8.881784e-18}
+      position: {x: -0.023653846, y: 3.1974422e-16, z: -1.0658141e-16}
       rotation: {x: -0.000005700088, y: 0.0012522066, z: 0.004551984, w: 0.99998885}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_dedinho_E
       parentName: meio_dedinho_E
-      position: {x: -0.0018226474, y: 3.1086245e-17, z: 4.440892e-18}
+      position: {x: -0.02187177, y: 3.7303492e-16, z: 5.3290704e-17}
       rotation: {x: -1.9428904e-16, y: -5.551116e-17, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_deidinho_E
       parentName: antiponta_dedinho_E
-      position: {x: -0.0012517005, y: 6.7047063e-18, z: -1.1298877e-17}
+      position: {x: -0.015020406, y: 8.045647e-17, z: -1.3558652e-16}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedao_E
       parentName: pulso_E
-      position: {x: 0.0025789472, y: -0.0044556204, z: 0.0023555474}
+      position: {x: 0.030947369, y: -0.053467445, z: 0.028266566}
       rotation: {x: 0.33285818, y: 0.6304273, z: 0.5005101, w: 0.49117866}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_dedao_E
       parentName: base_dedao_E
-      position: {x: -0.0025981579, y: 4.440892e-18, z: 1.7763568e-17}
+      position: {x: -0.031177891, y: 5.3290704e-17, z: 2.1316282e-16}
       rotation: {x: 2.220446e-16, y: -1.1102232e-16, z: -0.0012581085, w: 0.9999992}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_dedao_E
       parentName: meio_dedao_E
-      position: {x: -0.0019697824, y: 8.474124e-18, z: 1.3901485e-18}
+      position: {x: -0.02363739, y: 1.0168949e-16, z: 1.6681781e-17}
       rotation: {x: -0.42652008, y: -0.56398636, z: -0.42652008, w: 0.56398636}
       scale: {x: 1, y: 1, z: 1}
     - name: clavicula_D
       parentName: coluna_3
-      position: {x: -0.0055645984, y: 0.0005216638, z: -0.0054682097}
+      position: {x: -0.06677517, y: 0.0062599652, z: -0.06561851}
       rotation: {x: 0.35834256, y: 0.5601672, z: -0.43756786, w: 0.6052584}
       scale: {x: 1, y: 1, z: 1}
     - name: ombro_D
       parentName: clavicula_D
-      position: {x: 0.012396312, y: 0.00000045262934, z: -0.000000006243355}
+      position: {x: 0.14875576, y: 0.0000054315506, z: -0.00000007492025}
       rotation: {x: 0.010566278, y: 0.034868505, z: -0.11303376, w: 0.9929229}
       scale: {x: 1, y: 1, z: 1}
     - name: cotuvelo_D
       parentName: ombro_D
-      position: {x: 0.028421067, y: 0.008571643, z: 0.000000005290714}
+      position: {x: 0.34105274, y: 0.10285971, z: 0.000000063488564}
       rotation: {x: -0.005974034, y: 0.039897893, z: 0.14281903, w: 0.98892635}
       scale: {x: 1, y: 1, z: 1}
     - name: pulso_D
       parentName: cotuvelo_D
-      position: {x: 0.030432148, y: 0.00000010330036, z: 0.00000003270012}
+      position: {x: 0.36518574, y: 0.0000012396043, z: 0.0000003924015}
       rotation: {x: -0.37803745, y: -0.59756815, z: -0.37803745, w: 0.59756815}
       scale: {x: 1, y: 1, z: 1}
     - name: base_indicador_D
       parentName: pulso_D
-      position: {x: -0.0011397748, y: 0.008028953, z: -0.0039576036}
+      position: {x: -0.013677295, y: 0.09634744, z: -0.047491245}
       rotation: {x: 0.36580774, y: 0.56540126, z: 0.42044282, w: 0.6080576}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_indicador_D
       parentName: base_indicador_D
-      position: {x: 0.002135182, y: 0.000000014023818, z: 0.000000008134072}
+      position: {x: 0.02562218, y: 0.00000016828581, z: 0.00000009760887}
       rotation: {x: 0.000049458562, y: -0.010865155, z: 0.004551719, w: 0.9999306}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_indicador_D
       parentName: meio_indicador_D
-      position: {x: 0.002065003, y: -0.000000018834758, z: -0.000000003231848}
+      position: {x: 0.024780035, y: -0.00000022601708, z: -0.000000038782176}
       rotation: {x: 5.551116e-17, y: 1.1102232e-16, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_indicador_D
       parentName: antiponta_indicador_D
-      position: {x: 0.0014963328, y: -0.000000017802018, z: -7.2785517e-10}
+      position: {x: 0.017955994, y: -0.0000002136242, z: -0.000000008734262}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedomeio_D
       parentName: pulso_D
-      position: {x: 0.00014098528, y: 0.00788301, z: -0.0038037272}
+      position: {x: 0.0016918234, y: 0.09459613, z: -0.045644723}
       rotation: {x: 0.37931362, y: 0.5452875, z: 0.4082997, w: 0.6261582}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_deodo_meio_D
       parentName: base_dedomeio_D
-      position: {x: 0.0024723192, y: 0.000000034991515, z: 0.0000000044920543}
+      position: {x: 0.029667828, y: 0.0000004198982, z: 0.000000053904646}
       rotation: {x: 0.000049458562, y: -0.010865155, z: 0.004551719, w: 0.9999306}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_dedomeio_D
       parentName: meio_deodo_meio_D
-      position: {x: 0.0023545467, y: -0.000000033547078, z: -0.0000000033971175}
+      position: {x: 0.028254561, y: -0.00000040256492, z: -0.000000040765403}
       rotation: {x: -1.6653347e-16, y: 2.775558e-17, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_dedomeio_D
       parentName: antiponta_dedomeio_D
-      position: {x: 0.001496247, y: 0.000000081532676, z: 9.919818e-10}
+      position: {x: 0.017954964, y: 0.000000978392, z: 0.000000011903784}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_anelar_D
       parentName: pulso_D
-      position: {x: 0.0015535605, y: 0.007779577, z: -0.003698106}
+      position: {x: 0.018642727, y: 0.09335491, z: -0.044377264}
       rotation: {x: 0.37994006, y: 0.5443254, z: 0.40771684, w: 0.6269948}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_anelar_D
       parentName: base_anelar_D
-      position: {x: 0.0021796883, y: 0.000000047369024, z: 0.0000000052547753}
+      position: {x: 0.026156258, y: 0.00000056842816, z: 0.0000000630573}
       rotation: {x: -0.000005700088, y: 0.0012522066, z: 0.004551984, w: 0.99998885}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_anelar_D
       parentName: meio_anelar_D
-      position: {x: 0.0021869617, y: -0.000000035845, z: -0.0000000054785483}
+      position: {x: 0.026243541, y: -0.00000043013998, z: -0.00000006574259}
       rotation: {x: -2.7755578e-16, y: -1.387779e-16, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_anelar_D
       parentName: antiponta_anelar_D
-      position: {x: 0.0014962817, y: -0.000000038952894, z: 0.0000000012072402}
+      position: {x: 0.01795538, y: -0.00000046743472, z: 0.000000014486881}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedidnho_D
       parentName: pulso_D
-      position: {x: 0.0027161022, y: 0.007536116, z: -0.0036461602}
+      position: {x: 0.032593224, y: 0.09043341, z: -0.043753926}
       rotation: {x: 0.38598028, y: 0.53491104, z: 0.40200335, w: 0.63504547}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_dedinho_D
       parentName: base_dedidnho_D
-      position: {x: 0.001971185, y: 0.000000014032907, z: 0.0000000018096824}
+      position: {x: 0.023654219, y: 0.00000016839486, z: 0.00000002171619}
       rotation: {x: -0.000005700088, y: 0.0012522066, z: 0.004551984, w: 0.99998885}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_dedinho_D
       parentName: meio_dedinho_D
-      position: {x: 0.0018226661, y: 0.00000003799518, z: 0.000000009113849}
+      position: {x: 0.021871995, y: 0.0000004559421, z: 0.000000109366184}
       rotation: {x: 5.551116e-17, y: -1.1102232e-16, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_deidinho_D
       parentName: antiponta_dedinho_D
-      position: {x: 0.0012516349, y: -0.000000016270024, z: -0.000000008507484}
+      position: {x: 0.015019617, y: -0.00000019524026, z: -0.00000010208979}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedao_D
       parentName: pulso_D
-      position: {x: -0.0025789528, y: 0.0044555585, z: -0.0023554855}
+      position: {x: -0.030947434, y: 0.0534667, z: -0.028265826}
       rotation: {x: 0.22005086, y: 0.7160809, z: 0.53048813, w: 0.39672166}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_dedao_D
       parentName: base_dedao_D
-      position: {x: 0.002598237, y: -0.000000063463084, z: 0.00000002995233}
+      position: {x: 0.031178843, y: -0.000000761557, z: 0.0000003594279}
       rotation: {x: 1.2281842e-15, y: 1.4571677e-16, z: -0.0012581085, w: 0.9999992}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_dedao_D
       parentName: meio_dedao_D
-      position: {x: 0.0019697573, y: -0.0000000047294413, z: -0.0000000073775173}
+      position: {x: 0.023637092, y: -0.00000005675329, z: -0.000000088530214}
       rotation: {x: -0.42652008, y: -0.56398636, z: -0.42652008, w: 0.56398636}
       scale: {x: 1, y: 1, z: 1}
     - name: femuor_E
       parentName: bacia
-      position: {x: 0.000081773294, y: -0.0024046928, z: 0.008457819}
+      position: {x: 0.0009812795, y: -0.028856315, z: 0.101493835}
       rotation: {x: 0.68708354, y: 0.57227385, z: 0.28773627, w: 0.34296742}
       scale: {x: 1, y: 1, z: 1}
     - name: joelho_E
       parentName: femuor_E
-      position: {x: -0.037303716, y: 5.0285294e-18, z: 0}
+      position: {x: -0.44764453, y: 6.0342356e-17, z: 0}
       rotation: {x: 0.43107244, y: 0.56892544, z: 0.4978501, w: -0.4925908}
       scale: {x: 1, y: 1, z: 1}
     - name: calcanhar_E
       parentName: joelho_E
-      position: {x: -0.005700427, y: -0.050791457, z: -0.0010181025}
+      position: {x: -0.06840512, y: -0.6094975, z: -0.012217229}
       rotation: {x: 0.0033249592, y: 0.018808, z: -0.035143334, w: 0.99919975}
       scale: {x: 1, y: 1, z: 1}
     - name: meiope_E
       parentName: calcanhar_E
-      position: {x: 0.0076849745, y: -0.0003415356, z: 0.006066153}
+      position: {x: 0.0922197, y: -0.004098427, z: 0.072793834}
       rotation: {x: -0.064839415, y: -0.3073471, z: 0.1933057, w: 0.929498}
       scale: {x: 1, y: 1, z: 1}
     - name: pontape_E
       parentName: meiope_E
-      position: {x: 0.00481465, y: -0.00040511962, z: -0.00012003374}
+      position: {x: 0.0577758, y: -0.004861435, z: -0.0014404049}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: femuor_D
       parentName: bacia
-      position: {x: 0.00008177109, y: -0.0024047077, z: -0.00845782}
+      position: {x: 0.0009812531, y: -0.028856494, z: -0.101493835}
       rotation: {x: 0.70457435, y: -0.5497054, z: -0.28263006, w: 0.3485962}
       scale: {x: 1, y: 1, z: 1}
     - name: joelho_D
       parentName: femuor_D
-      position: {x: 0.03730369, y: -0.00000003407725, z: -0.000000003931046}
+      position: {x: 0.4476443, y: -0.00000040892698, z: -0.000000047172556}
       rotation: {x: 0.41376653, y: 0.5861586, z: 0.4996045, w: -0.4853975}
       scale: {x: 1, y: 1, z: 1}
     - name: calcanhar_D
       parentName: joelho_D
-      position: {x: 0.0057004327, y: 0.05079147, z: 0.0010181319}
+      position: {x: 0.06840519, y: 0.60949755, z: 0.012217584}
       rotation: {x: -0.029468881, y: 0.021415057, z: 0.024295168, w: 0.9990409}
       scale: {x: 1, y: 1, z: 1}
     - name: meiope_D
       parentName: calcanhar_D
-      position: {x: -0.008299768, y: 0.00012187635, z: -0.0058564865}
+      position: {x: -0.09959719, y: 0.0014625164, z: -0.07027785}
       rotation: {x: 0.00090740004, y: -0.3095403, z: 0.019440347, w: 0.95068717}
       scale: {x: 1, y: 1, z: 1}
     - name: pontape_D
       parentName: meiope_D
-      position: {x: -0.00481465, y: 0.00040512, z: 0.000120029996}
+      position: {x: -0.0577758, y: 0.0048614405, z: 0.00144036}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
@@ -445,14 +851,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 12
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1

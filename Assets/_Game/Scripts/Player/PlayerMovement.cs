@@ -47,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
     public bool possibleClimb = false;
     public bool climbingArea = false;
     public bool crawlingTrans = false;
+    public bool climbImpulse = false;
 
     private float isMovingH;
     private float isMovingV;
@@ -81,7 +82,6 @@ public class PlayerMovement : MonoBehaviour
         else animator.SetFloat("Velocity", 0f);
 
         Crawl();
-        Climb();
         kickRef.Kick();
 
         PlayerMove();
@@ -116,10 +116,10 @@ public class PlayerMovement : MonoBehaviour
 
         movement *= animator.GetFloat("Velocity");
 
-        if (animator.GetBool("crawlingTransArea") == false)
-            Gravity();
-
         //Jump();
+        Climb();
+
+        if (animator.GetBool("crawlingTransArea") == false) Gravity();
 
         if (esteira && footRef)
         {
@@ -179,29 +179,39 @@ public class PlayerMovement : MonoBehaviour
     {
         if (possibleClimb)
         {
+            controller.height = crawlingHCollision;
+            controller.center = crawlingCollision;
+
             if (isClimb)
             {
                 animator.SetBool("isClimbing", true);
             }
             else animator.SetBool("isClimbing", false);
-        }
 
-        if (animator.GetBool("crawlingTransArea"))
-        {
-            if (isClimb)
+            if (animator.GetBool("crawlingTransArea"))
             {
-                controller.height = crawlingHCollision;
-                controller.center = crawlingCollision;
+                if (isClimb)
+                {
+                    moveY = 1f;
 
-                moveY = 1f;
+                    if (climbImpulse)
+                    {
+                        movement.z += 0.1f;
+                        controller.Move(movement);
+                    }
+
+                }
+
             }
-
+            else moveY = 0f;
         }
-        else moveY = 0f;
 
         if (animator.GetBool("climbingArea"))
         {
             animator.SetBool("isCrawling", true);
+
+            controller.height = crawlingHCollision;
+            controller.center = crawlingCollision;
         }
     }
 
@@ -271,6 +281,11 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("crawlingTransArea", true);
         }
 
+        if (other.gameObject.CompareTag("ClimbCollider"))
+        {
+            climbImpulse = true;
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -294,6 +309,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("CrawlingTransition"))
         {
             animator.SetBool("crawlingTransArea", false);
+        }
+
+        if (other.gameObject.CompareTag("ClimbCollider"))
+        {
+            climbImpulse = false;
         }
     }
 
