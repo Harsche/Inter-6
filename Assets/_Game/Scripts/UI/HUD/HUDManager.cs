@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class HUDManager : MonoBehaviour
 {
-    [SerializeField] bool cheat;
     [SerializeField] PlayerMovement playerRef;
 
     [SerializeField] private float staminaRunReducao = 0.1f;
@@ -31,9 +30,9 @@ public class HUDManager : MonoBehaviour
     private Coroutine danoCoroutine;
 
     private bool staminaAcabou;
+    public static bool cheat;
 
     void Update(){
-        if (Input.GetKeyDown(KeyCode.L)) cheat = !cheat;
         if(cheat) return;
         Stamina();
         Life();

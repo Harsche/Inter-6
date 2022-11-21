@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 [CreateAssetMenu(menuName = "Game Events")]
 public class GameEvents : ScriptableObject{
     public void TriggerDialog(TextAsset dialogJson){
-        Dialog.Instance.TriggerDialog(dialogJson);
+        DialogManager.Instance.TriggerDialog(dialogJson);
     }
 
     public void CollectItem(Item item){
@@ -22,7 +22,7 @@ public class GameEvents : ScriptableObject{
     // }
 
     public void ActivateOnDialogEnd(GameObject gameObject){
-        Dialog.Instance.OnDialogEnd += () =>  gameObject.SetActive(true);
+        DialogManager.Instance.OnDialogEnd += () =>  gameObject.SetActive(true);
     }
 
     public void LoadScene(string sceneName){

@@ -6,6 +6,6 @@ public class TestDialog : MonoBehaviour{
     
     private void Update(){
         if(!Input.GetKeyDown(KeyCode.P)) return;
-        Dialog.Instance.TriggerDialog(dialog);
+        DialogManager.Instance.TriggerDialog(dialog);
     }
 }
