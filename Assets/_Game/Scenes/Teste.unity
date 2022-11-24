@@ -907,6 +907,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 334134091593027998, guid: 520d0cd6d28950347aeb250ecf6f9320,
+        type: 3}
+      propertyPath: onExecuteAllKicks.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 466946456}
     - target: {fileID: 4969303020628629934, guid: 520d0cd6d28950347aeb250ecf6f9320,
         type: 3}
       propertyPath: m_Name
@@ -3286,42 +3291,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60675776e7adc2d488c90a5f7c3a0551, type: 3}
---- !u!1 &1238204015 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5576968775490367878, guid: 520d0cd6d28950347aeb250ecf6f9320,
-    type: 3}
-  m_PrefabInstance: {fileID: 469085935}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1238204018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238204015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 472d1cbcd5264840a79426fdf2718b24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  kicksRequired: 5
-  kickCount: 0
-  cooldownTime: 0.2
-  onExecuteAllKicks:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 466946456}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1246380059
 GameObject:
   m_ObjectHideFlags: 0
@@ -5577,42 +5546,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913322789}
   m_CullTransparentMesh: 1
---- !u!1 &1919638429 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3640215897003401085, guid: 520d0cd6d28950347aeb250ecf6f9320,
-    type: 3}
-  m_PrefabInstance: {fileID: 469085935}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1919638434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919638429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 472d1cbcd5264840a79426fdf2718b24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  kicksRequired: 5
-  kickCount: 0
-  cooldownTime: 0.2
-  onExecuteAllKicks:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 466946456}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1997728746
 GameObject:
   m_ObjectHideFlags: 0

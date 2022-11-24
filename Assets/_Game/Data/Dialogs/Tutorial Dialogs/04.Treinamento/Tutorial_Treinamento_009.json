@@ -1,12 +1,8 @@
 {
     "dialog": [
         {
-            "text": "<color=#61C0FF>Muito bem, Tessa! Com isso, nós finalizamos o treino de hoje.</color>",
-            "time": 4.0
-        },
-        {
-            "text": "<color=#FFFFFF>Obrigada, Hill!</color>",
-            "time": 1.0
+            "text": "<color=#61C0FF>Quero que você pule e se segure nesta barra, e, em seguida, passe por cima dela, chegando ao outro lado.</color>",
+            "time": 5.0
         }
     ]
 }

@@ -322,10 +322,13 @@ public class PlayerMovement : MonoBehaviour
         stepsEventEmitter.SetParameter("Parameter 2", 0);
         stepsEventEmitter.Play();
     }
-    
-    public void PlayRunSound()
-    {
+
+    public void PlayRunSound(){
         stepsEventEmitter.SetParameter("Parameter 2", 1);
         stepsEventEmitter.Play();
+    }
+
+    public void SetEsteiraVel(float value){
+        esteiraVel = value;
     }
 }
