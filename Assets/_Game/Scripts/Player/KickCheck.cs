@@ -9,7 +9,7 @@ public class KickCheck : MonoBehaviour
     [SerializeField] GameObject kickDirection;
     [SerializeField] Animator playerAnim;
 
-    [SerializeField] private float kickForce = 20f;
+    [SerializeField] private float kickForce = 35f;
 
     public bool kicked;
     public bool kickedEnemy;
@@ -32,6 +32,7 @@ public class KickCheck : MonoBehaviour
         }
         else
         {
+            playerRef.animator.SetBool("isKicking", false);
             playerAnim.SetLayerWeight(playerAnim.GetLayerIndex("DamageKick"), 0f);
         }
 
@@ -48,15 +49,13 @@ public class KickCheck : MonoBehaviour
         {
             kicked = true;
             kickedEnemy = true;
-
-            print(kickedEnemy);
         }
 
         if (collision.gameObject.CompareTag("Kickable"))
         {
             kicked = true;
 
-            collision.rigidbody.AddForceAtPosition(kickDirection.transform.forward * kickForce, kickDirection.transform.position);
+            collision.rigidbody.AddForceAtPosition(new Vector3 (0, 0, 1) * kickForce, kickDirection.transform.forward);
         }
     }
 

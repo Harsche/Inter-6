@@ -6,6 +6,7 @@ public class RobotIA : MonoBehaviour
 {
     public KickCheck kickRef;
     public List<Transform> npcPoints = new List<Transform>();
+    public List<GameObject> lixeiras = new List<GameObject>();
     public int pointIndex = 0;
 
     void Start()
