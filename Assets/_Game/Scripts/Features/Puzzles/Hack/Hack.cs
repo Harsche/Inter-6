@@ -9,6 +9,7 @@ using Random = UnityEngine.Random;
 
 namespace Puzzles.Hack{
     public class Hack : MonoBehaviour{
+        [SerializeField] private Canvas puzzleCanvas;
         [SerializeField] private Hexagon[] hexagons;
         [SerializeField] private Image timerCircle;
         [SerializeField] private Image panel;
@@ -17,24 +18,29 @@ namespace Puzzles.Hack{
         [SerializeField] private EventReference correctSound;
         [SerializeField] private EventReference incorrectSound;
         [SerializeField] private UnityEvent onSolveEvent;
-        
+
         private bool puzzleSolved;
         private Tweener timerTween;
         private Color panelDefaultColor;
-        
+
         private void Awake(){
             panelDefaultColor = panel.color;
+        }
+
+        private void Start(){
+            puzzleCanvas.worldCamera = Player.Instance.PlayerCamera;
         }
 
         private void Update(){
             if (Input.GetKeyDown(KeyCode.O)) onSolveEvent?.Invoke();
         }
-        
+
         private bool CheckIfPuzzleIsSolved(){
             if (puzzleSolved){
                 SolveFeedback();
                 return true;
             }
+
             puzzleSolved = hexagons.Where(hexagon => hexagon.Activated).All(hexagon => hexagon.CheckIfConnected());
             SolveFeedback();
             if (puzzleSolved) onSolveEvent?.Invoke();
@@ -47,7 +53,7 @@ namespace Puzzles.Hack{
             eventEmitter.Play();
             DoPaintPanel(puzzleSolved);
         }
-        
+
         private void DoPaintPanel(bool isPasswordCorrect){
             const float alphaValue = 105f / 255f;
             Color finalColor = isPasswordCorrect ? Color.green : Color.red;
@@ -74,10 +80,11 @@ namespace Puzzles.Hack{
         public void CheckIfSolved(){
             if (puzzleSolved) return;
             puzzleSolved = hexagons.Where(hexagon => hexagon.Activated).All(hexagon => hexagon.CheckIfConnected());
+            if (!puzzleSolved) return;
             SolveFeedback();
-            if (puzzleSolved) onSolveEvent?.Invoke();
+            onSolveEvent?.Invoke();
         }
-        
+
         public void StartTimer(float time){
             timerCircle.gameObject.SetActive(true);
             timerCircle.fillAmount = 1f;

@@ -11,7 +11,7 @@ public class Cheats : MonoBehaviour{
         HUDManager.cheat = !HUDManager.cheat;
     }
 
-    void SkipDialog(){
+    private void SkipDialog(){
         DialogManager.Instance.SkipDialog();
     }
 }
