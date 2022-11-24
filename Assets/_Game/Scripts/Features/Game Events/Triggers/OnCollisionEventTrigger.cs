@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class OnCollisionEventTrigger : MonoBehaviour{
     [SerializeField] private bool isCollisionTrigger = true;
-    [SerializeField] private bool triggerOnEnter;
+    [SerializeField] private bool triggerOnEnter = true;
     [SerializeField] private bool triggerOnStay;
     [SerializeField] private bool triggerOnExit;
     [SerializeField] private float delay;

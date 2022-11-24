@@ -105,6 +105,7 @@ public class HUDManager : MonoBehaviour
     {
         while (true)
         {
+            if(cheat) yield break;
             if (staminaValue <= 0)
             {
                 staminaAcabou = true;
@@ -164,6 +165,7 @@ public class HUDManager : MonoBehaviour
     {
         while (true)
         {
+            if(cheat) yield break;
             if (playerLife <= 0)
             {
                 yield break;

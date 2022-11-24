@@ -1,8 +1,20 @@
 {
     "dialog": [
         {
-            "text": "<color=#61C0FF>Faça uma sequencia de 10 pulos.</color>",
-            "time": 2.0
+            "text": "<color=#61C0FF>Muito bom! Seus sinais vitais indicam que você mantém um ótimo desempenho físico.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>É o suficiente de caminhada por hoje, Tessa. Agora, vamos treinar combate físico.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#61C0FF>É importante estar preparada para situações aonde armas não estão disponíveis.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sem dúvidas.</color>",
+            "time": 1.5
         }
     ]
 }

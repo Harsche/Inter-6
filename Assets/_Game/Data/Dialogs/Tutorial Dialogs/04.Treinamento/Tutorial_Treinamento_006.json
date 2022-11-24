@@ -1,8 +1,12 @@
 {
     "dialog": [
         {
-            "text": "<color=#61C0FF>Quero que acerte 7 chutes em solo e 3 chutes aéreos no boneco de treino.</color>",
+            "text": "<color=#61C0FF>Muito bem, Tessa! Com isso, nós finalizamos o treino de hoje.</color>",
             "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Obrigada, Hill!</color>",
+            "time": 1.0
         }
     ]
 }
