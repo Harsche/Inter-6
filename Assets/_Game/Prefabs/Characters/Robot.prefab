@@ -16035,14 +16035,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kickRef: {fileID: 0}
-  lixeiraRef: {fileID: 0}
   npcPoints:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   lixeiras:
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   pointIndex: 0

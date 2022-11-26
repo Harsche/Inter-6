@@ -393,47 +393,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: LixeiraCozinha (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 6826148674515880237, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6826148674515880237, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
-        type: 3}
-      propertyPath: m_TagString
-      value: Kickable
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ce3c0f2e6d4a5e479378d4317f989c7, type: 3}
---- !u!1 &281434276 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6826148674515880237, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
-    type: 3}
-  m_PrefabInstance: {fileID: 281434275}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &281434277
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281434276}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &281434278 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1423541984, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
     type: 3}
   m_PrefabInstance: {fileID: 281434275}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281434276}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e18cb45649a693544afa65f80864126f, type: 3}
@@ -482,12 +450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be4826336fc56f4091467f1e64a0cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &360508099 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 1228907146130996921, guid: 0e39b4b215d65684888f4a390eb533c0,
-    type: 3}
-  m_PrefabInstance: {fileID: 8109633148925563396}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &363368640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,47 +1828,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: LixeiraCozinha (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 6826148674515880237, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6826148674515880237, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
-        type: 3}
-      propertyPath: m_TagString
-      value: Kickable
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ce3c0f2e6d4a5e479378d4317f989c7, type: 3}
---- !u!1 &1367944769 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6826148674515880237, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1367944768}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1367944770
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367944769}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1367944771 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1423541984, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
     type: 3}
   m_PrefabInstance: {fileID: 1367944768}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367944769}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e18cb45649a693544afa65f80864126f, type: 3}
@@ -2135,47 +2065,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: LixeiraCozinha
       objectReference: {fileID: 0}
-    - target: {fileID: 6826148674515880237, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6826148674515880237, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
-        type: 3}
-      propertyPath: m_TagString
-      value: Kickable
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ce3c0f2e6d4a5e479378d4317f989c7, type: 3}
---- !u!1 &1435832577 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6826148674515880237, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1435832576}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1435832578
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435832577}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1435832579 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1423541984, guid: 0ce3c0f2e6d4a5e479378d4317f989c7,
     type: 3}
   m_PrefabInstance: {fileID: 1435832576}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435832577}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e18cb45649a693544afa65f80864126f, type: 3}
@@ -3083,32 +2981,12 @@ PrefabInstance:
       objectReference: {fileID: 360508096}
     - target: {fileID: 7316986437040970817, guid: 0ec96309212d7144599f91e5e5b1ba11,
         type: 3}
-      propertyPath: lixeiraRef
-      value: 
-      objectReference: {fileID: 281434278}
-    - target: {fileID: 7316986437040970817, guid: 0ec96309212d7144599f91e5e5b1ba11,
-        type: 3}
-      propertyPath: lixeiras.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7316986437040970817, guid: 0ec96309212d7144599f91e5e5b1ba11,
-        type: 3}
       propertyPath: lixeiras.Array.data[0]
       value: 
       objectReference: {fileID: 281434278}
     - target: {fileID: 7316986437040970817, guid: 0ec96309212d7144599f91e5e5b1ba11,
         type: 3}
       propertyPath: lixeiras.Array.data[1]
-      value: 
-      objectReference: {fileID: 1367944771}
-    - target: {fileID: 7316986437040970817, guid: 0ec96309212d7144599f91e5e5b1ba11,
-        type: 3}
-      propertyPath: lixeiras.Array.data[2]
-      value: 
-      objectReference: {fileID: 281434278}
-    - target: {fileID: 7316986437040970817, guid: 0ec96309212d7144599f91e5e5b1ba11,
-        type: 3}
-      propertyPath: lixeiras.Array.data[3]
       value: 
       objectReference: {fileID: 1367944771}
     - target: {fileID: 7316986437040970817, guid: 0ec96309212d7144599f91e5e5b1ba11,
@@ -3185,6 +3063,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Robot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804865258129051437, guid: 0ec96309212d7144599f91e5e5b1ba11,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804865258129051437, guid: 0ec96309212d7144599f91e5e5b1ba11,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804865258129051437, guid: 0ec96309212d7144599f91e5e5b1ba11,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ec96309212d7144599f91e5e5b1ba11, type: 3}
@@ -3602,11 +3495,6 @@ PrefabInstance:
       propertyPath: hudRef
       value: 
       objectReference: {fileID: 1119484630}
-    - target: {fileID: 1228907146130996926, guid: 0e39b4b215d65684888f4a390eb533c0,
-        type: 3}
-      propertyPath: colliderChute
-      value: 
-      objectReference: {fileID: 360508099}
     - target: {fileID: 3661430356864344654, guid: 0e39b4b215d65684888f4a390eb533c0,
         type: 3}
       propertyPath: m_Name

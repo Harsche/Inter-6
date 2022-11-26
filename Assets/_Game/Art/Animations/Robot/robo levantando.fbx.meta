@@ -1,0 +1,978 @@
+fileFormatVersion: 2
+guid: 924fffc082e1d544e9677648359c2d79
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -9037438649137412124
+    second: robo levantando
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'robo levantando' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'robo_jogo_modelagem_5:meiope_E' has translation
+      animation that will be discarded.\n\t'robo_jogo_modelagem_5:meiope_D' has translation
+      animation that will be discarded.\n\t'robo_jogo_modelagem_5:meiope_D' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 12
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: robo_jogo_modelagem_5:bacia
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:femuor_E
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:femuor_D
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:joelho_E
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:joelho_D
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meiope_E
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:calcanhar_D
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:cintura
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:coluna_1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:pescoco
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:cabeca
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:clavicula_E
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:clavicula_D
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:ombro_E
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:ombro_D
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:cotuvelo_E
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:cotuvelo_D
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:pulso_E
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:pulso_D
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:pontape_D
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:ponta_cabeca
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_indicador_E
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_indicador_E
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:antiponta_indicador_E
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_dedomeio_E
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_deodo_meio_E
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:antiponta_dedomeio_E
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_anelar_E
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_anelar_E
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:antiponta_anelar_E
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_dedidnho_E
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_dedinho_E
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:antiponta_dedinho_E
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_indicador_D
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_indicador_D
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:antiponta_indicador_D
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_dedomeio_D
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_deodo_meio_D
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:antiponta_dedomeio_D
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_anelar_D
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_anelar_D
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:antiponta_anelar_D
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_dedidnho_D
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_dedinho_D
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:antiponta_dedinho_D
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:coluna_2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:pontape_E
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_dedao_E
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_dedao_E
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:ponta_dedao_E
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:base_dedao_D
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:meio_dedao_D
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robo_jogo_modelagem_5:ponta_dedao_D
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: robo levantando(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:bacia
+      parentName: robo levantando(Clone)
+      position: {x: 0.0005883202, y: 1.1497577, z: -4.0274805e-17}
+      rotation: {x: 0.267345, y: 0.66539854, z: -0.25984237, w: -0.6467252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:cintura
+      parentName: robo_jogo_modelagem_5:bacia
+      position: {x: 1.0658141e-16, y: 0.04139751, z: 3.5076218e-18}
+      rotation: {x: 0.00000004470348, y: 0.000000029802319, z: -0.7978682, w: 0.602832}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:coluna_1
+      parentName: robo_jogo_modelagem_5:cintura
+      position: {x: -0.13369086, y: -2.6645352e-17, z: 1.1499254e-17}
+      rotation: {x: 0, y: -0, z: -0.053001437, w: 0.99859446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:coluna_2
+      parentName: robo_jogo_modelagem_5:coluna_1
+      position: {x: -0.10630912, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.055540994, w: 0.9984564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:coluna_3
+      parentName: robo_jogo_modelagem_5:coluna_2
+      position: {x: -0.12, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.068179436, w: 0.9976731}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:clavicula_D
+      parentName: robo_jogo_modelagem_5:coluna_3
+      position: {x: -0.06677517, y: 0.0062599652, z: -0.06561851}
+      rotation: {x: 0.41550756, y: 0.43267184, z: -0.43523285, w: 0.6713575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ombro_D
+      parentName: robo_jogo_modelagem_5:clavicula_D
+      position: {x: 0.14875573, y: 0.0000054306097, z: -0.00000008288573}
+      rotation: {x: 0.117264464, y: 0.12555808, z: -0.24774925, w: 0.95346975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:cotuvelo_D
+      parentName: robo_jogo_modelagem_5:ombro_D
+      position: {x: 0.3410528, y: 0.10285972, z: 0.00000006348857}
+      rotation: {x: -0.006954824, y: 0.045556195, z: 0.14089477, w: 0.98895144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:pulso_D
+      parentName: robo_jogo_modelagem_5:cotuvelo_D
+      position: {x: 0.36518577, y: 0.0000012396042, z: 0.00000039240143}
+      rotation: {x: -0.37803745, y: -0.59756815, z: -0.37803745, w: 0.59756815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: panomodelo
+      parentName: robo_jogo_modelagem_5:pulso_D
+      position: {x: -0.001596274, y: 0.100921884, z: -0.030495832}
+      rotation: {x: -0.12004943, y: 0.69837403, z: -0.13168314, w: 0.6931966}
+      scale: {x: 0.047443274, y: 2.206951, z: 1.3825296}
+    - name: robo_jogo_modelagem_5:base_anelar_D
+      parentName: robo_jogo_modelagem_5:pulso_D
+      position: {x: 0.018642725, y: 0.093354926, z: -0.044377297}
+      rotation: {x: 0.3332022, y: 0.61379415, z: 0.33853835, w: 0.630575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meio_anelar_D
+      parentName: robo_jogo_modelagem_5:base_anelar_D
+      position: {x: 0.026156256, y: 0.0000005679587, z: 0.00000006728876}
+      rotation: {x: 0.0019444814, y: -0.03704156, z: -0.0026823867, w: 0.9993083}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:antiponta_anelar_D
+      parentName: robo_jogo_modelagem_5:meio_anelar_D
+      position: {x: 0.026243541, y: -0.00000043014, z: -0.000000065742576}
+      rotation: {x: -3.8857809e-16, y: -1.6653347e-16, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_anelar_D
+      parentName: robo_jogo_modelagem_5:antiponta_anelar_D
+      position: {x: 0.01795538, y: -0.00000046743472, z: 0.000000014486883}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:base_dedao_D
+      parentName: robo_jogo_modelagem_5:pulso_D
+      position: {x: -0.03094743, y: 0.053466693, z: -0.028265804}
+      rotation: {x: 0.5125663, y: 0.5276234, z: 0.57929623, w: 0.3511484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meio_dedao_D
+      parentName: robo_jogo_modelagem_5:base_dedao_D
+      position: {x: 0.031178843, y: -0.000000761557, z: 0.00000035942793}
+      rotation: {x: 2.2551407e-17, y: -2.0816683e-16, z: -0.0012581085, w: 0.9999992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_dedao_D
+      parentName: robo_jogo_modelagem_5:meio_dedao_D
+      position: {x: 0.023637086, y: -0.000000056753297, z: -0.00000008853021}
+      rotation: {x: -0.42652008, y: -0.56398636, z: -0.42652008, w: 0.56398636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:base_dedidnho_D
+      parentName: robo_jogo_modelagem_5:pulso_D
+      position: {x: 0.032593224, y: 0.09043341, z: -0.043753933}
+      rotation: {x: 0.24323893, y: 0.53563595, z: 0.42313844, w: 0.6891175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meio_dedinho_D
+      parentName: robo_jogo_modelagem_5:base_dedidnho_D
+      position: {x: 0.023654219, y: 0.00000016839489, z: 0.000000021716188}
+      rotation: {x: -0.000005700088, y: 0.0012522066, z: 0.004551984, w: 0.99998885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:antiponta_dedinho_D
+      parentName: robo_jogo_modelagem_5:meio_dedinho_D
+      position: {x: 0.021871993, y: 0.00000045594214, z: 0.000000109366184}
+      rotation: {x: 5.551116e-17, y: -1.9428904e-16, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_deidinho_D
+      parentName: robo_jogo_modelagem_5:antiponta_dedinho_D
+      position: {x: 0.015019618, y: -0.00000019524026, z: -0.0000001020898}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:base_dedomeio_D
+      parentName: robo_jogo_modelagem_5:pulso_D
+      position: {x: 0.001691824, y: 0.09459613, z: -0.04564471}
+      rotation: {x: 0.3221073, y: 0.6069532, z: 0.34927124, w: 0.6370748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meio_deodo_meio_D
+      parentName: robo_jogo_modelagem_5:base_dedomeio_D
+      position: {x: 0.02966783, y: 0.00000041989816, z: 0.000000053904653}
+      rotation: {x: 0.000049458562, y: -0.010865155, z: 0.004551719, w: 0.9999306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:antiponta_dedomeio_D
+      parentName: robo_jogo_modelagem_5:meio_deodo_meio_D
+      position: {x: 0.028254561, y: -0.00000040256492, z: -0.000000040765407}
+      rotation: {x: -1.6653347e-16, y: -1.1102232e-16, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_dedomeio_D
+      parentName: robo_jogo_modelagem_5:antiponta_dedomeio_D
+      position: {x: 0.017954964, y: 0.0000009783921, z: 0.000000011903782}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:base_indicador_D
+      parentName: robo_jogo_modelagem_5:pulso_D
+      position: {x: -0.013677285, y: 0.096347466, z: -0.047491238}
+      rotation: {x: 0.34786886, y: 0.638735, z: 0.33173788, w: 0.60079515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meio_indicador_D
+      parentName: robo_jogo_modelagem_5:base_indicador_D
+      position: {x: 0.025622183, y: 0.00000016828581, z: 0.00000009760887}
+      rotation: {x: 0.000049458562, y: -0.010865155, z: 0.004551719, w: 0.9999306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:antiponta_indicador_D
+      parentName: robo_jogo_modelagem_5:meio_indicador_D
+      position: {x: 0.024780035, y: -0.0000002260171, z: -0.000000038782176}
+      rotation: {x: -1.6653347e-16, y: 2.775558e-17, z: 0.017501041, w: 0.9998469}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_indicador_D
+      parentName: robo_jogo_modelagem_5:antiponta_indicador_D
+      position: {x: 0.017955994, y: -0.0000002136242, z: -0.000000008734262}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:clavicula_E
+      parentName: robo_jogo_modelagem_5:coluna_3
+      position: {x: -0.06677017, y: 0.0062620444, z: 0.06561853}
+      rotation: {x: -0.50468004, y: 0.34666163, z: 0.7211446, w: 0.32415155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ombro_E
+      parentName: robo_jogo_modelagem_5:clavicula_E
+      position: {x: -0.14875743, y: -0.000000007595151, z: 0.000000019303958}
+      rotation: {x: 0.44785485, y: 0.08447732, z: -0.12717502, w: 0.88097453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:cotuvelo_E
+      parentName: robo_jogo_modelagem_5:ombro_E
+      position: {x: -0.35622942, y: 3.1441516e-15, z: 6.3948843e-16}
+      rotation: {x: -0.00011700386, y: 0.039919537, z: -0.0033942668, w: 0.9991971}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:pulso_E
+      parentName: robo_jogo_modelagem_5:cotuvelo_E
+      position: {x: -0.3651826, y: 5.5422327e-15, z: -2.1316282e-16}
+      rotation: {x: -0.37803745, y: -0.59756815, z: -0.37803745, w: 0.59756815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:base_anelar_E
+      parentName: robo_jogo_modelagem_5:pulso_E
+      position: {x: -0.018642746, y: -0.09335569, z: 0.04437742}
+      rotation: {x: 0.3135485, y: 0.6007029, z: 0.34368607, w: 0.6501717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meio_anelar_E
+      parentName: robo_jogo_modelagem_5:base_anelar_E
+      position: {x: -0.02615563, y: 0.000000006355352, z: 3.4652078e-10}
+      rotation: {x: 0.0020022388, y: 0.0024358626, z: -0.035936095, w: 0.9993492}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:antiponta_anelar_E
+      parentName: robo_jogo_modelagem_5:meio_anelar_E
+      position: {x: -0.02624357, y: -0.000000008209288, z: -3.9850437e-10}
+      rotation: {x: 0.0049090805, y: 0.0017351535, z: -0.028588932, w: 0.9995777}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_anelar_E
+      parentName: robo_jogo_modelagem_5:antiponta_anelar_E
+      position: {x: -0.017955698, y: 1.1074474e-16, z: -1.2392594e-16}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:base_dedao_E
+      parentName: robo_jogo_modelagem_5:pulso_E
+      position: {x: 0.0309472, y: -0.053467628, z: 0.028266802}
+      rotation: {x: 0.33285823, y: 0.63042724, z: 0.5005101, w: 0.4911787}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: robo_jogo_modelagem_5:meio_dedao_E
+      parentName: robo_jogo_modelagem_5:base_dedao_E
+      position: {x: -0.031177895, y: 1.5987211e-16, z: 1.0658141e-16}
+      rotation: {x: 2.8588245e-15, y: -1.6653345e-16, z: -0.0012581085, w: 0.9999992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_dedao_E
+      parentName: robo_jogo_modelagem_5:meio_dedao_E
+      position: {x: -0.02363739, y: 1.0168948e-16, z: 1.6681781e-17}
+      rotation: {x: -0.42652008, y: -0.56398636, z: -0.42652008, w: 0.56398636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:base_dedidnho_E
+      parentName: robo_jogo_modelagem_5:pulso_E
+      position: {x: -0.032593343, y: -0.09043424, z: 0.043754008}
+      rotation: {x: 0.3141748, y: 0.5959178, z: 0.34411243, w: 0.65403587}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meio_dedinho_E
+      parentName: robo_jogo_modelagem_5:base_dedidnho_E
+      position: {x: -0.023653844, y: 0.0000000024323896, z: 8.5207036e-11}
+      rotation: {x: -0.0026614948, y: 0.0024431334, z: -0.035932906, w: 0.9993477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:antiponta_dedinho_E
+      parentName: robo_jogo_modelagem_5:meio_dedinho_E
+      position: {x: -0.02187177, y: -0.0000000055956018, z: -3.0908723e-10}
+      rotation: {x: -0.004617186, y: 0.0017629318, z: -0.028588321, w: 0.9995791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_deidinho_E
+      parentName: robo_jogo_modelagem_5:antiponta_dedinho_E
+      position: {x: -0.015020406, y: 8.045647e-17, z: -1.3558652e-16}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:base_dedomeio_E
+      parentName: robo_jogo_modelagem_5:pulso_E
+      position: {x: -0.0016940165, y: -0.09453822, z: 0.045707066}
+      rotation: {x: 0.3069744, y: 0.5966378, z: 0.34981403, w: 0.65377384}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meio_deodo_meio_E
+      parentName: robo_jogo_modelagem_5:base_dedomeio_E
+      position: {x: -0.02966774, y: 0.0000000049042597, z: 3.5861275e-10}
+      rotation: {x: 0.00064386404, y: -0.00043466673, z: -0.03603797, w: 0.9993502}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:antiponta_dedomeio_E
+      parentName: robo_jogo_modelagem_5:meio_deodo_meio_E
+      position: {x: -0.028254388, y: 0.000000011344008, z: 7.736173e-10}
+      rotation: {x: -0.0018495731, y: 0.0017520227, z: -0.028581323, w: 0.9995883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_dedomeio_E
+      parentName: robo_jogo_modelagem_5:antiponta_dedomeio_E
+      position: {x: -0.017955698, y: 1.1074474e-16, z: -1.2392594e-16}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:base_indicador_E
+      parentName: robo_jogo_modelagem_5:pulso_E
+      position: {x: 0.013677189, y: -0.09634813, z: 0.047492057}
+      rotation: {x: 0.30640894, y: 0.60675794, z: 0.34994647, w: 0.6445897}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meio_indicador_E
+      parentName: robo_jogo_modelagem_5:base_indicador_E
+      position: {x: -0.025621776, y: -0.000000005662006, z: -2.7688293e-10}
+      rotation: {x: -0.0020702179, y: -0.0006395874, z: -0.036031447, w: 0.99934834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:antiponta_indicador_E
+      parentName: robo_jogo_modelagem_5:meio_indicador_E
+      position: {x: -0.024779996, y: -0.000000011908817, z: -5.905843e-10}
+      rotation: {x: 0.0045092306, y: 0.0016386333, z: -0.028588269, w: 0.99957985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_indicador_E
+      parentName: robo_jogo_modelagem_5:antiponta_indicador_E
+      position: {x: -0.017955698, y: 1.1074474e-16, z: -1.2392594e-16}
+      rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:pescoco
+      parentName: robo_jogo_modelagem_5:coluna_3
+      position: {x: -0.15255058, y: -2.1316282e-16, z: 3.4238557e-17}
+      rotation: {x: 0, y: -0, z: -0.026947828, w: 0.9996369}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:cabeca
+      parentName: robo_jogo_modelagem_5:pescoco
+      position: {x: -0.08215666, y: 3.7303492e-16, z: 7.486075e-18}
+      rotation: {x: 0, y: 0, z: 0.1592366, w: 0.9872405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:ponta_cabeca
+      parentName: robo_jogo_modelagem_5:cabeca
+      position: {x: -0.1400347, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:femuor_D
+      parentName: robo_jogo_modelagem_5:bacia
+      position: {x: 0.000981253, y: -0.028856492, z: -0.101493835}
+      rotation: {x: 0.4385809, y: -0.8303169, z: -0.3136051, w: 0.14096974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:joelho_D
+      parentName: robo_jogo_modelagem_5:femuor_D
+      position: {x: 0.44764423, y: -0.00000040892698, z: -0.000000047172556}
+      rotation: {x: 0.4080513, y: 0.7429409, z: 0.405379, w: -0.3423462}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:calcanhar_D
+      parentName: robo_jogo_modelagem_5:joelho_D
+      position: {x: 0.06840519, y: 0.6094976, z: 0.012217581}
+      rotation: {x: -0.26324138, y: -0.028119735, z: 0.54580694, w: 0.7949894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meiope_D
+      parentName: robo_jogo_modelagem_5:calcanhar_D
+      position: {x: -0.105178416, y: -0.0012134239, z: -0.057433233}
+      rotation: {x: 0.06395662, y: -0.20434256, z: -0.10121362, w: 0.9715501}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:pontape_D
+      parentName: robo_jogo_modelagem_5:meiope_D
+      position: {x: -0.057775795, y: 0.0048614396, z: 0.00144036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:femuor_E
+      parentName: robo_jogo_modelagem_5:bacia
+      position: {x: 0.0009812795, y: -0.028856315, z: 0.10149382}
+      rotation: {x: 0.8672241, y: 0.4666891, z: 0.051565986, w: 0.16572471}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:joelho_E
+      parentName: robo_jogo_modelagem_5:femuor_E
+      position: {x: -0.44764456, y: 6.034235e-17, z: 0}
+      rotation: {x: 0.46769962, y: 0.8733694, z: -0.013219745, w: 0.13530819}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:calcanhar_E
+      parentName: robo_jogo_modelagem_5:joelho_E
+      position: {x: -0.06840512, y: -0.6094975, z: -0.012217229}
+      rotation: {x: 0.0033249592, y: 0.018808, z: -0.035143334, w: 0.99919975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:meiope_E
+      parentName: robo_jogo_modelagem_5:calcanhar_E
+      position: {x: 0.11315956, y: 0.0040189484, z: 0.06144527}
+      rotation: {x: 0.06477185, y: 0.10793462, z: 0.23506351, w: 0.9637946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:pontape_E
+      parentName: robo_jogo_modelagem_5:meiope_E
+      position: {x: 0.057775795, y: -0.0048614354, z: -0.0014404049}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:GRP_controle_geral
+      parentName: robo levantando(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:controle_geral
+      parentName: robo_jogo_modelagem_5:GRP_controle_geral
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:GRP_controlador_bacia
+      parentName: robo_jogo_modelagem_5:controle_geral
+      position: {x: -0.09938365, y: 1.1586025, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.8721259}
+    - name: robo_jogo_modelagem_5:controlador_bacia
+      parentName: robo_jogo_modelagem_5:GRP_controlador_bacia
+      position: {x: -0.22948508, y: -0.62550837, z: 0}
+      rotation: {x: 0, y: 0, z: 0.3728155, w: 0.9279055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:GRP_controlador_cintura
+      parentName: robo_jogo_modelagem_5:controlador_bacia
+      position: {x: 1.3322676e-17, y: 0.041397512, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.5341521}
+    - name: robo_jogo_modelagem_5:controlador_cintura
+      parentName: robo_jogo_modelagem_5:GRP_controlador_cintura
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:GRP_controlador_cintura2
+      parentName: robo_jogo_modelagem_5:controlador_cintura
+      position: {x: 0.0053022546, y: 0.13358574, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:controlador_cintura2
+      parentName: robo_jogo_modelagem_5:GRP_controlador_cintura2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:GRP_controlador_claviculaE
+      parentName: robo_jogo_modelagem_5:controlador_cintura2
+      position: {x: 0.0772971, y: 0.28051686, z: 0.06561855}
+      rotation: {x: -0.7762702, y: 0, z: -0, w: 0.63040036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:controlador_claviculaE
+      parentName: robo_jogo_modelagem_5:GRP_controlador_claviculaE
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.2967644, y: -0.08404522, z: -0.14244929, w: 0.9405188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:GRP_controlador_ombro_E
+      parentName: robo_jogo_modelagem_5:controlador_claviculaE
+      position: {x: 0.0071872533, y: -0.14559624, z: 0.029645357}
+      rotation: {x: 0.8967136, y: 0, z: 0, w: -0.4426112}
+      scale: {x: 0.6809635, y: 0.6809635, z: 0.6809635}
+    - name: robo_jogo_modelagem_5:controlador_ombro_E
+      parentName: robo_jogo_modelagem_5:GRP_controlador_ombro_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.1751637, y: -0.25522724, z: 0.38009608, w: 0.87160987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:GRP_controlador_cotuvelo_E
+      parentName: robo_jogo_modelagem_5:controlador_ombro_E
+      position: {x: -0.005683094, y: 0.47768024, z: 0.2131891}
+      rotation: {x: 0.15130824, y: 0.007817738, z: -0.15342869, w: 0.9764755}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:controlador_cotuvelo_E
+      parentName: robo_jogo_modelagem_5:GRP_controlador_cotuvelo_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robo_jogo_modelagem_5:GRP_controlador_pulso_E
+      parentName: robo_jogo_modelagem_5:controlador_cotuvelo_E
+      position: {x: -0.081804775, y: 0.5263332, z: 0.06221325}
+      rotation: {x: 0.100083046, y: 0.014381304, z: 0.1415039, w: 0.9847605}
+      scale: {x: 0.5112668, y: 0.5112668, z: 0.5112668}
+    - name: robo_jogo_modelagem_5:controlador_pulso_E
+      parentName: robo_jogo_modelagem_5:GRP_controlador_pulso_E
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform2
+      parentName: robo_jogo_modelagem_5:controlador_pulso_E
+      position: {x: 0.08546405, y: -1.8189006, z: 5.006244}
+      rotation: {x: 0.01809047, y: -0.64490175, z: 0.76403093, w: 0.0055883885}
+      scale: {x: 2.8722916, y: 2.8722916, z: 2.8722916}
+    - name: vassoura_cabo
+      parentName: transform2
+      position: {x: -0.05324966, y: 1.5931666, z: -1.0186635}
+      rotation: {x: -0.08612913, y: 0.08634578, z: 0.7027095, w: 0.7009462}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GRP_controlador_vassoura
+      parentName: vassoura_cabo
+      position: {x: -0.000000022888184, y: -1.023077, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: controlador_vassoura
+      parentName: GRP_controlador_vassoura
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vassoura_base
+      parentName: vassoura_cabo
+      position: {x: 1.0658141e-16, y: -0.93998086, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vassoura_ponta
+      parentName: vassoura_base
+      position: {x: -0, y: -0.083096094, z: 1.3322676e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 12
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

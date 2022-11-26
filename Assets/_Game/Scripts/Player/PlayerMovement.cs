@@ -331,4 +331,14 @@ public class PlayerMovement : MonoBehaviour
     public void SetEsteiraVel(float value){
         esteiraVel = value;
     }
+
+    public void DesativaCollider()
+    {
+        kickRef.colliderChute.enabled = false;
+    }
+
+    public void AtivaCollider()
+    {
+        kickRef.colliderChute.enabled = true;
+    }
 }
