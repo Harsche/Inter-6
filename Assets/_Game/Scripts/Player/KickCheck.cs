@@ -8,6 +8,7 @@ public class KickCheck : MonoBehaviour
     [SerializeField] HUDManager hudRef;
     [SerializeField] GameObject kickDirection;
     [SerializeField] Animator playerAnim;
+    [SerializeField] BoxCollider colliderChute;
 
     [SerializeField] private float kickForce = 35f;
 
@@ -25,6 +26,9 @@ public class KickCheck : MonoBehaviour
         if (playerRef.isKick && kicked == false && hudRef.staminaValue > 0)
         {
             playerRef.animator.SetBool("isKicking", true);
+
+            colliderChute.enabled = true;
+
             if (playerRef.levouDano)
             {
                 playerAnim.SetLayerWeight(playerAnim.GetLayerIndex("DamageKick"), 1f);
@@ -35,6 +39,9 @@ public class KickCheck : MonoBehaviour
             playerRef.animator.SetBool("isKicking", false);
             playerAnim.SetLayerWeight(playerAnim.GetLayerIndex("DamageKick"), 0f);
         }
+
+        if(playerRef.animator.GetBool("isKicking"))
+        colliderChute.enabled = false;
 
         if (!playerRef.isKick)
         {
@@ -55,7 +62,9 @@ public class KickCheck : MonoBehaviour
         {
             kicked = true;
 
-            collision.rigidbody.AddForceAtPosition(new Vector3 (0, 0, 1) * kickForce, kickDirection.transform.forward);
+            print(kicked);
+
+            collision.rigidbody.AddForceAtPosition(new Vector3(0, 0, 1) * kickForce, kickDirection.transform.forward);
         }
     }
 

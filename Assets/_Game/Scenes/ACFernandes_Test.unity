@@ -482,6 +482,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be4826336fc56f4091467f1e64a0cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &360508099 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 1228907146130996921, guid: 0e39b4b215d65684888f4a390eb533c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8109633148925563396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &363368640
 GameObject:
   m_ObjectHideFlags: 0
@@ -3596,6 +3602,11 @@ PrefabInstance:
       propertyPath: hudRef
       value: 
       objectReference: {fileID: 1119484630}
+    - target: {fileID: 1228907146130996926, guid: 0e39b4b215d65684888f4a390eb533c0,
+        type: 3}
+      propertyPath: colliderChute
+      value: 
+      objectReference: {fileID: 360508099}
     - target: {fileID: 3661430356864344654, guid: 0e39b4b215d65684888f4a390eb533c0,
         type: 3}
       propertyPath: m_Name

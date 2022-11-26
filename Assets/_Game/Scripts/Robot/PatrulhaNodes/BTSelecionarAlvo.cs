@@ -32,7 +32,7 @@ public class BTSelecionarAlvo : BTNode
 
         while (patrulhar)
         {
-            if (bt.npcRef.pointIndex >= bt.npcRef.npcPoints.Count)
+            if (bt.npcRef.pointIndex >= bt.npcRef.npcPoints.Count - 1f)
             {
                 bt.npcRef.pointIndex = 0;
                 npcAnimator.SetBool("isWalking", false);
