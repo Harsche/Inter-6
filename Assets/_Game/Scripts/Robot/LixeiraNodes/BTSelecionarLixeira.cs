@@ -29,7 +29,7 @@ public class BTSelecionarLixeira : BTNode
 
         while(verificando)
         {
-            if (bt.npcRef.lixeiraIndex >= bt.npcRef.lixeiras.Count)
+            if (bt.npcRef.lixeiraIndex >= bt.npcRef.lixeiras.Count - 1f)
             {
                 bt.npcRef.lixeiraIndex = 0;
             }

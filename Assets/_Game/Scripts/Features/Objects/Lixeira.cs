@@ -6,14 +6,16 @@ public class Lixeira : MonoBehaviour
 {
     public bool caiu = false;
     public float timer = 8f;
-    private Transform transformPadrao;
+    private Vector3 transformPosition;
+    private Quaternion transformRotation;
+    private Rigidbody rigidBody;
 
     void Start()
     {
-        transformPadrao = GetComponent<Transform>();
+        rigidBody = GetComponent<Rigidbody>();
 
-        transformPadrao.position = transform.position;
-        transformPadrao.rotation = transform.rotation;
+        transformPosition = transform.position;
+        transformRotation = transform.rotation;
 
         caiu = false;
     }
@@ -27,8 +29,8 @@ public class Lixeira : MonoBehaviour
 
             if (timer <= 0f)
             {
-                transform.position = transformPadrao.position;
-                transform.rotation = transformPadrao.rotation;
+                rigidBody.position = transformPosition;
+                rigidBody.rotation = transformRotation;
 
                 timer = 8f;
                 caiu = false;
