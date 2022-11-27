@@ -196,7 +196,7 @@ public class PlayerMovement : MonoBehaviour
 
                     if (climbImpulse)
                     {
-                        movement.z += 0.1f;
+                        movement.z += 0.3f;
                         controller.Move(movement);
                     }
 
