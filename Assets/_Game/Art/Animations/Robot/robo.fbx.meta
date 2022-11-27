@@ -488,6 +488,14 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
+    - boneName: pescoco
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     skeleton:
     - name: robo(Clone)
       parentName: 
@@ -496,22 +504,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface12
       parentName: robo(Clone)
-      position: {x: -0.03845219, y: 0.3516879, z: -0.07117626}
+      position: {x: -0.038452186, y: 0.3516879, z: -0.07117626}
       rotation: {x: 0, y: -0, z: -0.05077736, w: 0.99871004}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface24
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface25
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface30
       parentName: polySurface12
-      position: {x: -0.07800087, y: 0.79057515, z: 0.07117626}
+      position: {x: -0.07800087, y: 0.790575, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface257
@@ -526,7 +534,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface31
       parentName: polySurface12
-      position: {x: -0.07800087, y: 0.79057515, z: 0.07117626}
+      position: {x: -0.07800087, y: 0.790575, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface271
@@ -541,7 +549,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface32
       parentName: polySurface12
-      position: {x: -0.07800087, y: 0.79057515, z: 0.07117626}
+      position: {x: -0.07800087, y: 0.790575, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface259
@@ -556,12 +564,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface33
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface34
       parentName: polySurface12
-      position: {x: -0.07800087, y: 0.79057515, z: 0.07117626}
+      position: {x: -0.07800087, y: 0.790575, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface261
@@ -576,12 +584,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface35
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface36
       parentName: polySurface12
-      position: {x: -0.07800087, y: 0.79057515, z: 0.07117626}
+      position: {x: -0.07800087, y: 0.790575, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface265
@@ -596,7 +604,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface37
       parentName: polySurface12
-      position: {x: -0.07800087, y: 0.79057515, z: 0.07117626}
+      position: {x: -0.07800087, y: 0.790575, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface267
@@ -611,7 +619,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface38
       parentName: polySurface12
-      position: {x: -0.07800087, y: 0.79057515, z: 0.07117626}
+      position: {x: -0.07800087, y: 0.790575, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface269
@@ -626,7 +634,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface39
       parentName: polySurface12
-      position: {x: -0.07800087, y: 0.79057515, z: 0.07117626}
+      position: {x: -0.07800087, y: 0.790575, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface263
@@ -641,72 +649,72 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface40
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface46
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface47
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface52
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface60
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface61
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface62
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface63
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface64
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface65
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface66
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface69
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface72
       parentName: polySurface12
-      position: {x: -0.106130496, y: 1.3180194, z: -0.123182885}
+      position: {x: -0.10613048, y: 1.3180194, z: -0.12318287}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface230
       parentName: polySurface72
-      position: {x: 0.14458269, y: -1.6697073, z: 0.19435912}
+      position: {x: 0.14458267, y: -1.6697073, z: 0.19435912}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface298
@@ -721,32 +729,32 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface76
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface77
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface78
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface79
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface80
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface81
       parentName: polySurface12
-      position: {x: 0.03845219, y: -0.3516879, z: 0.07117626}
+      position: {x: 0.038452186, y: -0.3516879, z: 0.07117626}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: pCylinder44
@@ -761,192 +769,192 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: pCylinder78
       parentName: robo(Clone)
-      position: {x: -0.0360571, y: 0.48510545, z: 0.0046641747}
+      position: {x: -0.036057096, y: 0.48510545, z: 0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1.1202921, z: 1.2574365}
     - name: polySurface97
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface98
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface99
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface100
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface101
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface102
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface103
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface104
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface105
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface106
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface107
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.42335483, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.4233548, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface275
       parentName: polySurface107
-      position: {x: -0, y: -0.12922888, z: 0}
+      position: {x: -0, y: -0.12922886, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface276
       parentName: polySurface107
-      position: {x: -0, y: -0.12922888, z: 0}
+      position: {x: -0, y: -0.12922886, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface109
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface110
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface111
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface112
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface113
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface114
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.55258346, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.5525834, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface115
       parentName: pCylinder78
-      position: {x: 0.0360571, y: -0.42335483, z: -0.0046641747}
+      position: {x: 0.036057096, y: -0.4233548, z: -0.0046641743}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface273
       parentName: polySurface115
-      position: {x: -0, y: -0.12922888, z: 0}
+      position: {x: -0, y: -0.12922886, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface274
       parentName: polySurface115
-      position: {x: -0, y: -0.12922888, z: 0}
+      position: {x: -0, y: -0.12922886, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface117
       parentName: robo(Clone)
-      position: {x: 0.059332468, y: 0.9379586, z: 0.54300976}
+      position: {x: 0.05933246, y: 0.93795854, z: 0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface159
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface160
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface161
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface164
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface166
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface168
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface169
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface192
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface193
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface194
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface201
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface202
       parentName: polySurface117
-      position: {x: -0.059332468, y: -0.9379586, z: -0.54300976}
+      position: {x: -0.05933246, y: -0.93795854, z: -0.5430097}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface146
       parentName: robo(Clone)
-      position: {x: 0.00655434, y: 1.3443375, z: -0.3534372}
+      position: {x: 0.00655434, y: 1.3443373, z: -0.35343716}
       rotation: {x: 0.22038385, y: -0, z: -0, w: 0.97541326}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface147
       parentName: polySurface146
-      position: {x: -0.00655434, y: -1.287723, z: 0.19563441}
+      position: {x: -0.00655434, y: -1.2877228, z: 0.1956344}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface228
@@ -966,7 +974,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface149
       parentName: polySurface146
-      position: {x: -0.00655434, y: -1.287723, z: 0.19563441}
+      position: {x: -0.00655434, y: -1.2877228, z: 0.1956344}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface225
@@ -981,17 +989,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: pCylinder82
       parentName: robo(Clone)
-      position: {x: 0.042191043, y: 1.0306605, z: 0.50576746}
+      position: {x: 0.04219104, y: 1.0306604, z: 0.50576746}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface283
       parentName: pCylinder82
-      position: {x: -0.042191043, y: -1.0306605, z: -0.50576746}
+      position: {x: -0.04219104, y: -1.0306604, z: -0.50576746}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface284
       parentName: pCylinder82
-      position: {x: -0.042191043, y: -1.0306605, z: -0.50576746}
+      position: {x: -0.04219104, y: -1.0306604, z: -0.50576746}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface207
@@ -1066,12 +1074,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface148
       parentName: robo(Clone)
-      position: {x: -0.0132158045, y: 1.5922107, z: 0.013968475}
+      position: {x: -0.013215804, y: 1.5922105, z: 0.013968473}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface248
       parentName: polySurface148
-      position: {x: 0.0132158045, y: -1.5922107, z: -0.013968475}
+      position: {x: 0.013215804, y: -1.5922105, z: -0.013968473}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface296
@@ -1171,7 +1179,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_bacia
       parentName: controle_geral
-      position: {x: -0.099383645, y: 1.1586025, z: 0}
+      position: {x: -0.099383645, y: 1.1586024, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1.8721259}
     - name: controlador_bacia
@@ -1181,7 +1189,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_cintura
       parentName: controlador_bacia
-      position: {x: 1.3322676e-17, y: 0.041397516, z: 0}
+      position: {x: 1.3322674e-17, y: 0.041397512, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 0.5341521}
     - name: controlador_cintura
@@ -1191,7 +1199,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_cintura2
       parentName: controlador_cintura
-      position: {x: 0.005302255, y: 0.13358572, z: 0}
+      position: {x: 0.0053022546, y: 0.13358572, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: controlador_cintura2
@@ -1201,7 +1209,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_base_pescoco
       parentName: controlador_cintura2
-      position: {x: 0.10438978, y: 0.36214703, z: 0}
+      position: {x: 0.10438977, y: 0.362147, z: 0}
       rotation: {x: 0, y: -0, z: -0.25969443, w: 0.96569085}
       scale: {x: 0.79195535, y: 0.79195535, z: 0.79195535}
     - name: controlador_base_pescoco
@@ -1211,7 +1219,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_cabeca
       parentName: controlador_base_pescoco
-      position: {x: -0.008102264, y: 0.103422135, z: 0}
+      position: {x: -0.008102264, y: 0.10342213, z: 0}
       rotation: {x: 0, y: 0, z: 0.11380521, w: 0.9935031}
       scale: {x: 1.2626975, y: 1.2626975, z: 1.2626975}
     - name: controlador_cabeca
@@ -1221,7 +1229,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_claviculaE
       parentName: controlador_cintura2
-      position: {x: 0.0772971, y: 0.28051686, z: 0.06561856}
+      position: {x: 0.0772971, y: 0.28051686, z: 0.06561855}
       rotation: {x: -0.7762702, y: 0, z: -0, w: 0.63040036}
       scale: {x: 1, y: 1, z: 1}
     - name: controlador_claviculaE
@@ -1231,7 +1239,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_ombro_E
       parentName: controlador_claviculaE
-      position: {x: 0.0071872543, y: -0.14559624, z: 0.029645357}
+      position: {x: 0.0071872533, y: -0.14559624, z: 0.029645354}
       rotation: {x: 0.8967136, y: 0, z: 0, w: -0.4426112}
       scale: {x: 0.6809635, y: 0.6809635, z: 0.6809635}
     - name: controlador_ombro_E
@@ -1241,7 +1249,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_cotuvelo_E
       parentName: controlador_ombro_E
-      position: {x: -0.0056830933, y: 0.4776802, z: 0.21318913}
+      position: {x: -0.005683093, y: 0.4776802, z: 0.21318913}
       rotation: {x: 0.15130824, y: 0.007817738, z: -0.15342869, w: 0.9764755}
       scale: {x: 1, y: 1, z: 1}
     - name: controlador_cotuvelo_E
@@ -1251,7 +1259,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_pulso_E
       parentName: controlador_cotuvelo_E
-      position: {x: -0.08180477, y: 0.52633315, z: 0.06221325}
+      position: {x: -0.08180476, y: 0.52633315, z: 0.06221325}
       rotation: {x: 0.100083046, y: 0.014381304, z: 0.1415039, w: 0.9847605}
       scale: {x: 0.5112668, y: 0.5112668, z: 0.5112668}
     - name: controlador_pulso_E
@@ -1261,7 +1269,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_dedaoB_E
       parentName: controlador_pulso_E
-      position: {x: 0.11079725, y: 0.15939367, z: -0.019895285}
+      position: {x: 0.11079725, y: 0.15939365, z: -0.019895285}
       rotation: {x: 0.95001394, y: -0.3114519, z: -0.013356378, w: -0.01711202}
       scale: {x: 0.18434384, y: 0.18434384, z: 0.18434384}
     - name: controlador_dedaoB_E
@@ -1271,7 +1279,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_dedaoM_E
       parentName: controlador_dedaoB_E
-      position: {x: -0.09974396, y: -0.4752413, z: -0.009337725}
+      position: {x: -0.09974395, y: -0.47524124, z: -0.009337724}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_dedaoM_E
@@ -1281,7 +1289,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_indicadorB_E
       parentName: controlador_pulso_E
-      position: {x: 0.07911706, y: 0.29931995, z: -0.029738158}
+      position: {x: 0.07911705, y: 0.29931992, z: -0.029738158}
       rotation: {x: 0.99877656, y: -0.04443172, z: -0.008261205, w: -0.020074027}
       scale: {x: 0.18434384, y: 0.18434384, z: 0.18434384}
     - name: controlador_indicadorB_E
@@ -1291,7 +1299,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_indicadorM_E
       parentName: controlador_indicadorB_E
-      position: {x: 0.013709464, y: -0.39798534, z: 0.019283092}
+      position: {x: 0.013709462, y: -0.39798534, z: 0.01928309}
       rotation: {x: 0, y: 0, z: 0.018680876, w: 0.9998255}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_indicadorM_E
@@ -1301,7 +1309,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_indicadorP_E
       parentName: controlador_indicadorM_E
-      position: {x: -0.009323402, y: -0.38528442, z: 0.015948372}
+      position: {x: -0.009323402, y: -0.38528436, z: 0.01594837}
       rotation: {x: 0, y: -0, z: -0.018680876, w: 0.9998255}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_indicadorP_E
@@ -1311,7 +1319,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_dedomeioB_E
       parentName: controlador_pulso_E
-      position: {x: 0.03292466, y: 0.29808986, z: -0.02757418}
+      position: {x: 0.032924656, y: 0.29808983, z: -0.027574176}
       rotation: {x: 0.99877656, y: -0.04443172, z: -0.008261205, w: -0.020074027}
       scale: {x: 0.18434384, y: 0.18434384, z: 0.18434384}
     - name: controlador_dedomeioB_E
@@ -1321,7 +1329,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_dedomeioM_E
       parentName: controlador_dedomeioB_E
-      position: {x: -0.006265154, y: -0.4637749, z: 0.02158069}
+      position: {x: -0.006265154, y: -0.46377486, z: 0.021580689}
       rotation: {x: 0, y: -0, z: -0.022607092, w: 0.9997444}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_dedomeioM_E
@@ -1331,7 +1339,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_dedomeioP_E
       parentName: controlador_dedomeioM_E
-      position: {x: -0.0029889862, y: -0.43951735, z: 0.017087258}
+      position: {x: -0.002988986, y: -0.4395173, z: 0.017087257}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_dedomeioP_E
@@ -1341,7 +1349,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_anelarB_E
       parentName: controlador_pulso_E
-      position: {x: -0.014490487, y: 0.30014724, z: -0.026791554}
+      position: {x: -0.014490487, y: 0.3001472, z: -0.026791552}
       rotation: {x: 0.9995258, y: -0.021840932, z: -0.007805278, w: -0.020255659}
       scale: {x: 0.18434384, y: 0.18434384, z: 0.18434384}
     - name: controlador_anelarB_E
@@ -1351,7 +1359,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_anelarM_E
       parentName: controlador_anelarB_E
-      position: {x: 0.0046108924, y: -0.4065973, z: 0.018646317}
+      position: {x: 0.004610892, y: -0.4065973, z: 0.018646317}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_anelarM_E
@@ -1371,7 +1379,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_clavicula_D
       parentName: controlador_cintura2
-      position: {x: 0.0772971, y: 0.2805223, z: -0.06561851}
+      position: {x: 0.0772971, y: 0.2805223, z: -0.0656185}
       rotation: {x: -0.6095281, y: 0, z: -0, w: 0.7927644}
       scale: {x: 1, y: 1, z: 1}
     - name: controlador_claviculaD
@@ -1381,7 +1389,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_ombro_D
       parentName: controlador_claviculaD
-      position: {x: 0.0071872436, y: 0.14696592, z: 0.02185473}
+      position: {x: 0.0071872426, y: 0.14696592, z: 0.02185473}
       rotation: {x: 0.88224417, y: -0, z: 0, w: 0.4707921}
       scale: {x: 0.7189135, y: 0.7189135, z: 0.7189135}
     - name: controlador_ombro_D
@@ -1391,7 +1399,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_cotuvelo_D
       parentName: controlador_ombro_D
-      position: {x: -0.0053830743, y: -0.4544878, z: 0.19732834}
+      position: {x: -0.0053830734, y: -0.4544878, z: 0.19732833}
       rotation: {x: -0.1334212, y: -0.01166089, z: 0.13939424, w: 0.98113817}
       scale: {x: 0.94721204, y: 0.94721204, z: 0.94721204}
     - name: controlador_cotuvelo_D
@@ -1401,7 +1409,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_pulso_D
       parentName: controlador_cotuvelo_D
-      position: {x: -0.061373353, y: -0.527331, z: 0.075825036}
+      position: {x: -0.06137335, y: -0.52733094, z: 0.075825036}
       rotation: {x: 0, y: -0, z: -0.06753837, w: 0.9977167}
       scale: {x: 0.4946113, y: 0.4946113, z: 0.4946113}
     - name: controlador_pulso_D
@@ -1411,7 +1419,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_dedomeioB_D
       parentName: controlador_pulso_D
-      position: {x: 0.00087615696, y: -0.30902424, z: 0.04212914}
+      position: {x: 0.0008761569, y: -0.30902418, z: 0.042129137}
       rotation: {x: -0.11129857, y: 0.0068885605, z: -0.031947237, w: 0.9932495}
       scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
     - name: controlador_dedomeioB_D
@@ -1421,7 +1429,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_dedomeioM_D
       parentName: controlador_dedomeioB_D
-      position: {x: 0.0052597914, y: -0.46213382, z: -0.006413347}
+      position: {x: 0.005259791, y: -0.46213377, z: -0.006413347}
       rotation: {x: 0.03726805, y: -0, z: -0, w: 0.9993053}
       scale: {x: 1, y: 0.9968657, z: 0.6865}
     - name: controlador_dedomeioM_D
@@ -1431,7 +1439,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_dedomeioP_D
       parentName: controlador_dedomeioM_D
-      position: {x: -0.0040673637, y: -0.438029, z: 0.030020176}
+      position: {x: -0.0040673637, y: -0.43802893, z: 0.030020174}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_dedomeioP_D
@@ -1441,7 +1449,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_indicadorB_D
       parentName: controlador_pulso_D
-      position: {x: 0.04652666, y: -0.31572363, z: 0.038897865}
+      position: {x: 0.046526656, y: -0.31572363, z: 0.038897865}
       rotation: {x: -0.09105671, y: 0.00993181, z: 0.008131306, w: 0.995763}
       scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
     - name: controlador_indicadorB_D
@@ -1451,7 +1459,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_indicadorM_D
       parentName: controlador_indicadorB_D
-      position: {x: -0.0018329074, y: -0.39918694, z: 0.0034606063}
+      position: {x: -0.0018329074, y: -0.39918688, z: 0.0034606063}
       rotation: {x: 0, y: -0, z: -0.013139271, w: 0.9999137}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_indicadorM_D
@@ -1461,7 +1469,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_indicadorP_D
       parentName: controlador_indicadorM_D
-      position: {x: 0.0038987303, y: -0.38063446, z: -0.016822118}
+      position: {x: 0.0038987303, y: -0.38063443, z: -0.016822116}
       rotation: {x: 0, y: 0.00938368, z: -0, w: 0.999956}
       scale: {x: 0.99980015, y: 1, z: 0.68448514}
     - name: controlador_indicadorp_D
@@ -1471,7 +1479,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_dedaoB_D
       parentName: controlador_pulso_D
-      position: {x: 0.09500836, y: -0.1773331, z: 0.014531372}
+      position: {x: 0.09500835, y: -0.1773331, z: 0.014531371}
       rotation: {x: 0.0968416, y: -0.6555658, z: 0.21526697, w: 0.7172973}
       scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
     - name: controlador_dedaoB_D
@@ -1481,7 +1489,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_dedaoM_D
       parentName: controlador_dedaoB_D
-      position: {x: 0.04801345, y: -0.4792856, z: 0.043199673}
+      position: {x: 0.048013445, y: -0.47928557, z: 0.04319967}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_dedaoM_D
@@ -1491,7 +1499,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_mindinhoB_D
       parentName: controlador_pulso_D
-      position: {x: -0.091075696, y: -0.2969538, z: 0.043067057}
+      position: {x: -0.09107569, y: -0.2969538, z: 0.043067057}
       rotation: {x: -0.10937509, y: 0.03730202, z: -0.054346703, w: 0.9918125}
       scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
     - name: controlador_mindinhoB_D
@@ -1501,7 +1509,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_mindinhoM_D
       parentName: controlador_mindinhoB_D
-      position: {x: 0.006453971, y: -0.36846238, z: -0.0037758197}
+      position: {x: 0.00645397, y: -0.36846235, z: -0.0037758197}
       rotation: {x: 0, y: -0.021818243, z: -0, w: 0.99976194}
       scale: {x: 0.99892145, y: 1, z: 0.68508726}
     - name: controlador_mindinhoM_D
@@ -1511,7 +1519,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_mindinhoP_D
       parentName: controlador_mindinhoM_D
-      position: {x: 0.0068101115, y: -0.3407139, z: -0.0016931295}
+      position: {x: 0.006810111, y: -0.34071386, z: -0.0016931293}
       rotation: {x: 0, y: 0, z: 0.02234651, w: 0.9997503}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_mindinhoP_D
@@ -1521,7 +1529,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_alenarB_D
       parentName: controlador_pulso_D
-      position: {x: -0.049455453, y: -0.30460483, z: 0.044920165}
+      position: {x: -0.049455453, y: -0.3046048, z: 0.044920165}
       rotation: {x: -0.11105086, y: 0.005687929, z: -0.050834876, w: 0.99249744}
       scale: {x: 0.19055143, y: 0.19055143, z: 0.19055143}
     - name: controlador_anelarB_D
@@ -1531,7 +1539,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_alenarM_D
       parentName: controlador_anelarB_D
-      position: {x: 0.018817596, y: -0.4070349, z: -0.0053604813}
+      position: {x: 0.018817594, y: -0.40703484, z: -0.005360481}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_anelarM_D
@@ -1541,7 +1549,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador_alenarP_D
       parentName: controlador_anelarM_D
-      position: {x: 0.020295482, y: -0.40837842, z: -0.0029310323}
+      position: {x: 0.020295482, y: -0.4083784, z: -0.0029310323}
       rotation: {x: 0, y: 0, z: 0.02340372, w: 0.9997261}
       scale: {x: 1, y: 1, z: 0.68434834}
     - name: controlador_anelarP_D
@@ -1551,7 +1559,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1.4612441}
     - name: GRP_controlador__calcanhar_E
       parentName: controle_geral
-      position: {x: -0.09322287, y: 0.092956655, z: 0.11661353}
+      position: {x: -0.09322286, y: 0.09295665, z: 0.11661353}
       rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
       scale: {x: 0.3617544, y: 0.3617544, z: 0.3617544}
     - name: controlador__calcanhar_E
@@ -1561,7 +1569,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_meiope_E
       parentName: controlador__calcanhar_E
-      position: {x: 0.080172636, y: 0, z: -0.35934523}
+      position: {x: 0.080172636, y: 0, z: -0.3593452}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1.1413119, y: 1.1413119, z: 1.2909158}
     - name: controlador_meiope_E
@@ -1571,7 +1579,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador__calcanhar_D
       parentName: controle_geral
-      position: {x: -0.09322283, y: 0.092956685, z: -0.11661346}
+      position: {x: -0.09322282, y: 0.09295668, z: -0.11661345}
       rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
       scale: {x: 0.47726092, y: 0.47726092, z: 0.47726092}
     - name: controlador__calcanhar_D
@@ -1581,7 +1589,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: GRP_controlador_meiope_D
       parentName: controlador__calcanhar_D
-      position: {x: 0.060769282, y: -1.0658141e-16, z: -0.27237657}
+      position: {x: 0.060769275, y: -1.06581395e-16, z: -0.27237657}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 0.84605044, y: 0.84605044, z: 0.8747201}
     - name: controlador_meiope_D
@@ -1591,12 +1599,12 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface241
       parentName: robo(Clone)
-      position: {x: -0.014302585, y: 1.6077343, z: 0.23262721}
+      position: {x: -0.014302584, y: 1.6077343, z: 0.2326272}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface295
       parentName: polySurface241
-      position: {x: 0.014302585, y: -1.6077343, z: -0.23262721}
+      position: {x: 0.014302584, y: -1.6077343, z: -0.2326272}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface290
@@ -1606,17 +1614,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: bacia
       parentName: robo(Clone)
-      position: {x: -0.000000011175871, y: 1.1586025, z: -1.2170988e-17}
+      position: {x: -0.000000011175871, y: 1.1586024, z: -1.2170987e-17}
       rotation: {x: 0, y: 0.7071068, z: -8.659561e-17, w: -0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: cintura
       parentName: bacia
-      position: {x: 2.6645352e-17, y: 0.04139751, z: 0}
+      position: {x: 2.6645349e-17, y: 0.04139751, z: 0}
       rotation: {x: 0, y: 0, z: -0.72099257, w: 0.6929428}
       scale: {x: 1, y: 1, z: 1}
     - name: coluna_1
       parentName: cintura
-      position: {x: -0.13369086, y: 0, z: 7.395571e-34}
+      position: {x: -0.13369085, y: 0, z: 7.39557e-34}
       rotation: {x: 0, y: -0, z: -0.053001437, w: 0.99859446}
       scale: {x: 1, y: 1, z: 1}
     - name: coluna_2
@@ -1626,57 +1634,57 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: coluna_3
       parentName: coluna_2
-      position: {x: -0.12, y: 0, z: 0}
+      position: {x: -0.11999998, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0.068179436, w: 0.9976731}
       scale: {x: 1, y: 1, z: 1}
     - name: pescoco
       parentName: coluna_3
-      position: {x: -0.15255055, y: -4.2632563e-16, z: 1.6640032e-33}
+      position: {x: -0.15255053, y: -4.2632558e-16, z: 1.6640032e-33}
       rotation: {x: 0, y: -0, z: -0.026947828, w: 0.9996369}
       scale: {x: 1, y: 1, z: 1}
     - name: cabeca
       parentName: pescoco
-      position: {x: -0.08215666, y: 5.3290697e-16, z: 2.9582283e-33}
+      position: {x: -0.08215665, y: 5.329069e-16, z: 2.958228e-33}
       rotation: {x: 0, y: 0, z: 0.1592366, w: 0.9872405}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_cabeca
       parentName: cabeca
-      position: {x: -0.14003472, y: 0, z: 0}
+      position: {x: -0.1400347, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: clavicula_D
       parentName: coluna_3
-      position: {x: -0.06677517, y: 0.0062599652, z: -0.06561851}
+      position: {x: -0.066775165, y: 0.006259965, z: -0.0656185}
       rotation: {x: 0.3021162, y: 0.6532128, z: -0.47840142, w: 0.5031611}
       scale: {x: 1, y: 1, z: 1}
     - name: ombro_D
       parentName: clavicula_D
-      position: {x: 0.14875573, y: 0.000005430247, z: -0.00000007405308}
+      position: {x: 0.14875573, y: 0.000005430247, z: -0.00000007405307}
       rotation: {x: 0.021566965, y: -0.015816296, z: 0.056613263, w: 0.99803793}
       scale: {x: 1, y: 1, z: 1}
     - name: cotuvelo_D
       parentName: ombro_D
-      position: {x: 0.34105274, y: 0.10285971, z: 0.000000063488564}
+      position: {x: 0.3410527, y: 0.10285971, z: 0.00000006348856}
       rotation: {x: -0.0071678194, y: 0.037724424, z: 0.12421451, w: 0.99151206}
       scale: {x: 1, y: 1, z: 1}
     - name: pulso_D
       parentName: cotuvelo_D
-      position: {x: 0.36518574, y: 0.0000012396043, z: 0.0000003924015}
+      position: {x: 0.3651857, y: 0.0000012396042, z: 0.00000039240143}
       rotation: {x: -0.37803745, y: -0.59756815, z: -0.37803745, w: 0.59756815}
       scale: {x: 1, y: 1, z: 1}
     - name: base_indicador_D
       parentName: pulso_D
-      position: {x: -0.013677295, y: 0.09634744, z: -0.047491245}
+      position: {x: -0.013677294, y: 0.09634744, z: -0.047491245}
       rotation: {x: 0.36580774, y: 0.56540126, z: 0.42044282, w: 0.6080576}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_indicador_D
       parentName: base_indicador_D
-      position: {x: 0.02562218, y: 0.00000016828581, z: 0.00000009760887}
+      position: {x: 0.025622178, y: 0.0000001682858, z: 0.00000009760887}
       rotation: {x: 0.000049458562, y: -0.010865154, z: 0.004551719, w: 0.9999306}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_indicador_D
       parentName: meio_indicador_D
-      position: {x: 0.024780035, y: -0.00000022601708, z: -0.000000038782176}
+      position: {x: 0.024780035, y: -0.00000022601708, z: -0.000000038782172}
       rotation: {x: 5.551116e-17, y: 3.8524504e-34, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_indicador_D
@@ -1686,97 +1694,97 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedomeio_D
       parentName: pulso_D
-      position: {x: 0.0016918234, y: 0.09459613, z: -0.045644723}
+      position: {x: 0.0016918231, y: 0.094596125, z: -0.045644715}
       rotation: {x: 0.3793136, y: 0.54528743, z: 0.4082997, w: 0.62615824}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_deodo_meio_D
       parentName: base_dedomeio_D
-      position: {x: 0.029667828, y: 0.0000004198982, z: 0.000000053904646}
+      position: {x: 0.029667828, y: 0.00000041989816, z: 0.000000053904643}
       rotation: {x: 0.000049458562, y: -0.010865154, z: 0.004551719, w: 0.9999306}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_dedomeio_D
       parentName: meio_deodo_meio_D
-      position: {x: 0.028254561, y: -0.00000040256492, z: -0.000000040765403}
+      position: {x: 0.028254561, y: -0.00000040256486, z: -0.000000040765403}
       rotation: {x: 9.631126e-35, y: 5.551116e-17, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_dedomeio_D
       parentName: antiponta_dedomeio_D
-      position: {x: 0.017954964, y: 0.000000978392, z: 0.000000011903784}
+      position: {x: 0.017954962, y: 0.000000978392, z: 0.000000011903784}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_anelar_D
       parentName: pulso_D
-      position: {x: 0.018642727, y: 0.09335491, z: -0.044377264}
+      position: {x: 0.018642725, y: 0.0933549, z: -0.04437726}
       rotation: {x: 0.37994006, y: 0.5443254, z: 0.40771684, w: 0.6269948}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_anelar_D
       parentName: base_anelar_D
-      position: {x: 0.026156258, y: 0.00000056842816, z: 0.0000000630573}
+      position: {x: 0.026156256, y: 0.0000005684281, z: 0.0000000630573}
       rotation: {x: -0.0000057000884, y: 0.0012522066, z: 0.0045519844, w: 0.99998885}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_anelar_D
       parentName: meio_anelar_D
-      position: {x: 0.026243541, y: -0.00000043013998, z: -0.00000006574259}
+      position: {x: 0.026243541, y: -0.00000043013998, z: -0.00000006574258}
       rotation: {x: -3.3306693e-16, y: -2.7755578e-16, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_anelar_D
       parentName: antiponta_anelar_D
-      position: {x: 0.01795538, y: -0.00000046743472, z: 0.000000014486881}
+      position: {x: 0.017955378, y: -0.00000046743466, z: 0.000000014486881}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedidnho_D
       parentName: pulso_D
-      position: {x: 0.032593224, y: 0.09043341, z: -0.043753926}
+      position: {x: 0.032593224, y: 0.090433404, z: -0.043753922}
       rotation: {x: 0.38598028, y: 0.53491104, z: 0.40200335, w: 0.63504547}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_dedinho_D
       parentName: base_dedidnho_D
-      position: {x: 0.023654219, y: 0.00000016839486, z: 0.00000002171619}
+      position: {x: 0.023654217, y: 0.00000016839485, z: 0.000000021716188}
       rotation: {x: -0.0000057000884, y: 0.0012522066, z: 0.0045519844, w: 0.99998885}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_dedinho_D
       parentName: meio_dedinho_D
-      position: {x: 0.021871995, y: 0.0000004559421, z: 0.000000109366184}
+      position: {x: 0.021871993, y: 0.00000045594203, z: 0.000000109366184}
       rotation: {x: 1.1102232e-16, y: -1.1102232e-16, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_deidinho_D
       parentName: antiponta_dedinho_D
-      position: {x: 0.015019617, y: -0.00000019524026, z: -0.00000010208979}
+      position: {x: 0.015019615, y: -0.00000019524025, z: -0.00000010208978}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedao_D
       parentName: pulso_D
-      position: {x: -0.030947434, y: 0.0534667, z: -0.028265826}
+      position: {x: -0.03094743, y: 0.053466693, z: -0.028265823}
       rotation: {x: 0.33285818, y: 0.6304273, z: 0.50051016, w: 0.49117866}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_dedao_D
       parentName: base_dedao_D
-      position: {x: 0.031178843, y: -0.000000761557, z: 0.0000003594279}
+      position: {x: 0.03117884, y: -0.00000076155686, z: 0.0000003594279}
       rotation: {x: 6.4011296e-16, y: 2.0122792e-16, z: -0.0012581085, w: 0.9999992}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_dedao_D
       parentName: meio_dedao_D
-      position: {x: 0.023637092, y: -0.00000005675329, z: -0.000000088530214}
+      position: {x: 0.023637092, y: -0.000000056753287, z: -0.00000008853021}
       rotation: {x: -0.42652008, y: -0.56398636, z: -0.42652008, w: 0.56398636}
       scale: {x: 1, y: 1, z: 1}
     - name: clavicula_E
       parentName: coluna_3
-      position: {x: -0.06677015, y: 0.0062620356, z: 0.06561856}
+      position: {x: -0.06677015, y: 0.0062620356, z: 0.06561855}
       rotation: {x: 0.6532063, y: -0.3021276, z: -0.5031711, w: -0.47839248}
       scale: {x: 1, y: 1, z: 1}
     - name: ombro_E
       parentName: clavicula_E
-      position: {x: -0.14875743, y: -0.0000000028556626, z: 0.0000000011092702}
+      position: {x: -0.14875741, y: -0.0000000028556626, z: 0.0000000011092702}
       rotation: {x: 0.019027956, y: -0.018792644, z: 0.20163794, w: 0.979095}
       scale: {x: 1, y: 1, z: 1}
     - name: cotuvelo_E
       parentName: ombro_E
-      position: {x: -0.35622942, y: -5.968559e-15, z: 9.325873e-17}
+      position: {x: -0.3562294, y: -5.968559e-15, z: 9.325873e-17}
       rotation: {x: -0.001585632, y: 0.03836652, z: -0.021812204, w: 0.99902445}
       scale: {x: 1, y: 1, z: 1}
     - name: pulso_E
       parentName: cotuvelo_E
-      position: {x: -0.36518258, y: -3.410605e-15, z: -3.4638957e-16}
+      position: {x: -0.36518255, y: -3.4106046e-15, z: -3.4638954e-16}
       rotation: {x: -0.37803745, y: -0.59756815, z: -0.37803745, w: 0.59756815}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedao_E
@@ -1786,32 +1794,32 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: meio_dedao_E
       parentName: base_dedao_E
-      position: {x: -0.031177891, y: -4.2632563e-16, z: 1.5987211e-16}
+      position: {x: -0.031177891, y: -4.2632558e-16, z: 1.5987211e-16}
       rotation: {x: -3.8302694e-15, y: -1.6653345e-16, z: -0.0012581085, w: 0.9999992}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_dedao_E
       parentName: meio_dedao_E
-      position: {x: -0.02363739, y: 1.0168949e-16, z: 1.6681781e-17}
+      position: {x: -0.02363739, y: 1.0168948e-16, z: 1.6681781e-17}
       rotation: {x: -0.42652008, y: -0.56398636, z: -0.42652008, w: 0.56398636}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedidnho_E
       parentName: pulso_E
-      position: {x: -0.032593343, y: -0.09043425, z: 0.043753996}
+      position: {x: -0.032593343, y: -0.090434246, z: 0.043753993}
       rotation: {x: 0.38598028, y: 0.53491104, z: 0.40200335, w: 0.63504547}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_dedinho_E
       parentName: base_dedidnho_E
-      position: {x: -0.023653846, y: 2.1316282e-16, z: 2.6645352e-17}
+      position: {x: -0.023653844, y: 2.1316279e-16, z: 2.6645349e-17}
       rotation: {x: -0.0000057000884, y: 0.0012522066, z: 0.0045519844, w: 0.99998885}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_dedinho_E
       parentName: meio_dedinho_E
-      position: {x: -0.02187177, y: 6.3948843e-16, z: 3.9968027e-17}
+      position: {x: -0.021871768, y: 6.3948843e-16, z: 3.9968027e-17}
       rotation: {x: -8.3266733e-17, y: 1.1102232e-16, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_deidinho_E
       parentName: antiponta_dedinho_E
-      position: {x: -0.015020406, y: 8.045647e-17, z: -1.3558652e-16}
+      position: {x: -0.015020406, y: 8.0456463e-17, z: -1.3558651e-16}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_anelar_E
@@ -1821,47 +1829,47 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: meio_anelar_E
       parentName: base_anelar_E
-      position: {x: -0.02615563, y: 4.2632563e-16, z: 6.661338e-18}
+      position: {x: -0.026155626, y: 4.2632558e-16, z: 6.661337e-18}
       rotation: {x: -0.0000057000884, y: 0.0012522066, z: 0.0045519844, w: 0.99998885}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_anelar_E
       parentName: meio_anelar_E
-      position: {x: -0.026243575, y: -2.1316282e-16, z: -3.3306685e-17}
+      position: {x: -0.026243573, y: -2.1316279e-16, z: -3.3306682e-17}
       rotation: {x: -1.1102232e-16, y: 2.775558e-17, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_anelar_E
       parentName: antiponta_anelar_E
-      position: {x: -0.017955696, y: 1.1074473e-16, z: -1.2392592e-16}
+      position: {x: -0.017955696, y: 1.1074472e-16, z: -1.2392591e-16}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_dedomeio_E
       parentName: pulso_E
-      position: {x: -0.0016918276, y: -0.09459683, z: 0.045644514}
+      position: {x: -0.0016918276, y: -0.094596826, z: 0.04564451}
       rotation: {x: 0.3793136, y: 0.5452875, z: 0.4082997, w: 0.62615824}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_deodo_meio_E
       parentName: base_dedomeio_E
-      position: {x: -0.029667743, y: 6.3948843e-16, z: 2.6645352e-17}
+      position: {x: -0.02966774, y: 6.3948843e-16, z: 2.6645349e-17}
       rotation: {x: 0.000049458562, y: -0.010865154, z: 0.004551719, w: 0.9999306}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_dedomeio_E
       parentName: meio_deodo_meio_E
-      position: {x: -0.028254371, y: -8.5265126e-16, z: -6.661337e-17}
+      position: {x: -0.028254367, y: -8.5265116e-16, z: -6.6613364e-17}
       rotation: {x: 5.551116e-17, y: 1.3877789e-16, z: 0.017501041, w: 0.9998469}
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_dedomeio_E
       parentName: antiponta_dedomeio_E
-      position: {x: -0.017955696, y: 1.1074473e-16, z: -1.2392592e-16}
+      position: {x: -0.017955696, y: 1.1074472e-16, z: -1.2392591e-16}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: base_indicador_E
       parentName: pulso_E
-      position: {x: 0.013677189, y: -0.09634816, z: 0.047492072}
+      position: {x: 0.013677186, y: -0.09634815, z: 0.04749207}
       rotation: {x: 0.36580774, y: 0.56540126, z: 0.42044282, w: 0.6080576}
       scale: {x: 1, y: 1, z: 1}
     - name: meio_indicador_E
       parentName: base_indicador_E
-      position: {x: -0.025621772, y: 0, z: -6.661338e-18}
+      position: {x: -0.02562177, y: 0, z: -6.661337e-18}
       rotation: {x: 0.000049458562, y: -0.010865154, z: 0.004551719, w: 0.9999306}
       scale: {x: 1, y: 1, z: 1}
     - name: antiponta_indicador_E
@@ -1871,57 +1879,57 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: ponta_indicador_E
       parentName: antiponta_indicador_E
-      position: {x: -0.017955696, y: 1.1074473e-16, z: -1.2392592e-16}
+      position: {x: -0.017955696, y: 1.1074472e-16, z: -1.2392591e-16}
       rotation: {x: -0.40812415, y: -0.57743806, z: -0.40812415, w: 0.57743806}
       scale: {x: 1, y: 1, z: 1}
     - name: femuor_D
       parentName: bacia
-      position: {x: 0.0009812531, y: -0.028856494, z: -0.101493835}
+      position: {x: 0.000981253, y: -0.028856492, z: -0.10149382}
       rotation: {x: 0.654199, y: -0.6009882, z: -0.31406298, w: 0.33496463}
       scale: {x: 1, y: 1, z: 1}
     - name: joelho_D
       parentName: femuor_D
-      position: {x: 0.4476443, y: -0.00000040892698, z: -0.000000047172556}
+      position: {x: 0.44764423, y: -0.00000040892695, z: -0.000000047172556}
       rotation: {x: -0.4880213, y: -0.51169837, z: -0.4880213, w: 0.51169837}
       scale: {x: 1, y: 1, z: 1}
     - name: calcanhar_D
       parentName: joelho_D
-      position: {x: 0.06840519, y: 0.60949755, z: 0.012217584}
+      position: {x: 0.06840518, y: 0.6094975, z: 0.012217583}
       rotation: {x: 0.0033249592, y: 0.018807998, z: -0.035143334, w: 0.99919975}
       scale: {x: 1, y: 1, z: 1}
     - name: meiope_D
       parentName: calcanhar_D
-      position: {x: -0.10228613, y: 0.008340353, z: -0.07786201}
+      position: {x: -0.10228612, y: 0.008340352, z: -0.077862}
       rotation: {x: 0.0015932734, y: -0.30400735, z: 0.0042584, w: 0.95265883}
       scale: {x: 1, y: 1, z: 1}
     - name: pontape_D
       parentName: meiope_D
-      position: {x: -0.0577758, y: 0.0048614405, z: 0.00144036}
+      position: {x: -0.057775795, y: 0.0048614405, z: 0.00144036}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: femuor_E
       parentName: bacia
-      position: {x: 0.0009812795, y: -0.028856315, z: 0.101493835}
+      position: {x: 0.0009812794, y: -0.028856315, z: 0.10149382}
       rotation: {x: 0.60585403, y: 0.6585546, z: 0.32616946, w: 0.3047298}
       scale: {x: 1, y: 1, z: 1}
     - name: joelho_E
       parentName: femuor_E
-      position: {x: -0.44764453, y: 6.0342356e-17, z: 0}
+      position: {x: -0.44764447, y: 6.034235e-17, z: 0}
       rotation: {x: -0.4880213, y: -0.51169837, z: -0.4880213, w: 0.51169837}
       scale: {x: 1, y: 1, z: 1}
     - name: calcanhar_E
       parentName: joelho_E
-      position: {x: -0.06840512, y: -0.6094975, z: -0.012217229}
+      position: {x: -0.06840512, y: -0.6094975, z: -0.012217227}
       rotation: {x: 0.0033249592, y: 0.018807998, z: -0.035143334, w: 0.99919975}
       scale: {x: 1, y: 1, z: 1}
     - name: meiope_E
       parentName: calcanhar_E
-      position: {x: 0.1000065, y: -0.00831152, z: 0.08077189}
+      position: {x: 0.1000065, y: -0.008311519, z: 0.080771886}
       rotation: {x: 0.0016649609, y: -0.317684, z: 0.004449963, w: 0.9481848}
       scale: {x: 1, y: 1, z: 1}
     - name: pontape_E
       parentName: meiope_E
-      position: {x: 0.0577758, y: -0.004861435, z: -0.0014404049}
+      position: {x: 0.057775795, y: -0.004861435, z: -0.0014404048}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
