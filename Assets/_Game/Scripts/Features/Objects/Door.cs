@@ -54,4 +54,9 @@ public class Door : MonoBehaviour{
         UpdateLedColor();
         trigger.SetActive(false);
     }
+    
+    public void LockDoorWithoutUpdatingLed(){
+        Locked = true;
+        trigger.SetActive(false);
+    }
 }

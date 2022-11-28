@@ -329,7 +329,6 @@ GameObject:
   - component: {fileID: 8103106970985964466}
   - component: {fileID: 8103106970985964464}
   - component: {fileID: 8103106972264697179}
-  - component: {fileID: 8103106970905243341}
   - component: {fileID: 8103106970905243335}
   - component: {fileID: 1940359845444786455}
   m_Layer: 0
@@ -449,23 +448,6 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: a5ffeb4d08e18f342a65495371fc222e, type: 2}
---- !u!114 &8103106970905243341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8103106970985964468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: a5ffeb4d08e18f342a65495371fc222e, type: 2}
 --- !u!114 &8103106970905243335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,7 +465,7 @@ MonoBehaviour:
   raycastDistance: 2
   layerMask:
     serializedVersion: 2
-    m_Bits: 123
+    m_Bits: 104
 --- !u!114 &1940359845444786455
 MonoBehaviour:
   m_ObjectHideFlags: 0

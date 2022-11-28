@@ -12,7 +12,7 @@ public class BTLixeiraCaiu : BTNode
         status = Status.RUNNING;
         Print();
 
-        if (bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu)
+        if (bt.npcRef.lixeiras.Count > 0 && bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu)
         {
             lixeiraCaiu = true;
         }

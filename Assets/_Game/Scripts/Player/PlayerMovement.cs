@@ -91,6 +91,9 @@ public class PlayerMovement : MonoBehaviour
 
     void GetInput() //Setando inputs
     {
+        isMovingH = 0f;
+        isMovingV = 0f;
+        isMoving = false;
         if (stopInput) return;
 
         cameraRef.valueCamY = Input.GetAxis("Mouse Y");
