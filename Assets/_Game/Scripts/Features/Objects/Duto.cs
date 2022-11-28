@@ -6,7 +6,6 @@ public class Duto : MonoBehaviour
 {
     [SerializeField] private PlayerMovement playerRef;
     [SerializeField] private GameObject dutoEscalavel;
-    //[SerializeField] private List<GameObject> tampas = new List<GameObject>();
 
     public bool duto1Aberto;
     public bool duto2Aberto;
@@ -55,12 +54,13 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
+                else
 
                 if (hit.collider.CompareTag("Duto2"))
                 {
                     if (duto2Aberto == false)
                     {
-                        animator.SetBool("dutoAbrindo", true);
+                        animator.SetBool("duto2Abrindo", true);
                         duto2Aberto = true;
                     }
 
@@ -70,12 +70,13 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
+                else
 
                 if (hit.collider.CompareTag("Duto3"))
                 {
                     if (duto3Aberto == false)
                     {
-                        animator.SetBool("dutoAbrindo", true);
+                        animator.SetBool("duto3Abrindo", true);
                         duto3Aberto = true;
                     }
 
@@ -85,12 +86,13 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
+                else
 
                 if (hit.collider.CompareTag("Duto4"))
                 {
                     if (duto4Aberto == false)
                     {
-                        animator.SetBool("dutoAbrindo", true);
+                        animator.SetBool("duto4Abrindo", true);
                         duto4Aberto = true;
                     }
 
@@ -100,12 +102,13 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
+                else
 
                 if (hit.collider.CompareTag("Duto5"))
                 {
                     if (duto5Aberto == false)
                     {
-                        animator.SetBool("dutoAbrindo", true);
+                        animator.SetBool("duto5Abrindo", true);
                         duto5Aberto = true;
                     }
 
@@ -115,12 +118,13 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
+                else
 
                 if (hit.collider.CompareTag("Duto6"))
                 {
                     if (duto6Aberto == false)
                     {
-                        animator.SetBool("dutoAbrindo", true);
+                        animator.SetBool("duto6Abrindo", true);
                         duto6Aberto = true;
                     }
 
@@ -130,12 +134,13 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
+                else
 
                 if (hit.collider.CompareTag("Duto7"))
                 {
                     if (duto7Aberto == false)
                     {
-                        animator.SetBool("dutoAbrindo", true);
+                        animator.SetBool("duto7Abrindo", true);
                         duto7Aberto = true;
                     }
 
@@ -147,7 +152,5 @@ public class Duto : MonoBehaviour
                 }
             }
         }
-
-
     }
 }
