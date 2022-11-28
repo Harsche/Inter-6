@@ -54,7 +54,6 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
-                else
 
                 if (hit.collider.CompareTag("Duto2"))
                 {
@@ -70,7 +69,6 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
-                else
 
                 if (hit.collider.CompareTag("Duto3"))
                 {
@@ -86,7 +84,6 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
-                else
 
                 if (hit.collider.CompareTag("Duto4"))
                 {
@@ -102,7 +99,6 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
-                else
 
                 if (hit.collider.CompareTag("Duto5"))
                 {
@@ -118,7 +114,6 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
-                else
 
                 if (hit.collider.CompareTag("Duto6"))
                 {
@@ -134,7 +129,6 @@ public class Duto : MonoBehaviour
                     }
                     else dutoEscalavel.SetActive(false);
                 }
-                else
 
                 if (hit.collider.CompareTag("Duto7"))
                 {
