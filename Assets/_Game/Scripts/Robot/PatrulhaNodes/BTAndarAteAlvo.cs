@@ -19,19 +19,18 @@ public class BTAndarAteAlvo : BTNode
         npcAnimator = bt.GetComponent<Animator>();
         naveM = bt.GetComponent<NavMeshAgent>();
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) > 5f || bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu == false)
+        if (Vector3.Distance(player.transform.position, bt.transform.position) > 5f || (bt.npcRef.lixeiras.Count > 0 && bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu == false))
         {
             patrulhar = true;
         }
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) < 5f || bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu)
+        if (Vector3.Distance(player.transform.position, bt.transform.position) < 5f ||  bt.npcRef.lixeiras.Count <= 0 || bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu)
         {
             patrulhar = false;
             npcAnimator.SetBool("isWalking", false);
         }
 
-        while (patrulhar)
-        {
+        while (patrulhar){
             naveM.SetDestination(bt.npcRef.npcPoints[bt.npcRef.pointIndex].position);
             npcAnimator.SetBool("isWalking", true);
 
