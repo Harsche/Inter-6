@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour{
@@ -7,10 +6,7 @@ public class GameManager : MonoBehaviour{
 
     public static GameManager Instance{ get; private set; }
     public static bool Debug{ get; private set; }
-
-    private void OnValidate(){
-        Debug = debug;
-    }
+    public static bool IsGamePaused{ get; set; }
 
     private void Awake(){
         if (Instance != null){
@@ -20,5 +16,9 @@ public class GameManager : MonoBehaviour{
 
         Instance = this;
         OnValidate();
+    }
+
+    private void OnValidate(){
+        Debug = debug;
     }
 }

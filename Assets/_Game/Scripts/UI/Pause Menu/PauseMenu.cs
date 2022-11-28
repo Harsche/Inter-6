@@ -3,19 +3,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour{
+    private static bool GamePaused;
     [SerializeField] private OptionItems optionItems;
 
     private Canvas canvas;
-    
-    private static bool GamePaused;
 
     private void Awake(){
         canvas = GetComponent<Canvas>();
     }
 
     private void Update(){
-        if (!Input.GetKeyDown(KeyCode.Escape)) return;
-        TogglePause(!GamePaused);
+        if (Input.GetKeyDown(KeyCode.Escape)){ TogglePause(!GamePaused); }
     }
 
     public void SetCameraSensitivity(float value){
@@ -24,11 +22,13 @@ public class PauseMenu : MonoBehaviour{
 
     public void TogglePause(bool value){
         GamePaused = value;
+        GameManager.IsGamePaused = value;
         Time.timeScale = GamePaused ? 0 : 1;
         canvas.enabled = GamePaused;
         Cursor.lockState = GamePaused ? CursorLockMode.None : CursorLockMode.Locked;
         UpdateOptionItems();
-        if (!GamePaused) return;
+        if (!GamePaused){ return; }
+
         Map.Instance.UpdateMap();
     }
 
