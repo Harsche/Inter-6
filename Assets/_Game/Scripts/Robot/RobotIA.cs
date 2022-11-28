@@ -12,8 +12,8 @@ public class RobotIA : MonoBehaviour
     public int pointIndex = 0;
     public int lixeiraIndex = 0;
 
-    void Start()
-    {
+    void Start(){
+        kickRef = Player.Instance.PlayerMovement.kickRef;
         BTSequence patrulha = new BTSequence();
 
         patrulha.children.Add(new BTSelecionarAlvo());

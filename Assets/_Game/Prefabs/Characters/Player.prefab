@@ -184,7 +184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 8033295812529660558}
   cameraRef: {fileID: 1199884251}
-  kickRef: {fileID: 1228907146130996926}
+  <kickRef>k__BackingField: {fileID: 1228907146130996926}
   hudRef: {fileID: 0}
   footRef: {fileID: 1228907146150360938}
   esteiraRef: {fileID: 0}
@@ -206,6 +206,7 @@ MonoBehaviour:
       Data4: 991389280
     Path: event:/Tessa Passos
   esteira: 0
+  isClimb: 0
   isKick: 0
   isRun: 0
   isDead: 0
@@ -385,7 +386,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 447
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -421,7 +422,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -543,7 +544,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
