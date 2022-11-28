@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isMoving;
     private bool isCrawl;
-    private bool isClimb;
+    public bool isClimb;
     public bool isKick;
     public bool isRun;
     private bool isSlowly;
@@ -323,12 +323,14 @@ public class PlayerMovement : MonoBehaviour
         stepsEventEmitter.Play();
     }
 
-    public void PlayRunSound(){
+    public void PlayRunSound()
+    {
         stepsEventEmitter.SetParameter("Parameter 2", 1);
         stepsEventEmitter.Play();
     }
 
-    public void SetEsteiraVel(float value){
+    public void SetEsteiraVel(float value)
+    {
         esteiraVel = value;
     }
 
