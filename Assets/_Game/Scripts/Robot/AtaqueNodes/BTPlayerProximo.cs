@@ -5,7 +5,7 @@ using UnityEngine;
 public class BTPlayerProximo : BTNode
 {
     private GameObject player = Player.Instance.gameObject;
-    
+
     [SerializeField] private float areaDeteccao = 5f;
     private static readonly int IsRunning = Animator.StringToHash("isRunning");
     private static readonly int IsAttacking = Animator.StringToHash("isAttacking");
@@ -24,13 +24,22 @@ public class BTPlayerProximo : BTNode
 
         if (Vector3.Distance(player.transform.position, bt.transform.position) < areaDeteccao)
         {
-            status = Status.SUCCESS;
+            Ray raio = new(bt.transform.GetChild(2).position, player.transform.GetChild(4).position - bt.transform.GetChild(2).position);
+            RaycastHit hit;
+
+            if (Physics.Raycast(raio, out hit, 50f, default, QueryTriggerInteraction.Ignore))
+            {
+                if (hit.collider.CompareTag("Player"))
+                {
+                    status = Status.SUCCESS;
+                }
+            }   
         }
-        else
+        /*else
         {
             bt.iaAnimator.SetBool(IsRunning, false);
             bt.iaAnimator.SetBool(IsAttacking, false);
-        }
+        }*/
 
         if (status == Status.RUNNING) status = Status.FAILURE;
         Print();

@@ -26,6 +26,7 @@ TagManager:
   - Duto5
   - Duto6
   - Duto7
+  - PlayerRay
   layers:
   - Default
   - TransparentFX
@@ -36,7 +37,7 @@ TagManager:
   - Outline
   - Vidro
   - Puzzle
-  - 
+  - Player
   - 
   - 
   - 

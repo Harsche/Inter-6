@@ -19,13 +19,30 @@ public class BTAndarAteAlvo : BTNode
             patrulhar = true;
         }
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) < 5f ||  bt.npcRef.lixeiras.Count <= 0 || bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu)
+        if (Vector3.Distance(player.transform.position, bt.transform.position) < 5f)
+        {
+            Ray raio = new(bt.transform.GetChild(2).position, player.transform.GetChild(4).position - bt.transform.GetChild(2).position);
+            RaycastHit hit;
+
+            if (Physics.Raycast(raio, out hit, 50f, default, QueryTriggerInteraction.Ignore))
+            {
+                if (hit.collider.CompareTag("Player"))
+                {
+                    patrulhar = false;
+                    bt.iaAnimator.SetBool(IsWalking, false);
+                }
+                else patrulhar = true;
+            }
+        } else patrulhar = true;
+
+        if (bt.npcRef.lixeiras.Count <= 0 || bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu)
         {
             patrulhar = false;
             bt.iaAnimator.SetBool(IsWalking, false);
         }
 
-        while (patrulhar){
+        while (patrulhar)
+        {
             bt.iaNavMeshAgent.SetDestination(bt.npcRef.npcPoints[bt.npcRef.pointIndex].position);
             bt.iaAnimator.SetBool(IsWalking, true);
 

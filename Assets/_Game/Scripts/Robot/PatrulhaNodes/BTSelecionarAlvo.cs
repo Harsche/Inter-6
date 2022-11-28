@@ -14,16 +14,25 @@ public class BTSelecionarAlvo : BTNode
         status = Status.RUNNING;
         Print();
 
-        if (Vector3.Distance(player.transform.position, bt.transform.position) > 5f)
-        {
-            patrulhar = true;
-        }
-
         if (Vector3.Distance(player.transform.position, bt.transform.position) < 5f)
         {
-            patrulhar = false;
-            bt.iaAnimator.SetBool(IsWalking, false);
-        }
+            bt.transform.GetChild(2).LookAt(player.transform.GetChild(4).position);
+
+            Ray raio = new(bt.transform.GetChild(2).position, bt.transform.GetChild(2).TransformDirection(Vector3.forward));
+
+            RaycastHit hit;
+
+            Debug.DrawRay(bt.transform.GetChild(2).position, bt.transform.GetChild(2).TransformDirection(Vector3.forward) * 50f, Color.yellow);
+
+            if (Physics.Raycast(raio, out hit, 50f, 0, QueryTriggerInteraction.Ignore))
+            {
+                if (hit.collider.CompareTag("PlayerRay"))
+                {
+                    patrulhar = false;
+                    bt.iaAnimator.SetBool(IsWalking, false);
+                } else patrulhar = true;
+            }
+        } else patrulhar = true;
 
         while (patrulhar)
         {
