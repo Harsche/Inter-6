@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Eu matei o Andrew?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Até quando vai me culpar por suas falhas?</color>",
+            "time": 4.0
+        }
+    ]
+}

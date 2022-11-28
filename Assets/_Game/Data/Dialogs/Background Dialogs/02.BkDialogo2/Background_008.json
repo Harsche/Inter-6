@@ -1,0 +1,48 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Sua desgraçada.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Vou acabar com você, Hill.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu vou acabar com você.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>É triste te ver nessa situação decadente.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Em quem eles vão acreditar?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você está a horas acessando nossos sistemas a força.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sabe que isso não deveria ser feito, não é?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você enlouqueceu, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Para de tentar me fazer acreditar que eu to doida.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu sei o que você ta fazendo.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Cala a boca. Eu vou acabar com você.</color>",
+            "time": 4.0
+        }
+    ]
+}

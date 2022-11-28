@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Bom, preciso verificar se os outros tripulantes estão bem e</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>conferir se a conexão voltou.</color>",
+            "time": 3.0
+        }
+    ]
+}

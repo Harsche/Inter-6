@@ -1,0 +1,16 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Hill, abre a porta! Ele vai morrer.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sua prioridade é manter a tripulação bem, não é?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Abre a porta!</color>",
+            "time": 3.0
+        }
+    ]
+}

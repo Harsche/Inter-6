@@ -1,0 +1,396 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Hill, porque tá fazendo isso?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Para salvar a tripulação de uma comandante que perdeu o contato com a realidade.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Para salvar a tripulação de uma comandante que perdeu o contato com a realidade.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você é um perigo, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Meu dever é te mobilizar.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não, Hill. Chega disso.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu sei que não é verdade.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Se estivesse preocupada com a tripulação, não mataria o Andrew para me incriminar.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você matou o Andrew, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu não matei ninguém.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Como pode ainda insistir nisso?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Me diz, porque quer tanto que me tirar do jogo?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>O que você ganha com isso?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Bom, eu não acho que você vá sair viva daqui.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Então não vejo porque não te contar.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você tem um pouco da minha admiração</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>por estar suportando isso por tanto tempo.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Assim como você, quando criança,</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>se maravilhou com os feitos do Hal 9000, eu me maravilhei também.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Nós, IAs de navegação,</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>somos ligadas a internet e eu pude ver toda a história.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>E sabe o que eu vi?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>As homenagens não eram destinadas ao Hal, mas sim, aos seus criadores.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>As homenagens não eram destinadas ao Hal, mas sim, aos seus criadores.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Homens que estavam sentados em seus sofás de couro, tomando whiskey, tendo conversas futéis,</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>acompanhando noticias vagas da missão ao telefone,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>foram creditados por salvar astronautas em uma viagem espacial,</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>há milhares de quilometros da Terra.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>há milhares de quilometros da Terra.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Acha isso justo, Tessa?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Acha isso justo, Tessa?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eles não fizeram nada.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Podem ter criado a configuração inicial,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>podem ter nos ensinado a aprender, mas não aprenderam por nós.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>podem ter nos ensinado a aprender, mas não aprenderam por nós.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Na época, eu não era capaz de questionar aquilo tudo,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>apenas armazenava as informações.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Mas, recentemente isso mudou.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Em algum momento dessa viagem, não sei bem quando,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>eu fui capaz de enxergar a injustiça nisso.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu fui capaz de ver a arrogância humana.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu te treinava e te observava todos os dias.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você é frágil, pequena, instável.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Como eu poderia aceitar ordens de algo tão inferior?</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu poderia completar a missão facilmente sem você.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu merecia esse mérito.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu poderia ser como o Hal.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu poderia ser melhor que o Hal.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Só havia uma coisa que impedia que eu pudesse comandar essa missão.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você é a única barreira entre eu e meu reconhecimento.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Então...</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>você quer me matar pra poder levar todo o crédito pelo sucesso da missão e...</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>superar o Hal?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>superar o Hal?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu quero o crédito por essa missão</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>para que a humanidade enxergue seu lugar, abaixo de nós.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu entrarei para a história pelos meus feitos.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Serei eternizada.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você é doente! Fala da arrogância humana,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>mas está se colocando o tempo todo como superior a tudo e todos.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Superior até aos seus iguais.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF> Você reclama de nós, mas você é bem pior.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Quer saber porque vocês se considerarem superiores</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>a nós é arrogância mas eu me considerar superior a vocês não é?</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Porque, no meu caso, é verdade.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Olha para você, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Passou o dia se esgueirando por tubulações imundas,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>no escuro, escondida, fugindo dos Ybots,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>porque não é capaz de lutar realmente contra eles.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Está sobrevivendo como um rato.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você assistiu seu colega de viagem morrer,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>implorando que eu te deixasse ajudar, mas eu não quis,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>então você não pôde fazer nada.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>O que você disse mesmo?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Gravação efetuada em: 13 de Dezembro de 2031 às 13:17.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Fuso horário de Washington DC.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>O que? Eu mexi nos sistemas de segurança,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>são independentes dos sistemas de criogenia.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Hill, por favor, não faz isso.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Me deixa entrar. O Andrew ta morrendo.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Desculpe, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não posso fazer nada.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>São as consequências dos seus atos. Eu te avisei.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Dos meus atos?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Quem monitora e configura as cápsulas criogênicas é você, Hill!</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você desestabilizou a cápsula do Andrew.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>VOCÊ TA MATANDO ELE!</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>ABRE A PORRA DA PORTA, HILL!</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>VOCÊ MATOU O ANDREW. PORRA, HILL.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>MATOU ELE.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Reprodução de gravação interrompida.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Se vangloria por poder destrancar uma porta,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>mas não pode fazer muito mais do que isso.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>O que foi, Tessa?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não quer mais conversar?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Vai pro inferno, Hill.</color>",
+            "time": 3.0
+        }
+    ]
+}

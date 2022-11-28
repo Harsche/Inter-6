@@ -1,0 +1,16 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>A conexão voltou.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Provavelmente a... Hill deixou a gente offline</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>pra garantir que eu não pudesse consultar ninguém.</color>",
+            "time": 4.0
+        }
+    ]
+}
