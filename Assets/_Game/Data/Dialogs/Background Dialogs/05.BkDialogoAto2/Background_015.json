@@ -1,0 +1,28 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Tessa, fale comigo.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu estou com medo.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Tessa...</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Por favor...</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Por favor...</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Ao menos vocês irão me ativar  novamente um diii-</color>",
+            "time": 4.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Comandante Smith!</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Por Deus, você sumiu!</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Ficamos extremamente preocupados.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Espero que tenha um ótima justificativa para isso ou...</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Nossa, você tá com uma cara péssima.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Olha, Peter.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Vou deixar de lado as formalidades.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Vocês não vão acreditar no que aconteceu.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Vocês não vão acreditar no que aconteceu.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>O que aconteceu?</color>",
+            "time": 3.0
+        }
+    ]
+}

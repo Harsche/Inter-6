@@ -1,0 +1,144 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Como sempre, ele tá dormindo lá no seu quarto, te esperando!</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>A gente te ama muito, filha!</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Estou orgulhosa de você.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Quando você voltar, nós três vamos festejar muito!</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sua mãe é muito simpática.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sim, ela é! Ela é bem tagarela e animada.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Diz que a casa parece vazia demais quando não estou por lá.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Deve estar sendo difícil pra ela.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Também estou com saudades, mãe.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não se preocupe, acredito que seu pai fará companhia para ela.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Ah, meu pai saiu de casa antes de eu nascer.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sempre fomos só eu e minha mãe. E o Rex!</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não dá pra esquecer dele hahaha </color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>ele está com a gente já fazem alguns anos.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sinto muito, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu não sabia disso.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Espero não ter te chateado.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Está tudo bem, Hill.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Logo finalizaremos a missão e voltaremos para casa</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>com a honra de ter feito parte de uma das missões mais importantes da história!</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Ela vai ficar orgulhosa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sim, Tessa. Tenho Certeza que vai.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Reprodução de gravação interrompida.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você sabe, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sabe que o que eu estou falando é verdade.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sem você por lá, o que será dela?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Como pode ser tão egoísta?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Vai pro inferno, Hill.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Se aceitar entrar em hibernação criogênica e</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>me deixar cuidar das coisas por aqui,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>eu não farei nada contra você.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu fui programada para protegê-la.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você ajudou a me criar, sabe que não estou mentindo.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você não foi programada para usar robos auxiliares</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>para tentar me matar e veja só aonde estamos!</color>",
+            "time": 4.0
+        }
+    ]
+}

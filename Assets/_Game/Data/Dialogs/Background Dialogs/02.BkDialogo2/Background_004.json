@@ -1,0 +1,24 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Hey, o que é aquilo?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Hill, a cápsula criogênica do Dr. Andrew</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>está indicando sinais vitais alterados.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Se eu acessar o painel anexado a cápsula,</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>talvez eu possa estabilizar as funcionalidades.</color>",
+            "time": 4.0
+        }
+    ]
+}

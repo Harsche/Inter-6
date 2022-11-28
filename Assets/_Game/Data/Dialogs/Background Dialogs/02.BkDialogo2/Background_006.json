@@ -1,0 +1,72 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Tessa, eu te disse para não mexer manualmente nos sistemas da nave.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Acessos forçados são perigosos.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você deve ter desconfigurado a cápsula do Dr. Andrew numa distração.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>O que?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu mexi nos sistemas de segurança, são independentes dos sistemas de criogenia.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Hill, por favor, não faz isso.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Me deixa entrar. O Andrew ta morrendo.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Desculpe, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não posso fazer nada.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>São as consequências dos seus atos. Eu te avisei.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Dos meus atos?</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Quem monitora e configura as cápsulas criogênicas é você, Hill!</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você desestabilizou a cápsula do Andrew.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>VOCÊ TA MATANDO ELE!</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>ABRE A PORRA DA PORTA, HILL!</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>VOCÊ MATOU O ANDREW. PORRA, HILL.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>MATOU ELE.</color>",
+            "time": 3.0
+        }
+    ]
+}

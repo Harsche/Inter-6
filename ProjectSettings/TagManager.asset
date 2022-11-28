@@ -19,6 +19,13 @@ TagManager:
   - ClimbCollider
   - VerificaQueda
   - Floor
+  - Duto1
+  - Duto2
+  - Duto3
+  - Duto4
+  - Duto5
+  - Duto6
+  - Duto7
   layers:
   - Default
   - TransparentFX

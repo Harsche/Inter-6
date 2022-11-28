@@ -1,0 +1,108 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Afinal, você conseguiu chegar até aqui.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu estou surpresa, Tessa.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu sabia que você era inteligente, bem treinada,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>mas realmente não esperava que você pudesse chegar tão longe.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Mesmo depois de tudo isso,</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>você ainda me enxerga como uma humana frágil e burra, não é, Hill?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>A verdade é que, mesmo sendo extremamente inteligente,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>treinada para reconhecer nossos sinais e cuidar de nós,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>você não compreende os humanos.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você possui uma lista de atitudes humanas</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF> e possíveis causas ou consequências</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>atribuídas àquelas atitudes, mas isso é tudo que você tem de nós.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Para compreender os humanos, é preciso de mais do que lógica.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Entendo, Tessa. Então... eu perdi.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>É, perdeu.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Tessa, pense melhor sobre isso, sem mim,</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>você dependerá apenas do piloto automático da nave para voltar para casa.</color>",
+            "time": 5.0
+        },
+        {
+            "text": "<color=#FFFFFF>Sabe que ele não é tão confiável quanto eu.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você vai acabar se perdendo no espaço.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não se preocupe comigo, Hill.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu ficarei bem.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Se preocupe com você.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Tessa, você precisa de mim!</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Você sabe que precisa de mim!</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não pode cuidar dessa nave sozinha.</color>",
+            "time": 3.0
+        },
+        {
+            "text": "<color=#FFFFFF>Não pode cuidar dessa nave sozinha.</color>",
+            "time": 3.0
+        }
+    ]
+}

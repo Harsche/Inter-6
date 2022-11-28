@@ -12,13 +12,259 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b484b8e4b6ebe245a56f84d6e61b86d, type: 3}
   m_Name: Dialog Generator
   m_EditorClassIdentifier: 
-  dialogName: Tutorial_009
+  dialogName: Background_023
   dialogs:
   - dialogName: Dialog Line 01
-    text: "\xC9, isso provavelmente vai atrair o\r Ybot pra c\xE1."
-    time: 3
-    dialogColor: {r: 1, g: 1, b: 1, a: 1}
+    text: E com o recente retorno da nave NGC 7293,
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
   - dialogName: Dialog Line 02
-    text: "Essa \xE9 minha chance de ir\r para o quarto."
+    text: "enviada para Saturno h\xE1 cerca de 1 ano,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 03
+    text: "o mundo se viu novamente diante de informa\xE7\xF5es impactantes,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 04
+    text: "que podem mudar nossa percep\xE7\xE3o quanto a tudo o que conhecemos,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 05
+    text: ou pensamos conhecer.
     time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 06
+    text: ou pensamos conhecer.
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 07
+    text: "Ap\xF3s funcion\xE1rios vazarem informa\xE7\xF5es"
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 08
+    text: "sobre um poss\xEDvel incidente que aconteceu durante a miss\xE3o,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 09
+    text: "sobre um poss\xEDvel incidente que aconteceu durante a miss\xE3o,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 10
+    text: "a NASA veio a p\xFAblico e revelou que, durante a viagem,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 11
+    text: "a IA de navega\xE7\xE3o Hill 9030 que integrava a nave sofreu algum tipo
+      de avaria."
+    time: 5
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 12
+    text: Isso, segundo o relato da astronauta,
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 13
+    text: "engenheira e comandante desta miss\xE3o, Tessa Smith,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 14
+    text: "resultou em comportamentos n\xE3o programados e,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 15
+    text: inclusive, agressivos por parte da IA.
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 16
+    text: Tessa alega que a IA teria tentado convence-la
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 17
+    text: de que ela estava enlouquecendo.
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 18
+    text: O comportamento descrito por Tessa,
+    time: 3
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 19
+    text: segundo especialistas, se assemelha ao que eles chamam de
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 20
+    text: "gaslighting e consiste num tipo de abuso psicol\xF3gico aonde o agressor"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 21
+    text: busca convencer a vitima de que ela perdeu o contato com a realidade,
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 22
+    text: "at\xE9 que a mesma acredite nisso e passe a duvidar de sua pr\xF3pria
+      sanidade."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 23
+    text: "Al\xE9m disso, Hill tamb\xE9m teria atentado contra"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 24
+    text: a vida da Comandante Smith e causado, propositalmente,
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 25
+    text: "a morte de um tripulante em hiberna\xE7\xE3o criogenica, o Dr. Andrew
+      Taylor."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 26
+    text: "Devido a estes comportamentos, Tessa Smith desligou a IA de navega\xE7\xE3o
+      e"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 27
+    text: "completou o percurso da miss\xE3o sozinha."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 28
+    text: "Ela recebeu durante o restante da expedi\xE7\xE3o apoio psicol\xF3gico
+      do QG"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 29
+    text: "para que pudesse se manter em campo e gra\xE7as a isso, a miss\xE3o foi
+      completada."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 30
+    text: "Ap\xF3s o retorno, a Dr. Smith ainda est\xE1"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 31
+    text: profundamente desestabilizada com tudo que aconteceu e
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 32
+    text: "segue passando por acompanhamento psicol\xF3gico."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 33
+    text: "segue passando por acompanhamento psicol\xF3gico."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 34
+    text: "As semelhan\xE7as com o incidente da miss\xE3o 2001"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 35
+    text: "intrigam especialistas em intelig\xEAncia artificial."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 36
+    text: "Investiga\xE7\xF5es est\xE3o ocorrendo para determinar o que aconteceu"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 37
+    text: dentro da NGC 7293 naquele dia.
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 38
+    text: "Ser\xE1 que a IA desenvolveu consci\xEAncia?"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 39
+    text: Seria isso um resultado da proximidade com as
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 40
+    text: "misteriosas ondas eletromagn\xE9ticas provenientes da regi\xE3o de Saturno?"
+    time: 5
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 41
+    text: "Ser\xE1 que Tessa Smith, de fato, perdeu o controle e"
+    time: 5
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 42
+    text: Hill foi desligada injustamente ao tentar ajudar?
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 43
+    text: "Bom, teremos uma resposta apenas ap\xF3s todas as analises t\xE9cnicas"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 44
+    text: "que est\xE3o sendo feitas em Hill e as analises psicol\xF3gicas"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 45
+    text: "que est\xE3o sendo feitas em Tessa retornarem resultados."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 46
+    text: "Quanto aos frutos dessa conturbada miss\xE3o,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 47
+    text: "tudo \xE9 t\xE3o intrigante quanto a hist\xF3ria contada por Tessa."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 48
+    text: "Ao que tudo indica, as ondas eletromagn\xE9ticas que foram a motiva\xE7\xE3o"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 49
+    text: "para a miss\xE3o 2031 tem uma origem bem estranha:"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 50
+    text: "uma esp\xE9cie de ret\xE2ngulo s\xF3lido, de material desconhecido."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 51
+    text: "O objeto est\xE1 pairando sobre Saturno e n\xE3o se sabe ainda o que \xE9,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 52
+    text: "o que ele est\xE1 fazendo ali, quando surgiu ou quem o fez."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 53
+    text: "Tudo que se sabe sobre o  estranho monolito \xE9 que,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 54
+    text: "ao aproximar- se dele, \xE9 poss\xEDvel ouvir um som."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 55
+    text: "Uma  pulsa\xE7\xE3o r\xEDtmica e inc\xF4moda."
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 56
+    text: "Esperamos ansiosos, atentos com os olhos voltados para o c\xE9u,"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 57
+    text: "entender o que o universo, ou seja l\xE1 quem for que"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 58
+    text: "entender o que o universo, ou seja l\xE1 quem for que"
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 59
+    text: deixou aquele monolito em Saturno, quer nos dizer.
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 60
+    text: Por fim, faremos um minuto de silencio pelo Dr. Andrew Taylor,
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 61
+    text: Por fim, faremos um minuto de silencio pelo Dr. Andrew Taylor,
+    time: 4
+    dialogColor: {r: 1, g: 1, b: 1, a: 0}
+  - dialogName: Dialog Line 62
+    text: "que perdeu sua vida servindo ao nosso avan\xE7o cient\xEDfico."
+    time: 4
     dialogColor: {r: 1, g: 1, b: 1, a: 0}
