@@ -2,13 +2,16 @@
 
 public class CameraRaycast : MonoBehaviour{
     [SerializeField] private Camera mainCamera;
-    [SerializeField] private Camera outlineCamera;
     [SerializeField] private float raycastDistance = 10f;
     [SerializeField] private LayerMask layerMask;
 
     private IInteractable highlightedObject;
 
     private void Update(){
+        DoRaycast();
+    }
+
+    private void DoRaycast(){
         if (GameManager.IsGamePaused){ return; }
 
         bool leftClick = Input.GetMouseButtonDown(0);
@@ -17,7 +20,6 @@ public class CameraRaycast : MonoBehaviour{
         IInteractable interactable = hitInfo.collider
             ? hitInfo.collider.GetComponent<IInteractable>()
             : null;
-        outlineCamera.enabled = interactable != null;
         UpdateHighlighted(interactable);
         if (leftClick && interactable != null){ interactable.Interact(); }
     }
