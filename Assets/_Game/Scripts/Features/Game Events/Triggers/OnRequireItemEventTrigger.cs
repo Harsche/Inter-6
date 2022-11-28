@@ -12,6 +12,13 @@ public class OnRequireItemEventTrigger : MonoBehaviour, IInteractable{
     [SerializeField] private GameObject outline;
 
     private bool selected;
+    
+    private void OnValidate(){
+        gameObject.layer = LayerMask.NameToLayer("Interactable");
+        if (outline == null) return;
+        outline.layer = LayerMask.NameToLayer("Outline");
+        outline.SetActive(false);
+    }
 
     private void Awake(){
         gameObject.layer = LayerMask.NameToLayer("Interactable");

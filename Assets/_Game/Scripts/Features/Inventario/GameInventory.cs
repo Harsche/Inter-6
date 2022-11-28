@@ -14,6 +14,7 @@ namespace Inventory{
             }
 
             Instance = this;
+            items.Clear();
         }
 
         public void AddItem(Item item){

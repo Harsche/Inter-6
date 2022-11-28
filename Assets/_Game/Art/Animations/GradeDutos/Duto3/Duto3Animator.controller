@@ -36,7 +36,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: duto3Abrindo
+    m_ConditionEvent: dutoAbrindo
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5398831839237602883}
@@ -61,8 +61,8 @@ AnimatorController:
   m_Name: Duto3Animator
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: duto3Abrindo
-    m_Type: 4
+  - m_Name: dutoAbrindo
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
