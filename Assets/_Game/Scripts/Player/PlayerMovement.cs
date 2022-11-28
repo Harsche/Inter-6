@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     [SerializeField] CameraMovement cameraRef;
-    [SerializeField] KickCheck kickRef;
+    [field: SerializeField] public KickCheck kickRef{ get; private set; }
     [SerializeField] HUDManager hudRef;
     [SerializeField] FootCheck footRef;
 
