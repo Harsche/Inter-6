@@ -5,19 +5,14 @@ using UnityEngine.AI;
 
 public class BTSelecionarAlvo : BTNode
 {
-    private GameObject player = GameObject.FindGameObjectWithTag("Player");
-    private Animator npcAnimator;
-    private NavMeshAgent naveM;
-
+    private GameObject player = Player.Instance.gameObject;
     private bool patrulhar;
+    private static readonly int IsWalking = Animator.StringToHash("isWalking");
 
     public override IEnumerator Run(BehaviourTree2 bt)
     {
         status = Status.RUNNING;
         Print();
-
-        npcAnimator = bt.GetComponent<Animator>();
-        naveM = bt.GetComponent<NavMeshAgent>();
 
         if (Vector3.Distance(player.transform.position, bt.transform.position) > 5f)
         {
@@ -27,7 +22,7 @@ public class BTSelecionarAlvo : BTNode
         if (Vector3.Distance(player.transform.position, bt.transform.position) < 5f)
         {
             patrulhar = false;
-            npcAnimator.SetBool("isWalking", false);
+            bt.iaAnimator.SetBool(IsWalking, false);
         }
 
         while (patrulhar)
@@ -35,9 +30,9 @@ public class BTSelecionarAlvo : BTNode
             if (bt.npcRef.pointIndex >= bt.npcRef.npcPoints.Count - 1f)
             {
                 bt.npcRef.pointIndex = 0;
-                npcAnimator.SetBool("isWalking", false);
+                bt.iaAnimator.SetBool(IsWalking, false);
             }
-            else if (bt.npcRef.pointIndex <= bt.npcRef.npcPoints.Count && naveM.remainingDistance <= naveM.stoppingDistance) bt.npcRef.pointIndex++;
+            else if (bt.npcRef.pointIndex <= bt.npcRef.npcPoints.Count && bt.iaNavMeshAgent.remainingDistance <= bt.iaNavMeshAgent.stoppingDistance) bt.npcRef.pointIndex++;
 
             status = Status.SUCCESS;
             Print();

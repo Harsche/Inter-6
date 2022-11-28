@@ -1,29 +1,26 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BTStunnado : BTNode
 {
-    private Animator npcAnimator;
-
     private float tempo = 8f;
+    private static readonly int IsStunning = Animator.StringToHash("isStunning");
 
     public override IEnumerator Run(BehaviourTree2 bt)
     {
         status = Status.RUNNING;
         Print();
-
-        npcAnimator = bt.GetComponent<Animator>();
+        
 
         if (bt.npcRef.kickRef.kickedEnemy == true)
         {
-            npcAnimator.SetBool("isStunning", true);
+            bt.iaAnimator.SetBool(IsStunning, true);
 
             tempo -= Time.deltaTime;
 
             if (tempo <= 0)
             {
-                npcAnimator.SetBool("isStunning", false);
+                bt.iaAnimator.SetBool(IsStunning, false);
                 bt.npcRef.kickRef.kickedEnemy = false;
 
                 tempo = 8f;
@@ -34,7 +31,7 @@ public class BTStunnado : BTNode
             status = Status.SUCCESS;
             Print();
         }
-        else npcAnimator.SetBool("isStunning", false);
+        else bt.iaAnimator.SetBool(IsStunning, false);
 
         if (status == Status.RUNNING) status = Status.FAILURE;
         Print();

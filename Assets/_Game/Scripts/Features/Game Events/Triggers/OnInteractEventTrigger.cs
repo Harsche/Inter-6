@@ -9,6 +9,10 @@ public class OnInteractEventTrigger : MonoBehaviour, IInteractable{
 
     private bool selected;
 
+    private void Awake(){
+        OnValidate();
+    }
+
     private void OnValidate(){
         gameObject.layer = LayerMask.NameToLayer("Interactable");
         if (outline == null) return;
@@ -16,19 +20,15 @@ public class OnInteractEventTrigger : MonoBehaviour, IInteractable{
         outline.SetActive(false);
     }
 
-    private void Awake(){
-        OnValidate();
-    }
-
     public bool Interact(){
-        if(!canInteract) return false;
+        if (!canInteract) return false;
         onInteract?.Invoke();
         if (disableOnActivate) canInteract = false;
         return true;
     }
 
     public void ToggleHighlight(bool active){
-        if(!canInteract) active = false;
+        if (!canInteract) active = false;
         outline.layer = active
             ? LayerMask.NameToLayer("Outline")
             : LayerMask.NameToLayer("Default");

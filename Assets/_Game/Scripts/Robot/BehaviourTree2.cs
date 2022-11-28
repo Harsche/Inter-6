@@ -1,11 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class BehaviourTree2 : MonoBehaviour
 {
     public BTNode root;
     public RobotIA npcRef;
+    [field: SerializeField] public Animator iaAnimator { get; private set; }
+    [field: SerializeField] public NavMeshAgent iaNavMeshAgent { get; private set; }
+    
     public IEnumerator Execute()
     {
         while(true)

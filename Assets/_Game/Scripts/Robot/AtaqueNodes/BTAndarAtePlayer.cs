@@ -1,25 +1,21 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class BTAndarAtePlayer : BTNode
 {
-    private GameObject alvo = GameObject.FindGameObjectWithTag("Player");
-    private Animator npcAnimator;
-    private NavMeshAgent naveM;
+    private GameObject alvo = Player.Instance.gameObject;
 
     [SerializeField] private float tempo = 10f;
+    private static readonly int IsRunning = Animator.StringToHash("isRunning");
+    private static readonly int IsWalking = Animator.StringToHash("isWalking");
+    private static readonly int IsAttacking = Animator.StringToHash("isAttacking");
 
     public override IEnumerator Run(BehaviourTree2 bt)
     {
         status = Status.RUNNING;
         Print();
 
-        npcAnimator = bt.GetComponent<Animator>();
-        naveM = bt.GetComponent<NavMeshAgent>();
-
-        PlayerMovement playerRef = alvo.GetComponent<PlayerMovement>();
+        PlayerMovement playerRef = Player.Instance.PlayerMovement;
 
         if (playerRef.isDead)
         {
@@ -30,19 +26,19 @@ public class BTAndarAtePlayer : BTNode
         {
             //bt.transform.LookAt(alvo.transform.position);
 
-            npcAnimator.SetBool("isRunning", true);
+            bt.iaAnimator.SetBool(IsRunning, true);
 
-            naveM.SetDestination(alvo.transform.position);
+            bt.iaNavMeshAgent.SetDestination(alvo.transform.position);
 
             if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 2f)
             {
-                npcAnimator.SetBool("isAttacking", false);
+                bt.iaAnimator.SetBool(IsAttacking, false);
             }
 
             if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 1.2f)
             {
-                npcAnimator.SetBool("isRunning", false);
-                npcAnimator.SetBool("isWalking", false);
+                bt.iaAnimator.SetBool(IsRunning, false);
+                bt.iaAnimator.SetBool(IsWalking, false);
                 status = Status.SUCCESS;
                 break;
             }

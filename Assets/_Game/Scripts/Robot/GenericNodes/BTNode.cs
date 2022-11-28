@@ -12,6 +12,6 @@ abstract public class BTNode
 
     public void Print()
     {
-        Debug.Log(this.GetType().Name + ": " + status.ToString());
+        if(GameManager.Debug) Debug.Log(this.GetType().Name + ": " + status.ToString());
     }
 }

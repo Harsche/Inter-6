@@ -1,23 +1,16 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class BTAndarAteLixeira : BTNode
 {
-    private Animator npcAnimator;
-    private NavMeshAgent naveM;
-
     private bool verificar;
+    private static readonly int IsWalking = Animator.StringToHash("isWalking");
 
     public override IEnumerator Run(BehaviourTree2 bt)
     {
         status = Status.RUNNING;
         Print();
-
-        npcAnimator = bt.GetComponent<Animator>();
-        naveM = bt.GetComponent<NavMeshAgent>();
-
+        
         if (Vector3.Distance(bt.transform.position, bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].transform.position) > 2f && bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu)
         {
             verificar = true;
@@ -26,8 +19,8 @@ public class BTAndarAteLixeira : BTNode
 
         while (verificar)
         {
-            naveM.SetDestination(bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].transform.position);
-            npcAnimator.SetBool("isWalking", true);
+            bt.iaNavMeshAgent.SetDestination(bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].transform.position);
+            bt.iaAnimator.SetBool(IsWalking, true);
 
             status = Status.SUCCESS;
             Print();

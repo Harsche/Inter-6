@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class BTPlayerProximo : BTNode
 {
-    private GameObject player;
-    private Animator npcAnimator;
-
+    private GameObject player = Player.Instance.gameObject;
+    
     [SerializeField] private float areaDeteccao = 5f;
+    private static readonly int IsRunning = Animator.StringToHash("isRunning");
+    private static readonly int IsAttacking = Animator.StringToHash("isAttacking");
 
     public override IEnumerator Run(BehaviourTree2 bt)
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        npcAnimator = bt.GetComponent<Animator>();
-        PlayerMovement playerRef = player.GetComponent<PlayerMovement>();
+        PlayerMovement playerRef = Player.Instance.PlayerMovement;
 
         if (playerRef.isDead)
         {
@@ -29,8 +28,8 @@ public class BTPlayerProximo : BTNode
         }
         else
         {
-            npcAnimator.SetBool("isRunning", false);
-            npcAnimator.SetBool("isAttacking", false);
+            bt.iaAnimator.SetBool(IsRunning, false);
+            bt.iaAnimator.SetBool(IsAttacking, false);
         }
 
         if (status == Status.RUNNING) status = Status.FAILURE;

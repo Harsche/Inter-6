@@ -5,8 +5,7 @@ using UnityEngine.AI;
 
 public class BTSelecionarLixeira : BTNode
 {
-    private GameObject player = GameObject.FindGameObjectWithTag("Player");
-    private NavMeshAgent naveM;
+    private GameObject player = Player.Instance.gameObject;
 
     private bool verificando;
 
@@ -14,8 +13,6 @@ public class BTSelecionarLixeira : BTNode
     {
         status = Status.RUNNING;
         Print();
-
-        naveM = bt.GetComponent<NavMeshAgent>();
 
         if (Vector3.Distance(player.transform.position, bt.transform.position) > 5f)
         {
