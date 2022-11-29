@@ -11,6 +11,8 @@ public class Map : MonoBehaviour{
     [SerializeField] private Sprite floor2;
     [SerializeField] private Toggle toggleFloor1;
     [SerializeField] private Toggle toggleFloor2;
+    [SerializeField] private GameObject legenda1;
+    [SerializeField] private GameObject legenda2;
     [SerializeField] private float changeFloorHeight;
 
     private Bounds gameSpaceBounds;
@@ -57,8 +59,20 @@ public class Map : MonoBehaviour{
         );
 
         playerCurrentFloor = playerPosition.y >= changeFloorHeight ? 2 : 1;
+
         toggleFloor1.isOn = playerCurrentFloor == 1;
+        if (toggleFloor1.isOn)
+        {
+            legenda2.SetActive(false);
+            legenda1.SetActive(true);
+        }
+
         toggleFloor2.isOn = playerCurrentFloor == 2;
+        if (toggleFloor2.isOn)
+        {
+            legenda1.SetActive(false);
+            legenda2.SetActive(true);
+        }
         // ChangeFloorDisplay(playerCurrentFloor);
 
         playerIcon.localPosition = playerMapPosition;

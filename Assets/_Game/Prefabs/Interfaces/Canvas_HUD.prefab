@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4000244, y: -1.5}
+  m_AnchoredPosition: {x: 5.625, y: -1.5}
   m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &773334972
@@ -593,7 +593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 662874f80c5d8f640a1db94dc07092d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cheat: 0
   playerRef: {fileID: 0}
   staminaRunReducao: 0.05
   staminaKickReducao: 8
@@ -771,6 +770,7 @@ GameObject:
   - component: {fileID: 4876106862304179194}
   - component: {fileID: 5034125178564789997}
   - component: {fileID: 1715035696861353217}
+  - component: {fileID: 144229928848339383}
   m_Layer: 5
   m_Name: LifeIcon
   m_TagString: Untagged
@@ -836,6 +836,26 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &144229928848339383
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761431930220866265}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 43c510327eed2b34198c897c763a55db, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &786007881662725117
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,7 +890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 6.324951, y: 0}
   m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1937727250205384020
@@ -1005,7 +1025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.3000488, y: 0}
+  m_AnchoredPosition: {x: 2.1750488, y: 0}
   m_SizeDelta: {x: 0, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6255717264674877047
@@ -1215,7 +1235,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3.1999512, y: -0.30004883}
+  m_AnchoredPosition: {x: 2.2250977, y: -0.30004883}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5137139657481455369
@@ -1578,6 +1598,7 @@ GameObject:
   - component: {fileID: 6136131253844849845}
   - component: {fileID: 5089732076349832412}
   - component: {fileID: 3937628854188368745}
+  - component: {fileID: 144229928848339384}
   m_Layer: 5
   m_Name: StaminaIcon
   m_TagString: Untagged
@@ -1643,6 +1664,26 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &144229928848339384
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7248632135202342461}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f6a25c67aea6f14b9795b02d8b9cfca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7506245905551929762
 GameObject:
   m_ObjectHideFlags: 0
