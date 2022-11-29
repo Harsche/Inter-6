@@ -19,6 +19,11 @@ public class BTAndarAteLixeira : BTNode
 
         while (verificar)
         {
+            bt.npcRef.olhoDir.material = bt.npcRef.patrulhaOlho;
+            bt.npcRef.olhoEsq.material = bt.npcRef.patrulhaOlho;
+
+            bt.iaNavMeshAgent.angularSpeed = 550;
+
             bt.iaNavMeshAgent.SetDestination(bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].transform.position);
             bt.iaAnimator.SetBool(IsWalking, true);
 

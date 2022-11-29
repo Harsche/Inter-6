@@ -8,32 +8,55 @@ public class BTAtacarPlayer : BTNode
     private float layerWeightTrue = 1f;
     private float layerWeightFalse = 0f;
     private static readonly int IsAttacking = Animator.StringToHash("isAttacking");
+    private static readonly int IsWalking = Animator.StringToHash("isWalking");
 
     public override IEnumerator Run(BehaviourTree2 bt)
     {
         status = Status.RUNNING;
         Print();
-        
+
         PlayerMovement playerRef = Player.Instance.PlayerMovement;
 
-        if(playerRef.isDead)
+        if (playerRef.isDead)
         {
             yield break;
         }
 
-        if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 1.2f)
+        bt.iaNavMeshAgent.angularSpeed = 0;
+        bt.transform.LookAt(alvo.transform.position);
+
+        if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 2.75f)
         {
             bt.iaAnimator.SetBool(IsAttacking, true);
+            bt.iaAnimator.SetBool(IsWalking, false);
+
+            if (bt.iaAnimator.GetBool(IsAttacking))
+            {
+                bt.gameObject.GetComponentInChildren<BoxCollider>().enabled = true;
+            }
+            else bt.gameObject.GetComponentInChildren<BoxCollider>().enabled = false;
+
             status = Status.SUCCESS;
         }
-        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 1.5f && Vector3.Distance(alvo.transform.position, bt.transform.position) < 2.5f)
+        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) >= 2.77f && Vector3.Distance(alvo.transform.position, bt.transform.position) <= 3.5f)
         {
             bt.iaAnimator.SetBool(IsAttacking, true);
+            bt.iaAnimator.SetBool(IsWalking, false);
+
             bt.iaAnimator.SetLayerWeight(bt.iaAnimator.GetLayerIndex("MovingAttack"), layerWeightTrue);
+
+            if (bt.iaAnimator.GetBool(IsAttacking))
+            {
+                bt.gameObject.GetComponentInChildren<BoxCollider>().enabled = true;
+            }
+            else bt.gameObject.GetComponentInChildren<BoxCollider>().enabled = false;
+
             status = Status.SUCCESS;
         }
-        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 2f)
+        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 3.5f)
         {
+            bt.gameObject.GetComponentInChildren<BoxCollider>().enabled = false;
+
             bt.iaAnimator.SetBool(IsAttacking, false);
             bt.iaAnimator.SetLayerWeight(bt.iaAnimator.GetLayerIndex("MovingAttack"), layerWeightFalse);
         }

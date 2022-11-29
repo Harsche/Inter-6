@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 2c0bb601b88367c498f5e3d8314d4ef1
+guid: c51a989e4fb0d234590987c822d2f04a
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: 4977489433794275170
-    second: robo punch
+    second: robo punch inverso
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -36,7 +36,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: robo punch
+      name: robo punch inverso
       takeName: soco robo
       internalID: 0
       firstFrame: 190

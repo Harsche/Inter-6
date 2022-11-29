@@ -24,10 +24,18 @@ public class BTPlayerProximo : BTNode
 
         if (Vector3.Distance(player.transform.position, bt.transform.position) < areaDeteccao)
         {
-            Ray raio = new(bt.transform.GetChild(2).position, player.transform.GetChild(4).position - bt.transform.GetChild(2).position);
+            bt.npcRef.olhoDir.material = bt.npcRef.ataqueOlho;
+            bt.npcRef.olhoEsq.material = bt.npcRef.ataqueOlho;
+
+            bt.transform.GetChild(2).LookAt(player.transform.GetChild(4).position);
+
+            Ray raio = new(bt.transform.GetChild(2).position, bt.transform.GetChild(2).TransformDirection(Vector3.forward));
+
             RaycastHit hit;
 
-            if (Physics.Raycast(raio, out hit, 50f, default, QueryTriggerInteraction.Ignore))
+            //Debug.DrawRay(bt.transform.GetChild(2).position, bt.transform.GetChild(2).TransformDirection(Vector3.forward) * 50f, Color.yellow);
+
+            if (Physics.Raycast(raio, out hit, 50f, ~0, QueryTriggerInteraction.Ignore))
             {
                 if (hit.collider.CompareTag("Player"))
                 {
@@ -35,11 +43,11 @@ public class BTPlayerProximo : BTNode
                 }
             }   
         }
-        /*else
+        else
         {
             bt.iaAnimator.SetBool(IsRunning, false);
             bt.iaAnimator.SetBool(IsAttacking, false);
-        }*/
+        }
 
         if (status == Status.RUNNING) status = Status.FAILURE;
         Print();

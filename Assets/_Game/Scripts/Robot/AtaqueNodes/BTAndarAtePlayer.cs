@@ -24,23 +24,23 @@ public class BTAndarAtePlayer : BTNode
 
         while (Vector3.Distance(alvo.transform.position, bt.transform.position) < 5f)
         {
-            //bt.transform.LookAt(alvo.transform.position);
+            bt.iaNavMeshAgent.angularSpeed = 0;
+            bt.transform.LookAt(alvo.transform.position);
 
             bt.iaAnimator.SetBool(IsRunning, true);
-
             bt.iaNavMeshAgent.SetDestination(alvo.transform.position);
 
-            if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 2f)
-            {
-                bt.iaAnimator.SetBool(IsAttacking, false);
-            }
-
-            if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 1.2f)
+            if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 2.77f)
             {
                 bt.iaAnimator.SetBool(IsRunning, false);
                 bt.iaAnimator.SetBool(IsWalking, false);
                 status = Status.SUCCESS;
                 break;
+            }
+
+            if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 3.5f)
+            {
+                bt.iaAnimator.SetBool(IsAttacking, false);
             }
 
             tempo -= Time.deltaTime;

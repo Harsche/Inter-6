@@ -6,6 +6,14 @@ public class RobotIA : MonoBehaviour
 {
     public KickCheck kickRef;
 
+    public MeshRenderer olhoDir;
+    public MeshRenderer olhoEsq;
+
+    public Material normalOlho;
+    public Material patrulhaOlho;
+    public Material ataqueOlho;
+    public Material stunOlho;
+
     public List<Transform> npcPoints = new List<Transform>();
     public List<Lixeira> lixeiras = new List<Lixeira>();
 

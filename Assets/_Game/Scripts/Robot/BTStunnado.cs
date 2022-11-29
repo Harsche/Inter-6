@@ -14,12 +14,18 @@ public class BTStunnado : BTNode
 
         if (bt.npcRef.kickRef.kickedEnemy == true)
         {
+            bt.npcRef.olhoDir.material = bt.npcRef.stunOlho;
+            bt.npcRef.olhoEsq.material = bt.npcRef.stunOlho;
+
             bt.iaAnimator.SetBool(IsStunning, true);
 
             tempo -= Time.deltaTime;
 
             if (tempo <= 0)
             {
+                bt.npcRef.olhoDir.material = bt.npcRef.patrulhaOlho;
+                bt.npcRef.olhoEsq.material = bt.npcRef.patrulhaOlho;
+
                 bt.iaAnimator.SetBool(IsStunning, false);
                 bt.npcRef.kickRef.kickedEnemy = false;
 

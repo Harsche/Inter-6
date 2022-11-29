@@ -22,11 +22,11 @@ public class BTSelecionarAlvo : BTNode
 
             RaycastHit hit;
 
-            Debug.DrawRay(bt.transform.GetChild(2).position, bt.transform.GetChild(2).TransformDirection(Vector3.forward) * 50f, Color.yellow);
+            //Debug.DrawRay(bt.transform.GetChild(2).position, bt.transform.GetChild(2).TransformDirection(Vector3.forward) * 50f, Color.yellow);
 
             if (Physics.Raycast(raio, out hit, 50f, ~0, QueryTriggerInteraction.Ignore))
             {
-                if (hit.collider.CompareTag("PlayerRay"))
+                if (hit.collider.CompareTag("Player"))
                 {
                     patrulhar = false;
                     bt.iaAnimator.SetBool(IsWalking, false);
