@@ -21,6 +21,8 @@ public class PauseMenu : MonoBehaviour{
     }
 
     public void TogglePause(bool value){
+        if (!GamePaused && Cursor.lockState == CursorLockMode.None){ return; }
+
         GamePaused = value;
         GameManager.IsGamePaused = value;
         Time.timeScale = GamePaused ? 0 : 1;

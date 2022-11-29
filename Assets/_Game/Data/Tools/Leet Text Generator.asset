@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Leet Text Generator
   m_EditorClassIdentifier: 
   toUpper: 1
-  text: "Azideia merm\xE3o o bagulha \xE9 hardecore garai hm"
-  outputText: "421D314 M3RM\xC30 0 846ULH4 \xC9 H4RD3C0R3 64R41 HM"
+  text: procurando
+  outputText: PR0CUR4ND0
   letters:
   - character: a
     number: 4

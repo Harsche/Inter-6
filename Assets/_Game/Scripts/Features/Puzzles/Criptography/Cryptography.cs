@@ -1,4 +1,5 @@
-﻿using DG.Tweening;
+﻿using System;
+using DG.Tweening;
 using FMODUnity;
 using TMPro;
 using UnityEngine;
@@ -24,7 +25,7 @@ public class Cryptography : MonoBehaviour{
     private void Awake(){
         panelDefaultColor = panel.color;
     }
-
+    
     private void DoPaintPanel(bool isPasswordCorrect){
         const float alphaValue = 105f / 255f;
         Color finalColor = isPasswordCorrect ? Color.green : Color.red;

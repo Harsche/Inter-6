@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5261879432734802718
+--- !u!1 &2788337450334109051
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5261879432734802715}
-  - component: {fileID: 5261879432734802716}
-  - component: {fileID: 5261879432734802717}
+  - component: {fileID: 8166125081792670046}
+  - component: {fileID: 4970890122026431803}
+  - component: {fileID: 5360513699598740677}
   m_Layer: 6
-  m_Name: Outline
+  m_Name: Card Master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &5261879432734802715
+--- !u!4 &8166125081792670046
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5261879432734802718}
+  m_GameObject: {fileID: 2788337450334109051}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,21 +33,21 @@ Transform:
   m_Father: {fileID: 5261879433549675705}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5261879432734802716
+--- !u!33 &4970890122026431803
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5261879432734802718}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &5261879432734802717
+  m_GameObject: {fileID: 2788337450334109051}
+  m_Mesh: {fileID: 4643700279486428352, guid: f0f952915d2c9404a8ca9b411bfe2fcf, type: 3}
+--- !u!23 &5360513699598740677
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5261879432734802718}
+  m_GameObject: {fileID: 2788337450334109051}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -115,7 +115,7 @@ Transform:
   m_LocalScale: {x: 0.15309462, y: 0.0054218494, z: 0.09588148}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5261879432734802715}
+  - {fileID: 8166125081792670046}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -211,7 +211,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  outline: {fileID: 5261879432734802718}
+  outline: {fileID: 2788337450334109051}
 --- !u!65 &3188674861437153895
 BoxCollider:
   m_ObjectHideFlags: 0
