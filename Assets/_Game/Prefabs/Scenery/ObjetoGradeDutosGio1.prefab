@@ -197,7 +197,7 @@ MonoBehaviour:
   canInteract: 1
   disableObject: 0
   consumeItem: 0
-  requiredItem: {fileID: 11400000, guid: 05c702f305d477641b91ad4fac2c1697, type: 2}
+  requiredItem: {fileID: 11400000, guid: 4364df2ec85b02b4a9a1f31b352aab4c, type: 2}
   onUseItem:
     m_PersistentCalls:
       m_Calls:

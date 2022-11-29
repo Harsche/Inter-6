@@ -35,7 +35,7 @@ public class Cryptography : MonoBehaviour{
     }
     
     private bool CheckIfCorrectPassword(){
-        bool isPasswordCorrect = typedPassword == password;
+        bool isPasswordCorrect = typedPassword.ToLower() == password;
         DoPaintPanel(isPasswordCorrect);
         eventEmitter.ChangeEvent(isPasswordCorrect ? correctSound : incorrectSound);
         eventEmitter.Stop();

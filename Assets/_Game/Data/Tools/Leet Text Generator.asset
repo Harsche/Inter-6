@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Leet Text Generator
   m_EditorClassIdentifier: 
   toUpper: 1
-  text: procurando
-  outputText: PR0CUR4ND0
+  text: Sojourner
+  outputText: 50J0URN3R
   letters:
   - character: a
     number: 4

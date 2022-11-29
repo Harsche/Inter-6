@@ -3,11 +3,11 @@ using SaveGame;
 using UnityEngine;
 
 public class Player : MonoBehaviour{
-    [SerializeField] private GameInventory inventory;
     [SerializeField] private SaveManager saveManager;
 
     [field: SerializeField] public Camera PlayerCamera{ get; private set; }
     [field: SerializeField] public PlayerMovement PlayerMovement{ get; private set; }
+    [field: SerializeField] public GameInventory Inventory{ get; private set; }
 
     public static Player Instance{ get; private set; }
 
@@ -18,7 +18,7 @@ public class Player : MonoBehaviour{
         }
 
         Instance = this;
-        inventory.Setup();
+        Inventory.Setup();
         saveManager.Setup();
     }
 }
