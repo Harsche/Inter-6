@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>O que? Como assim senha incorreta?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Ah, a Hill deve ter alterado a senha! Eu devo conseguir acessar a senha correta em algum outro computador da nave.</color>",
+            "time": 4.0
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Lembrei! Eu usei a lanterna para o treino de combate com arma de fogo ontem! Ela tem que estar por aqui, em algum lugar.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu preciso ser mais organizada...</color>",
+            "time": 4.0
+        }
+    ]
+}
