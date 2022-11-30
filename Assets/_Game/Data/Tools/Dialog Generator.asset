@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b484b8e4b6ebe245a56f84d6e61b86d, type: 3}
   m_Name: Dialog Generator
   m_EditorClassIdentifier: 
-  dialogName: UsaSenhaQuartoT
+  dialogName: Placeholder Dialog
   dialogs:
   - dialogName: Dialog Line 01
-    text: "Consegui! Agora posso acessar a sala do computador central, desativar
-      a Hill e reestabelecer a comunica\xE7\xE3o."
+    text: Placeholder Dialog
     time: 4
     dialogColor: {r: 1, g: 1, b: 1, a: 0}

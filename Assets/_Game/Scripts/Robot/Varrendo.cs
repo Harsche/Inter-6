@@ -9,7 +9,7 @@ public class Varrendo : MonoBehaviour
 
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponent<BehaviourTree2>().IaAnimator;
         vassoura = transform.GetChild(0).gameObject;
 
         anim.SetBool("vassoura", true);

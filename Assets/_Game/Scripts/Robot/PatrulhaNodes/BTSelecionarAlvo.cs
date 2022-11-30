@@ -29,7 +29,7 @@ public class BTSelecionarAlvo : BTNode
                 if (hit.collider.CompareTag("Player"))
                 {
                     patrulhar = false;
-                    bt.iaAnimator.SetBool(IsWalking, false);
+                    bt.IaAnimator.SetBool(IsWalking, false);
                 } else patrulhar = true;
             }
         } else patrulhar = true;
@@ -39,9 +39,9 @@ public class BTSelecionarAlvo : BTNode
             if (bt.npcRef.pointIndex >= bt.npcRef.npcPoints.Count - 1f)
             {
                 bt.npcRef.pointIndex = 0;
-                bt.iaAnimator.SetBool(IsWalking, false);
+                bt.IaAnimator.SetBool(IsWalking, false);
             }
-            else if (bt.npcRef.pointIndex <= bt.npcRef.npcPoints.Count && bt.iaNavMeshAgent.remainingDistance <= bt.iaNavMeshAgent.stoppingDistance) bt.npcRef.pointIndex++;
+            else if (bt.npcRef.pointIndex <= bt.npcRef.npcPoints.Count && bt.IaNavMeshAgent.remainingDistance <= bt.IaNavMeshAgent.stoppingDistance) bt.npcRef.pointIndex++;
 
             status = Status.SUCCESS;
             Print();

@@ -31,7 +31,7 @@ public class BTOlharAlvo : BTNode
                 if (hit.collider.CompareTag("Player"))
                 {
                     patrulhar = false;
-                    bt.iaAnimator.SetBool(IsWalking, false);
+                    bt.IaAnimator.SetBool(IsWalking, false);
                 }
             }
             else patrulhar = true;

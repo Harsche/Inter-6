@@ -22,15 +22,15 @@ public class BTAtacarPlayer : BTNode
             yield break;
         }
 
-        bt.iaNavMeshAgent.angularSpeed = 0;
+        bt.IaNavMeshAgent.angularSpeed = 0;
         bt.transform.LookAt(alvo.transform.position);
 
         if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 2.75f)
         {
-            bt.iaAnimator.SetBool(IsAttacking, true);
-            bt.iaAnimator.SetBool(IsWalking, false);
+            bt.IaAnimator.SetBool(IsAttacking, true);
+            bt.IaAnimator.SetBool(IsWalking, false);
 
-            if (bt.iaAnimator.GetBool(IsAttacking))
+            if (bt.IaAnimator.GetBool(IsAttacking))
             {
                 bt.gameObject.GetComponentInChildren<BoxCollider>().enabled = true;
             }
@@ -40,12 +40,12 @@ public class BTAtacarPlayer : BTNode
         }
         else if (Vector3.Distance(alvo.transform.position, bt.transform.position) >= 2.77f && Vector3.Distance(alvo.transform.position, bt.transform.position) <= 3.5f)
         {
-            bt.iaAnimator.SetBool(IsAttacking, true);
-            bt.iaAnimator.SetBool(IsWalking, false);
+            bt.IaAnimator.SetBool(IsAttacking, true);
+            bt.IaAnimator.SetBool(IsWalking, false);
 
-            bt.iaAnimator.SetLayerWeight(bt.iaAnimator.GetLayerIndex("MovingAttack"), layerWeightTrue);
+            bt.IaAnimator.SetLayerWeight(bt.IaAnimator.GetLayerIndex("MovingAttack"), layerWeightTrue);
 
-            if (bt.iaAnimator.GetBool(IsAttacking))
+            if (bt.IaAnimator.GetBool(IsAttacking))
             {
                 bt.gameObject.GetComponentInChildren<BoxCollider>().enabled = true;
             }
@@ -57,8 +57,8 @@ public class BTAtacarPlayer : BTNode
         {
             bt.gameObject.GetComponentInChildren<BoxCollider>().enabled = false;
 
-            bt.iaAnimator.SetBool(IsAttacking, false);
-            bt.iaAnimator.SetLayerWeight(bt.iaAnimator.GetLayerIndex("MovingAttack"), layerWeightFalse);
+            bt.IaAnimator.SetBool(IsAttacking, false);
+            bt.IaAnimator.SetLayerWeight(bt.IaAnimator.GetLayerIndex("MovingAttack"), layerWeightFalse);
         }
 
         if (status == Status.RUNNING) status = Status.FAILURE;

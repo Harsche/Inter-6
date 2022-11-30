@@ -45,8 +45,8 @@ public class BTPlayerProximo : BTNode
         }
         else
         {
-            bt.iaAnimator.SetBool(IsRunning, false);
-            bt.iaAnimator.SetBool(IsAttacking, false);
+            bt.IaAnimator.SetBool(IsRunning, false);
+            bt.IaAnimator.SetBool(IsAttacking, false);
         }
 
         if (status == Status.RUNNING) status = Status.FAILURE;

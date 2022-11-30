@@ -34,7 +34,7 @@ public class BTAndarAteAlvo : BTNode
                 if (hit.collider.CompareTag("Player"))
                 {
                     patrulhar = false;
-                    bt.iaAnimator.SetBool(IsWalking, false);
+                    bt.IaAnimator.SetBool(IsWalking, false);
                 }
                 else patrulhar = true;
             }
@@ -43,7 +43,7 @@ public class BTAndarAteAlvo : BTNode
         if (bt.npcRef.lixeiras.Count <= 0 || bt.npcRef.lixeiras[bt.npcRef.lixeiraIndex].caiu)
         {
             patrulhar = false;
-            bt.iaAnimator.SetBool(IsWalking, false);
+            bt.IaAnimator.SetBool(IsWalking, false);
         }
 
         while (patrulhar)
@@ -52,10 +52,10 @@ public class BTAndarAteAlvo : BTNode
             bt.npcRef.olhoEsq.material = bt.npcRef.patrulhaOlho; 
 
             //bt.transform.LookAt(bt.npcRef.npcPoints[bt.npcRef.pointIndex].position);
-            bt.iaNavMeshAgent.angularSpeed = 550;
+            bt.IaNavMeshAgent.angularSpeed = 550;
 
-            bt.iaNavMeshAgent.SetDestination(bt.npcRef.npcPoints[bt.npcRef.pointIndex].position);
-            bt.iaAnimator.SetBool(IsWalking, true);
+            bt.IaNavMeshAgent.SetDestination(bt.npcRef.npcPoints[bt.npcRef.pointIndex].position);
+            bt.IaAnimator.SetBool(IsWalking, true);
 
             status = Status.SUCCESS;
             Print();

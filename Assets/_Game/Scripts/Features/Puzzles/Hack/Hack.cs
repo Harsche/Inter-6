@@ -18,10 +18,10 @@ namespace Puzzles.Hack{
         [SerializeField] private EventReference correctSound;
         [SerializeField] private EventReference incorrectSound;
         [SerializeField] private UnityEvent onSolveEvent;
+        private Color panelDefaultColor;
 
         private bool puzzleSolved;
         private Tweener timerTween;
-        private Color panelDefaultColor;
 
         private void Awake(){
             panelDefaultColor = panel.color;
@@ -32,7 +32,7 @@ namespace Puzzles.Hack{
         }
 
         private void Update(){
-            if (Input.GetKeyDown(KeyCode.O)) onSolveEvent?.Invoke();
+            if (Input.GetKeyDown(KeyCode.O)){ onSolveEvent?.Invoke(); }
         }
 
         private bool CheckIfPuzzleIsSolved(){
@@ -43,7 +43,8 @@ namespace Puzzles.Hack{
 
             puzzleSolved = hexagons.Where(hexagon => hexagon.Activated).All(hexagon => hexagon.CheckIfConnected());
             SolveFeedback();
-            if (puzzleSolved) onSolveEvent?.Invoke();
+            if (puzzleSolved){ onSolveEvent?.Invoke(); }
+
             return puzzleSolved;
         }
 
@@ -64,23 +65,25 @@ namespace Puzzles.Hack{
 
         [ContextMenu("Randomize Puzzle")]
         public void RandomizePuzzle(){
-            foreach (Hexagon hexagon in hexagons) hexagon.ToggleHexagon(Convert.ToBoolean(Random.Range(0, 2)));
+            foreach (Hexagon hexagon in hexagons){ hexagon.ToggleHexagon(Convert.ToBoolean(Random.Range(0, 2))); }
 
-            foreach (Hexagon hexagon in hexagons) hexagon.ActivateBackupLines();
+            foreach (Hexagon hexagon in hexagons){ hexagon.ActivateBackupLines(); }
 
-            foreach (Hexagon hexagon in hexagons) hexagon.SetupLines();
+            foreach (Hexagon hexagon in hexagons){ hexagon.SetupLines(); }
 
-            foreach (Hexagon hexagon in hexagons) hexagon.RandomRotation();
+            foreach (Hexagon hexagon in hexagons){ hexagon.RandomRotation(); }
         }
 
         public void UpdatePuzzle(){
             CheckIfSolved();
         }
 
-        public void CheckIfSolved(){
-            if (puzzleSolved) return;
+        private void CheckIfSolved(){
+            if (puzzleSolved){ return; }
+
             puzzleSolved = hexagons.Where(hexagon => hexagon.Activated).All(hexagon => hexagon.CheckIfConnected());
-            if (!puzzleSolved) return;
+            if (!puzzleSolved){ return; }
+
             SolveFeedback();
             onSolveEvent?.Invoke();
         }
@@ -91,7 +94,8 @@ namespace Puzzles.Hack{
             timerTween = timerCircle.DOFillAmount(0f, time)
                 .SetEase(Ease.Linear)
                 .OnComplete(() => {
-                    if (CheckIfPuzzleIsSolved()) return;
+                    if (CheckIfPuzzleIsSolved()){ return; }
+
                     RandomizePuzzle();
                     StartTimer(time);
                 });

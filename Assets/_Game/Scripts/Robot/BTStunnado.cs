@@ -12,14 +12,14 @@ public class BTStunnado : BTNode
         status = Status.RUNNING;
         Print();
 
-        bt.iaAnimator.SetBool(Vassoura, false);
+        bt.IaAnimator.SetBool(Vassoura, false);
 
         if (bt.npcRef.kickRef.kickedEnemy == true)
         {
             bt.npcRef.olhoDir.material = bt.npcRef.stunOlho;
             bt.npcRef.olhoEsq.material = bt.npcRef.stunOlho;
 
-            bt.iaAnimator.SetBool(IsStunning, true);
+            bt.IaAnimator.SetBool(IsStunning, true);
 
             tempo -= Time.deltaTime;
 
@@ -28,7 +28,7 @@ public class BTStunnado : BTNode
                 bt.npcRef.olhoDir.material = bt.npcRef.patrulhaOlho;
                 bt.npcRef.olhoEsq.material = bt.npcRef.patrulhaOlho;
 
-                bt.iaAnimator.SetBool(IsStunning, false);
+                bt.IaAnimator.SetBool(IsStunning, false);
                 bt.npcRef.kickRef.kickedEnemy = false;
 
                 tempo = 8f;
@@ -39,7 +39,7 @@ public class BTStunnado : BTNode
             status = Status.SUCCESS;
             Print();
         }
-        else bt.iaAnimator.SetBool(IsStunning, false);
+        else bt.IaAnimator.SetBool(IsStunning, false);
 
         if (status == Status.RUNNING) status = Status.FAILURE;
         Print();

@@ -4,38 +4,32 @@ using UnityEngine;
 
 namespace Puzzles.Hack{
     public class Line : MonoBehaviour{
-        private BoxCollider boxCollider;
+        private SphereCollider sphereCollider;
         public bool Connected{ get; private set; }
 
-        public void Reset(){
+        public void ResetLine(){
             Connected = false;
-        }
-
-        private void OnDrawGizmos(){
-            Transform myTransform = transform;
-            Vector3 center = myTransform.position + myTransform.right * boxCollider.center.x;
-
-            Gizmos.DrawCube(center, boxCollider.size);
         }
 
         private bool CheckForOtherLine(IEnumerable<Collider> colliders){
             return colliders.Any(resultCollider =>
                 resultCollider
-                && resultCollider != boxCollider
+                && resultCollider != sphereCollider
                 && resultCollider.gameObject.CompareTag("HackConnection"));
         }
 
         public void SetupLine(){
-            boxCollider = GetComponent<BoxCollider>();
+            sphereCollider = GetComponent<SphereCollider>();
         }
 
         public void CheckConnection(){
             Transform myTransform = transform;
-            Vector3 center = myTransform.position + myTransform.right * boxCollider.center.x;
+            Vector3 center = myTransform.position + myTransform.right * sphereCollider.center.x;
             var colliders = new Collider[2];
-            int size = Physics.OverlapBoxNonAlloc(center, boxCollider.size / 2, colliders, myTransform.localRotation,
+            Physics.OverlapSphereNonAlloc(center, sphereCollider.radius / 2f, colliders,
                 LayerMask.GetMask("Puzzle"), QueryTriggerInteraction.Collide);
-            if (!CheckForOtherLine(colliders)) return;
+            if (!CheckForOtherLine(colliders)){ return; }
+
             Connected = true;
         }
     }

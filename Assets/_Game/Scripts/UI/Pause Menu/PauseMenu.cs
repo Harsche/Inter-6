@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class PauseMenu : MonoBehaviour{
     private static bool GamePaused;
     [SerializeField] private OptionItems optionItems;
+    [SerializeField] private Canvas hudCanvas;
 
     private Canvas canvas;
 
@@ -27,6 +28,7 @@ public class PauseMenu : MonoBehaviour{
         GameManager.IsGamePaused = value;
         Time.timeScale = GamePaused ? 0 : 1;
         canvas.enabled = GamePaused;
+        if(hudCanvas) hudCanvas.enabled = !GamePaused;
         Cursor.lockState = GamePaused ? CursorLockMode.None : CursorLockMode.Locked;
         Cursor.visible = GamePaused;
         UpdateOptionItems();

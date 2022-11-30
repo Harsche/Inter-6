@@ -6,8 +6,8 @@ public class BehaviourTree2 : MonoBehaviour
 {
     public BTNode root;
     public RobotIA npcRef;
-    [field: SerializeField] public Animator iaAnimator { get; private set; }
-    [field: SerializeField] public NavMeshAgent iaNavMeshAgent { get; private set; }
+    [field: SerializeField] public Animator IaAnimator { get; private set; }
+    [field: SerializeField] public NavMeshAgent IaNavMeshAgent { get; private set; }
     
     public IEnumerator Execute()
     {

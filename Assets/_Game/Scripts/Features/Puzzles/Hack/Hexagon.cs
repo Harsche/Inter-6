@@ -3,7 +3,6 @@ using System.Linq;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
-using Random = UnityEngine.Random;
 
 namespace Puzzles.Hack{
     public class Hexagon : MonoBehaviour{
@@ -24,26 +23,21 @@ namespace Puzzles.Hack{
             middleCircle.SetActive(Activated);
         }
 
-        // private void OnMouseEnter(){
-        //     selectImage.DOFade(0.1f, 0.1f);
-        // }
-        //
-        // private void OnMouseExit(){
-        //     selectImage.DOFade(0.1f, 0.1f);
-        // }
-
         public void ActivateBackupLines(){
             bool isAnyNeighbourActive = false;
             List<Hexagon> activatedNeighbours = new();
             foreach (Hexagon neighbour in neighbours){
-                if (!neighbour) continue;
+                if (!neighbour){ continue; }
+
                 activatedNeighbours.Add(neighbour);
-                if (!neighbour.Activated) continue;
+                if (!neighbour.Activated){ continue; }
+
                 isAnyNeighbourActive = true;
                 break;
             }
 
-            if (isAnyNeighbourActive) return;
+            if (isAnyNeighbourActive){ return; }
+
             int neighbourCount = activatedNeighbours.Count;
             activatedNeighbours[Random.Range(0, neighbourCount)].ToggleHexagon(true);
         }
@@ -59,7 +53,7 @@ namespace Puzzles.Hack{
         private void UpdateHexagon(){
             List<Line> activatedLines = lines.Where(line => line.gameObject.activeSelf).ToList();
             foreach (Line line in activatedLines){
-                line.Reset();
+                line.ResetLine();
                 line.CheckConnection();
             }
         }
@@ -72,7 +66,7 @@ namespace Puzzles.Hack{
         public void Rotate(){
             List<Line> activatedLines = lines.Where(line => line.gameObject.activeSelf).ToList();
             foreach (Line line in activatedLines){
-                line.Reset();
+                line.ResetLine();
                 Vector3 rotation = transform.localEulerAngles;
                 rotation.z -= 60f;
                 transform.DOLocalRotate(rotation, 0.1f)

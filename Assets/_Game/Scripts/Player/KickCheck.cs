@@ -60,7 +60,7 @@ public class KickCheck : MonoBehaviour
         {
             kicked = true;
 
-            print(kicked);
+            if(GameManager.Debug) print(kicked);
 
             collision.rigidbody.AddForceAtPosition(new Vector3(0, 0, 1) * kickForce, kickDirection.transform.forward);
         }
