@@ -24,6 +24,7 @@ namespace Puzzles.Hack{
 
         public void CheckConnection(){
             Transform myTransform = transform;
+            if(sphereCollider == null) SetupLine();
             Vector3 center = myTransform.position + myTransform.right * sphereCollider.center.x;
             var colliders = new Collider[2];
             Physics.OverlapSphereNonAlloc(center, sphereCollider.radius / 2f, colliders,
