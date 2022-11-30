@@ -9,15 +9,13 @@ public class Map : MonoBehaviour{
     [SerializeField] private Image mapImage;
     [SerializeField] private Sprite floor1;
     [SerializeField] private Sprite floor2;
-    [SerializeField] private Toggle toggleFloor1;
-    [SerializeField] private Toggle toggleFloor2;
-    [SerializeField] private GameObject legenda1;
-    [SerializeField] private GameObject legenda2;
+    [SerializeField] private GameObject legend1;
+    [SerializeField] private GameObject legend2;
     [SerializeField] private float changeFloorHeight;
 
     private Bounds gameSpaceBounds;
-    private Vector2 mapSpaceSize;
     private Vector2 halfMapSpaceSize;
+    private Vector2 mapSpaceSize;
     private int playerCurrentFloor;
 
     public static Map Instance{ get; private set; }
@@ -30,24 +28,25 @@ public class Map : MonoBehaviour{
 
         Instance = this;
 
-        if (!gameSpaceBoxCollider) return;
+        if (!gameSpaceBoxCollider){ return; }
+
         gameSpaceBounds = gameSpaceBoxCollider.bounds;
         mapSpaceSize = mapSpaceTransform.sizeDelta;
         halfMapSpaceSize = mapSpaceSize / 2;
     }
-    
+
     private void ChangeFloorDisplay(int floor){
         mapImage.sprite = floor == 2 ? floor2 : floor1;
         playerIcon.gameObject.SetActive(floor == playerCurrentFloor);
     }
 
     public void UpdateMap(){
-        if (!gameSpaceBoxCollider) return;
+        if (!gameSpaceBoxCollider){ return; }
+
         // Calculate Player Position
         Vector3 playerPosition = Player.Instance.transform.position;
 
         var inMinMaxX = new Vector2(gameSpaceBounds.min.x, gameSpaceBounds.max.x);
-        // var inMinMaxY = new Vector2(gameSpaceBounds.min.y, gameSpaceBounds.max.y);
         var inMinMaxZ = new Vector2(gameSpaceBounds.min.z, gameSpaceBounds.max.z);
 
         var outMinMaxX = new Vector2(-halfMapSpaceSize.x, halfMapSpaceSize.x);
@@ -60,30 +59,24 @@ public class Map : MonoBehaviour{
 
         playerCurrentFloor = playerPosition.y >= changeFloorHeight ? 2 : 1;
 
-        toggleFloor1.isOn = playerCurrentFloor == 1;
-        if (toggleFloor1.isOn)
-        {
-            legenda2.SetActive(false);
-            legenda1.SetActive(true);
+        if (playerCurrentFloor == 1){
+            legend2.SetActive(false);
+            legend1.SetActive(true);
         }
-
-        toggleFloor2.isOn = playerCurrentFloor == 2;
-        if (toggleFloor2.isOn)
-        {
-            legenda1.SetActive(false);
-            legenda2.SetActive(true);
+        else{
+            legend1.SetActive(false);
+            legend2.SetActive(true);
         }
-        // ChangeFloorDisplay(playerCurrentFloor);
 
         playerIcon.localPosition = playerMapPosition;
         playerIcon.localEulerAngles = Vector3.back * Player.Instance.transform.localEulerAngles.y;
     }
 
     public void DisplayFloor1(bool value){
-        if(value) ChangeFloorDisplay(1);
+        if (value){ ChangeFloorDisplay(1); }
     }
-    
+
     public void DisplayFloor2(bool value){
-        if(value) ChangeFloorDisplay(2);
+        if (value){ ChangeFloorDisplay(2); }
     }
 }
