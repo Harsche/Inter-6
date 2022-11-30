@@ -17,8 +17,9 @@ namespace GameDialogs{
         public event Action OnDialogEnd;
         
         private Coroutine dialogCoroutine;
-        private int currentDialogIndex = 0;
+        private int currentDialogIndex;
         private List<SerializedDialog> currentDialogs;
+        private bool isShowingDialog;
 
         public static DialogManager Instance{ get; private set; }
 
@@ -32,6 +33,7 @@ namespace GameDialogs{
         }
         
         private IEnumerator DisplayDialogCoroutine(List<SerializedDialog> dialogs){
+            isShowingDialog = true;
             for (int i = currentDialogIndex; i < dialogs.Count; i++){
                 currentDialogIndex = i;
                 DisplayDialog(dialogs[i]);
@@ -54,6 +56,7 @@ namespace GameDialogs{
         }
 
         public void StopDialog(){
+            isShowingDialog = false;
             if (dialogCoroutine != null) StopCoroutine(dialogCoroutine);
             dialogText.text = "";
             if (dialogBox) dialogBox.SetActive(false);
@@ -68,6 +71,7 @@ namespace GameDialogs{
         }
 
         public void SkipDialog(){
+            if(!isShowingDialog) return;
             currentDialogIndex++;
             if(dialogCoroutine != null) StopCoroutine(dialogCoroutine);
             dialogCoroutine = StartCoroutine(DisplayDialogCoroutine(currentDialogs));
