@@ -5,12 +5,14 @@ public class BTStunnado : BTNode
 {
     private float tempo = 8f;
     private static readonly int IsStunning = Animator.StringToHash("isStunning");
+    private static readonly int Vassoura = Animator.StringToHash("vassoura");
 
     public override IEnumerator Run(BehaviourTree2 bt)
     {
         status = Status.RUNNING;
         Print();
-        
+
+        bt.iaAnimator.SetBool(Vassoura, false);
 
         if (bt.npcRef.kickRef.kickedEnemy == true)
         {

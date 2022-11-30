@@ -22,6 +22,8 @@ public class RobotIA : MonoBehaviour
 
     void Start(){
         kickRef = Player.Instance.PlayerMovement.kickRef;
+
+
         BTSequence patrulha = new BTSequence();
 
         patrulha.children.Add(new BTSelecionarAlvo());
