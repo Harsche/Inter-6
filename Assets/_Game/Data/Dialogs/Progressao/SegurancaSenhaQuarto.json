@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Okay... isso é... a senha de um dos quartos! Se eu continuar avançando nesse ritmo, a Hill vai acabar comigo.</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Talvez se eu reduzir a alimentação da nave, isso debilite um pouco os sistema de segurança. Bom, eu já to aqui, não custa tentar.</color>",
+            "time": 4.0
+        }
+    ]
+}

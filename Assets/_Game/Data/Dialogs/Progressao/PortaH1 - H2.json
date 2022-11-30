@@ -1,0 +1,12 @@
+{
+    "dialog": [
+        {
+            "text": "<color=#FFFFFF>Pra abrir essa porta aqui eu preciso do... Droga, qual cartão era mesmo?</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Ah! O cartão S2! Eu vi ele em algum lugar no primeiro andar hoje de manhã, na hora do café, mas aonde?</color>",
+            "time": 4.0
+        }
+    ]
+}
