@@ -6,7 +6,7 @@ public class OnEnableEventTrigger : MonoBehaviour{
     [SerializeField] private float delay;
     [SerializeField] private UnityEvent onSceneStart;
 
-    private void Start(){
+    private void OnEnable(){
         if (!enabled) return;
         StartCoroutine(TriggerEvent());
     }

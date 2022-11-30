@@ -28,6 +28,7 @@ public class PauseMenu : MonoBehaviour{
         Time.timeScale = GamePaused ? 0 : 1;
         canvas.enabled = GamePaused;
         Cursor.lockState = GamePaused ? CursorLockMode.None : CursorLockMode.Locked;
+        Cursor.visible = GamePaused;
         UpdateOptionItems();
         if (!GamePaused){ return; }
 
