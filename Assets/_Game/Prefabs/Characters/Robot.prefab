@@ -1471,8 +1471,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846320195942637716}
-  m_LocalRotation: {x: 0.7305252, y: -0.11116087, z: 0.032905046, w: 0.67297363}
-  m_LocalPosition: {x: 0.91200066, y: 1.5210011, z: 0.03200054}
+  m_LocalRotation: {x: 0.73052514, y: -0.111160696, z: 0.03290519, w: 0.67297375}
+  m_LocalPosition: {x: 0.91200024, y: 1.5210009, z: 0.032001317}
   m_LocalScale: {x: 0.7225385, y: 0.72253823, z: 0.7225383}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14394,6 +14394,7 @@ GameObject:
   - component: {fileID: 7316986437040970819}
   - component: {fileID: 7316986437040970816}
   - component: {fileID: 7316986437040970817}
+  - component: {fileID: 6338625241326935860}
   - component: {fileID: 6598061692709841814}
   - component: {fileID: 1982738329}
   - component: {fileID: 1982738330}
@@ -14444,7 +14445,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7980652082486953721}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2813feb61cfe4064aa12cf9190def51f, type: 3}
   m_Name: 
@@ -14465,6 +14466,19 @@ MonoBehaviour:
   - {fileID: 0}
   pointIndex: 0
   lixeiraIndex: 0
+--- !u!114 &6338625241326935860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980652082486953721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1507063f92c2a44a22c30c78a21f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 469887168}
 --- !u!195 &6598061692709841814
 NavMeshAgent:
   m_ObjectHideFlags: 0
