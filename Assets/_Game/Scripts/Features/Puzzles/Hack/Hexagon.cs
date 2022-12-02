@@ -10,7 +10,7 @@ namespace Puzzles.Hack{
         [SerializeField] private Line[] lines = new Line[6];
         [SerializeField] private Hexagon[] neighbours = new Hexagon[6];
         [SerializeField] private Hack hackPuzzle;
-        [SerializeField] private Image selectImage;
+        [SerializeField] private Selectable selectable;
         public bool Activated{ get; private set; }
 
         private void Awake(){
@@ -65,12 +65,16 @@ namespace Puzzles.Hack{
 
         public void Rotate(){
             List<Line> activatedLines = lines.Where(line => line.gameObject.activeSelf).ToList();
+            selectable.interactable = false;
             foreach (Line line in activatedLines){
                 line.ResetLine();
                 Vector3 rotation = transform.localEulerAngles;
                 rotation.z -= 60f;
                 transform.DOLocalRotate(rotation, 0.1f)
-                    .OnComplete(hackPuzzle.UpdatePuzzle);
+                    .OnComplete(() => {
+                        selectable.interactable = true;
+                        hackPuzzle.UpdatePuzzle();
+                    });
             }
         }
 
