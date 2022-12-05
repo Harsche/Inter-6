@@ -17,6 +17,7 @@ namespace GameDialogs{
         [FormerlySerializedAs("hillDialogBox"),SerializeField] private GameObject npcDialogBox;
         [SerializeField] private Image npcImage;
         [FormerlySerializedAs("hillDialogText"),SerializeField] private TextMeshProUGUI npcDialogText;
+        [SerializeField] private TextMeshProUGUI npcNameText;
         [SerializeField] private CharacterData[] npcData;
         public event Action OnDialogEnd;
         
@@ -56,6 +57,7 @@ namespace GameDialogs{
                 CharacterData charData = npcData.First(npc => t.text.Contains(npc.characterHexColor));
                 t.text = t.text.Replace(charData.characterHexColor, tessaHexColor);
                 npcImage.sprite = charData.characterSprite;
+                npcNameText.text = charData.characterName;
             }
             tessaDialogBox.SetActive(isTessaDialog);
             npcDialogBox.SetActive(!isTessaDialog);
@@ -104,5 +106,6 @@ namespace GameDialogs{
     public class CharacterData{
         public Sprite characterSprite;
         public string characterHexColor;
+        public string characterName;
     }
 }
