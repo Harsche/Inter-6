@@ -1,14 +1,12 @@
 fileFormatVersion: 2
-guid: e41f048b41ca9f34fba6bf027a03c1f8
+guid: 1aaf51978cd76d3408e56e495c5a778b
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
-  externalObjects:
+  internalIDToNameTable:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: robo_jogo_modelagem_5_robo
-    second: {fileID: 2100000, guid: 413c42379e856fd4096e1eae46880565, type: 2}
+      74: 2661696724197257926
+    second: idleNormal
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -36,7 +34,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idleNormal
+      takeName: indle robo
+      internalID: 0
+      firstFrame: 230
+      lastFrame: 231
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 230
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -74,22 +101,13 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 457eab50e027c6e48b1de265727f4d3a
-  - 1aaf51978cd76d3408e56e495c5a778b
-  - 16c5019e0e3c8cc419f44709181a8ead
-  - 37930da329c41f44994194ac523c5f00
-  - 2c0bb601b88367c498f5e3d8314d4ef1
-  - c51a989e4fb0d234590987c822d2f04a
-  - ced04a74ff6473b44968f6baf38bca32
-  - 68b0c220e97368841b1ac18055efd39f
-  - ccd8c48b04db3724584eb8498d3ef5ea
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
