@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b484b8e4b6ebe245a56f84d6e61b86d, type: 3}
   m_Name: Dialog Generator
   m_EditorClassIdentifier: 
-  dialogName: Placeholder Dialog
+  dialogName: "Rob\xF4s_Corredor"
   dialogs:
   - dialogName: Dialog Line 01
-    text: Placeholder Dialog
-    time: 4
+    text: Acho melhor procurar outro caminho...
+    time: 3
     dialogColor: {r: 1, g: 1, b: 1, a: 0}

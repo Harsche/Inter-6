@@ -2,9 +2,16 @@
 using UnityEngine;
 
 public class Cheats : MonoBehaviour{
+    private void Awake(){
+#if UNITY_EDITOR
+        ToggleInfiniteStamina();
+#endif
+    }
+
     private void Update(){
-        if (Input.GetKeyDown(KeyCode.P)) ToggleInfiniteStamina();
-        if (Input.GetKeyDown(KeyCode.Return)) SkipDialog();
+        if (Input.GetKeyDown(KeyCode.P)){ ToggleInfiniteStamina(); }
+
+        if (Input.GetKeyDown(KeyCode.Return)){ SkipDialog(); }
     }
 
     private void ToggleInfiniteStamina(){
