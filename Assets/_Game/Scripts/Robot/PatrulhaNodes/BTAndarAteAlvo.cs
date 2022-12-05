@@ -54,6 +54,7 @@ public class BTAndarAteAlvo : BTNode
             //bt.transform.LookAt(bt.npcRef.npcPoints[bt.npcRef.pointIndex].position);
             bt.IaNavMeshAgent.angularSpeed = 550;
 
+            if (bt.npcRef.npcPoints.Count <= 0 || bt.npcRef.pointIndex < 0 || bt.npcRef.pointIndex >= bt.npcRef.npcPoints.Count) break;
             bt.IaNavMeshAgent.SetDestination(bt.npcRef.npcPoints[bt.npcRef.pointIndex].position);
             bt.IaAnimator.SetBool(IsWalking, true);
 
