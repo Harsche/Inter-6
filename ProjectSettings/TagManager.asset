@@ -28,6 +28,7 @@ TagManager:
   - Duto7
   - PlayerRay
   - Cabeca
+  - Light
   layers:
   - Default
   - TransparentFX

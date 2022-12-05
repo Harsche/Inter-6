@@ -34,14 +34,16 @@ public class BTSelecionarAlvo : BTNode
             }
         } else patrulhar = true;
 
+        if (bt.npcRef.npcPoints.Count <= 0) patrulhar = false;
+
         while (patrulhar)
         {
-            if (bt.npcRef.pointIndex >= bt.npcRef.npcPoints.Count - 1f)
+            if (bt.npcRef.pointIndex == bt.npcRef.npcPoints.Count)
             {
                 bt.npcRef.pointIndex = 0;
                 bt.IaAnimator.SetBool(IsWalking, false);
             }
-            else if (bt.npcRef.pointIndex <= bt.npcRef.npcPoints.Count && bt.IaNavMeshAgent.remainingDistance <= bt.IaNavMeshAgent.stoppingDistance) bt.npcRef.pointIndex++;
+            else if (bt.npcRef.pointIndex <= bt.npcRef.npcPoints.Count - 1 && bt.IaNavMeshAgent.remainingDistance <= bt.IaNavMeshAgent.stoppingDistance) bt.npcRef.pointIndex++;
 
             status = Status.SUCCESS;
             Print();

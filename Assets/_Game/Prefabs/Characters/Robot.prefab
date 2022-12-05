@@ -1471,8 +1471,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846320195942637716}
-  m_LocalRotation: {x: 0.7305252, y: -0.11116087, z: 0.032905046, w: 0.67297363}
-  m_LocalPosition: {x: 0.91200066, y: 1.5210011, z: 0.03200054}
+  m_LocalRotation: {x: 0.730525, y: -0.11116046, z: 0.032905195, w: 0.6729738}
+  m_LocalPosition: {x: 0.9120002, y: 1.5210009, z: 0.032001853}
   m_LocalScale: {x: 0.7225385, y: 0.72253823, z: 0.7225383}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14458,13 +14458,8 @@ MonoBehaviour:
   patrulhaOlho: {fileID: 2100000, guid: 0a8f07cbd135b224a801a0976e6f7e7f, type: 2}
   ataqueOlho: {fileID: 2100000, guid: cb0b858683c12c447a846c2801790b68, type: 2}
   stunOlho: {fileID: 2100000, guid: 2b0e7de6e5348d74d81b48b443de6ba5, type: 2}
-  npcPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  lixeiras:
-  - {fileID: 0}
-  - {fileID: 0}
+  npcPoints: []
+  lixeiras: []
   pointIndex: 0
   lixeiraIndex: 0
 --- !u!114 &6338625241326935860
