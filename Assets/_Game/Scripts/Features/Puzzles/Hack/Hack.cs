@@ -18,8 +18,8 @@ namespace Puzzles.Hack{
         [SerializeField] private EventReference correctSound;
         [SerializeField] private EventReference incorrectSound;
         [SerializeField] private UnityEvent onSolveEvent;
-        private Color panelDefaultColor;
 
+        private Color panelDefaultColor;
         private bool puzzleSolved;
         private Tweener timerTween;
 
@@ -35,36 +35,9 @@ namespace Puzzles.Hack{
             if (Input.GetKeyDown(KeyCode.O)){ onSolveEvent?.Invoke(); }
         }
 
-        private bool CheckIfPuzzleIsSolved(){
-            if (puzzleSolved){
-                SolveFeedback();
-                return true;
-            }
-
-            puzzleSolved = hexagons.Where(hexagon => hexagon.Activated).All(hexagon => hexagon.CheckIfConnected());
-            SolveFeedback();
-            if (puzzleSolved){ onSolveEvent?.Invoke(); }
-
-            return puzzleSolved;
-        }
-
-        private void SolveFeedback(){
-            eventEmitter.ChangeEvent(puzzleSolved ? correctSound : incorrectSound);
-            eventEmitter.Stop();
-            eventEmitter.Play();
-            DoPaintPanel(puzzleSolved);
-        }
-
-        private void DoPaintPanel(bool isPasswordCorrect){
-            const float alphaValue = 105f / 255f;
-            Color finalColor = isPasswordCorrect ? Color.green : Color.red;
-            finalColor.a *= alphaValue;
-            panel.DOColor(finalColor, paintDuration / 2)
-                .OnComplete(() => panel.DOColor(panelDefaultColor, paintDuration / 2));
-        }
-
         [ContextMenu("Randomize Puzzle")]
         public void RandomizePuzzle(){
+            puzzleSolved = false;
             foreach (Hexagon hexagon in hexagons){ hexagon.ToggleHexagon(Convert.ToBoolean(Random.Range(0, 2))); }
 
             foreach (Hexagon hexagon in hexagons){ hexagon.ActivateBackupLines(); }
@@ -104,6 +77,34 @@ namespace Puzzles.Hack{
         public void StopTimer(){
             timerTween.Kill();
             timerCircle.gameObject.SetActive(false);
+        }
+
+        private bool CheckIfPuzzleIsSolved(){
+            if (puzzleSolved){
+                SolveFeedback();
+                return true;
+            }
+
+            puzzleSolved = hexagons.Where(hexagon => hexagon.Activated).All(hexagon => hexagon.CheckIfConnected());
+            SolveFeedback();
+            if (puzzleSolved){ onSolveEvent?.Invoke(); }
+
+            return puzzleSolved;
+        }
+
+        private void SolveFeedback(){
+            eventEmitter.ChangeEvent(puzzleSolved ? correctSound : incorrectSound);
+            eventEmitter.Stop();
+            eventEmitter.Play();
+            DoPaintPanel(puzzleSolved);
+        }
+
+        private void DoPaintPanel(bool isPasswordCorrect){
+            const float alphaValue = 105f / 255f;
+            Color finalColor = isPasswordCorrect ? Color.green : Color.red;
+            finalColor.a *= alphaValue;
+            panel.DOColor(finalColor, paintDuration / 2)
+                .OnComplete(() => panel.DOColor(panelDefaultColor, paintDuration / 2));
         }
     }
 }

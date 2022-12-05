@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 namespace GameDialogs{
     public class DialogManager : MonoBehaviour{
@@ -11,9 +14,10 @@ namespace GameDialogs{
         [SerializeField] private string tessaHexColor;
         [SerializeField] private GameObject tessaDialogBox;
         [SerializeField] private TextMeshProUGUI tessaDialogText;
-        [SerializeField] private string hillHexColor;
-        [SerializeField] private GameObject hillDialogBox;
-        [SerializeField] private TextMeshProUGUI hillDialogText;
+        [FormerlySerializedAs("hillDialogBox"),SerializeField] private GameObject npcDialogBox;
+        [SerializeField] private Image npcImage;
+        [FormerlySerializedAs("hillDialogText"),SerializeField] private TextMeshProUGUI npcDialogText;
+        [SerializeField] private CharacterData[] npcData;
         public event Action OnDialogEnd;
         
         private Coroutine dialogCoroutine;
@@ -48,10 +52,14 @@ namespace GameDialogs{
 
         private void DisplayDialog(SerializedDialog t){
             bool isTessaDialog = t.text.Contains(tessaHexColor);
-            if (!isTessaDialog) t.text = t.text.Replace(hillHexColor, tessaHexColor);
+            if (!isTessaDialog){
+                CharacterData charData = npcData.First(npc => t.text.Contains(npc.characterHexColor));
+                t.text = t.text.Replace(charData.characterHexColor, tessaHexColor);
+                npcImage.sprite = charData.characterSprite;
+            }
             tessaDialogBox.SetActive(isTessaDialog);
-            hillDialogBox.SetActive(!isTessaDialog);
-            dialogText = isTessaDialog ? tessaDialogText : hillDialogText;
+            npcDialogBox.SetActive(!isTessaDialog);
+            dialogText = isTessaDialog ? tessaDialogText : npcDialogText;
             dialogText.text = t.text;
         }
 
@@ -90,5 +98,11 @@ namespace GameDialogs{
             this.time = time;
             dialogColor = Color.white;
         }
+    }
+
+    [Serializable]
+    public class CharacterData{
+        public Sprite characterSprite;
+        public string characterHexColor;
     }
 }

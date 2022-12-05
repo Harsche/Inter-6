@@ -29,7 +29,7 @@ public class OnCollisionEventTrigger : MonoBehaviour{
         if (!triggerOnEnter || !isCollisionTrigger || !other.CompareTag("Player")) return;
         StartCoroutine(TriggerEvent());
     }
-
+    
     private void OnTriggerExit(Collider other){
         if (!triggerOnExit || !isCollisionTrigger || !other.CompareTag("Player")) return;
         StartCoroutine(TriggerEvent());
