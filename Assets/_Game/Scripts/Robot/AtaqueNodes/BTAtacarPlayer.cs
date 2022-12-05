@@ -25,7 +25,7 @@ public class BTAtacarPlayer : BTNode
         bt.IaNavMeshAgent.angularSpeed = 0;
         bt.transform.LookAt(alvo.transform.position);
 
-        if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 2.75f)
+        if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 2.3f)
         {
             bt.IaAnimator.SetBool(IsAttacking, true);
             bt.IaAnimator.SetBool(IsWalking, false);
@@ -38,7 +38,7 @@ public class BTAtacarPlayer : BTNode
 
             status = Status.SUCCESS;
         }
-        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) >= 2.77f && Vector3.Distance(alvo.transform.position, bt.transform.position) <= 3.5f)
+        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) >= 2.3f && Vector3.Distance(alvo.transform.position, bt.transform.position) <= 3f)
         {
             bt.IaAnimator.SetBool(IsAttacking, true);
             bt.IaAnimator.SetBool(IsWalking, false);
@@ -53,7 +53,7 @@ public class BTAtacarPlayer : BTNode
 
             status = Status.SUCCESS;
         }
-        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 3.5f)
+        else if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 3f)
         {
             bt.gameObject.GetComponentInChildren<BoxCollider>().enabled = false;
 

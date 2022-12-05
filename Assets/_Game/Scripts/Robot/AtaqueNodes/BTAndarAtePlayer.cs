@@ -30,7 +30,7 @@ public class BTAndarAtePlayer : BTNode
             bt.IaAnimator.SetBool(IsRunning, true);
             bt.IaNavMeshAgent.SetDestination(alvo.transform.position);
 
-            if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 2.77f)
+            if (Vector3.Distance(alvo.transform.position, bt.transform.position) <= 2.3f)
             {
                 bt.IaAnimator.SetBool(IsRunning, false);
                 bt.IaAnimator.SetBool(IsWalking, false);
@@ -38,7 +38,7 @@ public class BTAndarAtePlayer : BTNode
                 break;
             }
 
-            if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 3.5f)
+            if (Vector3.Distance(alvo.transform.position, bt.transform.position) > 3f)
             {
                 bt.IaAnimator.SetBool(IsAttacking, false);
             }
