@@ -77,8 +77,6 @@ public class HUDManager : MonoBehaviour
         }
         else
         {
-            AtivarBandAid();
-
             if (playerRef.usouBand)
             {
                 Curando();
