@@ -42,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isSlowly;
     private bool isJump;
     public bool isDead = false;
+    public bool usouBand = false;
 
     public bool levouDano;
     public bool possibleClimb = false;
@@ -105,6 +106,7 @@ public class PlayerMovement : MonoBehaviour
         isMoving = Input.GetButton("Horizontal") || Input.GetButton("Vertical");
         isCrawl = Input.GetKey(KeyCode.C);
         isClimb = Input.GetKey(KeyCode.E);
+        usouBand = Input.GetKey(KeyCode.Q);
         isKick = Input.GetKeyDown(KeyCode.F);
         isRun = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         isSlowly = Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl);

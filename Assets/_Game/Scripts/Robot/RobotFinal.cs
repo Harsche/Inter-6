@@ -7,6 +7,7 @@ public class RobotFinal : MonoBehaviour
     private GameObject[] robotRef;
     private GameObject[] cabecaRef;
     private GameObject player;
+
     [SerializeField] private int quantRobos;
 
     void Start()
@@ -24,13 +25,16 @@ public class RobotFinal : MonoBehaviour
         foreach (GameObject robot in robotRef)
         {
             Animator anim = robot.transform.GetChild(0).GetComponent<Animator>();
+
             anim.SetBool("isIdle", true);
+
+
             //robot.transform.LookAt(player.transform);
         }
 
-        foreach (GameObject cabeca in cabecaRef)
+        /*foreach (GameObject cabeca in cabecaRef)
         {
             cabeca.transform.LookAt(player.transform);
-        }
+        }*/
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using FMODUnity;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HUDManager : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class HUDManager : MonoBehaviour
 
     [SerializeField] public float staminaValue = 15f;
     [SerializeField] public float playerLife = 100f;
+    [SerializeField] public int bandAid;
 
     [SerializeField] private Slider sliderStamina;
     [SerializeField] private Slider sliderLife;
@@ -22,7 +24,12 @@ public class HUDManager : MonoBehaviour
     [SerializeField] private Image damageScreen;
     [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private GameObject hudScreen;
-    
+
+    [SerializeField] private Image lanternaIcon;
+    [SerializeField] private Image ferramentaIcon;
+    [SerializeField] private Image bandAidIcon;
+    [SerializeField] private TextMeshProUGUI numbBandAid;
+
     [SerializeField] private StudioEventEmitter takeBreathEventEmitter;
 
     private Coroutine staminaCoroutine;
@@ -31,9 +38,30 @@ public class HUDManager : MonoBehaviour
 
     private bool staminaAcabou;
     public static bool cheat;
+    public static HUDManager Instance { get; private set; }
 
-    void Update(){
-        if(cheat) return;
+    private void Awake()
+    {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+
+            return;
+        }
+
+        Instance = this;
+    }
+
+    public void Curar(int quantidade)
+    {
+        bandAid += quantidade;
+
+        numbBandAid.text = bandAid.ToString();
+    }
+
+    void Update()
+    {
+        if (cheat) return;
         Stamina();
         Life();
 
@@ -41,6 +69,20 @@ public class HUDManager : MonoBehaviour
         {
             staminaValue -= 0.1f * staminaKickReducao;
             sliderStamina.value = staminaValue;
+        }
+
+        if (bandAid <= 0)
+        {
+            bandAidIcon.color = new Color(255, 255, 255, 80);
+        }
+        else
+        {
+            AtivarBandAid();
+
+            if (playerRef.usouBand)
+            {
+                Curando();
+            }
         }
     }
 
@@ -52,7 +94,8 @@ public class HUDManager : MonoBehaviour
             {
                 danoCoroutine = StartCoroutine(ReduzLife());
             }
-        } else
+        }
+        else
         {
             if (danoCoroutine != null)
             {
@@ -105,15 +148,15 @@ public class HUDManager : MonoBehaviour
     {
         while (true)
         {
-            if(cheat) yield break;
+            if (cheat) yield break;
             if (staminaValue <= 0)
             {
                 staminaAcabou = true;
-                
+
                 if (takeBreathEventEmitter.IsPlaying()) yield break;
                 takeBreathEventEmitter.Stop();
                 takeBreathEventEmitter.Play();
-                
+
                 yield break;
             }
 
@@ -165,7 +208,7 @@ public class HUDManager : MonoBehaviour
     {
         while (true)
         {
-            if(cheat) yield break;
+            if (cheat) yield break;
             if (playerLife <= 0)
             {
                 yield break;
@@ -174,7 +217,7 @@ public class HUDManager : MonoBehaviour
             while (playerLife > 0)
             {
                 StartCoroutine(FeedbackDano());
-                
+
                 playerLife -= 0.1f * lifeReducao;
                 sliderLife.value = playerLife;
 
@@ -192,5 +235,30 @@ public class HUDManager : MonoBehaviour
         damageScreen.gameObject.SetActive(false);
 
         yield return new WaitForSeconds(1f);
+    }
+
+    public void Curando()
+    {
+        playerLife += 25f;
+        sliderLife.value = playerLife;
+
+        Curar(-1);
+
+        playerRef.usouBand = false;
+    }
+
+    public void AtivarLanterna()
+    {
+        lanternaIcon.color = Color.white;
+    }
+
+    public void AtivarFerramenta()
+    {
+        ferramentaIcon.color = Color.white;
+    }
+
+    public void AtivarBandAid()
+    {
+        bandAidIcon.color = Color.white;
     }
 }
