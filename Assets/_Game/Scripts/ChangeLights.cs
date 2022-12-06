@@ -29,7 +29,7 @@ public class ChangeLights : MonoBehaviour
         }
     }
 
-    public void ChangeWitheLights()
+    public void ChangeWhiteLights()
     {
         foreach (GameObject light in luzes)
         {
