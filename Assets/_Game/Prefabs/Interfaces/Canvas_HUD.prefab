@@ -623,6 +623,7 @@ MonoBehaviour:
   staminaRunReducao: 0.05
   staminaKickReducao: 8
   lifeReducao: 45
+  staminaStartRechargeTime: 10
   staminaRecarga: 1
   staminaValue: 30
   playerLife: 100

@@ -53,6 +53,8 @@ public class PlayerMovement : MonoBehaviour
     private float isMovingH;
     private float isMovingV;
 
+    public Vector2 moveInput;
+
     public bool stopInput;
 
     void Start()
@@ -103,10 +105,12 @@ public class PlayerMovement : MonoBehaviour
         isMovingH = Input.GetAxis("Horizontal");
         isMovingV = Input.GetAxis("Vertical");
 
+        moveInput = new Vector2(isMovingH, isMovingV);
+
         isMoving = Input.GetButton("Horizontal") || Input.GetButton("Vertical");
         isCrawl = Input.GetKey(KeyCode.C);
         isClimb = Input.GetKey(KeyCode.E);
-        usouBand = Input.GetKey(KeyCode.Q);
+        usouBand = Input.GetKeyDown(KeyCode.Q);
         isKick = Input.GetKeyDown(KeyCode.F);
         isRun = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         isSlowly = Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl);

@@ -62,6 +62,11 @@ public class HUDManager : MonoBehaviour
 
     void Update()
     {
+        if (playerRef.usouBand && bandAid > 0)
+        {
+            Curando();
+        }
+
         if (cheat) return;
         Stamina();
         Life();
@@ -70,18 +75,6 @@ public class HUDManager : MonoBehaviour
         {
             staminaValue -= 0.1f * staminaKickReducao;
             sliderStamina.value = staminaValue;
-        }
-
-        if (bandAid <= 0)
-        {
-            bandAidIcon.color = new Color(255, 255, 255, 80);
-        }
-        else
-        {
-            if (playerRef.usouBand)
-            {
-                Curando();
-            }
         }
     }
 
@@ -107,6 +100,7 @@ public class HUDManager : MonoBehaviour
         {
             lowLifeScreen.gameObject.SetActive(true);
         }
+        else lowLifeScreen.gameObject.SetActive(false);
 
         if (playerRef.isDead)
         {
@@ -163,7 +157,7 @@ public class HUDManager : MonoBehaviour
             {
                 staminaAcabou = false;
 
-                if (playerRef.isRun)
+                if (playerRef.isRun && playerRef.moveInput.sqrMagnitude > 0)
                 {
                     staminaValue -= 0.1f * staminaRunReducao;
                 }
@@ -243,6 +237,10 @@ public class HUDManager : MonoBehaviour
 
         Curar(-1);
 
+        if (bandAid <= 0)
+        {
+            bandAidIcon.color = new Color(1f, 1f, 1f, 80f/255f); 
+        }
         playerRef.usouBand = false;
     }
 
