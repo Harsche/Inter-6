@@ -178,11 +178,11 @@ public class HUDManager : MonoBehaviour
                 yield break;
             }*/
 
-            if(staminaValue >= 100f) yield break;
+            if(staminaValue >= 30f) yield break;
 
             yield return new WaitForSeconds(staminaStartRechargeTime);
 
-            while (staminaValue < 100f)
+            while (staminaValue < 30f)
             {
                 staminaValue += 0.1f * staminaRecarga;
                 sliderStamina.value = staminaValue;
