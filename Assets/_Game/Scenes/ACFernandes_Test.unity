@@ -1443,7 +1443,7 @@ PrefabInstance:
     - target: {fileID: 9188603455225289434, guid: 774c05c656e2d5c44b1aafe30cbd6d23,
         type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9188603455241307047, guid: 774c05c656e2d5c44b1aafe30cbd6d23,
         type: 3}
@@ -3140,6 +3140,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 773334973, guid: d1b9d75de1e920f48ad634285327d444, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 773334973, guid: d1b9d75de1e920f48ad634285327d444, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 144229928612900594, guid: d1b9d75de1e920f48ad634285327d444,
         type: 3}
       propertyPath: m_Name
@@ -3260,6 +3268,16 @@ PrefabInstance:
       propertyPath: gameOverScreen
       value: 
       objectReference: {fileID: 7756666226807331789}
+    - target: {fileID: 562021392035498830, guid: d1b9d75de1e920f48ad634285327d444,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 562021392035498830, guid: d1b9d75de1e920f48ad634285327d444,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1b9d75de1e920f48ad634285327d444, type: 3}
 --- !u!1001 &533292944772535849
@@ -3468,6 +3486,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6338625241326935860, guid: 0ec96309212d7144599f91e5e5b1ba11,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316986437040970817, guid: 0ec96309212d7144599f91e5e5b1ba11,
+        type: 3}
+      propertyPath: kickRef
+      value: 
+      objectReference: {fileID: 360508096}
+    - target: {fileID: 7316986437040970817, guid: 0ec96309212d7144599f91e5e5b1ba11,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7316986437040970819, guid: 0ec96309212d7144599f91e5e5b1ba11,
         type: 3}
       propertyPath: m_RootOrder
