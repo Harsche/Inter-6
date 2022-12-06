@@ -62,14 +62,16 @@ public class Map : MonoBehaviour{
         if (playerCurrentFloor == 1){
             legend2.SetActive(false);
             legend1.SetActive(true);
+            DisplayFloor1(true);
         }
         else{
             legend1.SetActive(false);
             legend2.SetActive(true);
+            DisplayFloor2(true);
         }
 
         playerIcon.localPosition = playerMapPosition;
-        playerIcon.localEulerAngles = Vector3.back * Player.Instance.transform.localEulerAngles.y;
+        playerIcon.localEulerAngles = Vector3.back * (Player.Instance.transform.eulerAngles.y - 90f);
     }
 
     public void DisplayFloor1(bool value){
