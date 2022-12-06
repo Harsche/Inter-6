@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b484b8e4b6ebe245a56f84d6e61b86d, type: 3}
   m_Name: Dialog Generator
   m_EditorClassIdentifier: 
-  dialogName: "Rob\xF4s_Corredor"
+  dialogName: Hack_Seguranca
   dialogs:
   - dialogName: Dialog Line 01
-    text: Acho melhor procurar outro caminho...
-    time: 3
+    text: "Talvez eu consiga obter alguma informa\xE7\xE3o hackeando esses terminais
+      de seguran\xE7a..."
+    time: 5
     dialogColor: {r: 1, g: 1, b: 1, a: 0}

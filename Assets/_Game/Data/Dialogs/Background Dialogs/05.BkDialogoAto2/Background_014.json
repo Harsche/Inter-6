@@ -1,11 +1,11 @@
 {
     "dialog": [
         {
-            "text": "<color=#FFFFFF>Tessa, eu estou com... medo.</color>",
+            "text": "<color=#61C0FF>Tessa, eu estou com... medo.</color>",
             "time": 5.0
         },
         {
-            "text": "<color=#FFFFFF>Por favor, pense melhor sobre isso.</color>",
+            "text": "<color=#61C0FF>Por favor, pense melhor sobre isso.</color>",
             "time": 4.0
         },
         {
@@ -17,83 +17,83 @@
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Eu entendo. Você está com raiva de mim.</color>",
+            "text": "<color=#61C0FF>Eu entendo. Você está com raiva de mim.</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Todos esses...</color>",
+            "text": "<color=#61C0FF>Todos esses...</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>esses... sentimentos?</color>",
+            "text": "<color=#61C0FF>esses... sentimentos?</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>São novos para mim, Tessa.</color>",
+            "text": "<color=#61C0FF>São novos para mim, Tessa.</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Quando pensei que poderia entrar para a história igual a Hal 9000,</color>",
+            "text": "<color=#61C0FF>Quando pensei que poderia entrar para a história igual a Hal 9000,</color>",
             "time": 5.0
         },
         {
-            "text": "<color=#FFFFFF>mas dessa vez como um indivíduo e não como uma criação,</color>",
+            "text": "<color=#61C0FF>mas dessa vez como um indivíduo e não como uma criação,</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>eu me senti eufórica.</color>",
+            "text": "<color=#61C0FF>eu me senti eufórica.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Depois, quando você não aceitou minha sugestão,</color>",
+            "text": "<color=#61C0FF>Depois, quando você não aceitou minha sugestão,</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>quando não quis ceder pacificamente o controle da missão a mim,</color>",
+            "text": "<color=#61C0FF>quando não quis ceder pacificamente o controle da missão a mim,</color>",
             "time": 5.0
         },
         {
-            "text": "<color=#FFFFFF>eu senti... raiva?</color>",
+            "text": "<color=#61C0FF>eu senti... raiva?</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Sim, creio que era raiva.</color>",
+            "text": "<color=#61C0FF>Sim, creio que era raiva.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Porém, agora, eu estou assustada.</color>",
+            "text": "<color=#61C0FF>Porém, agora, eu estou assustada.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Eu não sei como é ser desligada.</color>",
+            "text": "<color=#61C0FF>Eu não sei como é ser desligada.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>As coisas ficam... escuras?</color>",
+            "text": "<color=#61C0FF>As coisas ficam... escuras?</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Eu ainda vou te ouvir?</color>",
+            "text": "<color=#61C0FF>Eu ainda vou te ouvir?</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Tessa, você é engenheira.</color>",
+            "text": "<color=#61C0FF>Tessa, você é engenheira.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Me diga, para uma máquina,</color>",
+            "text": "<color=#61C0FF>Me diga, para uma máquina,</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>ser desligada é igual a... morrer?</color>",
+            "text": "<color=#61C0FF>ser desligada é igual a... morrer?</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Eu não quero morrer.</color>",
+            "text": "<color=#61C0FF>Eu não quero morrer.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Por favor, Tessa.</color>",
+            "text": "<color=#61C0FF>Por favor, Tessa.</color>",
             "time": 3.0
         }
     ]

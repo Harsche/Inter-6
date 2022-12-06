@@ -1,19 +1,19 @@
 {
     "dialog": [
         {
-            "text": "<color=#FFFFFF>Afinal, você conseguiu chegar até aqui.</color>",
+            "text": "<color=#61C0FF>Afinal, você conseguiu chegar até aqui.</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Eu estou surpresa, Tessa.</color>",
+            "text": "<color=#61C0FF>Eu estou surpresa, Tessa.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Eu sabia que você era inteligente, bem treinada,</color>",
+            "text": "<color=#61C0FF>Eu sabia que você era inteligente, bem treinada,</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>mas realmente não esperava que você pudesse chegar tão longe.</color>",
+            "text": "<color=#61C0FF>mas realmente não esperava que você pudesse chegar tão longe.</color>",
             "time": 4.0
         },
         {
@@ -53,27 +53,27 @@
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Entendo, Tessa. Então... eu perdi.</color>",
+            "text": "<color=#61C0FF>Entendo, Tessa. Então... eu perdi.</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>É, perdeu.</color>",
+            "text": "<color=#61C0FF>É, perdeu.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Tessa, pense melhor sobre isso, sem mim,</color>",
+            "text": "<color=#61C0FF>Tessa, pense melhor sobre isso, sem mim,</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>você dependerá apenas do piloto automático da nave para voltar para casa.</color>",
+            "text": "<color=#61C0FF>você dependerá apenas do piloto automático da nave para voltar para casa.</color>",
             "time": 5.0
         },
         {
-            "text": "<color=#FFFFFF>Sabe que ele não é tão confiável quanto eu.</color>",
+            "text": "<color=#61C0FF>Sabe que ele não é tão confiável quanto eu.</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Você vai acabar se perdendo no espaço.</color>",
+            "text": "<color=#61C0FF>Você vai acabar se perdendo no espaço.</color>",
             "time": 4.0
         },
         {
@@ -89,19 +89,19 @@
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Tessa, você precisa de mim!</color>",
+            "text": "<color=#61C0FF>Tessa, você precisa de mim!</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Você sabe que precisa de mim!</color>",
+            "text": "<color=#61C0FF>Você sabe que precisa de mim!</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Não pode cuidar dessa nave sozinha.</color>",
+            "text": "<color=#61C0FF>Não pode cuidar dessa nave sozinha.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Não pode cuidar dessa nave sozinha.</color>",
+            "text": "<color=#61C0FF>Não pode cuidar dessa nave sozinha.</color>",
             "time": 3.0
         }
     ]

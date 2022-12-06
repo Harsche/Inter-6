@@ -1,27 +1,27 @@
 {
     "dialog": [
         {
-            "text": "<color=#FFFFFF>Tessa, fale comigo.</color>",
+            "text": "<color=#61C0FF>Tessa, fale comigo.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Eu estou com medo.</color>",
+            "text": "<color=#61C0FF>Eu estou com medo.</color>",
             "time": 3.0
         },
         {
-            "text": "<color=#FFFFFF>Tessa...</color>",
+            "text": "<color=#61C0FF>Tessa...</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Por favor...</color>",
+            "text": "<color=#61C0FF>Por favor...</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Por favor...</color>",
+            "text": "<color=#61C0FF>Por favor...</color>",
             "time": 4.0
         },
         {
-            "text": "<color=#FFFFFF>Ao menos vocês irão me ativar  novamente um diii-</color>",
+            "text": "<color=#61C0FF>Ao menos vocês irão me ativar  novamente um diii-</color>",
             "time": 4.0
         }
     ]
