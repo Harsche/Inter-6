@@ -251,6 +251,7 @@ MonoBehaviour:
   climbingArea: 0
   crawlingTrans: 0
   climbImpulse: 0
+  moveInput: {x: 0, y: 0}
   stopInput: 0
 --- !u!114 &-3409750030081254894
 MonoBehaviour:
