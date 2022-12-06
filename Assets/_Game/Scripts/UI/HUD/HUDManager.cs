@@ -12,6 +12,7 @@ public class HUDManager : MonoBehaviour
     [SerializeField] private float staminaRunReducao = 0.1f;
     [SerializeField] private float staminaKickReducao = 0.1f;
     [SerializeField] private float lifeReducao = 0.1f;
+    [SerializeField] private float staminaStartRechargeTime = 10f;
     [SerializeField] private float staminaRecarga = 0.1f;
 
     [SerializeField] public float staminaValue = 15f;
@@ -183,7 +184,7 @@ public class HUDManager : MonoBehaviour
                 yield break;
             }
 
-            yield return new WaitForSeconds(15f);
+            yield return new WaitForSeconds(staminaStartRechargeTime);
 
             while (staminaAcabou)
             {
@@ -197,7 +198,7 @@ public class HUDManager : MonoBehaviour
                     yield break;
                 }
 
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSeconds(0.1f);
             }
         }
     }
