@@ -1395,21 +1395,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7949429568521908958, guid: 2658941d203ac0441b445f7f3d30ec0b,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7949429568521908958, guid: 2658941d203ac0441b445f7f3d30ec0b,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 7949429568521908958, guid: 2658941d203ac0441b445f7f3d30ec0b,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GeneralMethods, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7949429568648638720, guid: 2658941d203ac0441b445f7f3d30ec0b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
