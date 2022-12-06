@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RobotIA : MonoBehaviour
-{
+public class RobotIA : MonoBehaviour{
+    [SerializeField] private bool activateOnStart = true;
     public KickCheck kickRef;
 
     public MeshRenderer olhoDir;
@@ -21,6 +21,7 @@ public class RobotIA : MonoBehaviour
     public int lixeiraIndex = 0;
 
     void Start(){
+        if (!activateOnStart) return;
         kickRef = Player.Instance.PlayerMovement.kickRef;
 
 

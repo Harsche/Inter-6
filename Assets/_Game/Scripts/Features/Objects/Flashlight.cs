@@ -6,7 +6,7 @@ public class Flashlight : MonoBehaviour{
     [SerializeField] private Item flashlightItem;
 
     private void Update(){
-        if (Input.GetKeyDown(KeyCode.Q)){ ToggleFlashlight(!flashlight.enabled); }
+        if (Input.GetMouseButtonDown(1)){ ToggleFlashlight(!flashlight.enabled); }
     }
 
     private void ToggleFlashlight(bool value){

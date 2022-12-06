@@ -1,7 +1,11 @@
 {
     "dialog": [
         {
-            "text": "<color=#FFFFFF>Esses dutos são muito escuros! Eu preciso de algo pra iluminar o caminho, ou não vou conseguir passar. A gente tinha uma laterna por aqui...</color>",
+            "text": "<color=#FFFFFF>Talvez eu consiga voltar pra sala de segurança pelos dutos, mas eles são muito escuros!</color>",
+            "time": 4.0
+        },
+        {
+            "text": "<color=#FFFFFF>Eu preciso de algo pra iluminar o caminho, ou não vou conseguir passar. A gente tinha uma laterna por aqui...</color>",
             "time": 4.0
         }
     ]
