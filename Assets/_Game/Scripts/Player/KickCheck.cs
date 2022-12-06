@@ -29,17 +29,17 @@ public class KickCheck : MonoBehaviour
             playerRef.animator.SetBool("isKicking", true);
 
             colliderChute.enabled = true;
-
-            if (playerRef.levouDano)
-            {
-                playerAnim.SetLayerWeight(playerAnim.GetLayerIndex("DamageKick"), 1f);
-            }
         }
         else
         {
             playerRef.animator.SetBool("isKicking", false);
+        }
+
+        if (!playerRef.levouDano && playerAnim.GetBool("isKicking") == false)
+        {
             playerAnim.SetLayerWeight(playerAnim.GetLayerIndex("DamageKick"), 0f);
         }
+        else playerAnim.SetLayerWeight(playerAnim.GetLayerIndex("DamageKick"), 1f);
 
         if (!playerRef.isKick)
         {
@@ -60,7 +60,7 @@ public class KickCheck : MonoBehaviour
         {
             kicked = true;
 
-            if(GameManager.Debug) print(kicked);
+            if (GameManager.Debug) print(kicked);
 
             collision.rigidbody.AddForceAtPosition(new Vector3(0, 0, 1) * kickForce, kickDirection.transform.forward);
         }
