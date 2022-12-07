@@ -1471,8 +1471,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846320195942637716}
-  m_LocalRotation: {x: 0.730525, y: -0.11116046, z: 0.032905195, w: 0.6729738}
-  m_LocalPosition: {x: 0.9120002, y: 1.5210009, z: 0.032001853}
+  m_LocalRotation: {x: 0.7305249, y: -0.11116056, z: 0.03290555, w: 0.672974}
+  m_LocalPosition: {x: 0.91200054, y: 1.6390011, z: 0.032001197}
   m_LocalScale: {x: 0.7225385, y: 0.72253823, z: 0.7225383}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1726,7 +1726,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147515887343}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.118, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14451,6 +14451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2813feb61cfe4064aa12cf9190def51f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activateOnStart: 1
   kickRef: {fileID: 0}
   olhoDir: {fileID: 7864866656906974876}
   olhoEsq: {fileID: 8396016341474177979}
